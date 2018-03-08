@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Next><![CDATA[//button[@title='Next']]]></Next>
+  <EnterDashboardName><![CDATA[//*[@id='DashboardName']]]></EnterDashboardName>
+  <ClickOnOtherDashlets><![CDATA[//h5[text()='Other Dashlets']]]></ClickOnOtherDashlets>
+  <ClickOnWithOpenMeetings><![CDATA[//*[@id='check_1']]]></ClickOnWithOpenMeetings>
+  <ClickNextButton><![CDATA[//button[@title='Next']]]></ClickNextButton>
+  <ClientReportDashlest><![CDATA[//div[contains(@class,'col-sm-12')]/div[1]//input[1]]]></ClientReportDashlest>
+  <OwnerFilter><![CDATA[//*[@name='owner']]]></OwnerFilter>
+  <ClickDashboardSaveBtn><![CDATA[//button[@title='Save']]]></ClickDashboardSaveBtn>
+  <VerifyTextDashboard><![CDATA[//a[@title='Dashboards']]]></VerifyTextDashboard>#Dashboards
+  <SearchDeshboard><![CDATA[//*[@id='gs_name']]]></SearchDeshboard>
+  <ClickOnEditDashboard><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a[1]/span]]></ClickOnEditDashboard>
+  <ClickDeleteDashboard><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a[2]/span]]></ClickDeleteDashboard>
+  <ClickCancelDasEdit><![CDATA[//a[@title='Cancel']]]></ClickCancelDasEdit>
+  <VerifyTextDeshboard><![CDATA[//h2[text()='Dashboards']]]></VerifyTextDeshboard>
+  <ClickOnDashBoard><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a]]></ClickOnDashBoard>
+  <ClickEditDashboardButton><![CDATA[//a[@title='Edit']]]></ClickEditDashboardButton>
+  <ClickOnEditOfficeCode><![CDATA[//a[@title='Edit Office Codes']]]></ClickOnEditOfficeCode>
+  <SaveDashboard><![CDATA[//button[@title='Save']]]></SaveDashboard>
+  
+  <!-- This is temp locator-->
+  <menu><![CDATA[//*[@id='expandleftnav']/i]]></menu>
+  <home><![CDATA[//*[@id='menu']/li[4]/a/span]]></home>
+
+</Locators>

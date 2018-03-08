@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  
+  <!--Create Vendor page-->
+  <AddAddressBtn><![CDATA[//a[@id='addaddress']]]></AddAddressBtn>
+  <ZipCode3><![CDATA[//input[@id='VendorAddress2PostalCode']]]></ZipCode3>
+  <City3><![CDATA[//input[@id='VendorAddress2City']]]></City3>
+  <State3><![CDATA[//select[@id='VendorAddress2State']]]></State3>
+  <Country3><![CDATA[//select[@id='VendorAddress2Country']]]></Country3>
+  <AddEmail><![CDATA[//*[@id='addemail']]]></AddEmail>
+  <AddPhone><![CDATA[//a[@id='addphone']]]></AddPhone>
+  
+  
+  
+  <!--All Vendor page-->
+  <Create><![CDATA[//a[@title='Create New Vendor']]]></Create>
+  
+  
+  
+  <SelectFirstCheckBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectFirstCheckBox>
+  <ClickOnBulkUpdate><![CDATA[//div[@title='Bulk Update']]]></ClickOnBulkUpdate>
+  <ChangeStatusBulkUpdate><![CDATA[//a[text()='Change Status']]]></ChangeStatusBulkUpdate>
+  <StatusUpdate><![CDATA[//*[@id='change_status']/div/div/div/a/button]]></StatusUpdate>
+  <VendorTypeSelect><![CDATA[link=Change Type]]></VendorTypeSelect>
+  <SelectChkBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectChkBox>
+  <ClickOnVender><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a]]></ClickOnVender>
+  <Copy><![CDATA[//a[@title='Copy']]]></Copy>
+  <DeleteClone><![CDATA[//a[@title='Delete']]]></DeleteClone>
+  <DeleteVendor><![CDATA[//a[@title='Delete Vendor']]]></DeleteVendor>
+  <SearchIdChangeHistory><![CDATA[//*[@id='gs_display_name']]]></SearchIdChangeHistory>
+  <VerfyIdHistory><![CDATA[//*[@id='id']/td[1]]]></VerfyIdHistory>
+  
+  <Type><![CDATA[//*[@id='VendorType']]]></Type>
+  <Name><![CDATA[//*[@id='VendorName']]]></Name>
+  <DBAName><![CDATA[//*[@id='VendorDba']]]></DBAName>
+  <Website><![CDATA[//*[@id='VendorWebsite']]]></Website>
+  <LinkedURL><![CDATA[//*[@id='VendorLinkedinUrl']]]></LinkedURL>
+  <TwitterURL><![CDATA[//*[@id='VendorTwitterUrl']]]></TwitterURL>
+  <Salutation><![CDATA[//*[@id='VendorSalutation']]]></Salutation>
+  <FirstName><![CDATA[//*[@id='VendorFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='VendorLastName']]]></LastName>
+  <eAddessType><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContentType']]]></eAddessType>
+  <EAddressLabel><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContentLabel']]]></EAddressLabel>
+  <eAddress><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContent']]]></eAddress>
+  <PhoneType><![CDATA[//*[@id='VendorPhone0PhoneType']]]></PhoneType>
+  <ZipCodeVendor><![CDATA[//*[@id='VendorAddress0PostalCode']]]></ZipCodeVendor>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <VendorName><![CDATA[//*[@id='gs_name']]]></VendorName>
+  <VendorLastName><![CDATA[//*[@id='gs_last_name']]]></VendorLastName>
+  <Delete><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[2]/a]]></Delete>
+  <EmailVerification><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContent-error']]]></EmailVerification>
+  <EmailVendor><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContent']]]></EmailVendor>
+  <VenFace><![CDATA[//*[@id='VendorFacebookUrl']]]></VenFace>
+  <VenTwt><![CDATA[//*[@id='VendorTwitterUrl']]]></VenTwt>
+  <VenLnkl><![CDATA[//*[@id='VendorLinkedinUrl']]]></VenLnkl>
+  <VenWeb><![CDATA[//*[@id='VendorWebsite']]]></VenWeb>
+  <VenFaceError><![CDATA[//*[@id='VendorFacebookUrl-error']]]></VenFaceError>
+  <VenTwtError><![CDATA[//*[@id='VendorTwitterUrl-error']]]></VenTwtError>
+  <VenLnklError><![CDATA[//*[@id='VendorLinkedinUrl-error']]]></VenLnklError>
+  <VenWebError><![CDATA[//*[@id='VendorWebsite-error']]]></VenWebError>
+  <AllButtonSave><![CDATA[//button[@title='Save']]]></AllButtonSave>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[1]/a[1]]]></Edit>
+  <ShippingTrack><![CDATA[//*[@id='login']]]></ShippingTrack>
+  
+  <EaddressType2><![CDATA[//*[@id='VendorElectronicAddress2EmailImWebType']]]></EaddressType2>
+  <EadrressLabel2><![CDATA[//*[@id='VendorElectronicAddress2ElectronicContentLabel']]]></EadrressLabel2>
+  <eAddress2><![CDATA[//*[@id='VendorElectronicAddress2ElectronicContent']]]></eAddress2>
+  <VendorState><![CDATA[//*[@id='VendorAddress0State']]]></VendorState>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <PhoneNumber><![CDATA[//*[@id='VendorPhone0PhoneNumber']]]></PhoneNumber>
+
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofRecords><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofRecords>
+
+  <DisplayedCols><![CDATA[//*[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Status']]]></HeadStatus>
+  <HeadFirstName><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[7]//div[text()='First Name']]]></HeadFirstName>
+  <HeadLastName><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[8]div[text()='Last Name']]]></HeadLastName>
+  <HeadModified><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='Modified']]]></HeadModified>
+  <HeadStatus5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Status']]]></HeadStatus5>
+  <HeadLastName4><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[8]div[text()='Last Name']]]></HeadLastName4>
+
+  <HeadStatus6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Status']]]></HeadStatus6>
+  <HeadLastName2><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[8]div[text()='Last Name']]]></HeadLastName2>
+
+
+</Locators>

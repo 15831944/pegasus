@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<!--This locator file is used in conjunction with AdminValidateDisplayNames.cs and -->
+<!--AdminValidateDisplayNamesHelper.cs -->
+
+<!-- Phases of the test -->
+<!--Beginning in the Office Main Section  -->
+<!--Changing in the Office Admin Section  -->
+<!--Confirming change in the Office Main Section  -->
+<!--Restoring to default in the Office Admin Section  -->
+<!--Confirming in the Office Main Section  -->
+  
+<Locators>
+
+ 
+ <ClientsTab><![CDATA[//*[@id="menu"]/li[5]/a]]></ClientsTab>
+ <SearchField><![CDATA[//*[@id="gs_company_dba_name"]]]></SearchField>
+ <FirstClient><![CDATA[//table[@id='list1']//tr[2]//td[15]/a]]></FirstClient>
+ <CompanyDetails><![CDATA[//a[text()='Company Details']]]></CompanyDetails>
+ <AddressLine1><![CDATA[//label[text()='Address first line: ']]]></AddressLine1>
+  
+  
+ 
+  <FieldDictionary><![CDATA[link=Field Dictionary]]></FieldDictionary>
+  <Fields><![CDATA[link=Fields]]></Fields>
+  <FieldProperties><![CDATA[link=Field Properties]]></FieldProperties>
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+  <Tab><![CDATA[//*[@id='SearchFormTabName']]]></Tab>
+  <Search><![CDATA[//button[contains(text(),'Search')]]]></Search>
+  <SearchFields><![CDATA[//*[@id='gs_company_dba_name']]]></SearchFields>
+  <SearchFilter><![CDATA[//*[@id='filter']]]></SearchFilter>
+  <Addressline1D><![CDATA[//div[@class='columns']/div[3]/a]]></Addressline1D>
+  <AddressLineFirst><![CDATA[//a[contains(text(),'Address Line 1')]]]></AddressLineFirst>
+  
+  <AddressFirstLine><![CDATA[//a[contains(text(),'Address Line 1')]]]></AddressFirstLine>
+  <FieldDisplayName><![CDATA[//*[@id="MetaTableFieldDisplayName"]]]></FieldDisplayName>
+  <ProcFieldDisplayName><![CDATA[//input[@id='MetaTableProcessorFieldFieldDisplayName']]]></ProcFieldDisplayName>
+  <SaveFieldManager><![CDATA[//button[@title='Save']]]></SaveFieldManager>
+ 
+  <!--new-->
+  <Section><![CDATA[//select[@id='SearchFormSectionName']]]></Section>
+  <StoreName><![CDATA[//div[@class='columns']/div[2]/a]]></StoreName>
+  <Processor><![CDATA[//select[@id='SearchFormProcessorId']]]></Processor>
+ 
+
+</Locators>  

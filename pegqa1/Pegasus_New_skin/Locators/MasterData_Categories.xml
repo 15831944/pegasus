@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <SearchName><![CDATA[//*[@id='gs_name']]]></SearchName>
+  <SearchCategories><![CDATA[//*[@id='gs_category']]]></SearchCategories>
+  <Category1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></Category1>
+  <Create><![CDATA[//a[@title='Create New Category']]]></Create>
+  <DeleteCategory><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a/i]]></DeleteCategory>
+  <Name><![CDATA[//*[@id='CategoryName']]]></Name>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</Locators>
+
+

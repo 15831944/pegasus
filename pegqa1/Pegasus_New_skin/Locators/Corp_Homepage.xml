@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ProfileIcon><![CDATA[//i[@id='dropdownMenu1']]]></ProfileIcon>
+  <Logout><![CDATA[//a[@title='Logout']]]></Logout>
+  
+  <!--View Homepage-->
+  <EditDetails><![CDATA[//a[@title='Edit Corporate Details']]]></EditDetails>
+  
+  
+  
+  
+  <!--Edit Details page-->
+  <ZipCode1><![CDATA[//input[@id='CorporateAddress0PostalCode']]]></ZipCode1>
+  <City1><![CDATA[//input[@id='CorporateAddress0City']]]></City1>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  
+  
+  
+</Locators>

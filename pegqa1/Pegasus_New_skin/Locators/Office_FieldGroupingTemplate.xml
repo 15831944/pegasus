@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <TemplateCreate><![CDATA[//a[contains(text(),'Create')]]]></TemplateCreate>
+  <TemplateName><![CDATA[//*[@id='MetaFieldGroupingTemplateName']]]></TemplateName>
+  <TemplaceModule><![CDATA[//*[@id='MetaFieldGroupingTemplateZModuleId']]]></TemplaceModule>
+  <TemplateField><![CDATA[//*[@id='section']]]></TemplateField>
+  <TemplateAdd><![CDATA[//a[@onclick='addMoreField()']]]></TemplateAdd>
+  <TemplateTab><![CDATA[//select[@id='tab']]]></TemplateTab>
+  <SelectFieldADDField><![CDATA[//*[@id='field_name']]]></SelectFieldADDField>#Business DBA Name
+  <SectionField><![CDATA[//*[@id='sub_section']]]></SectionField>
+  <TemplateDelete><![CDATA[//a[@title='Delete']]]></TemplateDelete>
+  <OfficeSave><![CDATA[//button[@title='Save']]]></OfficeSave>
+
+</Locators>

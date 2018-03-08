@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[//a[@title='Add New Grid Id']]]></Create>
+  <VisaPosAuthfees><![CDATA[//*[@id='CorporateMasterDataVisaPosAuthFee']]]></VisaPosAuthfees>
+  <MCPosAuthFees><![CDATA[//*[@id='CorporateMasterDataMastercardPosAuthFee']]]></MCPosAuthFees>
+  <AmexPosAuthFees><![CDATA[//*[@id='CorporateMasterDataAmexPosAuthFee']]]></AmexPosAuthFees>
+  <DiscPosAuthFees><![CDATA[//*[@id='CorporateMasterDataDiscoverPosAuthFee']]]></DiscPosAuthFees>
+  <JCDPosAuthFees><![CDATA[//*[@id='CorporateMasterDataJcbPosAuthFee']]]></JCDPosAuthFees>
+  <VoiceAuthFees><![CDATA[//*[@id='CorporateMasterDataVoiceAuthFee']]]></VoiceAuthFees>
+  <GridId><![CDATA[//*[@id='CorporateMasterDataGridid']]]></GridId>
+  <AVSElectronicFees><![CDATA[//*[@id='CorporateMasterDataAvsElectronicFee']]]></AVSElectronicFees>
+  <AVSVoiveFees><![CDATA[//*[@id='CorporateMasterDataAvsVoiceFee']]]></AVSVoiveFees>
+  <ARUFees><![CDATA[//*[@id='CorporateMasterDataAruFee']]]></ARUFees>
+  <Save><![CDATA[//*[@id='corporatemasterdataCreate']]]></Save>
+  <ClickEditAuth><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[1]]]></ClickEditAuth>
+  <ClickOnDelete><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[2]]]></ClickOnDelete>
+  <GridIdSearch><![CDATA[//*[@id='gs_gridid']]]></GridIdSearch>
+  <MCPosAuthFeesSrch><![CDATA[//*[@id='gs_mastercard_pos_auth_fee']]]></MCPosAuthFeesSrch>
+  <JobPosAuthFeeSrch><![CDATA[//*[@id='gs_jcb_pos_auth_fee']]]></JobPosAuthFeeSrch>
+  <SaveEditAuth><![CDATA[//a[@title='Save']]]></SaveEditAuth>
+  <PushToOffice><![CDATA[//a[@title='Push to Offices']]]></PushToOffice>
+  <EditGridHeading><![CDATA[//*[@id='gridform']]]></EditGridHeading>
+  <Cancel><![CDATA[//a[@title='Cancel']]]></Cancel>
+  
+  
+  
+  
+</Locators>
+
+

@@ -1,0 +1,20 @@
+Login with valid username and password
+Verify Page title
+Redirect at opportunities page.
+Click on Create button
+Verify Address Line 1 label
+Login with valid username and password
+Verify Page title
+Redirect at opportunities page.
+Click on Create button
+Verify Address Line 1 label
+Login with valid username and password
+Verify Page title
+Redirect at opportunities page.
+Click on Create button
+Verify Address Line 1 label
+Login with valid username and password
+Verify Page title
+Redirect at opportunities page.
+Click on Create button
+Verify Address Line 1 label

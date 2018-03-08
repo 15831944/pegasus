@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <!--These locators list elements tested on each corp page in PegasusCRM that has a JTable-->
+  
+
+
+  <!--Elements to be tested for-->
+  <GridView><![CDATA[//*[@id="gview_list1"]]]></GridView>
+  <JQGridHdiv><![CDATA[//*[@id="gview_list1"]/div[2]]]></JQGridHdiv>
+  <HBox><![CDATA[//*[@id="gview_list1"]/div[2]/div]]></HBox>
+  <HTable><![CDATA[//*[@id="gview_list1"]/div[2]/div/table]]></HTable>
+  <ToolBar><![CDATA[//*[@id="gview_list1"]/div[2]/div/table/thead/tr[2]]]></ToolBar>
+  <BDiv><![CDATA[//*[@id="gview_list1"]/div[3]]]></BDiv>
+  <Bottom><![CDATA[//*[@id="list1_pager"]]]></Bottom>
+  <ProfileIcon><![CDATA[//i[@id='dropdownMenu1']]]></ProfileIcon>
+
+</Locators>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ClickViewButton><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickViewButton>
+  <ClickOnCreateAdjust><![CDATA[//a[@title='Create New Ruleset']]]></ClickOnCreateAdjust>
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <SelectAdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></SelectAdjustmentFor>#Agent
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>#Transaction
+  <SelectReportingPeriod><![CDATA[//*[@id='RirOrgMasterRulesetReportingMonth']]]></SelectReportingPeriod>#00
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>#Any
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>#1
+  <EnterAmount><![CDATA[//*[@id='amount_field0']]]></EnterAmount>
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>#Add
+  <ClickOnSaveBtnAdjustmnet><![CDATA[//a[@title='Save']]]></ClickOnSaveBtnAdjustmnet>
+  <ClickonResidualIncometab><![CDATA[//a[@title='Residual Income']]]></ClickonResidualIncometab>
+  <ClickOnMasterdata><![CDATA[//a[@title='Master Data']]]></ClickOnMasterdata>
+  <EnterAdjustmentNameSrch><![CDATA[//*[@id='gs_rule_name']]]></EnterAdjustmentNameSrch>
+  <EnterScrhAdjustmentFor><![CDATA[//*[@id='gs_adjustment_for']]]></EnterScrhAdjustmentFor>
+  <ClickAdjustmentName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_rule_name']/a]]></ClickAdjustmentName>
+  <ClickOnOfficePayout><![CDATA[//a[@title='Office Payouts']]]></ClickOnOfficePayout>
+  <ClickOnExport><![CDATA[//*[@id='exportactions']]]></ClickOnExport>
+  <ExportToExcel><![CDATA[//*[@id='export_excel']]]></ExportToExcel> 
+  <ResidualIncomeTab><![CDATA[//a[@title='Residual Income']]]></ResidualIncomeTab>
+  <ClickOnMastarData><![CDATA[//a[@title='Master Data']]]></ClickOnMastarData>
+  <CancelResidualAdjustment><![CDATA[//a[@title='Cancel']]]></CancelResidualAdjustment>
+  <ClickOnAdjustmentToolRI><![CDATA[//h5[text()='Adjustments Tool']]]></ClickOnAdjustmentToolRI>
+  <ClickOnAdjustmentFirst><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnAdjustmentFirst>
+  <DeleteAdjustment><![CDATA[//a[@title='Delete Rule']]]></DeleteAdjustment>
+  <DeleteAdjtmnt><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a/i]]></DeleteAdjtmnt>
+  
+  
+</Locators>

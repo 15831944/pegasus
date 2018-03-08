@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <Create><![CDATA[//*[@id="page-wrapper"]/div[3]/div[2]/a[3]]]></Create>
+  <TemplateName><![CDATA[//*[@id="MasterRateTemplateName"]]]></TemplateName>
+  <CreateProcessorType><![CDATA[//*[@id="processor_type"]]]></CreateProcessorType>
+  <CreateMerchantType><![CDATA[//*[@id="MasterRateMerchantType"]]]></CreateMerchantType>
+  <CreateMethods><![CDATA[//*[@id="MasterRateCardAcceptMethod"]]]></CreateMethods>
+
+  <VisaQualified><![CDATA[//*[@id="ClientRatesFeeQualRate"]]]></VisaQualified>
+  <VisaMidQualified><![CDATA[//*[@id="ClientRatesFeeMidQualRate"]]]></VisaMidQualified>
+  <VisaNonQualified><![CDATA[//*[@id="ClientRatesFeeNonQualRate"]]]></VisaNonQualified>
+  <MasterQualified><![CDATA[//*[@id="ClientRatesFeeMQual"]]]></MasterQualified>
+  <MasterMidQualified><![CDATA[//*[@id="ClientRatesFeeMMidQual"]]]></MasterMidQualified>
+  <MasterNonQualified><![CDATA[//*[@id="ClientRatesFeeMNonQual"]]]></MasterNonQualified>
+  <Save><![CDATA[//*[@id="grid_information_form"]/div[2]/div/div[2]/a[2]]]></Save>
+  
+  
+   
+  
+  
+  <SearchCompany><![CDATA[//*[@id="gs_company_dba_name"]]]></SearchCompany>
+  <RateFeesTab><![CDATA[//*[@id="page-wrapper"]/div[4]/div[2]/div/ul/li[7]/a]]></RateFeesTab>
+  <ClientProcessorType><![CDATA[//*[@id="ClientRatesFeeProcessor"]]]></ClientProcessorType>
+  <ClientMerchantType><![CDATA[//*[@id="ClientRatesFeeIndustry"]]]></ClientMerchantType>
+  <ClientMethods><![CDATA[//*[@id="ClientRatesFeeCardAcceptMethod"]]]></ClientMethods>
+  <GetDefault><![CDATA[//*[@id="ClientEditForm"]/div[7]/div[1]/div/div/div[3]/div/div/div/div[1]/div[2]/div[7]/div[3]/div/a[1]/button]]></GetDefault>
+  
+  <Trash><![CDATA[//*[@class="fa fa-trash-o"]]]></Trash>
+
+  <ClientVisaQua><![CDATA[//*[@id="ClientRatesFeeQualRate"]]]></ClientVisaQua>
+  <ClientVisaMid><![CDATA[//*[@id="ClientRatesFeeMidQualRate"]]]></ClientVisaMid>
+  <ClientVisaNon><![CDATA[//*[@id="ClientRatesFeeNonQualRate"]]]></ClientVisaNon>
+  <ClientMasterQua><![CDATA[//*[@id="ClientRatesFeeMQual"]]]></ClientMasterQua>
+  <ClientMasterMid><![CDATA[//*[@id="ClientRatesFeeMMidQual"]]]></ClientMasterMid>
+  <ClientMasterNon><![CDATA[//*[@id="ClientRatesFeeMNonQual"]]]></ClientMasterNon>
+  
+  <SearchTemplate><![CDATA[//*[@id="gs_template_name"]]]></SearchTemplate>
+  <RateFeeTester><![CDATA[//*[@id="129827"]/td[15]/a]]></RateFeeTester>
+
+</Locators>

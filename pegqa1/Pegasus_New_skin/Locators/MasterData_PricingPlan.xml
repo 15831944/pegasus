@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create New Pricing Plan']]]></Create>
+  <PricingPlan><![CDATA[//*[@id='MasterPricingPlanName']]]></PricingPlan>
+  <Processor><![CDATA[//*[@id='MasterPricingPlanProcessorId']]]></Processor>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <SearchPricingPlan><![CDATA[//*[@id='gs_name']]]></SearchPricingPlan>
+  <Plan><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'manage_pricing_plans')]]]></Plan>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Edit Pricing Plan']]]></Edit>
+  <OpenPricingPlan><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></OpenPricingPlan>
+  <DeleteIcon><![CDATA[//a[@title='Delete Pricing Plan']]]></DeleteIcon>
+</Locators>
+
+

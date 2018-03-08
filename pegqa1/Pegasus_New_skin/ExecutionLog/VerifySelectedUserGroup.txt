@@ -1,0 +1,90 @@
+Verify Page title
+Login with valid credential  Username
+Verify Page title
+Click on Create Button
+Enter the first Name
+Enter the Last Name
+Enter the Company Name
+Select the status
+Select the responsiblity
+Verify Page title
+Verify Page title
+Login with valid credential  Username
+Verify Page title
+Click on Create Button
+Enter the first Name
+Enter the Last Name
+Enter the Company Name
+Select the status
+Select the responsiblity
+Select the User Group
+Click on Save Button
+Verify the Duplicate contact button
+Search the Same company
+Select All in responsibity field
+Click on Same contact
+Click on Edit
+Verify the default option is not visbile in User Group field.
+Login with valid credential  Username
+Verify Page title
+Click on Create Button
+Enter the first Name
+Enter the Last Name
+Enter the Company Name
+Select the status
+Select the responsiblity
+Select the User Group
+Click on Save Button
+Verify the Duplicate contact button
+Search the Same company
+Select All in responsibity field
+Click on Same contact
+Click on Edit
+Verify the default option is not visbile in User Group field.
+Verify Page title
+Login with valid credential  Username
+Verify Page title
+Click on Create Button
+Enter the first Name
+Enter the Last Name
+Enter the Company Name
+Select the status
+Select the responsiblity
+Select the User Group
+Click on Save Button
+Verify the Duplicate contact button
+Search the Same company
+Select All in responsibity field
+Click on Same contact
+Click on Edit
+Verify the default option is not visbile in User Group field.
+Verify Page title
+Login with valid credential  Username
+Verify Page title
+Click on Create Button
+Enter the first Name
+Enter the Last Name
+Enter the Company Name
+Select the status
+Select the responsiblity
+Select the User Group
+Verify Page title
+Login with valid credential  Username
+Verify Page title
+Click on Create Button
+Enter the first Name
+Enter the Last Name
+Enter the Company Name
+Select the status
+Select the responsiblity
+Select the User Group
+Verify Page title
+Login with valid credential  Username
+Verify Page title
+Click on Create Button
+Enter the first Name
+Enter the Last Name
+Enter the Company Name
+Select the status
+Select the responsiblity
+Select the User Group

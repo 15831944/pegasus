@@ -1,0 +1,4 @@
+ Click On Edit Icon
+Enter note subj new
+Select Module
+Click on find list icon.

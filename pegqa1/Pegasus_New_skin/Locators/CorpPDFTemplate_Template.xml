@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <!--All PDF templates-->
+  <SearchCategory><![CDATA[//select[@id='gs_category_name']]]></SearchCategory>
+  
+  
+  <Create><![CDATA[//*[@id='page-wrapper']/div[3]/div/div[2]/a]]></Create>
+  <EnterName><![CDATA[//*[@id='CorporatePdfCategoryName']]]></EnterName>
+  <Save><![CDATA[//*[@id='CorporatePdfCategoryCorpCategoriesForm']/div[3]/div/div/a[1]]]></Save>
+  <EnterPDFToSearch><![CDATA[//*[@id='gs_file_name']]]></EnterPDFToSearch>#OoPdfFormExample
+  <SelectModuleToSearch><![CDATA[//*[@id='gs_module_name']]]></SelectModuleToSearch>#clients
+  <ClickEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[@title='Edit PDF Template']]]></ClickEdit>
+  <SelectStatusCorp><![CDATA[//*[@id='CorporatePdfTemplateActive']]]></SelectStatusCorp>
+  <ClickSaveEdit><![CDATA[//button[@title='Save']]]></ClickSaveEdit>
+  <ChooseModule><![CDATA[//*[@id='PdfTemplateModule']]]></ChooseModule>#20
+  <ClickOnImport><![CDATA[//*[@id='importform']/table/tbody/tr[4]/td/div[3]/div/input]]></ClickOnImport>
+  <ClickOnNext><![CDATA[//button[@title='Next']]]></ClickOnNext>
+  <SelectCategory><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCategory>#340
+  <EnterPDFToSearch><![CDATA[//*[@id='gs_file_name']]]></EnterPDFToSearch>#OoPdfFormExample
+  <ClickOnSave><![CDATA[//*[@id='saveForm']]]></ClickOnSave>
+  <SelectModuleToSearch><![CDATA[//*[@id='gs_module_name']]]></SelectModuleToSearch>#clients
+  <ClickEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[@title='Edit PDF Template']]]></ClickEdit>
+  <NameEdit><![CDATA[//*[@id='CorporatePdfTemplateName']]]></NameEdit>
+  <ClickOnPermisions><![CDATA[//a[@title='Set Permissions']]]></ClickOnPermisions>
+  <ClickOnNoneOfThese><![CDATA[//*[@id='OrganizationAllTeams1']]]></ClickOnNoneOfThese>
+  <ClickPDF><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/a]]></ClickPDF>
+  <ClickOnSaveBtnPDFTemp><![CDATA[//button[@title='Save']]]></ClickOnSaveBtnPDFTemp>
+  <CategoryPdf><![CDATA[//*[@id='CorporatePdfTemplatePdfCategoryId']]]></CategoryPdf>
+  
+  
+</Locators>
+
+

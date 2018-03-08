@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <SelectSys><![CDATA[//*[@id='OrganizationCodeOrgId']]]></SelectSys>
+  <Value1><![CDATA[//*[@id='sysprin_div']/div[1]/input[2]]]></Value1>
+  <Value2><![CDATA[//*[@id='sysprin_div']/div[4]/div[1]/div/input]]></Value2>
+  <AddAnother><![CDATA[//a[contains(@class,'newsysprin') and @title='Add Another']]]></AddAnother>
+  <SecOp><![CDATA[//*[contains(@id,'sysprin')]/div[2]/input]]></SecOp>
+  <RMPSave><![CDATA[//a[@title='Save']]]></RMPSave>
+  <ClickOnAnyOfficeCode><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnAnyOfficeCode>
+
+</Locators>

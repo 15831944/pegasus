@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+
+  <URL>
+    <application><![CDATA[https://www.mypegasuscrm.com]]></application>
+    <logout><![CDATA[https://www.mypegasuscrm.com/newthemecorp/pegasustestoffice/logout]]></logout>
+    <Office><![CDATA[https://www.mypegasuscrm.com/newthemecorp/pegasustestoffice/]]></Office>
+    <Corp><![CDATA[https://www.mypegasuscrm.com/newthemecorp/]]></Corp>
+    <JIRA_Dashboard><![CDATA[http://pegasuscrm.us/dashboard/dashboard.php]]></JIRA_Dashboard>
+    <Yopmail><![CDATA[http://www.yopmail.com/en/]]></Yopmail>
+  </URL>
+  
+  <URLTest>
+    <application><![CDATA[https://www.pegasus-test.com]]></application>
+    <logout><![CDATA[https://www.pegasus-test.com/newthemecorp/newthemoffice/logout]]></logout>
+    <Office><![CDATA[https://www.pegasus-test.com/newthemecorp/newthemeoffice/]]></Office>
+    <Corp><![CDATA[https://www.pegasus-test.com/newthemecorp/]]></Corp>
+    <JIRA_Dashboard><![CDATA[http://pegasuscrm.us/dashboard/dashboard.php]]></JIRA_Dashboard>
+  </URLTest>   
+
+  <Credentials>
+    <username_office><![CDATA[pegasustestoffice]]></username_office>
+    <username_corp><![CDATA[newthemecorp]]></username_corp>
+    <username><![CDATA[newthemeoffice]]></username>
+     <password><![CDATA[mynewpegasus]]></password>
+    
+
+    <!--1099 Sale Agent-->
+    <usernameSale><![CDATA[aslamsalesuser]]></usernameSale>
+    <PasswordSale><![CDATA[123456]]></PasswordSale>
+
+    <username_sagent><![CDATA[aslamsalesuser]]></username_sagent>
+    <password_sagent><![CDATA[123456]]></password_sagent>
+
+    <!--1099 SALE AGENT-->
+    <username1><![CDATA[dnelms16]]></username1>
+    <password1><![CDATA[dnelms16]]></password1>
+
+    <!-- CORP -->
+    <username2><![CDATA[newthemecorp]]></username2>
+    <password2><![CDATA[mynewpegasus]]></password2>
+
+    <!--Demo Corp -->
+    <username_Democorp><![CDATA[democorp]]></username_Democorp>
+    <password_Demo><![CDATA[Pegasus2013!]]></password_Demo>
+
+    <!--Corp Office-->
+    <username2><![CDATA[pegasustestoffice]]></username2>
+    <password2><![CDATA[mynewpegasus]]></password2>
+
+    <!--PARTNER AGENT-->
+    <username3><![CDATA[MyPartnerAgent]]></username3>
+    <password3><![CDATA[1qaz!QAZ]]></password3>
+
+    <username_pagent><![CDATA[aslampartneragent]]></username_pagent>
+    <password_pagent><![CDATA[123456]]></password_pagent>
+
+    <!--PARTNER ASSOCIATION -->
+    <username4><![CDATA[MyPartnerAssociation]]></username4>
+    <password4><![CDATA[1qaz!QAZ]]></password4>
+
+    <username_pass><![CDATA[aslamassociate]]></username_pass>
+    <password_pass><![CDATA[123456]]></password_pass>
+
+    <!-- MY EMPLOYEE AGNET -->
+    <username5><![CDATA[MyEmployeeAgnet]]></username5>
+    <password5><![CDATA[1qaz!QAZ]]></password5>
+  </Credentials>
+
+  <browserdata>
+    <browser><![CDATA[ff]]></browser>
+  </browserdata>
+
+
+   <JiraCredentials>  
+   <URL><![CDATA[http://crmpegasus.com/]]></URL>
+    <UserName><![CDATA[Akhan]]></UserName>
+    <Password><![CDATA[qJIRA$PEGASUS]]></Password>
+  </JiraCredentials>  
+
+  </settings>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--Create Note page-->
+  <Subject><![CDATA[//*[@id='NoteName']]]></Subject>
+  <OpporSaveBtn><![CDATA[//form[@id='CreateNoteForm']/div[4]/a[1]]]></OpporSaveBtn>
+  <NoteParent><![CDATA[//*[@id='NoteParentType']]]></NoteParent>
+  <SelectClient><![CDATA[//*[@id='assignrecord']]]></SelectClient>
+  
+  
+  
+  
+  
+  <AddTaskChkBox><![CDATA[//input[@id='TaskShowTask']]]></AddTaskChkBox>
+  <AddNote><![CDATA[//span[text()='Add Note']]]></AddNote>
+  
+  <Status><![CDATA[//*[@id='NoteStatus']]]></Status>
+  <Activities><![CDATA[//span[text()='Activities']]]></Activities>
+  <OpenNotesTab><![CDATA[//a[contains(text(),'notes')]]]></OpenNotesTab>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <Create><![CDATA[//a[@title='Create New notes']]]></Create>
+  <EnterSubject><![CDATA[//*[@id='gs_name']]]></EnterSubject>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a]]></Edit>
+  
+  
+  <ClickONClientNS><![CDATA[//table[1]/tbody/tr[1]/td[3]/a]]></ClickONClientNS>
+  <EmailNote><![CDATA[//*[@id='add_a_note']]]></EmailNote>
+  <ClickOnNotes><![CDATA[//table[@id='list1']//tr[2]/td[9]/a]]></ClickOnNotes>
+  <VerifySelectedClient><![CDATA[//*[@id='EmailParentType']]]></VerifySelectedClient>
+  <ClickOnNote><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></ClickOnNote>
+  <ClickOnEmail><![CDATA[//a[@title='Send This Note as E-mail']]]></ClickOnEmail>
+  <EnterToFiled><![CDATA[//*[@id='EmailToAddrs']]]></EnterToFiled>
+  <ClickSendBtn><![CDATA[//a[@title='Save']]]></ClickSendBtn>
+  <EnterCCMuliple><![CDATA[//*[@id='EmailCcAddrs']]]></EnterCCMuliple>
+  <VerifyNoAttachment><![CDATA[//div[@class='col-lg-12']/table[1]/tbody/tr[1]/td]]></VerifyNoAttachment>
+  <SelectActivityType><![CDATA[//*[@id='gs_activity_type']]]></SelectActivityType>
+  <OpenNoteFromActivity><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></OpenNoteFromActivity>
+  <OpenNotes><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></OpenNotes>
+  <ClickAddNotes><![CDATA[//a[@title='Add Note']]]></ClickAddNotes>
+  <SaveNote><![CDATA[//*[@id='CreateNoteForm']/div[4]/a[1]]]></SaveNote>
+  <ClientNoteSubject><![CDATA[//*[@id='NoteName']]]></ClientNoteSubject>
+  <SaveNote><![CDATA[//button[@title='Save']]]></SaveNote>
+  <ClickNotes1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]/a]]></ClickNotes1>
+  <SaveNoteoppo><![CDATA[//a[@title='Save']]]></SaveNoteoppo>
+  <SelectNote1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectNote1>
+  <DeleteNote><![CDATA[//span[contains(text(),'Delete')]]]></DeleteNote>
+  <AddAttachment><![CDATA[//*[@id='adddocument']]]></AddAttachment>
+  <Browser><![CDATA[//*[@id='DocumentViewForm']/div[2]//input[@id='DocumentFile']]]></Browser>
+  <SubjectAttachment><![CDATA[//*[@id='DocumentName']]]></SubjectAttachment>
+  <SubjectError><![CDATA[//*[@id='NoteName-error']]]></SubjectError>
+  <DeleteNoteRBin><![CDATA[//a[@title='Delete Note Permenantly']/span]]></DeleteNoteRBin>
+  <SelectNote2><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></SelectNote2>
+  <BulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></BulkUpdate>
+  <ChangeStatus><![CDATA[//a[text()='Change Status']]]></ChangeStatus>
+  <SelectStatus><![CDATA[//*[@id='NoteStatusUpdateStatus']]]></SelectStatus>
+  <UpdateStatus><![CDATA[//*[@id='NoteStatusUpdateIndexForm']//a]]></UpdateStatus>
+  <ChangeOwner><![CDATA[//a[text()='Change Owner']]]></ChangeOwner>
+  <SelectOwner><![CDATA[//*[@id='NoteOwnerUpdateAssignedUserId']]]></SelectOwner>
+  <UpdateOwner><![CDATA[//*[@id='NoteOwnerUpdateIndexForm']//div[3]/input]]></UpdateOwner>
+  <ChangeGroup><![CDATA[//a[text()='Change User Group']]]></ChangeGroup>
+  <SelectGroup><![CDATA[//*[@id='NoteUserGroupUpdateAssignedUserGroupId']]]></SelectGroup>
+  <UpdateGroup><![CDATA[//*[@id='NoteUserGroupUpdateIndexForm']//a]]></UpdateGroup>
+  <BrowseAttachment><![CDATA[//*[@id='DocumentFile']]]></BrowseAttachment>
+  <SaveAttach><![CDATA[//input[@value='Save']]]></SaveAttach>
+  <AddAttEdit><![CDATA[//a[@title='Add Attachment']]]></AddAttEdit>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <EditLink><![CDATA[//a[@title='Edit Note']]]></EditLink>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofResults><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofResults>
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+
+  <NoteWithClient><![CDATA[//*[@id='NoteWithClients']]]></NoteWithClient>
+  <NoteRelatedTo><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]]]></NoteRelatedTo>
+  <NoteWithCOntacts><![CDATA[//*[@id='NoteWithcontacts']]]></NoteWithCOntacts>
+  <NoteWithLeads><![CDATA[//*[@id='NoteWithleads']]]></NoteWithLeads>
+  <NoteWithMeetings><![CDATA[//*[@id='NoteWithmeetings']]]></NoteWithMeetings>
+  <NoteWithTask><![CDATA[//*[@id='NoteWithtasks']]]></NoteWithTask>
+  <NoteWithOppo><![CDATA[//*[@id='NoteWithopportunities']]]></NoteWithOppo>
+  <NoteWithAttach><![CDATA[//*[@id='NoteNoteattachment']]]></NoteWithAttach>
+  <AttachmentNotes><![CDATA[//table[@class='table table-bordered']/tbody/tr/td[1]/a]]></AttachmentNotes>
+
+
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadSubject><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Subject']]]></HeadSubject>
+  <HeadRelatedTo><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='Related To']]]></HeadRelatedTo>
+  <HeadCreated><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Created']]]></HeadCreated>
+  <HeadRelatedTO2><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='Status']]]></HeadRelatedTO2>
+  <HeadCreatedBy3><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Created By']]]></HeadCreatedBy3>
+
+  <HeadRelatedTO1><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Related To']]]></HeadRelatedTO1>
+  <HeadCreatedBy4><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Created By']]]></HeadCreatedBy4>
+
+  <!--Field Tab-->
+  <CreatedbyField><![CDATA[//*[@id='gs_first_name']]]></CreatedbyField>
+
+
+
+</Locators>

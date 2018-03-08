@@ -1,0 +1,53 @@
+Login with valid username and password
+Verify Page title
+Redirect at vendors page.
+Redirect To Vendors
+Verify title
+ Click On Create
+Verify title
+ Click On Add Address
+ Again Click On Add Address
+Enter Zip Code in Address-3
+Verify City
+Login with valid username and password
+Verify Page title
+Redirect at vendors page.
+Redirect To Vendors
+Verify title
+ Click On Create
+Verify title
+ Click On Add Address
+ Again Click On Add Address
+Enter Zip Code in Address-3
+Verify City
+Verify State
+Verify Country
+Login with valid username and password
+Verify Page title
+Redirect at vendors page.
+Redirect To Vendors
+Verify title
+ Click On Create
+Verify title
+ Click On Add Address
+ Again Click On Add Address
+Enter Zip Code in Address-3
+Verify City
+Verify State
+Verify Country
+Login with valid username and password
+Verify Page title
+Redirect at vendors page.
+Redirect To Vendors
+Verify title
+ Click On Create
+Verify title
+ Click On Add Address
+Login with valid username and password
+Verify Page title
+Redirect at vendors page.
+Redirect To Vendors
+Verify title
+ Click On Create
+Verify title
+ Click On Add Address

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <DashboardName><![CDATA[//*[@id='DashboardName']]]></DashboardName>
+  <DashboardDefault><![CDATA[//*[@id='DashboardDefault']]]></DashboardDefault>
+  <DashboardLet><![CDATA[//div[h5[text()='Other Dashlets']]/div/a[i[@class='fa fa-chevron-down']]]]></DashboardLet>
+  <SelectDashlet><![CDATA[//*[@id='check_1']]]></SelectDashlet>
+  <DashSave><![CDATA[//a[@title='Remove this Dashboard as My Home Page']]]></DashSave>
+  <DashbboardNext><![CDATA[//button[@title='Next']]]></DashbboardNext>
+  <ClickSaveNskin><![CDATA[//button[@title='Save']]]></ClickSaveNskin>
+  <ClickNextButtonOfDashboard><![CDATA[//button[@title='Next']]]></ClickNextButtonOfDashboard>
+  <ClickOnDashboard><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a]]></ClickOnDashboard>
+  <ClickOnEditDeshboard><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a[1]/span]]></ClickOnEditDeshboard>
+  <SearchDashboard><![CDATA[//*[@id='gs_name']]]></SearchDashboard>
+  <DeleteDashboard><![CDATA[//a[@title='Delete Dashboard']]]></DeleteDashboard>
+  
+  <!--Tab field-->
+  <OwnerField><![CDATA[//*[@id='gs_owner']]]></OwnerField>
+</Locators>

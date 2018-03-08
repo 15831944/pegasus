@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ClickOnWelcome><![CDATA[//div[@id='tophead']/div[2]/table/tbody/tr/td[2]/div/b]]></ClickOnWelcome>
+  <EditProfile><![CDATA[//a[@title='Edit Profile']]]></EditProfile>
+  <FirstName><![CDATA[//*[@id='CorporateUserFirstName']]]></FirstName>
+  <MiddleName><![CDATA[//*[@id='CorporateUserMiddleName']]]></MiddleName>
+  <LastrName><![CDATA[//*[@id='CorporateUserLastName']]]></LastrName>
+  <PhoneNumber><![CDATA[//*[@id='CorporateUserPhone0PhoneNumber']]]></PhoneNumber>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <CorpProfile><![CDATA[//a[@title='Edit Corporate Details']]]></CorpProfile>
+  <LogoDefault><![CDATA[//img[@src='https://www.www.mypegasuscrm.com/img/default.jpgimagecache/120x90_default.jpg']]]></LogoDefault>
+  <UploadLogo><![CDATA[//*[@id='CorporateLogoUrl']]]></UploadLogo>
+  <SearchPhone><![CDATA[//*[@id='gs_phoneNum']]]></SearchPhone>
+  <NoRecordFound><![CDATA[//*[@id='div_no_record_list1']]]></NoRecordFound>
+  
+  
+</Locators>

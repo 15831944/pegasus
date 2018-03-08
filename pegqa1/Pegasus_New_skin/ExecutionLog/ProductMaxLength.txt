@@ -1,0 +1,47 @@
+Login with valid username and password
+Verify Page title
+Redirect To Admin
+Login with valid username and password
+Verify Page title
+Open first product
+Verify title
+Click on Add custom field
+Select Text Box type
+Enter value in the Data length field
+Select Number as content type
+Verify Data length
+Select text as content type
+Verify Data length
+Login with valid username and password
+Verify Page title
+Open first product
+Verify title
+Click on Add custom field
+Select Text Box type
+Enter value in the Data length field
+Select Number as content type
+Verify Data length
+Select text as content type
+Verify Data length
+Login with valid username and password
+Verify Page title
+Open first product
+Verify title
+Click on Add custom field
+Select Text Box type
+Enter value in the Data length field
+Select Number as content type
+Verify Data length
+Select text as content type
+Verify Data length
+Login with valid username and password
+Verify Page title
+Open first product
+Verify title
+Click on Add custom field
+Select Text Box type
+Enter value in the Data length field
+Select Number as content type
+Verify Data length
+Select text as content type
+Verify Data length

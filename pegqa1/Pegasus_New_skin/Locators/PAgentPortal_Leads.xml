@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  
+  <!--Create Leads-->
+  
+  
+  <!--Assignments-->
+  <Category><![CDATA[//select[@id='LeadCategoryId']]]></Category>
+  
+</Locators>

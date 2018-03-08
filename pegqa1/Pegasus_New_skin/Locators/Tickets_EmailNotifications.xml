@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <WhenATicketIsCreated><![CDATA[//*[@id='alertcreateTicket']]]></WhenATicketIsCreated>
+  <CreatedAssignedTo><![CDATA[//*[@id='alertcreateTypeOwner']]]></CreatedAssignedTo>
+  <CreatedAssignedDepatment><![CDATA[//*[@id='alertcreateTypeDepartment']]]></CreatedAssignedDepatment>
+  <EmailCreated><![CDATA[//*[@id='alertcreateTypeOther']]]></EmailCreated>
+  <EmailUpdate><![CDATA[//*[@id='alertupdateTypeOther']]]></EmailUpdate>
+  <EmailPosetd><![CDATA[//*[@id='alertcommentTypeOther']]]></EmailPosetd>
+  <WhenTicketUpdate><![CDATA[//*[@id='alertupdateTicket']]]></WhenTicketUpdate>
+  <AssignedToUpdate><![CDATA[//*[@id='alertupdateTypeOwner']]]></AssignedToUpdate>
+  <AssignedManagerUpdate><![CDATA[//*[@id='alertupdateTypeManager']]]></AssignedManagerUpdate>
+  <WhenCommentPosted><![CDATA[//*[@id='alertcommentTicket']]]></WhenCommentPosted>
+  <AssignedToPosted><![CDATA[//*[@id='alertcommentTypeOwner']]]></AssignedToPosted>
+  <AssignedDepartmentPosted><![CDATA[//*[@id='alertcommentTypeDepartment']]]></AssignedDepartmentPosted>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+
+</Locators>

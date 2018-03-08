@@ -1,0 +1,6 @@
+Redirect at tasks page.
+Search subject by task
+Click on first tasks
+Click on delete btn.
+Accept alert message.
+Wait for delete text

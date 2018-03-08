@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <HomeTab><![CDATA[//a[@title='Home']]]></HomeTab>
+
+  <OpportunitiesTab><![CDATA[//a[@title='Opportunities']]]></OpportunitiesTab>
+  <CreateanOpportunity><![CDATA[//a[@title='Create an Opportunity']]]></CreateanOpportunity>
+  <ImportOpportunities><![CDATA[//a[@title='Import Opportunities']]]></ImportOpportunities>
+  <ExportOpportunities><![CDATA[//a[@title='Export Opportunities']]]></ExportOpportunities>
+  <OpportunitiesRecycleBin><![CDATA[//*[@id="menu"]/li[3]/ul/li[4]/a]]></OpportunitiesRecycleBin>
+
+  <LeadsTab><![CDATA[//a[@title='Leads']]]></LeadsTab>
+  <CreateaLead><![CDATA[//a[@title='Create a Lead']]]></CreateaLead>
+  <ImportLeads><![CDATA[//a[@title='Import Leads']]]></ImportLeads>
+  <ExportLeads><![CDATA[//a[@title='Export Leads']]]></ExportLeads>
+  <LeadsRecycleBin><![CDATA[//*[@id="menu"]/li[4]/ul/li[4]/a]]></LeadsRecycleBin>
+
+  <ClientsTab><![CDATA[//a[@title='Clients']]]></ClientsTab>
+  <CreateaClient><![CDATA[//a[@title='Create a Client']]]></CreateaClient>
+  <ImportClients><![CDATA[//a[@title='Import Clients']]]></ImportClients>
+  <ExportClients><![CDATA[//a[@title='Export Clients']]]></ExportClients>
+  <ClientsRecycleBin><![CDATA[//*[@id="menu"]/li[5]/ul/li[4]/a]]></ClientsRecycleBin>
+
+  <ContactsTab><![CDATA[//a[@title='Contacts']]]></ContactsTab>
+  <CreateaContact><![CDATA[//a[@title='Create a Contact']]]></CreateaContact>
+  <ImportContacts><![CDATA[//a[@title='Import Contacts']]]></ImportContacts>
+  <ExportContacts><![CDATA[//a[@title='Export Contacts']]]></ExportContacts>
+  <ContactsRecycleBin><![CDATA[//*[@id="menu"]/li[6]/ul/li[4]/a]]></ContactsRecycleBin>
+
+  <ActivitiesTab><![CDATA[//a[@title='Activities']]]></ActivitiesTab>
+  
+  <Meetings><![CDATA[//a[@title='Meetings']]]></Meetings>
+  <CreateaMeeting><![CDATA[//a[@title='Create a Meeting']]]></CreateaMeeting>
+  <MyUpcomingMeetings><![CDATA[//a[@title='My Upcoming Meetings']]]></MyUpcomingMeetings>
+  <MyRecentMeetings><![CDATA[//a[@title='My Recent Meetings']]]></MyRecentMeetings>
+  <MyCalendar><![CDATA[//a[@title='My Calendar']]]></MyCalendar>
+  <MyTeamUpcomingMeetings><![CDATA[//*[@id="menu"]/li[7]/ul/li[1]/ul/li[5]/a]]></MyTeamUpcomingMeetings>
+  <MyTeamRecentMeetings><![CDATA[//*[@id="menu"]/li[7]/ul/li[1]/ul/li[6]/a]]></MyTeamRecentMeetings>
+  <MyTeamCalendar><![CDATA[//*[@id="menu"]/li[7]/ul/li[1]/ul/li[7]/a]]></MyTeamCalendar>
+
+  <Tasks><![CDATA[//a[@title='Tasks']]]></Tasks>
+  <CreateaTask><![CDATA[//a[@title='Create a Task']]]></CreateaTask>
+  <MyUpcomingTasks><![CDATA[//a[@title='My Upcoming Tasks']]]></MyUpcomingTasks>
+  <MyRecentTasks><![CDATA[//a[@title='My Recent Tasks']]]></MyRecentTasks>
+  <MyPastDueTasks><![CDATA[//a[@title='My Past Due Tasks']]]></MyPastDueTasks>
+  <MyTeamUpcomingTasks><![CDATA[//*[@id="menu"]/li[7]/ul/li[2]/ul/li[5]/a]]></MyTeamUpcomingTasks>
+  <MyTeamRecentTasks><![CDATA[//*[@id="menu"]/li[7]/ul/li[2]/ul/li[6]/a]]></MyTeamRecentTasks>
+  <MyTeamPastDue><![CDATA[//*[@id="menu"]/li[7]/ul/li[2]/ul/li[7]/a]]></MyTeamPastDue>
+
+  <E-Mails><![CDATA[//a[@title='E-Mails']]]></E-Mails>
+  <ComposeE-Mail><![CDATA[//a[@title='Compose E-Mail']]]></ComposeE-Mail>
+  <MyDrafts><![CDATA[//a[@title='My Drafts']]]></MyDrafts>
+  <MySentE-Mails><![CDATA[//a[@title='My Sent E-Mails']]]></MySentE-Mails>
+  <MyArchivedE-Mails><![CDATA[//a[@title='My Archived E-Mails']]]></MyArchivedE-Mails>
+  <MyTeamSentE-Mails><![CDATA[//*[@id="menu"]/li[7]/ul/li[3]/ul/li[5]/a]]></MyTeamSentE-Mails>
+  <MyTeamArchivedE-Mails><![CDATA[//*[@id="menu"]/li[7]/ul/li[3]/ul/li[6]/a]]></MyTeamArchivedE-Mails>
+  <E-MailAccounts><![CDATA[//a[@title='E-Mail Accounts']]]></E-MailAccounts>
+
+  <Notes><![CDATA[//a[@title='Notes']]]></Notes>
+  <CreateaNote><![CDATA[//a[@title='Create a Note']]]></CreateaNote>
+  <NotesRecentlyAdded><![CDATA[//a[@title='Notes Recently Added']]]></NotesRecentlyAdded>
+  <NotesRecentlyE-Mailed><![CDATA[//a[@title='Notes Recently E-Mailed']]]></NotesRecentlyE-Mailed>
+  <MyNotesRecentlyAdded><![CDATA[//a[@title='My Notes Recently Added']]]></MyNotesRecentlyAdded>
+  <MyNotesRecentlyE-Mailed><![CDATA[//a[@title='My Notes Recently E-Mailed']]]></MyNotesRecentlyE-Mailed>
+  <MyTeamNotesRecentlyAdded><![CDATA[//*[@id="menu"]/li[7]/ul/li[4]/ul/li[6]/a]]></MyTeamNotesRecentlyAdded>
+  <MyTeamNotesRecentlyE-Mailed><![CDATA[//*[@id="menu"]/li[7]/ul/li[4]/ul/li[7]/a]]></MyTeamNotesRecentlyE-Mailed>
+
+  <Documents><![CDATA[//a[@title='Documents']]]></Documents>
+  <CreateaDocument><![CDATA[//a[@title='Create a Document']]]></CreateaDocument>
+  <DocumentsRecentlyAdded><![CDATA[//a[@title='Documents Recently Added']]]></DocumentsRecentlyAdded>
+  <DocumentsRecentlyE-Mailed><![CDATA[//a[@title='Documents Recently E-Mailed']]]></DocumentsRecentlyE-Mailed>
+  <MyDocumentsRecentlyAdded><![CDATA[//a[@title='My Documents Recently Added']]]></MyDocumentsRecentlyAdded>
+  <MyDocumentsRecentlyE-Mailed><![CDATA[//a[@title='My Documents Recently E-Mailed']]]></MyDocumentsRecentlyE-Mailed>
+  <MyTeamDocumentsRecentlyAdded><![CDATA[//*[@id="menu"]/li[7]/ul/li[5]/ul/li[6]/a]]></MyTeamDocumentsRecentlyAdded>
+  <MyTeamDocumentsRecentlyE-Mailed><![CDATA[//*[@id="menu"]/li[7]/ul/li[5]/ul/li[7]/a]]></MyTeamDocumentsRecentlyE-Mailed>
+
+  <ActiveCalls><![CDATA[//*[@id="menu"]/li[7]/ul/li[6]/a]]></ActiveCalls>
+  <LogaCall><![CDATA[//a[@title='Log a Call']]]></LogaCall>
+  <MyActiveCalls><![CDATA[//a[@title='My Active Calls']]]></MyActiveCalls>
+
+  <TicketsTab><![CDATA[//a[@title='Tickets']]]></TicketsTab>
+  <CreateaTicket><![CDATA[//a[@title='Create a Ticket']]]></CreateaTicket>
+  <TicketDrafts><![CDATA[//a[@title='Ticket Drafts']]]></TicketDrafts>
+  <TicketRecycleBin><![CDATA[//a[@title='Ticket Recycle Bin']]]></TicketRecycleBin>
+
+
+  <ViewAllTickets><![CDATA[//a[@title='View All Tickets']]]></ViewAllTickets>
+  <NewTickets><![CDATA[//a[@title='New Tickets']]]></NewTickets>
+  <OpenTickets><![CDATA[//a[@title='Open Tickets']]]></OpenTickets>
+  <ResolvedTickets><![CDATA[//a[@title='Resolved Tickets']]]></ResolvedTickets>
+  <ClosedTickets><![CDATA[//a[@title='Closed Tickets']]]></ClosedTickets>
+
+  <AgentsTab><![CDATA[//a[@title='Agents']]]></AgentsTab>
+  <AllAgents><![CDATA[//a[@title='All Agents']]]></AllAgents>
+  <Employees><![CDATA[//a[@title='Employees']]]></Employees>
+  <SalesAgents><![CDATA[//a[@title='Sales Agents']]]></SalesAgents>
+  <PartnerAgents><![CDATA[//a[@title='Partner Agents']]]></PartnerAgents>
+  <PartnerAssociations><![CDATA[//a[@title='Partner Associations']]]></PartnerAssociations>
+
+  <ResidualIncomeTab><![CDATA[//a[@title='Residual Income']]]></ResidualIncomeTab>
+
+  <OfficePayouts><![CDATA[//a[@title='Office Payouts']]]></OfficePayouts>
+  <OfficePayoutsSummary><![CDATA[//*[@id="menu"]/li[10]/ul/li[1]/ul/li[1]/a]]></OfficePayoutsSummary>
+  <DetailedPayouts><![CDATA[//a[@title='Detailed Payouts']]]></DetailedPayouts>
+  <ViewReports><![CDATA[//a[@title='View Reports']]]></ViewReports>
+  <SummaryReports><![CDATA[//a[@title='Summary Reports']]]></SummaryReports>
+  <AgentPayoutsSummary><![CDATA[//a[@title='Agent Payouts Summary']]]></AgentPayoutsSummary>
+
+  <UserPayouts><![CDATA[//a[@title='User Payouts']]]></UserPayouts>
+  <UserPayoutsSummary><![CDATA[//*[@id="menu"]/li[10]/ul/li[2]/ul/li[1]/a]]></UserPayoutsSummary>
+  <UserPayoutsReports><![CDATA[//*[@id="menu"]/li[10]/ul/li[2]/ul/li[2]/a]]></UserPayoutsReports>
+
+  <MasterData><![CDATA[//a[@title='Master Data']]]></MasterData>
+  <AdjustmentsTool><![CDATA[//a[text()="Adjustments Tool"]]]></AdjustmentsTool>
+  <PayoutLookupSettings><![CDATA[//a[text()="Payout Lookup Settings"]]]></PayoutLookupSettings>
+  <CalculationHierarchySettings><![CDATA[//a[text()="Calculation Hierarchy Settings"]]]></CalculationHierarchySettings>
+  <ReportDisplayColumns><![CDATA[//a[text()="Report Display Columns"]]]></ReportDisplayColumns>
+
+  <ReportsTab><![CDATA[//*[@id="menu"]/li[11]/a]]></ReportsTab>
+  
+  <Reports><![CDATA[//*[@id="menu"]/li[11]/ul/li[1]]]></Reports>
+  <AllReports><![CDATA[//a[@title='All Reports']]]></AllReports>
+  <CreateaReport><![CDATA[//a[@title='Create a Report']]]></CreateaReport>
+  <SnapshotReport><![CDATA[//*[@id="menu"]/li[11]/ul/li[1]/ul/li[3]/a]]></SnapshotReport>
+
+  <Dashboards><![CDATA[//a[@title='Dashboards']]]></Dashboards>
+  <AllDashboards><![CDATA[//a[@title='All Dashboards']]]></AllDashboards>
+  <CreateaDashboard><![CDATA[//a[@title='Create a Dashboard']]]></CreateaDashboard>
+  <LeadsPerformance><![CDATA[//a[@title='Leads Performance']]]></LeadsPerformance>
+  <ClientsPerformance><![CDATA[//a[@title='Clients Performance']]]></ClientsPerformance>
+  <CallsPerformance><![CDATA[//a[@title='Calls Performance']]]></CallsPerformance>
+
+  <ReportCalls><![CDATA[//*[@id="menu"]/li[11]/ul/li[3]/a]]></ReportCalls>
+  <AllCalls><![CDATA[//a[@title='All Calls']]]></AllCalls>
+  <LeadCalls><![CDATA[//a[@title='Lead Calls']]]></LeadCalls>
+  <ClientCalls><![CDATA[//a[@title='Client Calls']]]></ClientCalls>
+  <UnlinkedCalls><![CDATA[//a[@title='Unlinked Calls']]]></UnlinkedCalls>
+
+  <HeadImage><![CDATA[//*[@id="page-wrapper"]/div[1]/nav/div[1]/span[2]/img]]></HeadImage>
+  <Header><![CDATA[//*[@id="page-wrapper"]/div[1]/nav]]></Header>
+  <HeadDropDown><![CDATA[//*[@id="page-wrapper"]/div[1]/nav/ul/li[2]/a]]></HeadDropDown>
+  <HeadText><![CDATA[//*[@id="page-wrapper"]/div[1]/nav/ul/li[2]/a/span]]></HeadText>
+  <HeadInput><![CDATA[//*[@id="SearchSearchForm"]/div[2]/div]]></HeadInput>
+
+</Locators>

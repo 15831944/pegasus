@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create New Equipment Type']]]></Create>
+  <DownloadIdsType><![CDATA[//*[@id='EquipmentDownloadIdDownloadIdType']]]></DownloadIdsType>
+  <DownloadsIDName><![CDATA[//*[@id='EquipmentDownloadIdDownloadIdName']]]></DownloadsIDName>
+  <DownloadID><![CDATA[//*[@id='EquipmentDownloadIdDownloadId']]]></DownloadID>
+  <Status><![CDATA[//*[@id='EquipmentDownloadIdInactive']]]></Status>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SearchDownloadIds><![CDATA[//*[@id='gs_download_id']]]></SearchDownloadIds>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a]]></Edit>
+  <OpenDownloadId><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></OpenDownloadId>
+  <TypeError><![CDATA[//*[@id='EquipmentDownloadIdDownloadIdType-error']]]></TypeError>
+  <NameError><![CDATA[//*[@id='EquipmentDownloadIdDownloadIdName-error']]]></NameError>
+  <IDError><![CDATA[//*[@id='EquipmentDownloadIdDownloadId-error']]]></IDError>
+  <StatusToggle><![CDATA[//table[@id='list1']//tr[2]/td[2]/a/i]]></StatusToggle>
+  <VerifyStatus><![CDATA[//td[@title='Inactive']]]></VerifyStatus>
+
+
+  <TerminalsandEquipments><![CDATA[//a[text()='Terminals & Equipment']]]></TerminalsandEquipments>
+  <AddEquipment><![CDATA[//a[text()='Add Equipment']]]></AddEquipment>
+  <Equipment1><![CDATA[//table//tr[1]/td[1]/a]]></Equipment1>
+</Locators>

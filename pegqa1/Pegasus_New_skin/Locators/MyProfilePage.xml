@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  
+  <!--View Profile page-->
+  <EditProfileBtn><![CDATA[//a[@title='Edit Profile']]]></EditProfileBtn>
+  
+  
+  <!--Edit Profile page-->
+  <FirstName><![CDATA[//input[@id='EmployeeFirstName']]]></FirstName>
+  
+  
+  
+</Locators>

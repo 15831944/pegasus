@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+ 
+  <!--All Calls page-->
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a/span]]></Edit>
+  
+  
+  
+  
+  
+  <!--Create call page-->
+  <CallType><![CDATA[//*[@id='CallCallType']]]></CallType>
+  <CallFromName><![CDATA[//*[@id='CallCallNewFromName']]]></CallFromName>
+  <CallToName><![CDATA[//*[@id='CallCallNewToName']]]></CallToName>
+  <FromNumber><![CDATA[//*[@id='CallCallNewFrom']]]></FromNumber>
+  <CallTONumber><![CDATA[//*[@id='CallCallNewTo']]]></CallTONumber>
+  <CallStartHour><![CDATA[//select[@id='CallStartHour']]]></CallStartHour>
+  <CallStartMin><![CDATA[//select[@id='CallStartMin']]]></CallStartMin>
+  <CallStartSec><![CDATA[//select[@id='CallStartSec']]]></CallStartSec>
+  <CallStartAMPM><![CDATA[//select[@id='CallStartDay']]]></CallStartAMPM>
+  <Start><![CDATA[//*[@id='start']]]></Start>
+  <Stop><![CDATA[//button[@id='stop']]]></Stop>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <PopupSave><![CDATA[//input[@value='Save']]]></PopupSave>
+  
+  
+  
+  
+  
+  <Create><![CDATA[//span[text()='Create']]]></Create>
+  
+  <Relatedto><![CDATA[//*[@id='CallParentType']]]></Relatedto>
+  <Findlist><![CDATA[//*[@id='assignrecord']]]></Findlist>
+  <Client1><![CDATA[//table[1]/tbody/tr[1]/td[3]/a]]></Client1>
+  <ChyClient><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr/td[3]/a]]></ChyClient>
+  
+  <CallTo><![CDATA[//*[@id='CallCallTo']]]></CallTo>
+  <CallFrom><![CDATA[//*[@id='CallCallNewFromName']]]></CallFrom>
+  
+  
+  <CallDate><![CDATA[//*[@id='CallCallDate']]]></CallDate>
+  
+  
+  <Delete><![CDATA[//span[text()='Delete']]]></Delete>
+  <Call1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></Call1>
+  <CallTypeError><![CDATA[//*[@id='CallCallType-error']]]></CallTypeError>
+  <CallNameError><![CDATA[//*[@id='CallCallNewFromName-error']]]></CallNameError>
+  <CallToNameError><![CDATA[//*[@id='CallCallNewToName-error']]]></CallToNameError>
+  <FromNumError><![CDATA[//*[@id='CallCallNewFrom-error']]]></FromNumError>
+  <ToNumError><![CDATA[//*[@id='CallCallNewTo-error']]]></ToNumError>
+  <BulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></BulkUpdate>
+  <ChangeCategory><![CDATA[//a[text()='Change Category']]]></ChangeCategory>
+  <ChkBox1><![CDATA[//table[@id='list1']//tr[2]//td[1]/input]]></ChkBox1>
+  <ChkBox2><![CDATA[//table[@id='list1']//tr[3]//td[1]/input]]></ChkBox2>
+  <SelectCategory><![CDATA[//*[@id='CallCategoryUpdateCategoryId']]]></SelectCategory>
+  <UpdateCategory><![CDATA[//*[@id='change_category']//a/button]]></UpdateCategory>
+  <ChangeEmployee><![CDATA[//a[text()='Change Employee']]]></ChangeEmployee>
+  <SelectEmployee><![CDATA[//*[@id='CallOwnerUpdateAssignedUserId']]]></SelectEmployee>
+  <UpdateOwner><![CDATA[//*[@id='change_call_owner']//a/button]]></UpdateOwner>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <EditLink><![CDATA[//span[text()='Edit']]]></EditLink>
+  <DeleteRecycle><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/span[1]/a/i]]></DeleteRecycle>
+  <VerifyOwner><![CDATA[//div[@id='call_owner']]]></VerifyOwner>
+  <VerifyStatus><![CDATA[//div[text()= 'New']]]></VerifyStatus>
+  <VerifyCategory><![CDATA[//div[@id='category']]]></VerifyCategory> 
+  <Category><![CDATA[//*[@id='CallCategoryId']]]></Category>
+  <SearchCompany><![CDATA[//*[@id='ClientCompanyDbaName']]]></SearchCompany>
+  <SearchButton><![CDATA[//*[@id='searchButton']]]></SearchButton>
+  <UpdateEmployee><![CDATA[//*[@id='call_owner']/form/select]]></UpdateEmployee>
+  <SaveText><![CDATA[//button[text()='Save']]]></SaveText>
+  <CategoryUpdated><![CDATA[//*[@id='category']]]></CategoryUpdated>
+  <AdvanceFilter><![CDATA[link=Advanced Filter]]></AdvanceFilter>
+  <Apply><![CDATA[//button[text()='Apply']]]></Apply>
+  <CallsWithOppo><![CDATA[//*[@id='CallWithopportunities']]]></CallsWithOppo>
+  <CallsWithClients><![CDATA[//*[@id='CallWithclients']]]></CallsWithClients>
+  <RelatedTo1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]]]></RelatedTo1>
+  <CallsWithContacts><![CDATA[//*[@id='CallWithcontacts']]]></CallsWithContacts>
+  <CallsWithLeads><![CDATA[//*[@id='CallWithleads']]]></CallsWithLeads>
+  <CallsWithAttachments><![CDATA[//*[@id='CallCallattachment']]]></CallsWithAttachments>
+  <CallAttachment><![CDATA[//table[@class='table table-bordered']/tbody/tr[1]/td[1]/a]]></CallAttachment>
+  <No.ofRecords><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofRecords>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+
+
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadCallDate><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Call Date']]]></HeadCallDate>
+  <HeadRelatedTo><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[15]//div[text()='Related To']]]></HeadRelatedTo>
+  <HeadEmployee><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[16]//div[text()='Employee']]]></HeadEmployee>
+  <HeadModified><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[17]//div[text()='Modified']]]></HeadModified>
+  <HeadRelatedTo6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[15]//div[text()='Related To']]]></HeadRelatedTo6>
+  <HeadEmployee7><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[16]//div[text()='Employee']]]></HeadEmployee7>
+
+  <HeadRelatedTo4><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Related To']]]></HeadRelatedTo4>
+  <HeadEmployee8><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[17]//div[text()='Employee']]]></HeadEmployee8>
+
+
+
+
+</Locators>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <PDFPackage><![CDATA[//*[@id='ui_buttonspackage']/span]]></PDFPackage>
+  <PDFName><![CDATA[//*[@id='PdfTemplateName']]]></PDFName>
+  <Import><![CDATA[//*[@id='importform']/table/tbody/tr[4]/td/div[3]/div/input]]></Import>
+  <Next><![CDATA[//button[@title='Next']]]></Next>
+  <SelectModule><![CDATA[//*[@id='PdfTemplateModule']]]></SelectModule>
+  <SelectPDFTemplate><![CDATA[//*[@id='PdfTemplatePdfTemplateId']]]></SelectPDFTemplate>
+  <SelectCatory><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCatory>
+  <DisplayeInTabs><![CDATA[//*[@id='PdfTemplateTabLink']]]></DisplayeInTabs>
+  <CanShare><![CDATA[//*[@id='PdfTemplateShareLink']]]></CanShare>
+  <CanEmail><![CDATA[//*[@id='PdfTemplateEmailLink']]]></CanEmail>
+  <SearchPDF><![CDATA[//*[@id='gs_file_name']]]></SearchPDF>
+  <ClickNextBtn2><![CDATA[//a[@title='Next']]]></ClickNextBtn2>
+  <ClickNextbtn><![CDATA[//button[@title='Next']]]></ClickNextbtn>
+  <VerifyTextPDFTemplatesHeader><![CDATA[//h2[text()='PDF Templates']]]></VerifyTextPDFTemplatesHeader>
+  <ModuleToSearch><![CDATA[//*[@id='gs_module_name']]]></ModuleToSearch>
+  <Tab><![CDATA[//select[@id='tab']]]></Tab>
+  <Section><![CDATA[//*[@id='section']]]></Section>
+  <Fields><![CDATA[//*[@id='field_name']]]></Fields>
+  <ClickOnReCycleBin><![CDATA[//a[@title='Recycle PDF Templates']]]></ClickOnReCycleBin>
+  <PermanentlyDeleteFrmRecycleBin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/span[1]/a[1]]]></PermanentlyDeleteFrmRecycleBin>
+  <ClickOnNext><![CDATA[//button[@title='Next']]]></ClickOnNext>
+  <EnterPDFToSearch><![CDATA[//*[@id='gs_file_name']]]></EnterPDFToSearch>#OoPdfFormExample
+  <SelectModuleToSearch><![CDATA[//*[@id='gs_module_name']]]></SelectModuleToSearch>#clients
+  <ClickOnReCycleBin><![CDATA[//a[@title='Recycle PDF Templates']]]></ClickOnReCycleBin>
+  <RestoreThisTemplateCorp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/span[2]/a[@title='Restore This PDF Templatet']]]></RestoreThisTemplateCorp>
+  <DeletePDF><![CDATA[//*[@id='deletepdf']]]></DeletePDF>
+  <Save><![CDATA[//*[@id='saveForm']]]></Save>
+  <PDF1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></PDF1>
+  <Save><![CDATA[//*[@id='PdfTemplatePdfPackagingForm']/div[2]/div/div[2]/a[2]/i]]></Save>
+
+</Locators>
+
+

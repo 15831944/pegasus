@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <!--Create ticket-->
+  <CreateBtn><![CDATA[//a[@title='Create New tickets']]]></CreateBtn>
+  <Subject><![CDATA[//*[@id='TicketName']]]></Subject>
+  <TicketStatus><![CDATA[//*[@id='TicketStatus']]]></TicketStatus>
+  <SelectClientBtn><![CDATA[//*[@id='assignrecord']/i]]></SelectClientBtn>
+  <FirstCompany><![CDATA[//*[@id='popupContent']/table[1]//tr[1]/td[3]/a]]></FirstCompany>
+  <SaveBtn><![CDATA[//button[@title='Save']]]></SaveBtn>
+  <DeleteIcon><![CDATA[//a[span[contains(text(),'Delete')]]]]></DeleteIcon>
+  <SearchTicket><![CDATA[//*[@id='gs_name']]]></SearchTicket>
+  <TicketInputIcon><![CDATA[//table[@id='list1']//tr[2]//td[1]/input]]></TicketInputIcon>
+  
+  <Ticket1><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input]]></Ticket1>
+  <BulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></BulkUpdate>
+  <ChangeStatus><![CDATA[//a[text()='Change Status']]]></ChangeStatus>
+  <UpdateBulk><![CDATA[//*[@id='TicketStatusUpdateIndexForm']/div/a[@title='Update']]]></UpdateBulk>
+  <FirstCheckBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@role='checkbox']]]></FirstCheckBox>
+  <DelTick><![CDATA[//span[text()='Delete']]]></DelTick>
+  <Advance><![CDATA[//*[@id='layout_disp']/span]]></Advance>
+  <PegResult><![CDATA[//*[@id='pageresults']/option[text()='1000']]]></PegResult>
+  <TicketEdit><![CDATA[//*[@id='add_comments']]]></TicketEdit>
+  <TicketComment><![CDATA[//div[@id='dialog_comments']/div/div/div/form/div[@class='modal-body']/div/textarea[@id='TicketCommentDescription']]]></TicketComment>
+  <TicketCommentSave><![CDATA[//a[@class='btn btn-primary btn-sm save_button']]]></TicketCommentSave>
+  <TicketCommentDelete><![CDATA[//*[@id='commentbox']/div[2]/div/div/div/span/a[@title='Delete Comment']]]></TicketCommentDelete>
+  <ClickTicket1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[21]/a]]></ClickTicket1>
+  <TickID><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_aid']]]></TickID>
+  <ViewHeadingTicket><![CDATA[//h2[text()='Tickets']]]></ViewHeadingTicket>
+  <ClickBulkUpdateBtn><![CDATA[//div[@title='Bulk Update']/button]]></ClickBulkUpdateBtn>
+  <ClickOnTickets><![CDATA[//table[@id='list1']/tbody/tr[2]/td[21]/a]]></ClickOnTickets>
+  <OpenResolution><![CDATA[//ul[@id='sortable']/li[1]/div[2]/a]]></OpenResolution>
+  <TOpicVerify><![CDATA[//*[@id='topic']/small]]></TOpicVerify>
+  <DeleteComment_File><![CDATA[//*[@id='clearAttachments']]]></DeleteComment_File>
+  <AddDoc><![CDATA[//*[@id='add_buttons']]]></AddDoc>
+  <DocName><![CDATA[//*[@id='DocumentName']]]></DocName>
+  <SaveDoc><![CDATA[//a[text()='Save']]]></SaveDoc>
+  <File1><![CDATA[//tr[2]/td[8]]]></File1>
+  <File2><![CDATA[//tr[3]/td[8]]]></File2>
+  <SearchDoc><![CDATA[//*[@id='gs_name']]]></SearchDoc>
+  <ResultsPerp><![CDATA[//*[@id='pageresults']]]></ResultsPerp>
+  <BootomResults><![CDATA[//*[@id='list1_pager_left']/div]]></BootomResults>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <TicketswithNotes><![CDATA[//*[@id='TicketWithnotes']]]></TicketswithNotes>
+  <NoteTicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]/a]]></NoteTicket>
+  <SelectActivity><![CDATA[//select[@id='gs_activity_type']]]></SelectActivity>
+  <TicketWithDocs><![CDATA[//*[@id='TicketWithdocuments']]]></TicketWithDocs>
+  <TicketsWithMeetings><![CDATA[//*[@id='TicketWithmeetings']]]></TicketsWithMeetings>
+  <TicketWithTasks><![CDATA[//*[@id='TicketWithtasks']]]></TicketWithTasks>
+  <TicketWithCalls><![CDATA[//*[@id='TicketWithcalls']]]></TicketWithCalls>
+  <TicketWithComments><![CDATA[//*[@id='TicketWithcomments']]]></TicketWithComments>
+  <ClickOnPermision><![CDATA[//a[text()='Change Permissions']]]></ClickOnPermision>
+  
+  <DisplayedCols><![CDATA[//*[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[23]//div[text()='Status']]]></HeadStatus>
+  <HeadPriority><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[24]//div[text()='Priority']]]></HeadPriority>
+  <HeadAge><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[25]//div[text()='Age']]]></HeadAge>
+  <HeadCategory><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[20]//div[text()='Category']]]></HeadCategory>
+  <HeadStatus4><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[23]//div[text()='Status']]]></HeadStatus4>
+  <HeadPriority5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[24]//div[text()='Priority']]]></HeadPriority5>
+
+  <HeadStatus2><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[21]//div[text()='Status']]]></HeadStatus2>
+  <HeadPriority6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[25]//div[text()='Priority']]]></HeadPriority6>
+
+
+</Locators>

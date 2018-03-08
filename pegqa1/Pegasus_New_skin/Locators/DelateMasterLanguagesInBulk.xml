@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <CreateBtn><![CDATA[//a[contains(text(),'Create')]]]></CreateBtn>
+  <Name><![CDATA[//*[@id='CorporateLanguageName']]]></Name>
+  <SaveBtn><![CDATA[//a[@title='Save']]]></SaveBtn>
+  <Search><![CDATA[//*[@id='gs_name']]]></Search>
+  <Deletebtn><![CDATA[//table[@id='list1']//tr[2]//td[4]//span[1]//a[2]]]></Deletebtn>
+  
+  <CheckBox><![CDATA[//*[@id='cb_list1']]]></CheckBox>
+  <DeleteIcon><![CDATA[//*[@id='del_list1']/div/span]]></DeleteIcon>
+  <DeleteBtn><![CDATA[//*[@id='dData']]]></DeleteBtn>
+  
+  
+</Locators>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <EditEmailTemplateIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a/i]]></EditEmailTemplateIcon>
+  <ClickOnSaveEmailTemp><![CDATA[//button[@title='Save']]]></ClickOnSaveEmailTemp>
+
+</Locators>
+
+

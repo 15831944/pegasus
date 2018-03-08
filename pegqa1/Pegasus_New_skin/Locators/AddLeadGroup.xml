@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <SearchCom><![CDATA[//*[@id="gs_company_name"]]]></SearchCom>
+  <Lead><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></Lead>
+  
+  <AddGroup><![CDATA[//*[@id="change_group"]]]></AddGroup>
+  <LeadGroup><![CDATA[//*[@id="LeadAddGroupId"]]]></LeadGroup>
+  <SaveGroup><![CDATA[//*[@id="LeadViewForm"]/div[4]/button[1]]]></SaveGroup>
+  <Delete><![CDATA[//*[@id="loadgroups"]/table/tbody/tr/td[2]/a[1]/span]]></Delete>
+
+
+</Locators>

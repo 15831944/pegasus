@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//*[@id='buttons']]]></Create>
+  <MerchantType><![CDATA[//*[@id='CorporateMasterMerchantTypeMerchantType']]]></MerchantType>
+  <Save><![CDATA[//*[@id='CorporateMasterMerchantTypeCorpManageMerchantTypesForm']/div[2]/div/div[2]/a[2]]]></Save>
+  <PushOffice><![CDATA[//a[@title='Push to Offices']]]></PushOffice>
+  <SearchMerchnatType><![CDATA[//*[@id='gs_merchant_type']]]></SearchMerchnatType>
+  <EditMerchnatType><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span[1]/a[1]]]></EditMerchnatType>
+  <DeleteMerchnatType><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span[1]/a[2]]]></DeleteMerchnatType>
+  <SaveEdit><![CDATA[//a[@title='Save']]]></SaveEdit>
+  <ClickOnAnyMerchantType><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnAnyMerchantType>
+  <EnterMercahntName><![CDATA[//*[@id='CorporateMasterMerchantTypeMerchantType']]]></EnterMercahntName>
+
+</Locators>

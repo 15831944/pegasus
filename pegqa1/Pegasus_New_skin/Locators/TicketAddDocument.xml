@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <Subject><![CDATA[//*[@id="TicketName"]]]></Subject>
+  <SelectClient><![CDATA[//*[@id="assignrecord"]/i]]></SelectClient>
+  <FirstClient><![CDATA[//*[@id="popupContent"]/table[1]/tbody/tr[1]/td[1]/a]]></FirstClient>
+  <Status><![CDATA[//*[@id="TicketStatus"]]]></Status>
+  <Save><![CDATA[//*[@id="TicketCreateForm"]/div[2]/div/div[2]/button[2]]]></Save>
+  <AddDocument><![CDATA[//*[@id="add_buttons"]]]></AddDocument>
+  <Name><![CDATA[//*[@id="DocumentName"]]]></Name>
+  <ChoooseFile><![CDATA[//*[@id="DocumentFile"]]]></ChoooseFile>
+  <SaveDocument><![CDATA[//*[@id="CreateDocumentForm"]/div[4]/a]]></SaveDocument>
+
+
+</Locators>

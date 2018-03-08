@@ -1,0 +1,4 @@
+Login with valid username and password
+Verify Page title
+Redirect To Compose Email page
+Expand Options section

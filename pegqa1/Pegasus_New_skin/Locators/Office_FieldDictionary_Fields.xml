@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <FSModule><![CDATA[//*[@id='SearchFormModuleId']]]></FSModule>
+  <FSTab><![CDATA[//*[@id='SearchFormTabName']]]></FSTab>
+  <FSSearch><![CDATA[//a[@title='Search']]]></FSSearch>
+  <ButtonSearch><![CDATA[//button[@title='Search']]]></ButtonSearch>
+  <FSFilter><![CDATA[//*[@id='filter']]]></FSFilter>
+  <FSMail><![CDATA[//a[contains(text(),'Mail/Fax Chargeback/Retrievals to')]]]></FSMail>
+  <FSManage><![CDATA[//i[@class='fa fa-pencil']]]></FSManage>
+  <SearchProcessor><![CDATA[//*[@id='SearchFormProcessorId']]]></SearchProcessor>
+  <FSSection><![CDATA[//*[@id='SearchFormSectionName']]]></FSSection>
+  <FSSubSection><![CDATA[//*[@id='SearchFormSubSectionName']]]></FSSubSection>
+
+</Locators>

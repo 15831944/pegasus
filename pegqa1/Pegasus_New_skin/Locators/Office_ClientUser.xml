@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <SearchClientUser><![CDATA[//input[@id='gs_contactNm']]]></SearchClientUser>
+  <ClientUser1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></ClientUser1>
+
+
+</Locators>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create New Department']]]></Create>
+  <Name><![CDATA[//*[@id='OrganizationDepartmentName']]]></Name>
+  <Descripton><![CDATA[//*[@id='OrganizationDepartmentDescription']]]></Descripton>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SearchName><![CDATA[//*[@id='gs_name']]]></SearchName>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Edit Department']]]></Edit>
+  <Delete><![CDATA[//a[@title='Delete Department']]]></Delete>
+
+</Locators>

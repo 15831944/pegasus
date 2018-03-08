@@ -1,0 +1,86 @@
+Login with valid username and password
+Verify Page title
+Redirect To template page
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Redirect To Import
+ChooseModule
+Upload file
+Click import
+ClickOnNext
+Select Category
+Login with valid username and password
+Verify Page title
+Redirect To template page
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Redirect To Import
+ChooseModule
+Upload file
+Click import
+ClickOnNext
+Select Category
+Login with valid username and password
+Verify Page title
+Redirect To template page
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Redirect To Import
+ChooseModule
+Upload file
+Click import
+ClickOnNext
+Select Category
+Click On Save
+Verify message
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Click on edit icon
+Login with valid username and password
+Verify Page title
+Redirect To template page
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Redirect To Import
+ChooseModule
+Upload file
+Click import
+ClickOnNext
+Select Category
+Click On Save
+Verify message
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Click on edit icon
+Login with valid username and password
+Verify Page title
+Redirect To template page
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Redirect To Import
+ChooseModule
+Upload file
+Click import
+ClickOnNext
+Select Category
+Click On Save
+Verify message
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Click on edit icon
+Login with valid username and password
+Verify Page title
+Redirect To template page
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Redirect To Import
+ChooseModule
+Upload file
+Click import
+ClickOnNext
+Select Category
+Click On Save
+Verify message
+Enter PDF TO sEARCH
+SelectModuleToSearch
+Click on edit icon

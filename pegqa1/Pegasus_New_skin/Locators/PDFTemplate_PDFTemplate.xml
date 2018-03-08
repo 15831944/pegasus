@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--All PDF templates page-->
+  <PDF1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/a]]></PDF1>
+  
+  
+  
+  <!--View PDF-->
+  <Clone><![CDATA[//*[@id='page-wrapper']/div[3]/div[2]/a[2]/span]]></Clone>
+  <Delete><![CDATA[//span[contains(text(),'Delete')]]]></Delete>
+  
+  
+  
+  
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']]]></MenuIcon>
+  <InActivateSign><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a[2]]]></InActivateSign>
+  <PdfTab><![CDATA[//span[text()='PDF Templates']]]></PdfTab>
+  <PdfTempBtn><![CDATA[//a[text()='PDF Templates']]]></PdfTempBtn>
+  <PDFPackageButton><![CDATA[//*[@id='ui_buttonspackage']//span[text()='PDF Package']]]></PDFPackageButton>
+  <PDFPackage><![CDATA[//span[text()='PDF Package']]]></PDFPackage>
+  <PackagePDFName><![CDATA[//*[@id='PdfTemplateName']]]></PackagePDFName>
+  <ChooseModulePackage><![CDATA[//*[@id='PdfTemplateZModuleId']]]></ChooseModulePackage>
+  <SelectModule><![CDATA[//*[@id='PdfTemplateModule']]]></SelectModule>
+  <AddPDFIcon><![CDATA[//a[@class='addpdf']]]></AddPDFIcon>
+  <SaveButton><![CDATA[//*[@id='PdfTemplatePdfPackagingForm']//div[2]/a[2]]]></SaveButton>
+  
+  
+  <SelectPDFTempwithRule><![CDATA[//a[@onclick='setPdfWithRule()']]]></SelectPDFTempwithRule>
+  <TemplateRuleName><![CDATA[//*[@id='ImportIndexPopName']]]></TemplateRuleName>
+  <SelectPDFTemplate><![CDATA[//*[@id='PdfTemplatePdfTemplateId']]]></SelectPDFTemplate>#4338
+  <SelectCategoryPackage><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCategoryPackage>
+  
+  <SavePDFPakage><![CDATA[//a[@title='Save']]]></SavePDFPakage>
+  <PakageModule><![CDATA[//*[@id='PdfTemplateZModuleId']]]></PakageModule>
+  <PakageCategory><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></PakageCategory>
+  <EditFirstTemplate><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Edit PDF Template']]]></EditFirstTemplate>
+  <PdfName><![CDATA[//*[@id='PdfTemplateName']]]></PdfName>
+  <SavebuttonEDit><![CDATA[//button[@title='Save']]]></SavebuttonEDit>
+  <NameError><![CDATA[//*[@id='PdfTemplateName-error']]]></NameError>
+  <EnterPDFCategoryName><![CDATA[//*[@id='PdfCategoryName']]]></EnterPDFCategoryName>
+  <SelectModulePakage><![CDATA[//*[@id='PdfTemplateZModuleId']]]></SelectModulePakage>
+  <Import><![CDATA[//*[@id='importform']/table/tbody/tr[4]/td/div[3]/div/input]]></Import>
+  <ClickOnNext><![CDATA[//button[@title='Next']]]></ClickOnNext>
+  <Save><![CDATA[//*[@id='saveForm']]]></Save>
+  <SelectModuleToSearch><![CDATA[//*[@id='gs_module_name']]]></SelectModuleToSearch>#clients
+  <SelectStatusDeactive><![CDATA[//*[@id='PdfTemplateActive']]]></SelectStatusDeactive>#0
+  <SaveEdit><![CDATA[//button[@title='Save']]]></SaveEdit>
+  <SelectRuleTypePKG><![CDATA[//*[@id='ImportIndexPopConditionType']]]></SelectRuleTypePKG>#if
+  <SelectRuleType><![CDATA[//*[@id='ImportIndexPopConditionType']]]></SelectRuleType>#if
+  <SelectOperatorType><![CDATA[//*[@id='if_field_op_0']]]></SelectOperatorType>#li
+  <ADDPDF><![CDATA[//button[@title='Add PDF']]]></ADDPDF>
+  
+  <SavePDFPakage><![CDATA[//a[@title='Save']]]></SavePDFPakage>
+  <ChooseModulePakage><![CDATA[//*[@id='PdfTemplateZModuleId']]]></ChooseModulePakage>
+  <EnterPDFToSearch><![CDATA[//*[@id='gs_file_name']]]></EnterPDFToSearch>#OoPdfFormExample
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a[@title='Edit PDF Template']]]></ClickOnEdit>
+  <EnterTemplateName><![CDATA[//*[@id='PdfTemplateName']]]></EnterTemplateName>
+  <ChooseModule><![CDATA[//*[@id='PdfTemplateModule']]]></ChooseModule>#20
+  <SelectCategory><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCategory>#340
+  <ClickCreatePDFImp><![CDATA[//a[@title='Create New Category']]]></ClickCreatePDFImp>
+  <PDFImportSave><![CDATA[//a[@title='Save']]]></PDFImportSave>
+  <OpenAnyPDFTemplate><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/a]]></OpenAnyPDFTemplate>
+  <DisplayInTabs><![CDATA[//*[@id='PdfTemplateTabLink']]]></DisplayInTabs>
+  <CanShare><![CDATA[//*[@id='PdfTemplateShareLink']]]></CanShare>
+  <CanEmail><![CDATA[//*[@id='PdfTemplateEmailLink']]]></CanEmail>
+  <SelectType><![CDATA[//*[@id='gs_packageType']]]></SelectType>
+  <Checkbox1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></Checkbox1>
+  <DeletePdf><![CDATA[//*[@id='deletepdf']]]></DeletePdf>
+  <SearchPDF><![CDATA[//*[@id='gs_name']]]></SearchPDF>
+  
+</Locators>

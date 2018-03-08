@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  
+  <!--Create Task-->
+  <Subject><![CDATA[//input[@id='TaskName']]]></Subject>
+  <StartDate><![CDATA[//*[@id='TaskStartDate']]]></StartDate>
+  <DueDate><![CDATA[//*[@id='TaskDueDate']]]></DueDate>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <StartHour><![CDATA[//select[@id='TaskStartHour']]]></StartHour>
+  <StartMin><![CDATA[//select[@id='asset_id']]]></StartMin>
+  <StartAMPM><![CDATA[//select[@id='TaskStartDay']]]></StartAMPM>
+  <DueHour><![CDATA[//select[@id='TaskEndHour']]]></DueHour>
+  <DueMin><![CDATA[//select[@id='end_min']]]></DueMin>
+  <DueAMPM><![CDATA[//select[@id='TaskEndDay']]]></DueAMPM>
+  <SelPriority><![CDATA[//*[@id='TaskPriority']]]></SelPriority>
+  
+  
+  
+  <!--All Tasks page-->
+  <SearchSubject><![CDATA[//input[@id='gs_name']]]></SearchSubject>
+  <FirstCheckBox><![CDATA[//table[@id='list1']/tbody[1]/tr[2]/td[1]/input]]></FirstCheckBox>
+  <DeleteTask><![CDATA[//a[@title='Delete']]]></DeleteTask>
+  <FirstTask><![CDATA[//table[@id='list1']/tbody[1]/tr[2]/td[11]/a]]></FirstTask>
+  
+  
+  
+  <!--View Task page-->
+  <EditBtn><![CDATA[//span[contains(text(),'Edit')]]]></EditBtn>
+  
+  
+  
+  <!--Recycle Bin page-->
+  <SearchSubject><![CDATA[//input[@id='gs_name']]]></SearchSubject>
+  <FirstRestoreBtn><![CDATA[//table[@id='list1']/tbody[1]/tr[2]/td[7]/a[2]/span]]></FirstRestoreBtn>
+  
+  
+  
+  <EnterSubject><![CDATA[//*[@id='gs_name']]]></EnterSubject>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a]]></Edit>
+  <Subjuct1><![CDATA[//*[@id='TaskName']]]></Subjuct1>
+  
+  <Create><![CDATA[//a[@title='Create New tasks']]]></Create>
+  
+  <ValdatiponForSujectField><![CDATA[//*[@id='TaskName-error']]]></ValdatiponForSujectField>
+  <Valdationforstartdate><![CDATA[//*[@id='TaskStartDate-error']]]></Valdationforstartdate>
+  <ErrorDuedate><![CDATA[//*[@id='TaskDueDate-error']]]></ErrorDuedate>
+  <SelectRelatedTo><![CDATA[//*[@id='TaskParentType']]]></SelectRelatedTo>#Client
+  <SelectAssignedTo><![CDATA[//*[@id='assignrecord']/i]]></SelectAssignedTo>
+  <ClickToSelectClient><![CDATA[//table[1]/tbody/tr[1]/td[3]/a]]></ClickToSelectClient>
+  <ClickOnTaskEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]/a]]></ClickOnTaskEdit>
+  <ClickEditBtn><![CDATA[//*[@id='rerun']/span[1]]]></ClickEditBtn>
+  <EditTaskIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a]]></EditTaskIcon>
+  <ClickOnAddTaskButton><![CDATA[//a[@title='Add Task']]]></ClickOnAddTaskButton>
+  <SelectActivityType><![CDATA[//*[@id='gs_activity_type']]]></SelectActivityType>
+  <OpenTaskClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></OpenTaskClient>
+  <OpenTask><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></OpenTask>
+  <CorpTaskSubject><![CDATA[//*[@id='CorporateTaskName']]]></CorpTaskSubject>
+  <Priority><![CDATA[//*[@id='CorporateTaskPriority']]]></Priority>
+  <EnterStartDate><![CDATA[//*[@id='CorporateTaskStartDate']]]></EnterStartDate>
+  <EnterDueDate><![CDATA[//*[@id='CorporateTaskDueDate']]]></EnterDueDate>
+  <SaveCorpTask><![CDATA[//*[@id='CreateTaskForm']/div[4]/a[1]]]></SaveCorpTask>
+  <TaskSubject><![CDATA[//*[@id='TaskName']]]></TaskSubject>
+  <TaskStartDate><![CDATA[//*[@id='TaskStartDate']]]></TaskStartDate>
+  <TaskDueDate><![CDATA[//*[@id='TaskDueDate']]]></TaskDueDate>
+  <TaskSave><![CDATA[//button[@title='Save']]]></TaskSave>
+  <ClickTask1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]/a]]></ClickTask1>
+  <TaskActivity><![CDATA[//*[@id='gs_activity_type']]]></TaskActivity>
+  <OpenTaskClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></OpenTaskClient>
+  <ClickMeeting1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickMeeting1>
+  <CheckBox1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></CheckBox1>
+  <CheckBox2><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></CheckBox2>
+  
+  <AddAttachment><![CDATA[//a[@title='Add Attachment']]]></AddAttachment>
+  <NameAttachment><![CDATA[//*[@id='DocumentName']]]></NameAttachment>
+  <BrowseFile><![CDATA[//*[@id='DocumentFile']]]></BrowseFile>
+  <AttachmentError><![CDATA[//*[@id='Documentcustom-error']]]></AttachmentError>
+  <RemoveAttachment><![CDATA[//a[@title='Remove Attachment']]]></RemoveAttachment>
+  <SaveAttachment><![CDATA[//*[@id='DocumentEditForm']//a[@title='Save']]]></SaveAttachment>
+  <TaskCategory><![CDATA[//*[@id='category']]]></TaskCategory>
+  <CreateTask><![CDATA[//span[text()='Create']]]></CreateTask>
+  <DeleteClientTask><![CDATA[//a[@title='Delete']]]></DeleteClientTask>
+  <RecycleTask><![CDATA[//span[contains(text(),'Recycle Bin')]]]></RecycleTask>
+  <RestoreTask><![CDATA[//a[@title='Restore This Task']]]></RestoreTask>
+  <DeleteTaskRecy><![CDATA[//a[@title='Delete Task Permenantly']]]></DeleteTaskRecy>
+  <BulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></BulkUpdate>
+  <ChangeStatus><![CDATA[//a[text()='Change Status']]]></ChangeStatus>
+  <SelectStatus><![CDATA[//*[@id='TaskStatusUpdateStatus']]]></SelectStatus>
+  <UpdateStatus><![CDATA[//*[@id='TaskStatusUpdateIndexForm']//a]]></UpdateStatus>
+  <ChangeUserGroup><![CDATA[//a[text()='Change User Group']]]></ChangeUserGroup>
+  <SelectGroup><![CDATA[//*[@id='TaskGroupUpdateAssignedUserGroupId']]]></SelectGroup>
+  <UpdateGroup><![CDATA[//*[@id='TaskGroupUpdateIndexForm']//a]]></UpdateGroup>
+  <ChangeOwner><![CDATA[//a[text()='Change Owner']]]></ChangeOwner>
+  <SelectOwner><![CDATA[//*[@id='TaskOwnerUpdateAssignedUserId']]]></SelectOwner>
+  <UpdateOwner><![CDATA[//*[@id='TaskOwnerUpdateIndexForm']//a]]></UpdateOwner>
+  <ChangePriority><![CDATA[//a[text()='Change Priority']]]></ChangePriority>
+  <SelectPriority><![CDATA[//*[@id='TaskPriorityUpdatePriority']]]></SelectPriority>
+  <UpdatePriority><![CDATA[//*[@id='TaskPriorityUpdateIndexForm']//a]]></UpdatePriority>
+  <VerifyStatus><![CDATA[//*[@id='status']]]></VerifyStatus>
+  <VerifyPriority><![CDATA[//*[@id='priority']/span[1]]]></VerifyPriority>
+  <VerifyResponsibility><![CDATA[//*[@id='responsibility']]]></VerifyResponsibility>
+  <SelStatus><![CDATA[//*[@id='TaskStatus']]]></SelStatus>
+  <SelectCategory><![CDATA[//*[@id='TaskCategoryId']]]></SelectCategory>
+  
+  <SelOwner><![CDATA[//*[@id='TaskAssignedUserId']]]></SelOwner>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+ 
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <Apply><![CDATA[//button[text()='Apply']]]></Apply>
+
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofResults><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofResults>
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+
+  <TaskWithNote><![CDATA[//*[@id='TaskNotes']]]></TaskWithNote>
+  <NoteTask><![CDATA[//tbody/tr[1]/td[5]/a]]></NoteTask>
+  <TaskWithClients><![CDATA[//*[@id='TaskClienttasks']]]></TaskWithClients>
+  <TaskRelatedTo><![CDATA[//table[@id='list1']/tbody/tr[2]/td[12]]]></TaskRelatedTo>
+  <TaskWithLeads><![CDATA[//*[@id='TaskLeadtasks']]]></TaskWithLeads>
+  <TaskWithContacts><![CDATA[//*[@id='TaskContacttasks']]]></TaskWithContacts>
+  <TaskWithOppo><![CDATA[//*[@id='TaskOpportunitytasks']]]></TaskWithOppo>
+  <TaskWithAttach.><![CDATA[//*[@id='TaskTaskattachment']]]></TaskWithAttach.>
+  <AttachmentTask><![CDATA[//table[@class='table table-bordered']/tbody/tr/td[1]/a]]></AttachmentTask>
+
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[16]//div[text()='Status']]]></HeadStatus>
+  <HeadPriority><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Priority']]]></HeadPriority>
+  <HeadOwner><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[17]//div[text()='Owner']]]></HeadOwner>
+  <HeadModified><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[18]//div[text()='Modified']]]></HeadModified>
+  <HeadStatus6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[16]//div[text()='Status']]]></HeadStatus6>
+  <HeadPriority3><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Contact Name']]]></HeadPriority3>
+
+  <HeadStatus4><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Status']]]></HeadStatus4>
+  <HeadPriority5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[15]//div[text()='Priority']]]></HeadPriority5>
+
+
+  <!--Tab field-->
+  <OwnerField><![CDATA[//*[@id='gs_user_name']]]></OwnerField>
+  <OwnerFieldRecycle><![CDATA[//*[@id='gs_first_name']]]></OwnerFieldRecycle>
+  <CreatedByField><![CDATA[//*[@id='gs_first_name']]]></CreatedByField>
+  
+</Locators>
+
+

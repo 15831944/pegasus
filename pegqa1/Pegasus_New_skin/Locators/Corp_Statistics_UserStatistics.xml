@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <SelectDate><![CDATA[//*[@id='UsersFileDate']]]></SelectDate>
+  <ClickOnTheDate><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnTheDate>
+  <ClickOnAnyActiveUser><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnAnyActiveUser>
+  <ClickOnOfficeName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a]]></ClickOnOfficeName>
+  
+</Locators>

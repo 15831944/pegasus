@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- AdminSetFormatPhone.xml is used in conjunction with AdminSetFormatPhoneHelper.cs and -->
+<!-- AdminSetFormatPhone.cs -->
+
+<Locators>
+
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']]]></MenuIcon>
+  
+  <!--Client-->
+  <ClientsTab><![CDATA[//span[text()='Merchants']]]></ClientsTab>
+  <ClientBtn><![CDATA[//a[text()='All Merchants']]]></ClientBtn>
+  <CompanySearchBar><![CDATA[//*[@id="gs_company_dba_name"]]]></CompanySearchBar>
+  <FirstClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></FirstClient>
+  <SecondClient><![CDATA[//table[@id='list1']/tbody/tr[3]/td[15]/a]]></SecondClient>
+  <Save><![CDATA[//form[@id='ClientEditForm']/div[7]/div[2]/div/button]]></Save>
+  <Contacts><![CDATA[//a[text()='Contacts']]]></Contacts>
+  <Title><![CDATA[//*[@id="ClientContact0ClientContactContactTitle"]]]></Title>
+  <Phonenumber><![CDATA[//*[@id='ClientContact0ClientContactContactPhone0PhoneNumber']]]></Phonenumber>
+  <PhoneNumberTitle><![CDATA[//label[contains(text(),'Phone Number')]]]></PhoneNumberTitle>
+  <FieldFormatEmailError><![CDATA[//*[@id='ClientContact0ClientContactContactTitle-error']]]></FieldFormatEmailError>
+  
+  <!--Field Dictionary-->
+  <FieldDictionary><![CDATA[//a[@title='Field Dictionary']/span[1]]]></FieldDictionary>
+  <Fields><![CDATA[//a[@title='Fields']]]></Fields>
+  <FieldProperties><![CDATA[//a[text()='Field Properties']]]></FieldProperties>
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+  <ClientsModule><![CDATA[//*[@id="SearchFormModuleId"]/option[2]]]></ClientsModule>
+  <Tab><![CDATA[//*[@id='SearchFormTabName']]]></Tab>
+  <Search><![CDATA[//button[@title='Search']]]></Search>
+  <filter><![CDATA[//*[@id="filter"]]]></filter>
+  <TitleField><![CDATA[//a[text()='Title']]]></TitleField>
+  
+  <!--Validation-->
+  <FieldFormat><![CDATA[//*[@id="MetaTableValidationFieldFormat"]]]></FieldFormat>
+  
+  <FieldContentType><![CDATA[//*[@id="MetaTableValidationFormatType"]]]></FieldContentType>
+  
+  <FieldDataType><![CDATA[//*[@id="MetaTableValidationDataType"]]]></FieldDataType>
+  <SelectDate><![CDATA[//*[@id="MetaTableValidationDataType"]]]></SelectDate>
+  <ApplyDataTypeValidation><![CDATA[//*[@id="MetaTableValidationDatatype"]]]></ApplyDataTypeValidation>
+  <SelectDecimal><![CDATA[//*[@id="MetaTableValidationDataType"]]]></SelectDecimal>
+  <SelectNumeric><![CDATA[//*[@id="MetaTableValidationDataType"]]]></SelectNumeric>
+  <FederalTax><![CDATA[//*[@id='metafieldsmanage']//a[text()='SSN/Federal Tax ID (remove all dashes)']]]></FederalTax>
+  <FerderalTaxField><![CDATA[//*[@id='ClientDetailTaxID']]]></FerderalTaxField>
+  <MandatoryCheckBox><![CDATA[//*[@id="MetaTableValidationMandatory"]]]></MandatoryCheckBox>
+  <CompanyDetails><![CDATA[//a[text()='Company Details']]]></CompanyDetails>
+  <FederalTaxID><![CDATA[//*[@id='metafieldsmanage']//a[text()='Check here if Federal Tax ID#']]]></FederalTaxID>
+  <CityField><![CDATA[//*[@id='ClientDetailMailingCity']]]></CityField>
+  <City><![CDATA[//a[text()='City']]]></City>
+  <FieldLengthCheckBox><![CDATA[//*[@id='MetaTableValidationFieldLength']]]></FieldLengthCheckBox>
+  <MinBox><![CDATA[//*[@id='MetaTableValidationMin']]]></MinBox>
+  <MaxBox><![CDATA[//*[@id='MetaTableValidationMax']]]></MaxBox> 
+  <SaveFieldManager><![CDATA[//button[contains(text(),'Save')]]]></SaveFieldManager>
+
+  <!--new-->
+  <Processor><![CDATA[//select[@id='SearchFormProcessorId']]]></Processor>
+  <Tab><![CDATA[//select[@id='SearchFormTabName']]]></Tab>
+  <Section><![CDATA[//select[@id='SearchFormSectionName']]]></Section>
+  <ContactTitle><![CDATA[//a[contains(text(),'Title')]]]></ContactTitle>
+  <ProcFieldFormat><![CDATA[//input[@id='MetaTableProcessorValidationFieldFormat']]]></ProcFieldFormat>
+  <ProcFieldContntType><![CDATA[//select[@id='MetaTableProcessorValidationFormatType']]]></ProcFieldContntType>
+  <ProcApplyDataTypeValidation><![CDATA[//input[@id='MetaTableProcessorValidationDatatype']]]></ProcApplyDataTypeValidation>
+  <ProcFieldDataType><![CDATA[//select[@id='MetaTableProcessorValidationDataType']]]></ProcFieldDataType>
+
+</Locators>

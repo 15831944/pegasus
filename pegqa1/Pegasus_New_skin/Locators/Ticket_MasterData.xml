@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create']]]></Create>
+  <Name><![CDATA[//*[@id='TicketMasterDataName']]]></Name>
+  <Save><![CDATA[//input[@title='Save']]]></Save>
+  <PriorityName><![CDATA[//*[@id='TicketMasterDataName']]]></PriorityName>
+  <ClicKOnIssueResolved><![CDATA[//ul[@id='sortable']/li[1]/div[2]/a]]></ClicKOnIssueResolved>
+  <ClickOnAyTicketCategory><![CDATA[//div[@id='list']/ul/li[1]/div[2]/a]]></ClickOnAyTicketCategory>
+  <Cancel><![CDATA[//a[@title='Cancel']]]></Cancel>
+  <DeleteItem><![CDATA[//a[@title='Cancel']]]></DeleteItem>
+  <ReplaceWith><![CDATA[//*[@id='TicketMasterDataReplaceItem']]]></ReplaceWith>
+  <SaveDelete><![CDATA[//*[@id='delete-item-submit']]]></SaveDelete>
+  <OpenTicket><![CDATA[//ul[@id='sortable']//li[1]//a]]></OpenTicket>
+  <OpenTicket2><![CDATA[//ul[@id='sortable']//li[2]//a]]></OpenTicket2>
+  <TicketAlready_Validation><![CDATA[//div[text()='Name Already Exists.']]]></TicketAlready_Validation>
+  <Select><![CDATA[//select[@id='TicketMasterDataDeleteItems']]]></Select>  
+  
+  
+</Locators>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+
+  <!--Compose Email page-->
+  <From><![CDATA[//select[@id='EmailEmailAccounts']]]></From>
+  <To><![CDATA[//*[@id='EmailToAddrs']]]></To>
+  <Subject><![CDATA[//*[@id='EmailName']]]></Subject>
+  <Send><![CDATA[//div[contains(@class,'draftdivwithoutaccount')]/a[1]]]></Send>
+  <OptionsSection><![CDATA[//h4[text()='Options ']]]></OptionsSection>
+  <RelatedTo><![CDATA[//select[@id='EmailParentType']]]></RelatedTo>
+  <SelectRelatedBtn><![CDATA[//a[@id='assignrecord']/i]]></SelectRelatedBtn>
+  <Select1popup><![CDATA[//div[@id='popupContent']/table[1]/tbody/tr[1]/td[3]/a]]></Select1popup>
+  
+  
+  <!--Sent Email page-->
+  <Searchbox><![CDATA[//input[@id='MailSearchTerm']]]></Searchbox>
+  <SearchBtn><![CDATA[//button[@id='fbox_list1_search']]]></SearchBtn>
+  <SentEmail1><![CDATA[//table[@class='table table-hover table-mail']/tbody/tr[2]/td[3]/a]]></SentEmail1>
+  
+  
+  
+  
+  
+  <EmailAccount><![CDATA[//select[@id='emailAccounts']]]></EmailAccount>
+  <SecondTile><![CDATA[//div[@class='file-manager']/ul/li[2]/a]]></SecondTile>
+  <ToAddress><![CDATA[//*[@id='toaddrs']]]></ToAddress>
+  
+  <FEmployee><![CDATA[//table[contains(@class,'table-mail')]/tbody/tr[1]/td[1]/input[2]]]></FEmployee>
+  <SEmployee><![CDATA[//table[contains(@class,'table-mail')]/tbody/tr[2]/td[1]/input[2]]]></SEmployee>
+  <TEmployee><![CDATA[//table[contains(@class,'table-mail')]/tbody/tr[3]/td[1]/input[2]]]></TEmployee>
+  <AddEmployee><![CDATA[//*[@id='submitemail']]]></AddEmployee>
+  
+  <Draft><![CDATA[//a[@title='Move to draft folder']]]></Draft>
+  <Draft1><![CDATA[//table/tbody/tr[2]/td[1]/div/ins]]></Draft1>
+  <DeleteDraft><![CDATA[//*[@id='deletelead']]]></DeleteDraft>
+  <VefifyUploadedFileName><![CDATA[//*[@id='EmailFiles_wrap_list']/div[1]/span]]></VefifyUploadedFileName>
+  <VerifyUploaded2Pdf><![CDATA[//*[@id='EmailFiles_wrap_list']/div[2]/span]]></VerifyUploaded2Pdf>
+  <ClickonAnySentEmail><![CDATA[//table[@class='table table-hover table-mail']/tbody/tr[2]/td[3]/a]]></ClickonAnySentEmail>
+  
+  <EmailSentTo><![CDATA[//*[@id='page-wrapper']//h5/span[3]]]></EmailSentTo>
+  
+  <ClickAnyEmail><![CDATA[//*[@id='page-wrapper']/div[3]/div[2]/div[2]/div[2]/div/div/table/tbody/tr[2]/td[3]/a]]></ClickAnyEmail>
+  <ClickOnForward><![CDATA[//a[@class='btn btn-sm btn-white forward']]]></ClickOnForward>
+  <EnterToEmailRI><![CDATA[//*[@id='EmailToAddrs']]]></EnterToEmailRI>
+  <ClickSendBtn><![CDATA[//*[@id='page-wrapper']/div[3]/div[2]/div[2]/div[1]/div[2]/a[1]]]></ClickSendBtn>
+  <SendEmailActivity><![CDATA[//div[@class='mail-box-header']/div[2]/a[1]]]></SendEmailActivity>
+  <ClickOnNoteOppSubj><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickOnNoteOppSubj>
+  <EnterCCMuliple><![CDATA[//*[@id='EmailCcAddrs']]]></EnterCCMuliple>
+  <Sendto><![CDATA[//*[@id='EmailToAddrs']]]></Sendto>
+  <EmailName><![CDATA[//*[@id='EmailName']]]></EmailName>
+   <SelectActivityType><![CDATA[//*[@id='gs_activity_type']]]></SelectActivityType>
+  <ClickEmail1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickEmail1>
+  <ClickEmail1Oppo><![CDATA[//table[@id='list1']/tbody/tr[2]/td[17]/a]]></ClickEmail1Oppo>
+  <SearchMailInput><![CDATA[//*[@id='MailSearchTerm']]]></SearchMailInput>
+  <SearchBtn><![CDATA[//*[@id='fbox_list1_search']]]></SearchBtn>
+  <CheckBox1><![CDATA[//table/tbody/tr[2]/td[1]/div/ins]]></CheckBox1>
+  <Delete><![CDATA[//*[@id='deletelead']]]></Delete>
+  <Inbox1Chk><![CDATA[//table/tbody/tr[2]/td[1]/div/ins]]></Inbox1Chk>
+  <DataPlacement><![CDATA[//button[@data-placement='top']]]></DataPlacement>
+  <Createlabel><![CDATA[//a[text()='Create Label']]]></Createlabel>
+  <Move><![CDATA[//button[@type='submit']]]></Move>
+  <NameError><![CDATA[//*[@id='mailNewLabel-error']]]></NameError>
+  
+  
+  
+  
+</Locators>

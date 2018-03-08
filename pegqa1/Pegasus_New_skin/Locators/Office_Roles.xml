@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create New Role']]]></Create>
+  <Name><![CDATA[//*[@id='OrganizationRoleName']]]></Name>
+  <Department><![CDATA[//*[@id='OrganizationRoleOrgDeptId']]]></Department>
+  <Manager><![CDATA[//*[@id='OrganizationRoleManager']]]></Manager>
+  <Save><![CDATA[//*[@id='roleCreate']]]></Save>
+  <SearchName><![CDATA[//*[@id='gs_name']]]></SearchName>
+  <DeleteIcon><![CDATA[//tr[2]//td[2]/a[@title='Delete Role']]]></DeleteIcon>
+  
+  
+  
+
+</Locators>

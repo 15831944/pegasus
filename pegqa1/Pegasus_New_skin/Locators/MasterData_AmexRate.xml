@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <OpenAnyAmextRate><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a]]></OpenAnyAmextRate>
+  <AmexRates><![CDATA[//*[@id='MasterRatesAmexAmexRate']]]></AmexRates>
+  <AmexPerItem><![CDATA[//*[@id='MasterRatesAmexAmexPerItem']]]></AmexPerItem>
+  <AmexRatesError><![CDATA[//*[@id='MasterRatesAmexAmexRate-error']]]></AmexRatesError>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  
+  
+</Locators>
+
+

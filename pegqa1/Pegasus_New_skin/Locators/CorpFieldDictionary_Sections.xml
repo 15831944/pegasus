@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ClickCreateButton><![CDATA[//a[@title='Add New Section']]]></ClickCreateButton>
+  <TabNameFieldDicSevtion><![CDATA[//*[@id='CorporateMetaSectionNameTabId']]]></TabNameFieldDicSevtion>
+  <FDSectionName><![CDATA[//*[@id='CorporateMetaSectionNameName']]]></FDSectionName>
+  <FDSaveButton><![CDATA[//button[text()='Save']]]></FDSaveButton>
+
+</Locators>

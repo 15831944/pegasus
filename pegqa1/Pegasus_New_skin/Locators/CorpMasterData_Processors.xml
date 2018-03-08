@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[//a[contains(text(),'Create')]]]></Create>
+  <ProcessorName><![CDATA[//*[@id='CorporateMasterProcessorNewProcessorName']]]></ProcessorName>
+  <ProcessorCode><![CDATA[//*[@id='CorporateMasterProcessorProcessorCode']]]></ProcessorCode>
+  <FetchField><![CDATA[//select[@id='CorporateMasterProcessorFieldFromProcessor']]]></FetchField>
+  <ProceNameFilter><![CDATA[//*[@id='gs_processor_name']]]></ProceNameFilter>
+  <SearchProcessor><![CDATA[//*[@id='gs_processor_name']]]></SearchProcessor>
+  <ClickEditIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[1]]]></ClickEditIcon>
+  <DeleteIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[2]]]></DeleteIcon>
+  <PushtoOffice><![CDATA[//a[@title='Push to Offices']]]></PushtoOffice>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <ClickFirstProcessor><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a]]></ClickFirstProcessor>
+
+</Locators>
+
+

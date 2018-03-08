@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <ProfileIocn><![CDATA[//*[@id='dropdownMenu1']]]></ProfileIocn>
+  <ProfileBtn><![CDATA[//a[text()='Profile']]]></ProfileBtn>
+  <EditProfileBtn><![CDATA[//a[contains(text(),'Edit Profile')]]]></EditProfileBtn>
+  <AddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></AddressType>
+  <SaveBtn><![CDATA[//button[contains(text(),'Save')]]]></SaveBtn>
+  
+  
+</Locators>

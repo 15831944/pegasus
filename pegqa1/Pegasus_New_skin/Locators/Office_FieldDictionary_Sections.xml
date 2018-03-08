@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <SelectModule><![CDATA[//*[@id='loadmoduletabs']]]></SelectModule>
+  <SelectTab><![CDATA[//select[@id='z_tabs']]]></SelectTab>
+  <Create><![CDATA[//a[@title='Add New Section']]]></Create>
+  <TabName><![CDATA[//*[@id='MetaSectionNameTabId']]]></TabName>
+  <Name><![CDATA[//*[@id='MetaSectionNameName']]]></Name>
+  <Save><![CDATA[//*[@id='MetaSectionNameOfficeSectionManagementForm']/div/div/div[3]/button[1]]]></Save>
+  <FSChangeTab><![CDATA[//div[@id='section_area']/ol/li/ol/li[1]/div/span/a]]></FSChangeTab>
+  <EditSave><![CDATA[//button[text()='Save']]]></EditSave>
+
+</Locators>
+
+

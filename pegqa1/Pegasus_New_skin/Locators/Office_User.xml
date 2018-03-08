@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  
+  <!--Create User page-->
+  <UserType><![CDATA[//*[@id='UserType']]]></UserType>
+  <CreateNew><![CDATA[//*[@id='EmployeeCreatenew1']]]></CreateNew>
+  <UseExisting><![CDATA[//input[@id='EmployeeCreatenew2']]]></UseExisting>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <UserPassword><![CDATA[//*[@id='UserPassword']]]></UserPassword>
+  <Salutation><![CDATA[//*[@id='EmployeeSalutation']]]></Salutation>
+  <FirstName><![CDATA[//*[@id='EmployeeFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  <PrimaryEmail><![CDATA[//*[@id='EmployeePrimaryEmail']]]></PrimaryEmail>
+  <Birthdate><![CDATA[//input[@id='EmployeeBirthday']]]></Birthdate>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SelectExistingUser><![CDATA[//select[@id='EmployeeEmployeeId']]]></SelectExistingUser>
+  <eAddress><![CDATA[//input[@id='EmployeeElectronicAddress1ElectronicContent']]]></eAddress>
+  
+  <!--For user type >> 1099 sales agent-->
+  <SAAvatar><![CDATA[//label[contains(text(),'1099 Sales User')]/input]]></SAAvatar>
+  
+  
+  
+  <!--For user type >> partner association-->
+  <PAssBirthdate><![CDATA[//input[@id='EmployeeBirthday']]]></PAssBirthdate>
+
+
+  <!--For user type >> partner agent-->
+  <PartnerUserAvatar><![CDATA[//label[text()='Partner User']/input]]></PartnerUserAvatar>
+
+  
+  
+  
+  <!--All Users page-->
+  <CreateButton><![CDATA[//a[@title='Create an Employee User']]]></CreateButton>
+  <SelectUserType><![CDATA[//select[@id='gs_usertype']]]></SelectUserType>
+  <SearchUser><![CDATA[//input[@id='gs_contactNm']]]></SearchUser>
+  <User1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/a]]></User1>
+  <BirthDate><![CDATA[//*[@id='page-wrapper']/div[5]/div/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[2]]]></BirthDate>
+  
+  
+  
+  
+  
+  
+  
+  <AvtarSalesUser><![CDATA[//*[@id='1241']]]></AvtarSalesUser>
+  <AvtarEmployeeAdmin><![CDATA[//div[@id='refreshavatars']/div[1]/label[1]/input]]></AvtarEmployeeAdmin>
+  
+  <Status><![CDATA[//*[@id='gs_status']]]></Status>
+  <EnterEmail><![CDATA[//*[@id='gs_electronic_content']]]></EnterEmail>
+  <EditDetails><![CDATA[//a[@title='Edit Details']]]></EditDetails>
+  <EmailFilter><![CDATA[//*[@id='gs_electronic_content']]]></EmailFilter>
+  <ClickUser><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/a]]></ClickUser>
+  <ViewButton><![CDATA[//a[text()='View']]]></ViewButton>
+  <ResetPassword><![CDATA[//a[@title='Reset Password']]]></ResetPassword>
+  <AvtarAdminUser><![CDATA[//div[@id='avatars']/div[2]/div/label[1]/input]]></AvtarAdminUser>
+  <Usertype><![CDATA[//*[@id='UserType']]]></Usertype>
+  <SelectStatus1><![CDATA[//*[@id='gs_status']]]></SelectStatus1>
+  <UserAutoGenerate><![CDATA[//*[@id='UserAutogenerate']]]></UserAutoGenerate>
+  <CreateNew><![CDATA[//*[@id='EmployeeCreatenew1']]]></CreateNew>
+  <AvtatSalesAgent><![CDATA[//*[@id='avatars']/div/div/label/input]]></AvtatSalesAgent>
+  <AvtarPartnerAssociation><![CDATA[//div[@id='refreshavatars']//label[4]/input]]></AvtarPartnerAssociation>
+  <Save1099><![CDATA[//button[@title='Save']]]></Save1099>
+  <UserCheckNotCheck><![CDATA[//*[@id='UserPassword' and @readonly='readonly']]]></UserCheckNotCheck>
+  <ManageUser><![CDATA[//div[@class='col-lg-4']]]></ManageUser>
+  <OpenUser><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'view')]]]></OpenUser>
+  <UserSelectCount><![CDATA[//select[@role='listbox']]]></UserSelectCount>
+  <AutogenerateChk><![CDATA[//*[@id='UserAutogenerate']]]></AutogenerateChk>
+  <AddInfoEmail><![CDATA[//*[@id='EmployeeElectronicAddress1ElectronicContentType']]]></AddInfoEmail>
+  <AddEmail><![CDATA[//a[text()='Add E-Mail']]]></AddEmail>
+  <AddInfoPhone><![CDATA[//*[@id='EmployeePhone0PhoneNumber']]]></AddInfoPhone>
+  <AddInfoAdd><![CDATA[//*[@id='EmployeeAddress0AddressLine2']]]></AddInfoAdd>
+  <AddiInfo><![CDATA[//h5[contains(text(),'Additional Contact Info')]]]></AddiInfo>
+  <SearchAgentName><![CDATA[//*[@id='gs_contactNm']]]></SearchAgentName>
+  <FirstAgentName><![CDATA[//table[@id='list1']//tr[2]/td[7]/a]]></FirstAgentName>
+  <SearchUserType><![CDATA[//*[@id='gs_usertype']]]></SearchUserType>
+  <NoRecord><![CDATA[//*[@id='div_no_record_list1']]]></NoRecord>
+ <LastLogon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_lastlogon']]]></LastLogon>
+  <ClickRefreshCU><![CDATA[//*[@id='reloadform']]]></ClickRefreshCU>
+  <SearchClientUSER><![CDATA[//*[@id='gs_dba']]]></SearchClientUSER>
+  <ClickOnTheClientUser><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></ClickOnTheClientUser>
+  <ClickOnDeleteUser><![CDATA[//a[@title='Delete User']]]></ClickOnDeleteUser>
+  <ClickManageClientUserOffice><![CDATA[//*[contains(h5, 'Client Users')]/div/div/button/i]]></ClickManageClientUserOffice>
+  <ClickAddUserOff><![CDATA[//*[@id='addUsers']]]></ClickAddUserOff>
+  <VerifyOwner><![CDATA[//table[@class='table table-bordered']/tbody/tr/td[3]]]></VerifyOwner>
+  <CreateClientUser><![CDATA[//*[@id='actionbuttons']/i]]></CreateClientUser>
+  <CreateClientUser1><![CDATA[//*[@id='ClientCreateUserForm']/div[3]/div[3]/a]]></CreateClientUser1>
+  <EnterCompanyNameCU><![CDATA[//*[@id='ClientCompanyDbaName']]]></EnterCompanyNameCU>
+  <ClickOnSearchButton><![CDATA[//*[@id='searchButton']]]></ClickOnSearchButton>
+  <ClickOnClinetCName><![CDATA[//table[@class='table table-hover table_right']/tbody/tr[1]/td[2]/a]]></ClickOnClinetCName>
+  <ClickCreateClUserBtn><![CDATA[//a[@class='btn btn-primary btn-sm saveform']]]></ClickCreateClUserBtn>
+  <ClikCloseCUPOP><![CDATA[//*[@id='select_client_pop_up']/div/div/div[1]/button]]></ClikCloseCUPOP>
+  <ClickDbaname><![CDATA[//table/tbody/tr/td[2]/a]]></ClickDbaname>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <No.ofRecords><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofRecords>
+  <NOR><![CDATA[//div[contains(text(), 'Showing 1 - 50 of')]]]></NOR>
+  <EmailAddress><![CDATA[//*[@id='EmployeeElectronicAddress2ElectronicContent']]]></EmailAddress>
+  
+  
+  <DisplayedCols><![CDATA[//*[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='Status']]]></HeadStatus>
+  <HeadEmail><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='E-Mail']]]></HeadEmail>
+  <HeadPhone><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Phone']]]></HeadPhone>
+  <HeadModified><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[14]//div[text()='Modified']]]></HeadModified>
+  <HeadEmail5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='E-Mail']]]></HeadEmail5>
+  <HeadPhone6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Phone']]]></HeadPhone6>
+
+  <HeadEmail3><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='E-Mail']]]></HeadEmail3>
+  <HeadPhone7><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Phone']]]></HeadPhone7>
+
+
+
+</Locators>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  
+  <!--All Merchants page-->
+  <ClickOnMerchant><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></ClickOnMerchant>
+  <EnterClinentToSearch><![CDATA[//*[@id='gs_company_dba_name']]]></EnterClinentToSearch>
+  <OpenMerchant><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></OpenMerchant>
+  <Email1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]]]></Email1>
+  <Contact1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]]]></Contact1>
+  <SalesEmailField><![CDATA[//input[@id='gs_salesEmail']]]></SalesEmailField>
+  
+  
+  
+  
+  <!--View Merchant page-->
+  <SelectActivityType><![CDATA[//*[@id='gs_activity_type']]]></SelectActivityType>
+  <SearchActivityName><![CDATA[//input[@id='gs_name']]]></SearchActivityName>
+  <ClickOnActivityAny><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></ClickOnActivityAny>
+  <CreatedOnText><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedOnText>
+  <LocAddView><![CDATA[//*[@id='page-wrapper']/div[5]/div/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[6]/div/div/div]]></LocAddView>
+  
+  
+  <!--View Email-->
+  <LegalName><![CDATA[//div[@id='note_status']]]></LegalName>
+  
+  
+  <!--Advanced Filter-->
+  <UserDetailEmail><![CDATA[//div[@class='row']/div[1]/div[4]/input[2]]]></UserDetailEmail>
+  <UserDetailsCity><![CDATA[//div[@class='row']/div[2]/div[2]/input[2]]]></UserDetailsCity>
+  <UserDetailZipCode><![CDATA[//div[@class='row']/div[2]/div[4]/input[2]]]></UserDetailZipCode>
+  <UserDetailCompany><![CDATA[//div[@class='row']/div[1]/div[1]/input[2]]]></UserDetailCompany>
+  <UserDetailContact><![CDATA[//div[@class='row']/div[1]/div[2]/input[2]]]></UserDetailContact>
+  
+  
+  
+  
+  
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']]]></MenuIcon>
+  <ClickOnMerchnatTab><![CDATA[//span[text()='Merchants']]]></ClickOnMerchnatTab>
+  <VeriyTextForCMerchant><![CDATA[//a[@title='Corporate Employee']]]></VeriyTextForCMerchant>
+  <CickonMercahnt><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></CickonMercahnt>
+  
+  
+  
+  <SelectTicketInMerchnatHistory><![CDATA[//*[@id='gs_activity_type']]]></SelectTicketInMerchnatHistory>#Tickets
+  <ClickEmpandIcon><![CDATA[//*[@id='menu']/li[1]/a/i]]></ClickEmpandIcon>
+  <MerchantSeacrhByCompany><![CDATA[//*[@id='gs_company_dba_name']]]></MerchantSeacrhByCompany>
+  
+  
+  <ClickOnFirstMerchant><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]]]></ClickOnFirstMerchant>
+  <ClickOnMerchantAny><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></ClickOnMerchantAny>
+  <OpenEmailCorp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></OpenEmailCorp>
+  <ClickOnMerchantSubject><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></ClickOnMerchantSubject>
+  <TIcket1_Merchant><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></TIcket1_Merchant>
+  <TaskCreateDate><![CDATA[//*[@id='gs_created']]]></TaskCreateDate>
+  <TaskNoRecord><![CDATA[//*[@id='div_no_record_list1']]]></TaskNoRecord>
+  <AdvanceFilter><![CDATA[//span[contains(text(),'Advanced Filter')]]]></AdvanceFilter>
+  <SearchEmail><![CDATA[//*[@id='gs_electronic_content']]]></SearchEmail>
+  <EnterEmail><![CDATA[//div[@class='ibox-content gray-bg']/div/div[1]/div[4]//input[2]]]></EnterEmail>
+  <Apply><![CDATA[//button[text()='Apply']]]></Apply>
+  <VerifyEmail1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]]]></VerifyEmail1>
+  <AvailableColumn><![CDATA[//*[@id='hide_cols']]]></AvailableColumn>
+  <ArrowLeft><![CDATA[//*[@id='btn-add']/span]]></ArrowLeft>
+  <SalesEmail><![CDATA[//select[@id='hide_cols']/option[1]]]></SalesEmail>
+  <SelectZipCode><![CDATA[//*[@id='hide_cols']/optgroup[@label='ClientDetail']]]></SelectZipCode>
+  <ZipText><![CDATA[//*[@id='gs_pcZip']]]></ZipText>
+  <VerifyZipCode><![CDATA[//*[@id='jqgh_list1_pcZip']]]></VerifyZipCode>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofResults><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofResults>
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadCompany><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[6]//div[text()='Company']]]></HeadCompany>
+  <HeadContact><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[7]//div[text()='Contact Name']]]></HeadContact>
+  <HeadPhone><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[8]//div[text()='Phone']]]></HeadPhone>
+  <HeadEmail><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='E-Mail']]]></HeadEmail>
+  <HeadContact5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[7]//div[text()='Contact Name']]]></HeadContact5>
+  <HeadPhone6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[8]//div[text()='Phone']]]></HeadPhone6>
+  <HeadContact1><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[3]//div[text()='Contact Name']]]></HeadContact1>
+  <HeadPhone7><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Phone']]]></HeadPhone7>
+
+  <!--Field Tab-->
+  <CreatedByField><![CDATA[//*[@id='gs_createdby']]]></CreatedByField>
+  
+  
+  <!--Office create the client-->
+  <CreateBtn><![CDATA[//a[span[text()='Create']]]]></CreateBtn>
+  <BusinessName><![CDATA[//*[@id='ClientDetailCompanyDbaName']]]></BusinessName>
+  <ClientStatus><![CDATA[//*[@id='ClientStatus']]]></ClientStatus>
+  <ClientResponsibility><![CDATA[//*[@id='ClientAssignedUserId']]]></ClientResponsibility>
+  <SaveBtn><![CDATA[//button[contains(text(),'Save')]]]></SaveBtn>
+  <FirstCheckBox><![CDATA[//table[@id='list1']//tr[2]//td/input]]></FirstCheckBox>
+  <DeleteBtn><![CDATA[//a[span[text()='Delete']]]]></DeleteBtn>
+
+</Locators>

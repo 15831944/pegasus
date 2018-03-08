@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']]]></MenuIcon>
+  <AgentTab><![CDATA[//span[text()='Agents']]]></AgentTab>
+  <SelectUserType><![CDATA[//*[@id='gs_UserType']]]></SelectUserType>
+  <ClickOnAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a]]></ClickOnAgentTab>
+  <SelectAgentType><![CDATA[//*[@id='gs_UserType']]]></SelectAgentType>
+  <SelectStatus><![CDATA[//*[@id='gs_active']]]></SelectStatus>
+  <SelectRole><![CDATA[//*[@id='gs_role']]]></SelectRole>
+  <SelectDepartment><![CDATA[//*[@id='gs_departmentname']]]></SelectDepartment>
+  <SelectTeam><![CDATA[//*[@id='gs_teamname']]]></SelectTeam>
+  <SearchAgentName><![CDATA[//*[@id='gs_contactNm']]]></SearchAgentName>
+  <VerifyStatus><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]]]></VerifyStatus>
+  <EditAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/span/a]]></EditAgent>
+  <ViewAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/a]]></ViewAgent>
+  <ManageUser><![CDATA[//a[text()='Manage User']]]></ManageUser>
+  <DisableUser><![CDATA[//a[@title='Disable this user']]]></DisableUser>
+  <ToggleActivate><![CDATA[//*[@id='UserViewUserForm']/div[3]/a]]></ToggleActivate>
+  <ActivateUser><![CDATA[//a[@title='Make Active']]]></ActivateUser>
+
+
+
+
+
+</Locators>
+

@@ -1,0 +1,111 @@
+Login with valid credentials
+Verify Page title
+Redirect at Create Lead
+Enter First Name
+Enter Last Name
+Enter Lead Company DBA Name
+Wait for element to be visible.
+Select Lead Status
+Select Responsibilities
+Click on Save
+Wait for Confirmation
+Redirect at leads page.
+Verify page title as leads.
+Dearch lead by company name.
+Click to view searched lead.
+Go to PDF Tab
+Click on Add Document
+Enter document name
+Upload file
+Click Save button
+Verify 500 Error not occured
+Login with valid credentials
+Verify Page title
+Redirect at Create Lead
+Enter First Name
+Enter Last Name
+Enter Lead Company DBA Name
+Wait for element to be visible.
+Select Lead Status
+Select Responsibilities
+Click on Save
+Wait for Confirmation
+Redirect at leads page.
+Verify page title as leads.
+Dearch lead by company name.
+Click to view searched lead.
+Go to PDF Tab
+Click on Add Document
+Enter document name
+Upload file
+Click Save button
+Verify 500 Error not occured
+Login with valid credentials
+Verify Page title
+Redirect at Create Lead
+Enter First Name
+Enter Last Name
+Enter Lead Company DBA Name
+Wait for element to be visible.
+Select Lead Status
+Select Responsibilities
+Click on Save
+Wait for Confirmation
+Redirect at leads page.
+Verify page title as leads.
+Dearch lead by company name.
+Click to view searched lead.
+Go to PDF Tab
+Click on Add Document
+Enter document name
+Upload file
+Click Save button
+Verify 500 Error not occured
+Login with valid credentials
+Verify Page title
+Redirect at Create Lead
+Enter First Name
+Enter Last Name
+Enter Lead Company DBA Name
+Wait for element to be visible.
+Select Lead Status
+Select Responsibilities
+Click on Save
+Wait for Confirmation
+Redirect at leads page.
+Verify page title as leads.
+Dearch lead by company name.
+Click to view searched lead.
+Go to PDF Tab
+Click on Add Document
+Enter document name
+Upload file
+Click Save button
+Verify 500 Error not occured
+Click on Log a Call
+Enter from name
+Enter to name
+Enter from number
+Enter to number
+Click on Save button
+Verify 500 Error not occured
+Login with valid credentials
+Verify Page title
+Redirect at Create Lead
+Enter First Name
+Enter Last Name
+Enter Lead Company DBA Name
+Wait for element to be visible.
+Select Lead Status
+Select Responsibilities
+Click on Save
+Login with valid credentials
+Verify Page title
+Redirect at Create Lead
+Enter First Name
+Enter Last Name
+Enter Lead Company DBA Name
+Wait for element to be visible.
+Select Lead Status
+Select Responsibilities
+Click on Save

@@ -1,0 +1,24 @@
+Login with valid username and password
+Verify Page title
+Redirect at merchants page.
+Click on any Merchant
+Go to Terminals and Equipment tab
+Click on Add Equipment button
+Click on any Equipment
+Click on pencil icon
+Login with valid username and password
+Verify Page title
+Redirect at merchants page.
+Click on any Merchant
+Go to Terminals and Equipment tab
+Click on Add Equipment button
+Click on any Equipment
+Click on pencil icon
+Login with valid username and password
+Verify Page title
+Redirect at merchants page.
+Click on any Merchant
+Go to Terminals and Equipment tab
+Click on Add Equipment button
+Click on any Equipment
+Click on pencil icon

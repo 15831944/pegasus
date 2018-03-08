@@ -1,0 +1,271 @@
+WaitForWorkAround
+Login
+WaitForWorkAround
+Verify Title
+Login
+Verify Title
+Visit office
+Select module as clients
+Login
+Login
+Login
+Verify Title
+Visit office
+Select module as clients
+Click Search
+Type Text
+Click TitleField
+Click FieldFormat
+Login
+Verify Title
+Visit office
+Select module as clients
+Select Processor as First Data North
+Login
+Verify Title
+Visit office
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Click TitleField
+Click FieldFormat
+Login
+Verify Title
+Visit office
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Click TitleField
+Click FieldFormat
+Login
+Verify Title
+Visit office
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Click TitleField
+Click FieldFormat
+Click SaveFieldManager
+Redirect at Create Client
+Select Processor
+Enter Client Dba Name
+Select client status
+Select Client Res[onsibility.
+Click on next button
+Wait for confirmation message.
+Click On Contact Tab Clinet
+Enter the text
+Login
+Verify Title
+Visit office
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Click TitleField
+Click FieldFormat
+Click SaveFieldManager
+Redirect at Create Client
+Select Processor
+Enter Client Dba Name
+Select client status
+Select Client Res[onsibility.
+Click on next button
+Wait for confirmation message.
+Click On Contact Tab Clinet
+Enter the text
+Verify the Email Format Validation
+Redirect To clients page. 
+Enter Company Name
+Select client by check box
+Click on delete client
+Accept alert message.
+Wait for success message.
+Redirect To client recycle bin page. 
+Enter Company Name
+Click on delete client
+Accept alert message.
+Wait for success message.
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Login
+Verify Title
+Visit office
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Click TitleField
+Click FieldFormat
+Click SaveFieldManager
+Redirect at Create Client
+Select Processor
+Enter Client Dba Name
+Select client status
+Select Client Res[onsibility.
+Click on next button
+Wait for confirmation message.
+Click On Contact Tab Clinet
+Enter the text
+Verify the Email Format Validation
+Redirect To clients page. 
+Enter Company Name
+Select client by check box
+Click on delete client
+Accept alert message.
+Wait for success message.
+Redirect To client recycle bin page. 
+Enter Company Name
+Click on delete client
+Accept alert message.
+Wait for success message.
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type text
+Click TitleField
+Click FieldFormat
+Click SaveFieldManager
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Redirect at Create Client
+Select Processor
+Enter Client Dba Name
+Select client status
+Select Client Res[onsibility.
+Click on next button
+Wait for confirmation message.
+Click On Contact Tab Clinet
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Redirect at Create Client
+Select Processor
+Enter Client Dba Name
+Select client status
+Select Client Res[onsibility.
+Click on next button
+Wait for confirmation message.
+Click On Contact Tab Clinet
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Login
+Verify Title
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Click TitleField
+Click FieldFormat
+Click SaveFieldManager
+Redirect at Create Client
+Select Processor
+Enter Client Dba Name
+Select client status
+Select Client Res[onsibility.
+Click on next button
+Wait for confirmation message.
+Click On Contact Tab Clinet
+Enter the text
+Verify the Email Format Validation
+Redirect To clients page. 
+Enter Company Name
+Select client by check box
+Click on delete client
+Accept alert message.
+Wait for success message.
+Redirect To client recycle bin page. 
+Enter Company Name
+Click on delete client
+Accept alert message.
+Wait for success message.
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type text
+Click TitleField
+Click FieldFormat
+Click SaveFieldManager
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Login
+Verify Title
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Login
+Verify Title
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Select Processor as First Data North
+Login
+Verify Title
+Select module as clients
+Select Processor as First Data North
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Login
+Verify Title
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Login
+Verify Title
+Select module as clients
+Select Processor as First Data North
+Select Tab as Contacts
+Select Section as Contacts
+Click Search
+Type Text

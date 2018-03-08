@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create New Group']]]></Create>
+  <Name><![CDATA[//*[@id='GroupName']]]></Name>
+  <Description><![CDATA[//*[@id='GroupDescription']]]></Description>
+  <Group1Chk><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span[1]/a[1]]]></Group1Chk>
+  <GroupEdit><![CDATA[//span[text()='Edit']]]></GroupEdit>
+  <SaveBtnAdjustmnet><![CDATA[//a[@title='Save']]]></SaveBtnAdjustmnet>
+  <GroupNameError><![CDATA[//*[@id='GroupName-error']]]></GroupNameError>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SearchName><![CDATA[//*[@id='gs_name']]]></SearchName>
+  <DeleteIcon><![CDATA[//a[@title='Delete Group']]]></DeleteIcon>
+  
+
+</Locators>

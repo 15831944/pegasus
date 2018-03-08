@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <TabsIn><![CDATA[//*[@id='loadmoduletabs']]]></TabsIn>
+  <Create><![CDATA[//a[@title='Add New Tab']]]></Create>
+  <Name><![CDATA[//*[@id='MetaTabNameName']]]></Name>
+  <Save><![CDATA[//button[text()='Save']]]></Save>
+  <ClickOnEditTabIcon><![CDATA[//ol[2]/li[1]/div[1]/span[1]/a[2]/i]]></ClickOnEditTabIcon>
+
+</Locators>
+
+

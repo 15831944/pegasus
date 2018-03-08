@@ -1,0 +1,4 @@
+Select User Account Check Box
+Enter Username
+Select Avatar Check Box
+Enter Username

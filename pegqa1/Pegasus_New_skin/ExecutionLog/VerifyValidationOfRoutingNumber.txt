@@ -1,0 +1,240 @@
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Merchant
+Go to Business Details tab
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Merchant
+Go to Business Details tab
+Go to Contacts tab
+Verify Contacts label
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Merchant
+Go to Business Details tab
+Go to Contacts tab
+Verify Contacts label
+Login with valid username and password
+Verify Page title
+Create a client
+Enter DBA name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Merchant
+Go to Business Details tab
+Go to Contacts tab
+Verify Contacts label
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Go to Business Details tab
+Select Processor
+Verify validation not appearing
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead
+Login with valid username and password
+Verify Page title
+Create a lead
+Enter Company name
+Enter First Name
+Enter Last Name
+Select Status
+Select Responsibility
+Save Lead

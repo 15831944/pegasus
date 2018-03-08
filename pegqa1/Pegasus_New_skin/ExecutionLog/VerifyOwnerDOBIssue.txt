@@ -1,0 +1,24 @@
+Login with valid username and password
+Verify Page title
+Go to All Merchants
+Click on First Client
+Go to Owners Tab
+Enter DOB fo Owner
+Click on Save button
+Verify unnecessary validation does not appear
+Login with valid username and password
+Verify Page title
+Go to All Merchants
+Click on First Client
+Go to Owners Tab
+Enter DOB fo Owner
+Click on Save button
+Verify unnecessary validation does not appear
+Login with valid username and password
+Verify Page title
+Go to All Merchants
+Click on First Client
+Go to Owners Tab
+Enter DOB fo Owner
+Click on Save button
+Verify unnecessary validation does not appear

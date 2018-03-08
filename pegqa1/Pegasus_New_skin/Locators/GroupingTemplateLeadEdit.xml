@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+  <Create><![CDATA[//*[@id="page-wrapper"]/div[3]/div/div[2]/a]]></Create>
+  <TName><![CDATA[//*[@id="MetaFieldGroupingTemplateName"]]]></TName>
+  <Module><![CDATA[//*[@id="MetaFieldGroupingTemplateZModuleId"]]]></Module>
+  <Processor><![CDATA[//*[@id="MetaFieldGroupingTemplateProcessorId"]]]></Processor>
+  <InputField><![CDATA[//*[@id="MetaFieldGroupingTemplate0RelationId"]]]></InputField>
+  <InputOperator><![CDATA[//*[@id="MetaFieldGroupingTemplate0RelationOperator"]]]></InputOperator>
+
+
+
+
+
+  <AdditionalTab><![CDATA[//*[@id="tab"]]]></AdditionalTab>
+  <AdditionalValue><![CDATA[//*[@id="field_name"]]]></AdditionalValue>
+
+  <AddField><![CDATA[//*[@id="MetaFieldGroupingTemplatesOfficeFieldGroupingTemplatesForm"]/div[4]/div[2]/div[1]/div[5]/div/a]]></AddField>
+  <SaveTemplate><![CDATA[//*[@id="MetaFieldGroupingTemplatesOfficeFieldGroupingTemplatesForm"]/div[5]/div/button[2]]]></SaveTemplate>
+
+  <LeadSearch><![CDATA[//*[@id="gs_company_name"]]]></LeadSearch>
+  <YangTest><![CDATA[//*[@id="159343"]/td[14]/a]]></YangTest>
+  <CompanyDetails><![CDATA[//*[@id="page-wrapper"]/div[4]/div[2]/div/ul/li[3]/a]]></CompanyDetails>
+  <Assignments><![CDATA[//*[@id="LeadEditForm"]/div[5]/div/div/div[1]]]></Assignments>
+  <TemplatesTab><![CDATA[//*[@id="LeadEditForm"]/div[5]/div/div/div[2]/div[3]/div[1]]]></TemplatesTab>
+  <TemplatesProcessor><![CDATA[//*[@id="FieldGroupingProcessor"]]]></TemplatesProcessor>
+  <TemplateBN><![CDATA[//*[@id="FieldGroupingLeadDetailCompanyName"]]]></TemplateBN>
+  <LoadTemplates><![CDATA[//*[@id="LeadEditForm"]/div[5]/div/div/div[2]/div[3]/div[2]/div[2]/div/button]]></LoadTemplates>
+  <TemplateDrop><![CDATA[//*[@id="FieldGroupingTemplate"]]]></TemplateDrop>
+  <TemplateApply><![CDATA[//*[@id="LeadEditForm"]/div[5]/div/div/div[2]/div[3]/div[2]/div[3]/div[2]/button]]></TemplateApply>
+
+  <RatesFeeTab><![CDATA[//*[@id="LeadEditForm"]/div[6]/div[1]/div/div/div[1]/div/ul/li[5]/a]]></RatesFeeTab>
+  <DFSection><![CDATA[//*[@id="processor_change_data"]/div[1]/div[2]/div[1]/div/div/div/input]]></DFSection>
+
+  <CDSection><![CDATA[//*[@id="LeadEditForm"]/div[6]/div[1]/div/div/div[3]/div/div/div/div[2]/div[2]/div/div/label]]></CDSection>
+
+
+  <Delete><![CDATA[//*[@id="left"]/div/div[2]/div/div[4]/div[1]/a[2]/span]]></Delete>
+
+</Locators>

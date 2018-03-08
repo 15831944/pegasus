@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+  <Processor><![CDATA[//*[@id="SearchFormProcessorId"]]]></Processor>
+
+  <Tab><![CDATA[//*[@id="SearchFormTabName"]]]></Tab>
+  <ClientLegalName><![CDATA[//*[@id="metafieldsmanage"]/div/div/div/div/div[1]/div[2]/div/div[2]/a]]></ClientLegalName>
+  <BussinessLegalName><![CDATA[//a[text()='Business Legal Name']]]></BussinessLegalName>
+  <Mandatory><![CDATA[//*[@id="MetaTableValidationMandatory"]]]></Mandatory>
+  <Search><![CDATA[//button[@title='Search']]]></Search>
+  <FieldLength><![CDATA[//*[@id="MetaTableValidationFieldLength"]]]></FieldLength>
+  <LengthMin><![CDATA[//*[@id="MetaTableValidationMin"]]]></LengthMin>
+  <LengthMax><![CDATA[//*[@id="MetaTableValidationMax"]]]></LengthMax>
+  <DataTypeVal><![CDATA[//*[@id="MetaTableValidationDatatype"]]]></DataTypeVal>
+  <DataTypeBox><![CDATA[//*[@id="MetaTableValidationDataType"]]]></DataTypeBox>
+ 
+  <FieldFormat><![CDATA[//*[@id="MetaTableValidationFieldFormat"]]]></FieldFormat>
+  <FieldFormatBox><![CDATA[//*[@id="MetaTableValidationFormatType"]]]></FieldFormatBox>
+  <Craete><![CDATA[//a[@title='Create New Client']]]></Craete>
+  <BusinessDBAName><![CDATA[//*[@id="ClientDetailCompanyDbaName"]]]></BusinessDBAName>
+  <LegalNameInput><![CDATA[//*[@id="ClientDetailCompanyLegalName"]]]></LegalNameInput>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SaveVali><![CDATA[//button[@title='Save']]]></SaveVali>
+
+  <ErrorMes><![CDATA[//*[@id="ClientDetailCompanyLegalName-error"]]]></ErrorMes>
+</Locators>

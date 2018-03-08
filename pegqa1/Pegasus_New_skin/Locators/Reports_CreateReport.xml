@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ReportName><![CDATA[//*[@id='ReportName']]]></ReportName>
+  <ReportModule><![CDATA[//*[@id='ReportModuleId']]]></ReportModule>
+  <ReportSave><![CDATA[//a[@title='Save Report']]]></ReportSave>
+  <NameStar><![CDATA[//label[contains(text(),'Name')]/span[text()='*']]]></NameStar>
+  <ModuleStar><![CDATA[//label[contains(text(),'Module')]/span[text()='*']]]></ModuleStar>
+  <EnterDEscription><![CDATA[//*[@id='ReportDescription']]]></EnterDEscription>
+  <SaveClientReport><![CDATA[//a[@title='Save Report']]]></SaveClientReport>
+  <SearchReport><![CDATA[//*[@id='gs_name']]]></SearchReport>
+  <DeleteReport><![CDATA[//a[@title='Delete Report']]]></DeleteReport>
+  <Activity1><![CDATA[//div[@id='activitytotals']/div[1]/label/input[1]]]></Activity1>
+  <SearchReport><![CDATA[//*[@id='gs_name']]]></SearchReport>
+  <Report1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></Report1>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <EditButton><![CDATA[//span[text()='Edit']]]></EditButton>
+  <Owner><![CDATA[//*[@id='ReportAssignedUserId']]]></Owner>
+  <EditSave><![CDATA[//button[@title='Save']]]></EditSave>
+  <DeleteReport><![CDATA[//*[@id='delete_report']]]></DeleteReport>
+  <OwnerField><![CDATA[//*[@id='gs_owner']]]></OwnerField>
+  <CreatedByField><![CDATA[//*[@id='gs_createdby']]]></CreatedByField>
+  
+  
+</Locators>

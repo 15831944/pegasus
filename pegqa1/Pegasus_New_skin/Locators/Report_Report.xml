@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--All Reports-->
+  
+  
+  
+  <!--Create Report-->
+  <Module><![CDATA[//select[@id='ReportModuleId']]]></Module>
+  <CrossIcon1><![CDATA[//table[@id='additional_criteria']/tbody/tr[2]/td/div/div[4]/a/span]]></CrossIcon1>
+  <AddMoreFieldBtn><![CDATA[//a[@id='morecolumns']]]></AddMoreFieldBtn>
+  <AddtnlFltrField1><![CDATA[//table[@id='additional_criteria']/tbody/tr[2]]]></AddtnlFltrField1>
+  
+  
+  
+  <!--View Report-->
+  
+  
+  
+  
+</Locators>

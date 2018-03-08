@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <HostName><![CDATA[//input[@id='OrganizationVantivAccountServer']]]></HostName>
+  <Protocol><![CDATA[//select[@id='OrganizationVantivAccountProtocol']]]></Protocol>
+  <UserName><![CDATA[//input[@id='OrganizationVantivAccountUsername']]]></UserName>
+  <Password><![CDATA[//input[@id='OrganizationVantivAccountPassword']]]></Password>
+  <DirectoryPath><![CDATA[//input[@id='OrganizationVantivAccountDirectory']]]></DirectoryPath>
+  <Port><![CDATA[//input[@id='OrganizationVantivAccountPort']]]></Port>
+  <TestConnectionBtn><![CDATA[//a[@title='Test Connection']]]></TestConnectionBtn>
+  <BoardingWizardChkBox><![CDATA[//input[@id='OrganizationVantivAccountShowBoarding']]]></BoardingWizardChkBox>
+  <SaveBtn><![CDATA[//div[@class='col-lg-2 form-bttns-align']//a[@title='Save']]]></SaveBtn>
+  
+  
+
+</Locators>
+
+

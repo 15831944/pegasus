@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <NewTask><![CDATA[//a[@title='Add Task']]]></NewTask>
+  <Subject><![CDATA[//*[@id='CorporateTaskName']]]></Subject>
+  <Priority><![CDATA[//*[@id='CorporateTaskPriority']]]></Priority>
+  <Description><![CDATA[//*[@id='CorporateTaskDescription']]]></Description>
+  <StartDate><![CDATA[//*[@id='CorporateTaskStartDate']]]></StartDate>
+  <DueDate><![CDATA[//*[@id='CorporateTaskDueDate']]]></DueDate>
+  <Save><![CDATA[//form[@id='CreateTaskForm']//a[@title='Save']]]></Save>
+  <SendEmail><![CDATA[//a[@title='Send']]]></SendEmail>
+  <AddDocument><![CDATA[//a[@title='Add Document']]]></AddDocument>
+  <DocumentName><![CDATA[//*[@id='DocumentName']]]></DocumentName>
+  <BrowseFile><![CDATA[//*[@id='DocumentFiles']]]></BrowseFile>
+  <SaveDoc><![CDATA[//form[@id='CreateDocumentForm']/div[4]/a[1]]]></SaveDoc>
+  <ActivityType><![CDATA[//*[@id='gs_activity_type']]]></ActivityType>
+  <ClickEmail1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></ClickEmail1>
+  <ClickOnSendEmail><![CDATA[//a[@title='Add Email']]]></ClickOnSendEmail>
+  <EnterToMail><![CDATA[//*[@id='EmailToAddrs']]]></EnterToMail>
+  <EnterSubjectEmail><![CDATA[//*[@id='EmailName']]]></EnterSubjectEmail>
+  <Address1><![CDATA[//div[@class='form-group']/div[1]/div[2]]]></Address1>
+  <SearchActivity><![CDATA[//input[@id='gs_name']]]></SearchActivity>
+  <Activity1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></Activity1>
+  <EditActivity1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a]]></EditActivity1>
+  <AddNewDocVersion><![CDATA[//a[@title='Add New Version']/span]]></AddNewDocVersion>
+  <Attachment><![CDATA[//input[@id='CorporateDocumentFile']]]></Attachment>
+  <Comment><![CDATA[//input[@id='CorporateDocumentComment']]]></Comment>
+  <PopupSave><![CDATA[//input[@value='Save']]]></PopupSave>
+  
+  
+  
+  <!--Create Task popup-->
+  <TaskSub><![CDATA[//input[@id='CorporateTaskName']]]></TaskSub>
+  <TaskStartDate><![CDATA[//input[@id='CorporateTaskStartDate']]]></TaskStartDate>
+  <TaskDueDate><![CDATA[//input[@id='CorporateTaskDueDate']]]></TaskDueDate>
+  <TaskSave><![CDATA[//form[@id='CreateTaskForm']/div[4]/a[1]]]></TaskSave>
+  
+  
+  
+  
+
+</Locators>
+
+

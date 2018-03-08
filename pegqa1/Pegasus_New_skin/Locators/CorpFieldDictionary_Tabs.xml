@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <AddNewTabs><![CDATA[//a[@title='Add New Tab']]]></AddNewTabs>
+  <TabNameFDIC><![CDATA[//*[@id='MetaTabNameName']]]></TabNameFDIC>
+  <ClickOnEditTabIcon><![CDATA[//ol[2]/li[1]/div[1]/span[1]/a[2]/i]]></ClickOnEditTabIcon>
+  <TabName><![CDATA[//*[@id='CorporateMetaTabNameName']]]></TabName>
+  <FDSaveButton><![CDATA[//button[text()='Save']]]></FDSaveButton>
+
+</Locators>

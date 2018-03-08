@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  
+  <!--All Email Templates page-->
+  <EmailTemp1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></EmailTemp1>
+  <EditEmailTemp1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a/i]]></EditEmailTemp1>
+  
+  
+  
+  <!--Edit template page-->
+  <EmailParametersLink><![CDATA[//a[@title='E-Mail Parameters']]]></EmailParametersLink>
+  
+  
+  <!--Email Constant / parameters popup-->
+  <Constant1><![CDATA[//table[@class='table table-bordered']/tbody/tr[3]/td[1]]]></Constant1>
+  <Constant2><![CDATA[//table[@class='table table-bordered']/tbody/tr[4]/td[1]]]></Constant2>
+  
+  
+</Locators>

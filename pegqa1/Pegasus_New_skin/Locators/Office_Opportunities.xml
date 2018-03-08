@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--All Opportunity page-->
+  <Create><![CDATA[//a[@title='Create New opportunities']/span]]></Create>
+  <AddressLine1Label><![CDATA[//div[@id='tab-1']/div[11]/div[2]/div[3]/label]]></AddressLine1Label>
+  <AdvancefiltLabel><![CDATA[//span[text()='Advanced Filter']]]></AdvancefiltLabel>
+  <Opportunity1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/a]]></Opportunity1>
+  <SearchOpportunity><![CDATA[//*[@id='gs_opportunity_name']]]></SearchOpportunity>
+  
+  
+  
+  <!--All Opportunity >> Advanced Filter-->
+  <AddRowBtn><![CDATA[//label[contains(text(),'Add row')]]]></AddRowBtn>
+  
+  
+  
+  
+  
+  <!--View Opportunity page-->
+  <OpportunityHistory><![CDATA[//span[contains(text(),'Opportunity History')]]]></OpportunityHistory>
+  <Opportunities1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/a]]></Opportunities1>
+  <AddNote><![CDATA[//*[@id='addnote1']]]></AddNote>
+  <OpportunityStatus><![CDATA[//div[@id='status']]]></OpportunityStatus>
+  <DescriptionHead><![CDATA[//h5[text()='Description']]]></DescriptionHead>
+  <Description><![CDATA[//table[@class='static']/tbody/tr/td]]></Description>
+  
+  
+  
+  <!--Convert Opportunity popup-->
+  <Convert><![CDATA[//*[@id='convert']/span]]></Convert>
+  <LeadRadio><![CDATA[//*[@id='OpportunityConversionTargetModuleId14']]]></LeadRadio>
+  <ClientRadio><![CDATA[//input[@id='OpportunityConversionTargetModuleId20']]]></ClientRadio>
+  <RecycleYes><![CDATA[//input[@id='OpportunityConversionDelete1']]]></RecycleYes>
+  <RecycleNo><![CDATA[//input[@id='OpportunityConversionDelete0']]]></RecycleNo>
+  <SaveConfirm><![CDATA[//*[@id='convert-submit']]]></SaveConfirm>
+  
+  
+  
+  
+  <!--Opportunity History >> All activities-->
+  <ActvtyType><![CDATA[//select[@id='gs_activity_type']]]></ActvtyType>
+  <ActvtyStatus1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[18]]]></ActvtyStatus1>
+  <ActivitySubject><![CDATA[//input[@id='gs_name']]]></ActivitySubject>
+  
+  
+  
+  <!--Import Opportunity-->
+  <BrowseFile><![CDATA[//*[@id='vcard_file']]]></BrowseFile>
+  <ImportOpp.><![CDATA[//input[@value='Import']]]></ImportOpp.>
+  
+  
+  
+  
+  <V><![CDATA[//*[@id='tab-1']/div[11]/div[2]]]></V>
+  
+  
+  <NoteError><![CDATA[//*[@id='NoteName-error']]]></NoteError>
+  <Name><![CDATA[//*[@id='OpportunityDetailOpportunityName']]]></Name>
+  <PartnerAgentCode_Field><![CDATA[//*[@id='OpportunityPartnerAgentCode']]]></PartnerAgentCode_Field>
+  <CompanyName><![CDATA[//*[@id='OpportunityDetailCompanyName']]]></CompanyName>
+  <State><![CDATA[//*[@id='OpportunityStatus']]]></State>
+  <AssertTextQLook><![CDATA[//div[@id='manager']/span[text()='223']]]></AssertTextQLook>
+  <ZipCode><![CDATA[//*[@id='OpportunityDetailLocationPostalCode']]]></ZipCode>
+  <Responsibility><![CDATA[//*[@id='OpportunityAssignedUserId']]]></Responsibility>
+  <PartnerAgent><![CDATA[//*[@id='OpportunityPartnerAgentId']]]></PartnerAgent>
+  <PartAssociation><![CDATA[//*[@id='OpportunityPartnerAssociationId']]]></PartAssociation>
+  <Country><![CDATA[//*[@id='OpportunityDetailLocationCountry']]]></Country>
+  <StateLocation><![CDATA[//*[@id='OpportunityDetailLocationState']]]></StateLocation>
+  <CopyAddress><![CDATA[//a[contains(text(),'Copy Above Address')]]]></CopyAddress>
+  <SameAsLocation><![CDATA[//*[@id='OpportunityDetailSameAsLocation']]]></SameAsLocation>
+  <OppEdit><![CDATA[//a[@title='Edit Opportunity']]]></OppEdit>
+  <ClickSaveClient><![CDATA[//button[@title='Save']]]></ClickSaveClient>
+  <ClickOnDubBtn><![CDATA[//div[@class='modal-content']/div[3]/button[1]]]></ClickOnDubBtn>
+  <CancelOpp><![CDATA[//a[@title='Cancel']]]></CancelOpp>
+  <VerifyTitle><![CDATA[//h2[text()='Opportunities']]]></VerifyTitle>
+  <RequiredFieldsOpp><![CDATA[//*[@id='OpportunityDetailOpportunityName-error']]]></RequiredFieldsOpp>
+  <ClickOn1stOpp><![CDATA[//tr[2]//td[1]/input[1]]]></ClickOn1stOpp>
+  <ClickOn2ndOpp><![CDATA[//tr[3]//td[1]/input[1]]]></ClickOn2ndOpp>
+  <ClickOnMergeRecords><![CDATA[//span[text()='Merge Records']]]></ClickOnMergeRecords>
+  <ClickOnMergeBtn><![CDATA[//a[@title='Merge']]]></ClickOnMergeBtn>
+  <ClickOnCname><![CDATA[//*[@id='OpportunityMergeForm']/div[2]/div[1]/div/div[1]/div[1]/label/input]]></ClickOnCname>
+  <CheckboxOpportunity><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input]]></CheckboxOpportunity>
+  <ClickOnBulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></ClickOnBulkUpdate>
+  <ChangeSaleManager><![CDATA[//a[text()='Change Sales Manager']]]></ChangeSaleManager>
+  <ClickOnTaskEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]/a]]></ClickOnTaskEdit>
+  <ChangeSaleManager><![CDATA[//a[text()='Change Sales Manager']]]></ChangeSaleManager>
+  <CheckboxOpportunity><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input]]></CheckboxOpportunity>
+  <ClickOnBulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></ClickOnBulkUpdate>
+  <ClickOnAddDocument><![CDATA[//*[@id='adddocument1']]]></ClickOnAddDocument>
+  <EnterDocumentName><![CDATA[//*[@id='DocumentName']]]></EnterDocumentName>
+  <BrowseDoc><![CDATA[//*[@id='DocumentFiles']]]></BrowseDoc>
+  <ClickSaveOfDocPopUp><![CDATA[//a[text()='Save']]]></ClickSaveOfDocPopUp>
+  <CopyAddress><![CDATA[//*[@id='OpportunityDetail0SameAsLocation']]]></CopyAddress>
+  <AddressLine1Opp><![CDATA[//*[@id='OpportunityDetailLocationAddressLine1']]]></AddressLine1Opp>
+  <MailingAddLine1opp><![CDATA[//*[@id='OpportunityDetailMailingAddressLine1']]]></MailingAddLine1opp>
+  <MailingZipCodeOpp><![CDATA[//*[@id='OpportunityDetailMailingPostalCode']]]></MailingZipCodeOpp>
+  <ZipCodeOpp><![CDATA[//*[@id='OpportunityDetailLocationPostalCode']]]></ZipCodeOpp>
+  <ClickSendEmail><![CDATA[//span[text()='Send E-Mail']]]></ClickSendEmail>
+  <AddDocument><![CDATA[//a[@title='Add Document']]]></AddDocument>
+  <ClickAddNotes><![CDATA[//a[@title='Add Note']]]></ClickAddNotes>
+  <OpenOpportunity><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]/a]]></OpenOpportunity>
+  <AllOpportunities><![CDATA[//*[@id='page-wrapper']/div[5]/div/div[1]/button]]></AllOpportunities>
+  <MouserOverAllOpp><![CDATA[//*[@id='page-wrapper']/div[5]/div/div[1]/ul/li[1]/a]]></MouserOverAllOpp>
+  <MouseOverWithOpenMeeting><![CDATA[//*[@id='page-wrapper']/div[5]/div/div[1]/ul/li[3]/a]]></MouseOverWithOpenMeeting>
+  <ClickToViewOpportunities><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]/a]]></ClickToViewOpportunities>
+  <AddNotes><![CDATA[//*[@id='addnote1']/span]]></AddNotes>
+  <EnterNoteName><![CDATA[//*[@id='NoteName']]]></EnterNoteName>
+  <SaveNote><![CDATA[//form[@id='CreateNoteForm']/div[4]/a[@title='Save']]]></SaveNote>
+  <VerifyTextNoteValidation><![CDATA[//*[@id='NoteName-error']]]></VerifyTextNoteValidation>
+  <SelectAddressCountryOpp><![CDATA[//*[@id='OpportunityDetailLocationCountry']]]></SelectAddressCountryOpp>
+  <SelectMailingOppCountry><![CDATA[//*[@id='OpportunityDetailMailingCountry']]]></SelectMailingOppCountry>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <SaveOpp><![CDATA[//button[@title='Save']]]></SaveOpp>
+  <AddDocument><![CDATA[//span[text()='Add Document']]]></AddDocument>
+  <EnterDocuName><![CDATA[//*[@id='DocumentName']]]></EnterDocuName>
+  <SendEmail><![CDATA[//span[text()='Send E-Mail']]]></SendEmail>
+  <AddMeeting><![CDATA[//span[text()='New Meeting']]]></AddMeeting>
+  <AddNote><![CDATA[//span[text()='Add Note']]]></AddNote>
+  <AddTask><![CDATA[//span[text()='New Task']]]></AddTask>
+  <EaddressType><![CDATA[//*[@id='OpportunityElectronicAddress0ElectronicContentType']]]></EaddressType>
+  <EaddressLabel><![CDATA[//*[@id='OpportunityElectronicAddress0ElectronicContentLabel']]]></EaddressLabel>
+  <SearchCompanyopp><![CDATA[//*[@id='gs_company_name']]]></SearchCompanyopp>
+  <DeleteOpp><![CDATA[//a[@title='Delete']]]></DeleteOpp>
+  <EditIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/span/a/span]]></EditIcon>
+  
+  <MergeOpp.><![CDATA[//div[@class='row']/div/a[@title='Merge']]]></MergeOpp.>
+  
+  <SaveQuicklook><![CDATA[//*[@id='partner']/form/button[1]]]></SaveQuicklook>
+  <VerifyLabel><![CDATA[//*[@id='partner']]]></VerifyLabel>
+  <VerifyCategory><![CDATA[//*[@id='category']]]></VerifyCategory>
+  <EditGroup><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span[1]]]></EditGroup>
+  <GroupName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/input]]></GroupName>
+  <SaveGroup><![CDATA[//a[text()='Save']]]></SaveGroup>
+  <GroupError><![CDATA[//*[@id='infocnt']]]></GroupError>
+  
+  
+  <ActivitySubject><![CDATA[//input[@id='gs_name']]]></ActivitySubject>
+  <ClientType><![CDATA[//*[@id='client_type']]]></ClientType>
+  <Status><![CDATA[//*[@id='status']]]></Status>
+  <Source><![CDATA[//*[@id='referral_source']]]></Source>
+<Category><![CDATA[//*[@id='category']]]></Category>
+  <Responsibilityl><![CDATA[//*[@id='responsibility']/span[1]]]></Responsibilityl>
+  <AccountManager><![CDATA[//*[@id='manager']]]></AccountManager>
+  <PartnerAgentl><![CDATA[//*[@id='partner']]]></PartnerAgentl>
+  <PartnerAssociationl><![CDATA[//*[@id='partnerassociation']]]></PartnerAssociationl>
+  <SalesManager><![CDATA[//*[@id='salesmanager']]]></SalesManager>
+  <EditLink><![CDATA[//span[text()='Edit']]]></EditLink>
+  <Clientt><![CDATA[//*[@id='OpportunityClientType']]]></Clientt>
+  <RSource><![CDATA[//*[@id='OpportunityReferralSource']]]></RSource>
+  <Categ><![CDATA[//*[@id='OpportunityCategoryId']]]></Categ>
+  <AccntManager><![CDATA[//*[@id='OpportunityAssignedManagerId']]]></AccntManager>
+  <UGroup><![CDATA[//*[@id='OpportunityAssignedUserGroupId']]]></UGroup>
+  <SaleMgr><![CDATA[//*[@id='OpportunitySalesManagerId']]]></SaleMgr>
+  <DeleteLink><![CDATA[//span[text()='Delete']]]></DeleteLink>
+  <DeletePermanaently><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/div/a[1]/span]]></DeletePermanaently>
+  <Details><![CDATA[//h5[text()='Details']]]></Details>
+  <OpportunityName><![CDATA[//div[contains(@class,'form-group')]/label[text()='Opportunity Name: ']]]></OpportunityName>
+  <CompanyName><![CDATA[//*[@id='tab-1']/div[1]/div[2]/div[3]/label]]></CompanyName>
+  <HAssignments><![CDATA[//h5[text()='Assignments']]]></HAssignments>
+  <LabelStatus><![CDATA[//*[@id='tab-1']/div[3]/div[2]/div[3]/label]]></LabelStatus>
+  <LabelResponsibility><![CDATA[//*[@id='tab-1']/div[3]/div[2]/div[7]/label]]></LabelResponsibility>
+  <VerifyLocation><![CDATA[//div[contains(@class,'col-md-6')]/div[4]/div/div[1]/div[2]]]></VerifyLocation>
+  <CreatedBy><![CDATA[//div[contains(@class,'col-lg-')]//small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[contains(@class,'col-lg-')]//small[3]]]></ModifiedBy>
+  <BackIcon><![CDATA[//a[@title='Back to Dashboard']/span/i]]></BackIcon>
+  <BackLabel><![CDATA[//span[contains(text(),'Back')]]]></BackLabel>
+  <RefeshIcon><![CDATA[//*[@id='reloadform']/i]]></RefeshIcon>
+  <RefreshLabel><![CDATA[//span[text()='Refresh']]]></RefreshLabel>
+  <DeleteIcon><![CDATA[//a[@title='Delete']/i]]></DeleteIcon>
+  <DeleteLabel><![CDATA[//span[text()='Delete']]]></DeleteLabel>
+  <BUlkUpdateIcon><![CDATA[//span[contains(text(),'Bulk Update')]]]></BUlkUpdateIcon>
+  <BulkUpdateLabel><![CDATA[//a[text()='Bulk Update']]]></BulkUpdateLabel>
+  <AdvanceFilIcon><![CDATA[//*[@id='layout_disp']/i]]></AdvanceFilIcon>
+  
+  <CreateIcon><![CDATA[//a[contains(text(),'Create a New Opportunity Group')]]]></CreateIcon>
+  <CreateLabel><![CDATA[//span[text()='Create']]]></CreateLabel>
+  <ImportIcon><![CDATA[//a[@title='Import Opportunities']/i]]></ImportIcon>
+  <ImportLabel><![CDATA[//span[text()='Import']]]></ImportLabel>
+  <MergeIcon><![CDATA[//*[@id='mergeOpportunities']/i]]></MergeIcon>
+  <MergeLabel><![CDATA[//span[text()='Merge Records']]]></MergeLabel>
+  <ExportIcon><![CDATA[//div[@title='Export']/button/i]]></ExportIcon>
+  <ExportLabel><![CDATA[//span[text()=' Export']]]></ExportLabel>
+  <ExportCsv><![CDATA[//*[@id='export_csv']]]></ExportCsv>
+  <RecycleIcon><![CDATA[//a[@id='recyclebin']/button/i]]></RecycleIcon>
+  <RecycleLabel><![CDATA[//span[text()='Recycle Bin']]]></RecycleLabel>
+  <AllOpportunities><![CDATA[//button[@title='All Opportunities']]]></AllOpportunities>
+  <MyOpportunities><![CDATA[//button[@title='My Opportunities']]]></MyOpportunities>
+  <MyTeamOppor><![CDATA[//button[@title='My Team Opportunities']]]></MyTeamOppor>
+  <MySavedFilters><![CDATA[//button[@title='My Saved Filters']]]></MySavedFilters>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <Apply><![CDATA[//button[text()='Apply']]]></Apply>
+
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofResults><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofResults>
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadCompany><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Company']]]></HeadCompany>
+  <HeadAmount><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Amount']]]></HeadAmount>
+  <HeadIndustry><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Industry']]]></HeadIndustry>
+  <HeadSource><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[15]//div[text()='Source']]]></HeadSource>
+
+  <ShowActivities><![CDATA[//*[@id='shid2']]]></ShowActivities>
+  <OppWithNotes><![CDATA[//*[@id='OpportunityWithnotes']]]></OppWithNotes>
+  <ActivityType><![CDATA[//*[@id='gs_activity_type']]]></ActivityType>
+  <NoteOpp.><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='Notes']]]></NoteOpp.>
+  <OppwithMeeting><![CDATA[//*[@id='OpportunityWithopenmeetings']]]></OppwithMeeting>
+  <MeetingOpp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='Meetings']]]></MeetingOpp>
+  <OppWithTask><![CDATA[//*[@id='OpportunityWithopentasks']]]></OppWithTask>
+  <TaskOpp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='Tasks']]]></TaskOpp>
+  <OppWithDocs><![CDATA[//*[@id='OpportunityWithattachments']]]></OppWithDocs>
+  <DocsOpp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='DOcuments']]]></DocsOpp>
+  <OppWithEmail><![CDATA[//*[@id='OpportunityWithemails']]]></OppWithEmail>
+  <EmailOpp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='Tasks']]]></EmailOpp>
+  <OppClosedMeet><![CDATA[//*[@id='OpportunityWithclosedmeetings']]]></OppClosedMeet>
+  <OppCLosedTask><![CDATA[//*[@id='OpportunityWithclosedtasks']]]></OppCLosedTask>
+  
+  <!--Field Tab-->
+  <Responsibiltytab><![CDATA[//*[@id='gs_owner']]]></Responsibiltytab>
+  <CreateByField><![CDATA[//*[@id='gs_first_name']]]></CreateByField>
+  
+  
+  <!--All Opportunities-->
+  <Import><![CDATA[//a[@title='Import opportunities']]]></Import>
+  <SelectFile><![CDATA[//input[@id='vcard_file']]]></SelectFile>
+  <ImportBtn><![CDATA[//input[@type='submit']]]></ImportBtn>
+  <FirstRowSteve><![CDATA[//table[@id='list1']/tbody[1]/tr[2]/td[10]/a[contains(text(),'Steve')]]]></FirstRowSteve>
+  
+  
+  <!--View Opportunity-->
+  <EditBtn><![CDATA[//a[@title='Edit Opportunity']]]></EditBtn>
+  
+  
+  <!--Edit Opportunity-->
+  <EmailType2><![CDATA[//select[@id='OpportunityElectronicAddress1ElectronicContentType']]]></EmailType2>
+  <EmailLabel2><![CDATA[//select[@id='OpportunityElectronicAddress1ElectronicContentLabel']]]></EmailLabel2>
+  
+  
+</Locators>

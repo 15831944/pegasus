@@ -1,0 +1,7 @@
+﻿------ Discover test started ------
+NUnit Adapter 3.5.1.0: Test discovery starting
+Assembly contains no NUnit 3.0 tests: D:\automation\testAutomation\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll
+NUnit Adapter 3.5.1.0: Test discovery complete
+========== Discover test finished: 738 found (0:00:02.0371165) ==========
+------ Run test started ------
+========== Run test finished: 1 run (0:01:05.2307309) ==========

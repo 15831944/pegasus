@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <HomeTab><![CDATA[//a[@title='Home']]]></HomeTab>
+    
+  <EmployeeTab><![CDATA[//a[@title='Employees']]]></EmployeeTab>
+  
+  <OfficesTab><![CDATA[//a[@title='Offices']]]></OfficesTab>
+  <Offices><![CDATA[//a[text()="Offices"]]]></Offices>
+  <Users><![CDATA[//a[text()="Users"]]]></Users>
+  <OfficeCodes><![CDATA[//a[text()="Office Codes"]]]></OfficeCodes>
+  
+  <ResidualIncomeTab><![CDATA[//a[@title='Residual Income']]]></ResidualIncomeTab>
+  <Imports><![CDATA[//a[text()="Imports"]]]></Imports>
+  
+  <Payouts><![CDATA[//a[@title='Payouts']]]></Payouts> 
+  <PayoutSummary><![CDATA[//a[text()="Payout Summary"]]]></PayoutSummary>
+  <DetailedPayouts><![CDATA[//a[text()="Detailed Payouts"]]]></DetailedPayouts>
+  <Reports><![CDATA[//a[text()="Reports"]]]></Reports>
+
+  <MasterData><![CDATA[//a[@title='Master Data']]]></MasterData>
+  <RevenueShareSetup><![CDATA[//a[text()="Revenue Share Setup"]]]></RevenueShareSetup>
+  <AdjustmentsTool><![CDATA[//a[text()="Adjustments Tool"]]]></AdjustmentsTool>
+  <OfficeLookupCodes><![CDATA[//a[text()="Office Lookup Codes"]]]></OfficeLookupCodes>
+
+  <MerchantsTab><![CDATA[//a[@title='Merchants']]]></MerchantsTab>
+
+  <StatisticsTab><![CDATA[//a[@title='Statistics']]]></StatisticsTab>
+  <UserStatistics><![CDATA[//a[text()="User Statistics"]]]></UserStatistics>
+  <UsageStatistics><![CDATA[//a[text()="Usage Statistics"]]]></UsageStatistics>
+
+  <MasterDataTab><![CDATA[//*[@id="menu"]/li[8]/a]]></MasterDataTab>
+  <RatesAndFees><![CDATA[//a[text()="Rates & Fees"]]]></RatesAndFees>
+  <AmexRates><![CDATA[//a[text()="Amex Rates"]]]></AmexRates>
+  <MerchantTypes><![CDATA[//a[text()="Merchant Types"]]]></MerchantTypes>
+  <PricingPlans><![CDATA[//a[text()="Pricing Plans"]]]></PricingPlans>
+  <Processors><![CDATA[//a[text()="Processors"]]]></Processors>
+  <OmahaAuthGrids><![CDATA[//a[text()="Omaha Auth Grids"]]]></OmahaAuthGrids>
+  <UserLimits><![CDATA[//a[text()="User Limits"]]]></UserLimits>
+  <Languages><![CDATA[//a[text()="Languages"]]]></Languages>
+
+  <SystemTab><![CDATA[//a[@title='System']]]></SystemTab>
+  <Avatars><![CDATA[//a[text()="Avatars"]]]></Avatars>
+  <Modules><![CDATA[//a[text()="Modules"]]]></Modules>
+  <Themes><![CDATA[//a[text()="Themes"]]]></Themes>
+  <Picklists><![CDATA[//a[text()="Picklists"]]]></Picklists>
+  <Settings><![CDATA[//a[text()="Settings"]]]></Settings>
+  <EMailTemplates><![CDATA[//a[text()="E-Mail Templates"]]]></EMailTemplates>
+  <AuditTrail><![CDATA[//a[text()="Audit Trail"]]]></AuditTrail>
+  <Permissions><![CDATA[//*[@id="menu"]/li[9]/ul/li[8]/a]]></Permissions>
+
+  <PDFTemplatesTab><![CDATA[//a[@title='PDF Templates']]]></PDFTemplatesTab>
+  <PDFImportWizard><![CDATA[//a[text()="PDF Import Wizard"]]]></PDFImportWizard>
+  <PDFTemplates><![CDATA[//a[text()="PDF Templates"]]]></PDFTemplates>
+  <PDFCategories><![CDATA[//a[text()="PDF Categories"]]]></PDFCategories>
+
+  <FieldDictionaryTab><![CDATA[//a[@title='Field Dictionary']]]></FieldDictionaryTab>
+  <Tabs><![CDATA[//a[text()="Tabs"]]]></Tabs>
+  <Sections><![CDATA[//a[text()="Sections"]]]></Sections>
+  
+  <Fields><![CDATA[//a[@title='Fields']]]></Fields>
+  <FieldProperties><![CDATA[//a[text()="Field Properties"]]]></FieldProperties>
+  <FieldsOrder><![CDATA[//a[text()="Fields Order"]]]></FieldsOrder>
+  <FieldGroupingTemplates><![CDATA[//a[text()="Field Grouping Templates"]]]></FieldGroupingTemplates>
+
+  <IframeAppsTab><![CDATA[//a[@title='Iframe Apps']]]></IframeAppsTab>
+
+
+  <HeadImage><![CDATA[//*[@id="page-wrapper"]/div[1]/nav/div/span[2]/img]]></HeadImage>
+  <Header><![CDATA[//*[@id="page-wrapper"]/div[1]/nav]]></Header>
+  <HeadDropDown><![CDATA[//*[@id="page-wrapper"]/div[1]/nav/ul/li[2]/a]]></HeadDropDown>
+  <HeadText><![CDATA[//*[@id="page-wrapper"]/div[1]/nav/ul/li[2]/a/span]]></HeadText>
+
+
+</Locators>

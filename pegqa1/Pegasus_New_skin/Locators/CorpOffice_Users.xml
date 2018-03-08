@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ClickOnExport><![CDATA[//div[@title='Export']/button]]></ClickOnExport>
+  <ExportToCSV><![CDATA[//*[@id='export_csv']]]></ExportToCSV>
+  <ExporttoExcel><![CDATA[//*[@id='export_excel']]]></ExporttoExcel>
+  <ClickOnOffice><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnOffice>
+  <UserType><![CDATA[//*[@id='gs_userType']]]></UserType>
+
+</Locators>

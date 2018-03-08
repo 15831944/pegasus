@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- AdminSetFormatTAXID.xml works with AdminSetFormatTAXID.cs and AdminSetFormatTAXIDHelper.cs -->
+
+<Locators>
+
+  <ClientsTab><![CDATA[//*[@id="menu"]/li[5]/a]]></ClientsTab>
+  <CompanySearchBar><![CDATA[//*[@id="gs_company_dba_name"]]]></CompanySearchBar>
+  <FirstClient><![CDATA[//*[@id="136663"]/td[15]/a]]></FirstClient>
+  <Contacts><![CDATA[//*[@id="page-wrapper"]/div[4]/div[2]/div/ul/li[4]/a]]></Contacts>
+  <Title><![CDATA[//*[@id="ClientContact0ClientContactContactTitle"]]]></Title>
+  <Save><![CDATA[//*[@id="ClientEditForm"]/div[5]/div[1]/div[2]/button]]></Save>
+
+
+  <FieldDictionary><![CDATA[//*[@id="menu"]/li[12]/a/span[1]]]></FieldDictionary>
+  <Fields><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/a]]></Fields>
+  <FieldProperties><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/ul/li[1]/a]]></FieldProperties>
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+  <ClientsModule><![CDATA[//*[@id="SearchFormModuleId"]/option[2]]]></ClientsModule>
+  <Search><![CDATA[//*[@id="page-wrapper"]/div[4]/div[1]/div/div/div/div[1]/div/div/button/i]]></Search>
+  <filter><![CDATA[//*[@id="filter"]]]></filter>
+  <TitleField><![CDATA[//*[@id="metafieldsmanage"]//div[41]/a]]></TitleField>
+  
+  <FieldFormat><![CDATA[//*[@id="MetaTableValidationFieldFormat"]]]></FieldFormat>
+  <FieldContent><![CDATA[//*[@id="MetaTableValidationFormatType"]]]></FieldContent>
+  <FieldContentTaxID><![CDATA[//*[@id='MetaTableValidationFormatType']]]></FieldContentTaxID>
+  
+  <SaveFieldManager><![CDATA[//*[@id="fieldvalidation"]/div[6]/div/div/button]]></SaveFieldManager>
+
+
+
+</Locators>

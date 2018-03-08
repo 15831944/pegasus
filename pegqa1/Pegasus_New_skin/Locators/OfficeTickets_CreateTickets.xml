@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  
+  <!--Create Ticket-->
+  <TicketName><![CDATA[//input[@id='TicketName']]]></TicketName>
+  <TickStatus><![CDATA[//*[@id='TicketStatus']]]></TickStatus>
+  <Assignedto><![CDATA[//select[@id='TicketAssignedUserId']]]></Assignedto>
+  <AssignedManager><![CDATA[//*[@id='TicketAssignedManagerId']]]></AssignedManager>
+  <TickPriority><![CDATA[//*[@id='TicketPriority']]]></TickPriority>
+  <TickTopic><![CDATA[//*[@id='TicketTopic']]]></TickTopic>
+  <TickDepartment><![CDATA[//*[@id='TicketDepartment']]]></TickDepartment>
+  <TickCategory><![CDATA[//*[@id='TicketCategory']]]></TickCategory>
+  
+  
+  
+  
+  <!--View Ticket-->
+  <ClickDeleteBtn><![CDATA[//*[@id='delete_button']]]></ClickDeleteBtn>
+  
+  
+  
+  
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']]]></MenuIcon>
+  <TicketTab><![CDATA[//span[text()='Tickets']]]></TicketTab>
+  <Create><![CDATA[//span[text()='Create']]]></Create>
+  
+  <ClientDisplayIcon><![CDATA[//*[@id='assignrecord']/i]]></ClientDisplayIcon>
+  <Client><![CDATA[//table[1]/tbody/tr[1]/td[3]/a]]></Client>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <Save1><![CDATA[//a[@title='Save']]]></Save1>
+  <SearchTicket><![CDATA[//*[@id='gs_name']]]></SearchTicket>
+  <ClickOnTicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_name']/a]]></ClickOnTicket>
+  <ClickEditTicketBtn><![CDATA[//*[@id='edit_button']]]></ClickEditTicketBtn>
+  
+  <DeleteBulk><![CDATA[//span[contains(text(),'Delete')]]]></DeleteBulk>
+  <Checkbox1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></Checkbox1>
+  <Checkbox2><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></Checkbox2>
+  <ResolvedBtn><![CDATA[//*[@id='resolve_button']]]></ResolvedBtn>
+  <AddComment><![CDATA[//*[@id='add_comments']]]></AddComment>
+  <CommentDescryption><![CDATA[//form[@id='AddCommentForm']/div[3]/div/textarea]]></CommentDescryption>
+  <BrowseFile><![CDATA[//*[@id='DocumentFile']]]></BrowseFile>
+  <DeleteAttachment><![CDATA[//*[@id='clearAttachments']]]></DeleteAttachment>
+  <Ticket1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_name']/a]]></Ticket1>
+  <Client1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[22]/a]]></Client1>
+  <SelectTicketResolution><![CDATA[//*[@id='TicketResolution']]]></SelectTicketResolution>#Issue Resolved
+  <ClickResolvedSaveBtn><![CDATA[//form[@id='AddResolutinForm']/div[4]/input[@value='Save']]]></ClickResolvedSaveBtn>
+  
+  <ResolutionError><![CDATA[//*[@id='TicketResolution-error']]]></ResolutionError>
+  <TickAssi><![CDATA[//h5[text()='Assignments']]]></TickAssi>
+  <TickAssiErr><![CDATA[//*[@id='TicketStatus-error']]]></TickAssiErr>
+  <Assign><![CDATA[//*[@id='assignrecord']]]></Assign>
+  <AssignUser><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr[1]/td[1]/a]]></AssignUser>
+  <ViewHeadingTicket><![CDATA[//h2[text()='Tickets']]]></ViewHeadingTicket>
+  <ClosedTicket><![CDATA[//*[@id='close_button']/i]]></ClosedTicket>
+  <SearchButton><![CDATA[//*[@id='searchButton']]]></SearchButton>
+  <ClickOnClient><![CDATA[//table[1]/tbody/tr[1]/td[3]/a]]></ClickOnClient>
+  <ClickOnSaveTicket><![CDATA[//button[@title='Save']]]></ClickOnSaveTicket>
+  <SearchDBAClient><![CDATA[//*[@id='ClientCompanyDbaName']]]></SearchDBAClient>#Chy Company
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Edit Ticket']]]></ClickOnEdit>
+  <ModifiedBy><![CDATA[//div[contains(@class,'pull-right')]//small[3]]]></ModifiedBy>
+  <TickNameErr><![CDATA[//*[@id='TicketName-error']]]></TickNameErr>
+  <TickParentErr><![CDATA[//*[@id='TicketParentName-error']]]></TickParentErr>
+  
+  
+  <SearchStatus><![CDATA[//*[@id='gs_ticket_status']]]></SearchStatus>
+  <SearchCategory><![CDATA[//*[@id='gs_category']]]></SearchCategory>
+  <SearchPriority><![CDATA[//*[@id='gs_priority']]]></SearchPriority>
+  <NoRecord><![CDATA[//div[text()='No records to view']]]></NoRecord>
+  <VerifyStatus><![CDATA[//*[@id='status']]]></VerifyStatus>
+  <VerifyPriority><![CDATA[//*[@id='priority']]]></VerifyPriority>
+  <VerifyCategory><![CDATA[//*[@id='category']/small]]></VerifyCategory>
+  <VerifyTopic><![CDATA[//*[@id='topic']/small]]></VerifyTopic>
+  <VerifyAssignto><![CDATA[//*[@id='responsibility']]]></VerifyAssignto>
+  <VerifyAssignedMgr><![CDATA[//*[@id='manager']]]></VerifyAssignedMgr>
+  <OpenTicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]/a]]></OpenTicket>
+  <BulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></BulkUpdate>
+  <ChangeStatus><![CDATA[//a[text()='Change Status']]]></ChangeStatus>
+  <UpdatedStatus><![CDATA[//*[@id='TicketStatusUpdateStatus']]]></UpdatedStatus>
+  <UPButton><![CDATA[//*[@id='TicketStatusUpdateIndexForm']//a]]></UPButton>
+  <ChangeCategory><![CDATA[//a[text()='Change Category']]]></ChangeCategory>
+  <SelectCategoryy><![CDATA[//*[@id='TicketCategoryUpdateCategory']]]></SelectCategoryy>
+  <UpdateButton><![CDATA[//*[@id='TicketCategoryUpdateIndexForm']//a]]></UpdateButton>
+  <ChangeTopic><![CDATA[//a[text()='Change Topic']]]></ChangeTopic>
+  <ChangePriority><![CDATA[//a[text()='Change Priority']]]></ChangePriority>
+  <ChangeOwner><![CDATA[//a[text()='Change Responsibility']]]></ChangeOwner>
+  <ChangeManager><![CDATA[//a[text()='Change Account Manager']]]></ChangeManager>
+  <SelectTopic><![CDATA[//*[@id='TicketTopicUpdateTopic']]]></SelectTopic>
+  <UpdateTopic><![CDATA[//*[@id='TicketTopicUpdateIndexForm']//a]]></UpdateTopic>
+  <SelectPriority><![CDATA[//*[@id='TicketPriorityUpdatePriority']]]></SelectPriority>
+  <UpdatePrirority><![CDATA[//*[@id='TicketPriorityUpdateIndexForm']//a]]></UpdatePrirority>
+  <OwnerSelect><![CDATA[//*[@id='TicketOwnerUpdateAssignedUserId']]]></OwnerSelect>
+  <UpdateOwner><![CDATA[//*[@id='TicketOwnerUpdateIndexForm']//a]]></UpdateOwner>
+  <SelectManager><![CDATA[//*[@id='TicketManagerUpdateAssignedManagerId']]]></SelectManager>
+  <UpdateManager><![CDATA[//*[@id='TicketManagerUpdateIndexForm']//a]]></UpdateManager>
+  <CahngePermissions><![CDATA[//a[text()='Change Permissions']]]></CahngePermissions>
+  <UpdatePermission><![CDATA[//*[@id='change_permission']/div[2]/div/div[3]/a/button]]></UpdatePermission>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <DeletePermanently><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/span[1]/a/span]]></DeletePermanently>
+  
+  <!--Tab Field-->
+  <AssignedField><![CDATA[//*[@id='gs_owner']]]></AssignedField>
+  
+  <!--Select Client-->
+  <CompanyName><![CDATA[//input[@id='ClientCompanyDbaName']]]></CompanyName>
+  <SearchBtn><![CDATA[//button[@id='searchButton']]]></SearchBtn>
+  <SelectThompson><![CDATA[//a[contains(text(),'Thompson')]]]></SelectThompson>
+
+</Locators>

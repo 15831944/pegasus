@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+
+  <Processor><![CDATA[//*[@id="SearchFormProcessorId"]]]></Processor>
+
+ <Tab><![CDATA[//*[@id="SearchFormTabName"]]]></Tab>
+
+ <Search><![CDATA[//*[@id="page-wrapper"]/div[4]/div[1]/div/div/div/div[1]/div/div/button]]></Search>
+ <ClientLegalName><![CDATA[//*[@id="metafieldsmanage"]/div/div/div/div/div[1]/div[2]/div/div[21]/a]]></ClientLegalName>
+  <Mandatory><![CDATA[//*[@id="MetaTableProcessorValidationMandatory"]]]></Mandatory>
+ <FieldLength><![CDATA[//*[@id="MetaTableProcessorValidationFieldLength"]]]></FieldLength>
+ <LengthMin><![CDATA[//*[@id="MetaTableProcessorValidationMin"]]]></LengthMin>
+ <LengthMax><![CDATA[//*[@id="MetaTableProcessorValidationMax"]]]></LengthMax>
+ <DataTypeVal><![CDATA[//*[@id="MetaTableProcessorValidationDatatype"]]]></DataTypeVal>
+ <DataTypeBox><![CDATA[//*[@id="MetaTableProcessorValidationDataType"]]]></DataTypeBox>
+ <FieldFormat><![CDATA[//*[@id="MetaTableProcessorValidationFieldFormat"]]]></FieldFormat>
+  <FieldFormatBox><![CDATA[//*[@id="MetaTableProcessorValidationFormatType"]]]></FieldFormatBox>
+
+  <CompanySearch><![CDATA[//*[@id="gs_company_dba_name"]]]></CompanySearch>
+   <YangTest><![CDATA[//*[@id="129274"]/td[15]/a]]></YangTest>
+   <CompanyDetails><![CDATA[//*[@id="page-wrapper"]/div[4]/div[2]/div/ul/li[3]/a]]></CompanyDetails>
+   <LegalNameInput><![CDATA[//*[@id="ClientDetailCompanyLegalName"]]]></LegalNameInput>
+   <Save><![CDATA[//*[@id="ClientEditForm"]/div[5]/div[1]/div[2]/button]]></Save>
+   <SaveVali><![CDATA[//*[@id="fieldvalidation"]/div[6]/div/div/a[2]]]></SaveVali>
+
+ <ErrorMes><![CDATA[//*[@id="ClientDetailCompanyLegalName-error"]]]></ErrorMes>
+</Locators>

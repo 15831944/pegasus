@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <AddressEdit><![CDATA[//a[@title='Edit Profile']]]></AddressEdit>
+  <AddressTypeDropdown><![CDATA[//select[@id='EmployeeAddress0Type']]]></AddressTypeDropdown>
+  <EditProfile><![CDATA[//a[@title='Edit Profile']]]></EditProfile>
+  <ZipCode><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></ZipCode>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <VerifyAccount><![CDATA[//a[contains(text(),'Verify My Account')]]]></VerifyAccount>
+  <VerifyUsername><![CDATA[//*[@id='UserEmailVerificationEmail']]]></VerifyUsername>
+  <VerifyBody><![CDATA[//*[@id='UserEmailVerificationEmailVerificationForm']/div[2]]]></VerifyBody>
+  <VerifySend><![CDATA[//*[@id='emailVerifybtn']]]></VerifySend>
+  <ProfileDefault><![CDATA[//img[@src='https://www.mypegasuscrm.com/img/default.jpgimagecache/120x90_default.jpg']]]></ProfileDefault>
+  <UploadImage><![CDATA[//*[@id='EmployeeProfileImage']]]></UploadImage>
+  <SelectCountryMP><![CDATA[//*[@id='EmployeeAddress0Country']]]></SelectCountryMP>
+  <SelectStateMP><![CDATA[//*[@id='EmployeeAddress0State']]]></SelectStateMP>
+  <Cancel><![CDATA[//a[@title='Cancel']]]></Cancel>
+  <HowardTang><![CDATA[//a[contains(@class, 'dropdown-')]/span]]></HowardTang>
+  <Admin><![CDATA[//a[text()='Admin']]]></Admin>
+  <AddDoc><![CDATA[//span[text()='Add Document']]]></AddDoc>
+  <DocName><![CDATA[//*[@id='DocumentName']]]></DocName>
+  <BrowseFile><![CDATA[//*[@id='DocumentFiles']]]></BrowseFile>
+  <RemoveFile><![CDATA[//a[@title='Remove Attachment']]]></RemoveFile>
+  <SaveDoc><![CDATA[//*[@id='CreateDocumentForm']/div[4]/a[1]]]></SaveDoc>
+  <VerifyValidation><![CDATA[//*[@id='Documentcustom-error']]]></VerifyValidation>
+  <ClicktoEmailIcon><![CDATA[//a[@title='Click to E-Mail']/i]]></ClicktoEmailIcon>
+  <ToEmailId><![CDATA[//*[@id='EmailToAddrs']]]></ToEmailId>
+  
+  
+</Locators>

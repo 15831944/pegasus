@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--All Equipment page-->
+  <FirstEquip><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a]]></FirstEquip>
+  <SearchEquipment><![CDATA[//*[@id='gs_name']]]></SearchEquipment>
+  
+  
+  
+  <!--Create Equipment-->
+  <Name><![CDATA[//*[@id='EquipmentName']]]></Name>
+  <Type><![CDATA[//*[@id='EquipmentType']]]></Type>
+  <EquipmentId><![CDATA[//*[@id='EquipmentEquipmentId']]]></EquipmentId>
+  <Version><![CDATA[//*[@id='EquipmentVersion0Version']]]></Version>
+  <Description><![CDATA[//*[@id='EquipmentVersion0Description']]]></Description>
+  <ApplicableProcessors1><![CDATA[//div[@class='ibox-content']/div/div/div[1]/input]]></ApplicableProcessors1>
+  <ApplicableProcessors2><![CDATA[//div[@class='ibox-content']/div/div/div[2]/input]]></ApplicableProcessors2>
+  <Save><![CDATA[//input[@value='Save']]]></Save>
+  
+  
+  
+  
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']]]></MenuIcon>
+  <ProfileIcon><![CDATA[//*[@id='dropdownMenu1']]]></ProfileIcon>
+  <AdminBtn><![CDATA[//a[text()='Admin']]]></AdminBtn>
+  <Category><![CDATA[//*[@id='EquipmentCategoryId']]]></Category>
+  <ClickOneQUIP><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a]]></ClickOneQUIP>
+  <ClickOnClone><![CDATA[//a[@title='Clone Equipment']]]></ClickOnClone>
+  <ClickDelClone><![CDATA[//a[@title='Delete Equipment']]]></ClickDelClone>
+  <Create><![CDATA[//a[span[contains(text(),'Create')]]]]></Create>
+  
+  <SearchId><![CDATA[//*[@id='gs_equipment_id']]]></SearchId>
+  
+  <EnterName><![CDATA[//*[@id='gs_name']]]></EnterName>
+  <ClickOnEquipmentTab><![CDATA[//span[text()='Equipment']]]></ClickOnEquipmentTab>
+  <EquipmentBtn><![CDATA[//a[text()='Equipment']]]></EquipmentBtn>
+  <VerifyVersionVal><![CDATA[//*[@id='EquipmentVersion0Version-error']]]></VerifyVersionVal>
+  <ClickAddAnother><![CDATA[//a[@title='Add Another']]]></ClickAddAnother>
+  <AddedVersion><![CDATA[//*[@id='EquipmentVersion']]]></AddedVersion>
+  <MoveHover><![CDATA[//a[@class='dropdown-toggle']]]></MoveHover>
+  <ClickOnEquipmentTab><![CDATA[//a[@title='Equipment']]]></ClickOnEquipmentTab>
+  <SectEquip><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SectEquip>
+  <Deleteeqp><![CDATA[//a[@title='Delete Equipment']]]></Deleteeqp>
+  <EditEquipment><![CDATA[//table[@id='list1']//tr[2]//td[3]/span[1]/a]]></EditEquipment>
+  <EditEquipment3><![CDATA[//table[@id='list1']//tr[3]/td/span[1]/a]]></EditEquipment3>
+  <DeleteEuipment><![CDATA[//table[@id='list1']//tr[2]//td[3]/span[2]/a]]></DeleteEuipment>
+  <ChangeStatusBU><![CDATA[link=Change Status]]></ChangeStatusBU>
+  <BulkUpdate><![CDATA[//span[text()=' Bulk Update']]]></BulkUpdate>
+  <SelectStatus><![CDATA[//*[@id='EquipmentStatusUpdateStatus']]]></SelectStatus>#1
+  <ClickOnSaveBulkPopUp><![CDATA[//div[@class='modal-content']/div[3]/a/button]]></ClickOnSaveBulkPopUp>
+  <SaveBulk><![CDATA[//*[@id='change_equipment_type']/div[2]/div/div[3]/a/button]]></SaveBulk>
+  <SaveBulkType><![CDATA[//*[@id='change_equipment_type']/div[2]/div/div[3]/a/button]]></SaveBulkType>
+  <ClickOnFirstCheckBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnFirstCheckBox>
+  <ClickBulkUpdateBtn><![CDATA[//div[@title='Bulk Update']]]></ClickBulkUpdateBtn>
+  <Clone><![CDATA[//a[@title='Clone Equipment']]]></Clone>
+  <ClickOnEquipChkBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input]]></ClickOnEquipChkBox>
+  <ClikEquipType><![CDATA[link=Change Equipment Type]]></ClikEquipType>
+  <EquipTypeStatus><![CDATA[//*[@id='EquipmentTypeUpdateType']]]></EquipTypeStatus>#Check Reader
+  <ChangeHistory><![CDATA[//*[@id='gs_display_name']]]></ChangeHistory>
+  <VerifyID><![CDATA[//*[@id='id']/td[1]]]></VerifyID>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <Col_Modifier><![CDATA[//option[text()='Modifier']]]></Col_Modifier>
+  <Col_ModifiedBy><![CDATA[//option[text()='Modified By']]]></Col_ModifiedBy>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofRecords><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofRecords>
+  <ResetAdvnceFilter><![CDATA[//*[@id='fbox_list1_reset']/button]]></ResetAdvnceFilter>
+
+
+  <DisplayedCols><![CDATA[//*[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='Status']]]></HeadStatus>
+  <HeadManufacturer><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Manufacturer Name']]]></HeadManufacturer>
+  <HeadModel><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]div[text()='Model']]]></HeadModel>
+  <HeadModified><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='Modified']]]></HeadModified>
+  <HeadManufacturer5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Manufacturer Name']]]></HeadManufacturer5>
+  <HeadModel6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]div[text()='Model']]]></HeadModel6>
+
+  <HeadManufacturer3><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Manufacturer Name']]]></HeadManufacturer3>
+  <HeadModel7><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]div[text()='Model']]]></HeadModel7>
+
+
+</Locators>

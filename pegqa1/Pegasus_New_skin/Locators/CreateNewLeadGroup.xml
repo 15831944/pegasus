@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <Create><![CDATA[//*[@id="page-wrapper"]/div[3]/div/div[2]/a]]></Create>
+  <Name><![CDATA[//*[@id="GroupName"]]]></Name>
+  <SaveGroup><![CDATA[//*[@id="GroupManageGroupsForm"]/div[4]/button[1]/i]]></SaveGroup>
+  <Delete><![CDATA[//*[@id="list1"]/tbody/tr[2]/td[2]/span/a/i]]></Delete>
+
+ 
+  
+</Locators>

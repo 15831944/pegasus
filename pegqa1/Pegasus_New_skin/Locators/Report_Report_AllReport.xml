@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <EditReport><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span[1]/a/span]]></EditReport>
+  <ClickOnReportOffice><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnReportOffice>
+  
+</Locators>

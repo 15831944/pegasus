@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <CreateBtn><![CDATA[//span[text()='Create']]]></CreateBtn>
+  <FirstName><![CDATA[//*[@id='ContactFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='ContactLastName']]]></LastName>
+  <CompanyName><![CDATA[//*[@id='ContactCompanyName']]]></CompanyName>
+  <Status><![CDATA[//*[@id='ContactStatus']]]></Status>
+  <Responsibity><![CDATA[//*[@id='ContactAssignedUserId']]]></Responsibity>
+  <UserGroup><![CDATA[//*[@id='ContactAssignedUserGroupId']]]></UserGroup>
+  <UserGroupValue><![CDATA[//*[@id='ContactAssignedUserGroupId']//option[2]]]></UserGroupValue>
+  <SaveBtn><![CDATA[//button[contains(text(),'Save')]]]></SaveBtn>
+  <ResponsibityField><![CDATA[//*[@id='gs_owner']]]></ResponsibityField>
+  <CreateDuplicateBtn><![CDATA[//button[text()='Create Duplicate']]]></CreateDuplicateBtn>
+  <CompanySearchField><![CDATA[//*[@id='gs_company_name']]]></CompanySearchField>
+  <ClickContact><![CDATA[//table[@id='list1']//tr[2]//td[9]/a]]></ClickContact>
+  <EditIcon><![CDATA[//span[text()='Edit']]]></EditIcon>
+  
+</Locators>

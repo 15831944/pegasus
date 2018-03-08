@@ -1,0 +1,1372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EED134F-1AA0-4298-B046-6C480F6B8944}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pegasus_New_skin</RootNamespace>
+    <AssemblyName>Pegasus_New_skin</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Atlassian.Jira, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Atlassian.SDK.5.11.0\lib\Atlassian.Jira.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EasyHttp, Version=1.6.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\EasyHttp.1.6.80.0\lib\net40\EasyHttp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JsonFx, Version=2.0.1209.2802, Culture=neutral, PublicKeyToken=315052dd637f8a52, processorArchitecture=MSIL">
+      <HintPath>packages\JsonFx.2.0.1209.2802\lib\net40\JsonFx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LinqToExcel, Version=1.10.1.0, Culture=neutral, PublicKeyToken=9c8ea65a58f03f1f, processorArchitecture=x86">
+      <HintPath>packages\LinqToExcel.1.10.1\lib\LinqToExcel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq, Version=1.13.52.2, Culture=neutral, PublicKeyToken=8c59a1bf3e8d42c1, processorArchitecture=MSIL">
+      <HintPath>packages\Remotion.Data.Linq.1.0.0\lib\NET40\Remotion.Data.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\RestSharp.105.1.0\lib\net45\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.50.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Selenium.WebDriverBackedSelenium.2.50.1\lib\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.50.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Selenium.RC.2.50.1\lib\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.50.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Selenium.WebDriver.2.50.1\lib\net40\WebDriver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.50.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Selenium.Support.2.50.1\lib\net40\WebDriver.Support.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Locators\LocatorReader.cs" />
+    <Compile Include="netfx\System\Xml\Linq\DynamicXml.cs" />
+    <Compile Include="PageHelper\ActivitiesEmails_EmailAccountsHelper.cs" />
+    <Compile Include="PageHelper\All_ProcessorsHelper.cs" />
+    <Compile Include="PageHelper\ListManagementHelper.cs" />
+    <Compile Include="PageHelper\PAgentPortal_LeadsHelper.cs" />
+    <Compile Include="PageHelper\Office_ClientUserHelper.cs" />
+    <Compile Include="PageHelper\CorpSystem_ThemesHelper.cs" />
+    <Compile Include="PageHelper\MasterData_CategoryHelper.cs" />
+    <Compile Include="PageHelper\GmailHelper.cs" />
+    <Compile Include="PageHelper\System_EmailTemplatesHelper.cs" />
+    <Compile Include="PageHelper\Corp_HomepageHelper.cs" />
+    <Compile Include="PageHelper\Report_ReportHelper.cs" />
+    <Compile Include="PageHelper\OfficeTickets_TicketsHelper.cs" />
+    <Compile Include="PageHelper\MyProfilePageHelper.cs" />
+    <Compile Include="PageHelper\Integration_VantivAPIHelper.cs" />
+    <Compile Include="PageHelper\MailinatorHelper.cs" />
+    <Compile Include="PageHelper\OfficeTickets_ViewTicketsHelper.cs" />
+    <Compile Include="PageHelper\ResidualIncome_OfficePayoutHelper.cs" />
+    <Compile Include="PageHelper\DeleteDataHelper\DeleteDataHelper.cs" />
+    <Compile Include="PageHelper\DelateMasterLanguagesInBulkHelper.cs" />
+    <Compile Include="PageHelper\ProcessorNameOnSavingMerchantHelper.cs" />
+    <Compile Include="PageHelper\VerifySelectedUserGroupHelper.cs" />
+    <Compile Include="PageHelper\AdminCheckFieldRelationshipsHelper.cs" />
+    <Compile Include="PageHelper\AdminFieldGroupingTemplatesHelper.cs" />
+    <Compile Include="PageHelper\AdminFieldLengthValidationHelper.cs" />
+    <Compile Include="PageHelper\AdminSetFieldAsMandatoryHelper.cs" />
+    <Compile Include="PageHelper\AdminSetFormatEmailHelper.cs" />
+    <Compile Include="PageHelper\AdminSetFormatFieldsHelper.cs" />
+    <Compile Include="PageHelper\AdminSetFormatSSNHelper.cs" />
+    <Compile Include="PageHelper\AdminSetFormatTAXIDHelper.cs" />
+    <Compile Include="PageHelper\AdminSetValidationDateHelper.cs" />
+    <Compile Include="PageHelper\AdminSetValidationDecimalHelper.cs" />
+    <Compile Include="PageHelper\AdminSetValidationNumericHelper.cs" />
+    <Compile Include="PageHelper\AdminSetValidationTimeHelper.cs" />
+    <Compile Include="PageHelper\AdminValidateDisplayNamesHelper.cs" />
+    <Compile Include="PageHelper\Comm\DriverHelper.cs" />
+    <Compile Include="PageHelper\CorpCommonLayoutHelper.cs" />
+    <Compile Include="PageHelper\CorpFieldDictionary_SectionsHelper.cs" />
+    <Compile Include="PageHelper\CorpFieldDictionary_TabsHelper.cs" />
+    <Compile Include="PageHelper\CorpFieldRHelper.cs" />
+    <Compile Include="PageHelper\CorpSystem_SettingsHelper.cs" />
+    <Compile Include="PageHelper\CorpSystem_AuditTrialsHelper.cs" />
+    <Compile Include="PageHelper\CorpSystem_EmailTemplatesHelper.cs" />
+    <Compile Include="PageHelper\Corp_Office_DocumentHelper.cs" />
+    <Compile Include="PageHelper\Corp_Office_MeetingHelper.cs" />
+    <Compile Include="PageHelper\Corp_Statistics_UsageStatisticsHelper.cs" />
+    <Compile Include="PageHelper\Corp_Statistics_UserStatisticsHelper.cs" />
+    <Compile Include="PageHelper\CorpIntegration_IframeAppsHelper.cs" />
+    <Compile Include="PageHelper\MasterData_AmexRateHelper.cs" />
+    <Compile Include="PageHelper\MasterData_CategoriesHelper.cs" />
+    <Compile Include="PageHelper\MasterData_RateAndFeesHelper.cs" />
+    <Compile Include="PageHelper\OfficeAdminCommonLayoutHelper.cs" />
+    <Compile Include="PageHelper\OfficeAdminHelper.cs" />
+    <Compile Include="PageHelper\OfficeCommonLayoutHelper.cs" />
+    <Compile Include="PageHelper\OfficeActivities_CallsHelper.cs" />
+    <Compile Include="PageHelper\OfficeMainHelper.cs" />
+    <Compile Include="PageHelper\AddressTypeProfilePageHelper.cs" />
+    <Compile Include="PageHelper\Report_Report_AllReportHelper.cs" />
+    <Compile Include="PageHelper\Tickets_EmailTemplateHelper.cs" />
+    <Compile Include="PageHelper\Ticket_SettingsHelper.cs" />
+    <Compile Include="PageHelper\CorpOffice_OfficeCodesHelper.cs" />
+    <Compile Include="PageHelper\Corp_MerchantHelper.cs" />
+    <Compile Include="PageHelper\CorpPDFTemplate_TemplateHelper.cs" />
+    <Compile Include="PageHelper\Office_FieldGroupingTemplateHelper.cs" />
+    <Compile Include="PageHelper\CorpResidualIncome_PayoutsHelper.cs" />
+    <Compile Include="PageHelper\Office_FieldDictionary_FieldsHelper.cs" />
+    <Compile Include="PageHelper\Office_ContactsHelper.cs" />
+    <Compile Include="PageHelper\Reports_DashBoardsHelper.cs" />
+    <Compile Include="PageHelper\ResidualIncome_MasterDataHelper.cs" />
+    <Compile Include="PageHelper\System_ThemesHelper.cs" />
+    <Compile Include="PageHelper\OfficeTickets_AllTicketsHelper.cs" />
+    <Compile Include="PageHelper\Comm\DriverTestCase.cs" />
+    <Compile Include="PageHelper\Comm\ExecutionLog.cs" />
+    <Compile Include="PageHelper\Comm\KnownFolders.cs" />
+    <Compile Include="PageHelper\Comm\XMLParse.cs" />
+    <Compile Include="PageHelper\CorpMasterData_AmexRateHelper.cs" />
+    <Compile Include="PageHelper\CorpMasterdata_LanguageHelper.cs" />
+    <Compile Include="PageHelper\CorpMasterdata_MerchantTypeHelper.cs" />
+    <Compile Include="PageHelper\CorpMasterdata_OmahaAuthGridHelper.cs" />
+    <Compile Include="PageHelper\CorpMasterdata_PricingPlanHelper.cs" />
+    <Compile Include="PageHelper\CorpMasterdata_ProcessorHelper.cs" />
+    <Compile Include="PageHelper\CorpMasterData_ProcessorsHelper.cs" />
+    <Compile Include="PageHelper\CorpMasterdata_RatesAndFeesHelper.cs" />
+    <Compile Include="PageHelper\CorpMasterdata_UserLimitsHelper.cs" />
+    <Compile Include="PageHelper\CorpOffices_UsersHelper.cs" />
+    <Compile Include="PageHelper\CorpOffice_OfficeHelper.cs" />
+    <Compile Include="PageHelper\CorpPDFTemplate_CategoriesHelper.cs" />
+    <Compile Include="PageHelper\CorpPDFTemplate_ImportWizardHelper.cs" />
+    <Compile Include="PageHelper\CorpResidualIncome_ImportHelper.cs" />
+    <Compile Include="PageHelper\CorpResidualIncome_Masterdata_AdjustmentToolHelper.cs" />
+    <Compile Include="PageHelper\CorpSystem_AvtarsHelper.cs" />
+    <Compile Include="PageHelper\Corp_EmployeeHelper.cs" />
+    <Compile Include="PageHelper\Corp_ProfileHelper.cs" />
+    <Compile Include="PageHelper\Agents_EmployeesHelper.cs" />
+    <Compile Include="PageHelper\Eqiupment_EquipmentHelper.cs" />
+    <Compile Include="PageHelper\Equipment_DownloadIDHelper.cs" />
+    <Compile Include="PageHelper\Equipment_ShippingCarrierHelper.cs" />
+    <Compile Include="PageHelper\Equipment_VendorsHelper.cs" />
+    <Compile Include="PageHelper\Integration_APIHelper.cs" />
+    <Compile Include="PageHelper\Integration_IframeAppsHelper.cs" />
+    <Compile Include="PageHelper\LoginAsCorpHelper.cs" />
+    <Compile Include="PageHelper\LoginHelper.cs" />
+    <Compile Include="PageHelper\MasterData_LanguageHelper.cs" />
+    <Compile Include="PageHelper\MasterData_MerchantTypeHelper.cs" />
+    <Compile Include="PageHelper\MasterData_OmahaAuthGridHelper.cs" />
+    <Compile Include="PageHelper\MasterData_PricingPlanHelper.cs" />
+    <Compile Include="PageHelper\MasterData_ProcessorsHelper.cs" />
+    <Compile Include="PageHelper\OfficeActivities_DocumentHelper.cs" />
+    <Compile Include="PageHelper\OfficeActivities_MeetingHelper.cs" />
+    <Compile Include="PageHelper\OfficeActivities_NotesHelper.cs" />
+    <Compile Include="PageHelper\OfficeActivities_TasksHelper.cs" />
+    <Compile Include="PageHelper\OfficeAdmin_CorporateHelper.cs" />
+    <Compile Include="PageHelper\Office_ClientsHelper.cs" />
+    <Compile Include="PageHelper\Office_DepartmentHelper.cs" />
+    <Compile Include="PageHelper\Office_FieldDictionary_SectionsHelper.cs" />
+    <Compile Include="PageHelper\Office_FieldDictionary_TabsHelper.cs" />
+    <Compile Include="PageHelper\Office_GroupHelper.cs" />
+    <Compile Include="PageHelper\Office_LeadsHelper.cs" />
+    <Compile Include="PageHelper\Office_RolesHelper.cs" />
+    <Compile Include="PageHelper\Office_TeamHelper.cs" />
+    <Compile Include="PageHelper\Office_UserHelper.cs" />
+    <Compile Include="PageHelper\Agents_PartnerAgentsHelper.cs" />
+    <Compile Include="PageHelper\Office_MyProfileHelper.cs" />
+    <Compile Include="PageHelper\Office_OpportunitiesHelper.cs" />
+    <Compile Include="PageHelper\DashBoard_CreateDashboardHelper.cs" />
+    <Compile Include="PageHelper\Agents_PartnerAssociationHelper.cs" />
+    <Compile Include="PageHelper\Agent_1099SalesAgentHelper.cs" />
+    <Compile Include="PageHelper\YopMailHelper.cs" />
+    <Compile Include="PageHelper\Reports_CreateReportHelper.cs" />
+    <Compile Include="PageHelper\PDFTemplate_PDFTemplateHelper.cs" />
+    <Compile Include="PageHelper\ResidualIncome_OfficePayout_DetailedPayoutHelper.cs" />
+    <Compile Include="PageHelper\PDFTemplate_ImportWizardHelper.cs" />
+    <Compile Include="PageHelper\Products_CategoryHelper.cs" />
+    <Compile Include="PageHelper\Products_ProductHelper.cs" />
+    <Compile Include="PageHelper\Agents_AllAgentsHelper.cs" />
+    <Compile Include="PageHelper\System_PicklistsHelper.cs" />
+    <Compile Include="PageHelper\OfficeActivities_EmailsHelper.cs" />
+    <Compile Include="PageHelper\OfficeTickets_CreateTicketsHelper.cs" />
+    <Compile Include="PageHelper\Tickets_EmailNotificationHelper.cs" />
+    <Compile Include="PageHelper\Tickets_MasterDataHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyContactStatusBulkUpdate.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyOpportunityToClientConversionDataBleed.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAddBtnOfCustomFieldOnMerchantsTeminalTab.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifySentMailInSentItems.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyValidEmailOnCreateUsersPage.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyLeadsCategoryOnPartnerAgentPortal.cs" />
+    <Compile Include="Scripts\BugTestNew\VerfiyTicketSettingAssignedToAndManagerSave.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyTicketAutoAssignmentSettings.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifySpecificRelationOfEmail.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyTypoInZipCodeAutoCityPopulate.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAddressLine1and2OnEmployeeCorp.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyClientsPricingPlanDropDownOptions.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCallsAndTicketsOptionInClientActivityType.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCreatedSectionReflect.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAllPDFCategoriesAppearOnPDFTemplates.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyFieldsInheritedForNewOffice.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyRelatedClientOnInfoPageOfClientUser.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDeleteThemeOnCorpError.cs" />
+    <Compile Include="Scripts\BugTestNew\AuthenticateWithGoogleCalendar.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyContactEAddressLabelPopulate.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyEditPartnerAssociationConnectUsername.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyImportOpportunityWithDescription.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyMerchantCategoryCreated.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyBirthdayOfPartnerAgentReflectedOnUsersPage.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyLeadToMerchantCoversion.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyBirthdayOfPartnerAgentOnUsersPage.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyLeadImportVCardError.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyRelatedToTicketsPopupInNotes.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyNewDocVersionError.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyLeadPDFTabError.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyProcessorInCustomFields.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAddressReflectedOnCorpMerchant.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCorrectNumberOfImportedOpportunity.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyEmailTemplateDynamicTag.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyEAddressLabelOfMerchantContactUnderContact.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyEAddressLabelOfContactUnderMerchant.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDurationOfTaskOnCorporateDetailsPage.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCompanyNameOfMerchantOwnerContact.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyResetBtnOfSummaryReportsOfficePayouts.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyTaskPriorityOnEdit.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCallStartTimeOnEdit.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyStartAndDueTimeOfTaskUnderLeadAndMerchant.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyStartAndDueTimeOfTaskUnderTicket.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyUserBirthdateValidation.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAllOptionsInAdvancedFilterOpportunity.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyPrimaryRadioBtnForDifferentEAddressTypePartnerAgent.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyPrimaryRadioBtnOfEmailAndPhoneForVendor.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAllOptionInStatusOnAllOffices.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCorpEmployeeAddressType.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyOpportunityStatusOfNoteUnderOpportunityHistory.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCreatorNameOfDocumentInMerchant.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyLegalNameOnEmailOnCorpMerchant.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyPartnerRevenueSharesAlphanumericAssociationCode.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAddressAutoPopulateMarketingLead.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyEmployeeEAddressLabel.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAddNewFieldBtnUnderReports.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCityOfCorpOnOffice.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyTicketStatusOfTaskUnderTicketHistory.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDraftsSectionForMyTeamEmail.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCallsOptionInActivityTypeOfOpportunity.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyContactStatusOfTaskUnderContactHistory.cs" />
+    <Compile Include="Scripts\BugTestNew\TSYSSeasonalMonthsOutOfOrder.cs" />
+    <Compile Include="Scripts\BugTestNew\TSYSDepositType.cs" />
+    <Compile Include="Scripts\BugTestNew\TSYSOwnerSSNValidation.cs" />
+    <Compile Include="Scripts\BugTestNew\TSYSMCCDescription.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyClientDBACityStateCountryPopulate.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyPDFClone.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDeletedTicketDisappearUnderMerchant.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyRedirectedToEmailPageIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyEmployeePasswordField.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCreatorNameOfTaskAndNoteInMerchant.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyPrimaryBtnAppearWhileCreatingOffice.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyOpportunityAddressLabel.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyVendorAddress3Populate.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyPartnerAgentAddressLine1and2.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDateRemainSameInLeads.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyRemarkBtnInContacts.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyEmployeeAnotherEmailPhoneAddressBtn.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDeletedTaskRecover.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyFaxOptionInPhoneType2.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyMeetingDelete.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCallsOptionInActivityTypeMerchantCorp.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyCreateBtnOnAdjustmentToolPage.cs" />
+    <Compile Include="Scripts\BugTestNew\TSYSBusinessIdentificationType.cs" />
+    <Compile Include="Scripts\BugTestNew\TSYSOwnerIdentificationType.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyImportOpportunityWithWeblinkEmail.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyValidationForBlankAgentCode.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDocumentShareDBAPopulate.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyTicketResolution.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyResidualReportMailing.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyResidualReportPublished.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyValidationOfRoutingNumber.cs" />
+    <Compile Include="Scripts\BugTestNew\MultipleIframeDeleteError.cs" />
+    <Compile Include="Scripts\BugTestNew\DocumentBulkUpdateIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\TaskDetailsAutoUpdationIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\TaskEndDateAutoPopulateIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\BusinessBankingAccountAddAnotherIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyModifiedMovementIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\UserBulkUpdateModifiedTime.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyingIssuesOnPartnerAssoPage.cs" />
+    <Compile Include="Scripts\BugTestNew\PartnerAssociationViewButtonIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyClientMerchantNumberIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\ClientZipCodeAutoPopulationIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\CorpOfficePrimaryUserValidation.cs" />
+    <Compile Include="Scripts\BugTestNew\TypoOfficeDetailsIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\OfficeEditEmailPhoneValidation.cs" />
+    <Compile Include="Scripts\BugTestNew\LeadCreateAndViewIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\DisabledPartnerAgentIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\SaleAgentOppoCreditsIssueInOffice.cs" />
+    <Compile Include="Scripts\BugTestNew\TaskResultsPerPageIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDocumentDisplayedColumnIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\PartAgentLeadsCreditsIssue.cs" />
+    <Compile Include="Scripts\BugTest\VerifyOfficeWithAllModules.cs" />
+    <Compile Include="Scripts\BugTest\GlobalSearchBar.cs" />
+    <Compile Include="Scripts\DeleteData\OfficeCleanPricingPlan.cs" />
+    <Compile Include="Scripts\DeleteData\CleanMasterPriceCrop.cs" />
+    <Compile Include="Scripts\DeleteData\CropDefaultProcesser.cs" />
+    <Compile Include="Scripts\List Management\CreateNewListOnDroppingItems.cs" />
+    <Compile Include="Scripts\List Management\SearchListManagementItem.cs" />
+    <Compile Include="Scripts\List Management\RenameListManagementItem.cs" />
+    <Compile Include="Scripts\New\CreateCorpProcessorFromExcelSheet.cs" />
+    <Compile Include="Scripts\New\CreateAgentsFromExcelSheet.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\LeadsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\LeadsExportFileWithoutError.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\LoginAndLogout.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\MeetingsAdvanceFilterRelatedTo.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\MeetingsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\NewMeetingAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\NotesAdvanceFilterRelatedTo.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\NotesAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\OfficeAdminHeadFoot.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\OfficeMainFieldRelationships.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\OfficeMainHeadFoot.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\OfficeUsersAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\OpportunitiesAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\PartnerAgentsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\PartnerAssociationAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\PDFImportWizard.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\ProductManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\ResetPasswordOfficeUser.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\SalesAgentsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\SendVerificationOfficeUser.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\ShippingCarrierManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\TasksAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\TicketsAdvanceFilterRelatedTo.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\TicketsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VendorManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VendorsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyAdminButtonWorking.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyAgentEmployeeAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyCallsAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyCallsCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyClientCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyClientsAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyContactCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyContactsAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyCreatedIframeInOffficePortal.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyCreatedIframeInPartnerAgent.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyCreatedIframeOnPartnerAssociationPage.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyDocumentAdvanceFilterTrackingFields.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyDocumentCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyDocumentsAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyEquipmentCreatedAndByModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyEquipmentsAdvanceFilterColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyEquipmentVendorsAdvanceFilterColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyIconAndLabelForLeads.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyIconAndLabelForOpportunities.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyLeadsCreatedAndModifiedByCredentials.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyMeetingCreatedModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyMeetingsAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyNotesAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyNotesCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyOfficeCreatedIframeOnClientUserPage.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyOfficeUsersAdvanceFilterColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyOpportunitiesAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyOpportunitiesCreatedModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyPartnerAgentAdvanceFilterColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyPartnerAgentCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyPartnerAssociationAdvanceFilterColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyPartnerAssociationCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyQuicklookLabelsForCalls.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForClients.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForContacts.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForDocuments.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForLeads.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForMeetings.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForOpportunity.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForTasks.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyReportCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifySalesAgentAdvanceFilterColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyTaskCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyTasksAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyTicketsAdvanceFilerColumnOrder.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyTicketsBulkUpdates.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyValidationForCategory.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\VerifyVendorsCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\Pegasus_Admin1\zzzzzzUploadToDashboard.cs" />
+    <Compile Include="Scripts\BugTestNew\SalesAgentOrderOfDisplayedColsIssue.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetFormatPhone.cs" />
+    <Compile Include="Scripts\BugTestNew\DeleteCallInfoPage.cs" />
+    <Compile Include="Scripts\BugTestNew\DeleteInactiveProducts.cs" />
+    <Compile Include="Scripts\BugTestNew\EditRatesAndFeesCorp.cs" />
+    <Compile Include="Scripts\BugTestNew\EditMeetingdeleteFileSave.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyLeadModifiedByTimeIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyAdminTicketMasterDeleteConfirmation.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyContactCreditsIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyLabelForContactVcard.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyMeetingsCreditsIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyInvalidContactFile.cs" />
+    <Compile Include="Scripts\BugTestNew\LeadLabelSelectForCategory.cs" />
+    <Compile Include="Scripts\BugTestNew\MerchantFilterSalesEmailIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\MergeContactCancel.cs" />
+    <Compile Include="Scripts\BugTestNew\MergeContactSelectandCancel.cs" />
+    <Compile Include="Scripts\BugTestNew\MergeLeadSelectAnyAndCancel.cs" />
+    <Compile Include="Scripts\BugTestNew\MergeLeadVerifyConfirmation.cs" />
+    <Compile Include="Scripts\BugTestNew\MergeOpportunitiesConfirmation.cs" />
+    <Compile Include="Scripts\BugTestNew\NoteAttachmentInvlidFileValidation.cs" />
+    <Compile Include="Scripts\BugTestNew\OpportunityLabelforCategory.cs" />
+    <Compile Include="Scripts\BugTestNew\OpportunityToLeadConversionIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyConfirmationNoChangeProcessor.cs" />
+    <Compile Include="Scripts\BugTestNew\UplaodFileAfterDeleting.cs" />
+    <Compile Include="Scripts\BugTestNew\AmexRateAlphabeticValidation.cs" />
+    <Compile Include="Scripts\BugTestNew\EditOpportunityGroupWithExistingName.cs" />
+    <Compile Include="Scripts\BugTestNew\EquipmentChangeHistoryFilter.cs" />
+    <Compile Include="Scripts\BugTestNew\LabelSelectforClient.cs" />
+    <Compile Include="Scripts\BugTestNew\MeetingValidationForGreaterStartDate.cs" />
+    <Compile Include="Scripts\BugTestNew\MerchantCorpHistoryFilter.cs" />
+    <Compile Include="Scripts\BugTestNew\OpportunityGroupWithBlankName.cs" />
+    <Compile Include="Scripts\BugTestNew\RateAndFeesEditWithAlreadyexistingName.cs" />
+    <Compile Include="Scripts\BugTestNew\EditMeetingValiationForAlphabet.cs" />
+    <Compile Include="Scripts\BugTestNew\EditMeetingVerfiyValidation.cs" />
+    <Compile Include="Scripts\BugTestNew\EditTaskDeleteAttachmentSave.cs" />
+    <Compile Include="Scripts\BugTestNew\ImportInValidVcardContacts.cs" />
+    <Compile Include="Scripts\BugTestNew\ImportLeadCancel.cs" />
+    <Compile Include="Scripts\BugTestNew\ImportOpportunitiesCancel.cs" />
+    <Compile Include="Scripts\BugTestNew\LabelDoubleClickToAddTopicTicket.cs" />
+    <Compile Include="Scripts\BugTestNew\LabelSelectforTask.cs" />
+    <Compile Include="Scripts\BugTestNew\OpportunityLabelAgentBlankSave.cs" />
+    <Compile Include="Scripts\BugTestNew\ProductCategoryWithAlreadyExistingName.cs" />
+    <Compile Include="Scripts\BugTestNew\CorpOfficeSearchWithInvalidPhone.cs" />
+    <Compile Include="Scripts\BugTestNew\EditMerchantVerifyConfirmation.cs" />
+    <Compile Include="Scripts\BugTestNew\ShippingCarrierSaveWithInvalidURLIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\TaskValidationAlphabeticDate.cs" />
+    <Compile Include="Scripts\BugTestNew\TicketTopicCreateWithExistingAndCancel.cs" />
+    <Compile Include="Scripts\BugTestNew\ValidationForAlreadyExistingEquipment.cs" />
+    <Compile Include="Scripts\BugTestNew\ValidationforBlankPDFTemplate.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyDocumentsOnEmailAttachment.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyLabelSelectForMeeting.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyModifiedByCreditsPartnerAsso.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyNotesModifiedUpdated.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyReportCreditsIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyResultsPerPageUsers.cs" />
+    <Compile Include="Scripts\BugTestNew\ValidationforContactPrimaryEmail.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyingClientConvertedByCredits.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyingPartnerAssociationModiifedCredentials.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyingTicketModifiedByCredentials.cs" />
+    <Compile Include="Scripts\BugTestNew\EmployeeAdvanceFilterIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\CorpEmployeePhoneIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\LeadModifiedByIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\PartnerAgentCreatedByIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyingOfficeZipCode.cs" />
+    <Compile Include="Scripts\BugTestNew\RatesAndFeesCloneIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\EmployeeAgentAdvancedFilterIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\OfficeEaddressLabelIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\PartnerAgenteAddressLabelIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyingOpportunityeAddresslabel.cs" />
+    <Compile Include="Scripts\BugTestNew\ValidationForAdjustmentRuleForPArtnerAgent.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyModifiedByCredentialsforLead.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyingContactValidationMessage.cs" />
+    <Compile Include="Scripts\BugTestNew\Verifying PricingPlanPushtoOfficeError.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyingOmahaAuthGrid500error.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyMerchantCreatedAndModifiedByCredits.cs" />
+    <Compile Include="Scripts\BugTestNew\VendorCreatedModifiedIssue.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyModifiedByTaskIssue.cs" />
+    <Compile Include="Scripts\BugTest\ActivateBlockedUser.cs" />
+    <Compile Include="Scripts\BugTest\AdjustmentChangeUrl.cs" />
+    <Compile Include="Scripts\BugTest\AdminIntegrationIframe.cs" />
+    <Compile Include="Scripts\BugTest\AdminMasterDataResolutionUrlChange.cs" />
+    <Compile Include="Scripts\BugTest\AdminMerchantTypeBackIssue.cs" />
+    <Compile Include="Scripts\BugTest\AdminProductCategoriesChangeUrl.cs" />
+    <Compile Include="Scripts\BugTest\AdminProductChangeUrl.cs" />
+    <Compile Include="Scripts\BugTest\AdminTicketCategoryURLChange.cs" />
+    <Compile Include="Scripts\BugTest\AdminTicketEmailTemplateChangeURL.cs" />
+    <Compile Include="Scripts\BugTest\AdminTicketPriorityUrlChange.cs" />
+    <Compile Include="Scripts\BugTest\AdminTicketsMDataTopicsCancel.cs" />
+    <Compile Include="Scripts\BugTest\AdminTicketStatusUrlChange.cs" />
+    <Compile Include="Scripts\BugTest\AdminTicketsTopicsUrlChange.cs" />
+    <Compile Include="Scripts\BugTest\AgentCodeAndRevenueShareValidation.cs" />
+    <Compile Include="Scripts\BugTest\AttachMultpleFilesInEmail.cs" />
+    <Compile Include="Scripts\BugTest\BulkUpdateEquipmentStatus.cs" />
+    <Compile Include="Scripts\BugTest\BulkUpdateEquipmentType.cs" />
+    <Compile Include="Scripts\BugTest\BulkUpdateSaleAgent.cs" />
+    <Compile Include="Scripts\BugTest\BulkUpdateSalesManagerForClient.cs" />
+    <Compile Include="Scripts\BugTest\BulkUpdateSalesManagerForLead.cs" />
+    <Compile Include="Scripts\BugTest\BulkUpdateSalesManagerForOpportunities.cs" />
+    <Compile Include="Scripts\BugTest\BulkUpdateVendorStatus.cs" />
+    <Compile Include="Scripts\BugTest\BulkUpdateVendorType.cs" />
+    <Compile Include="Scripts\BugTest\ChangeURLofMeeting.cs" />
+    <Compile Include="Scripts\BugTest\ClientAddresses.cs" />
+    <Compile Include="Scripts\BugTest\ClientStatisticsChangeURL.cs" />
+    <Compile Include="Scripts\BugTest\ClientZipCode.cs" />
+    <Compile Include="Scripts\BugTest\CloneEquipment.cs" />
+    <Compile Include="Scripts\BugTest\CloneVendors.cs" />
+    <Compile Include="Scripts\BugTest\CorpMeetingDateLabelVerify.cs" />
+    <Compile Include="Scripts\BugTest\CorpOfficeAddressCollapse.cs" />
+    <Compile Include="Scripts\BugTest\CreateAndDeletePDFCategories.cs" />
+    <Compile Include="Scripts\BugTest\CreateDashBoardNextButton.cs" />
+    <Compile Include="Scripts\BugTest\CreateMeetingActivities.cs" />
+    <Compile Include="Scripts\BugTest\CreatePartnerAgentAndUserAccount.cs" />
+    <Compile Include="Scripts\BugTest\CreateReportClientAlertForActivity.cs" />
+    <Compile Include="Scripts\BugTest\DeleteClientUserRefresh.cs" />
+    <Compile Include="Scripts\BugTest\DeleteIframeIntegration.cs" />
+    <Compile Include="Scripts\BugTest\DeleteMeetingFromRecycleBin.cs" />
+    <Compile Include="Scripts\BugTest\DocumentForMeetingReplaceInvalidFile.cs" />
+    <Compile Include="Scripts\BugTest\DocumentUpdateVersion.cs" />
+    <Compile Include="Scripts\BugTest\EditAmexRatesCorpVerifyInOffice.cs" />
+    <Compile Include="Scripts\BugTest\EditDocumentSubjectValidation.cs" />
+    <Compile Include="Scripts\BugTest\EditNoteChangeClient.cs" />
+    <Compile Include="Scripts\BugTest\EditNoteChangeHistory.cs" />
+    <Compile Include="Scripts\BugTest\EditOfficeDetail.cs" />
+    <Compile Include="Scripts\BugTest\EditOmahaPDFCorp.cs" />
+    <Compile Include="Scripts\BugTest\EditPartnerAssociationAgent.cs" />
+    <Compile Include="Scripts\BugTest\EditPickListStatuses.cs" />
+    <Compile Include="Scripts\BugTest\EditTask.cs" />
+    <Compile Include="Scripts\BugTest\EditTicketVerifyResponsibility.cs" />
+    <Compile Include="Scripts\BugTest\EmailNoteForward.cs" />
+    <Compile Include="Scripts\BugTest\EmailVerifyTo.cs" />
+    <Compile Include="Scripts\BugTest\EmployeeAdjustmentValidationToSelectAgent.cs" />
+    <Compile Include="Scripts\BugTest\EquipmentShippingValidationDublicate.cs" />
+    <Compile Include="Scripts\BugTest\ExportClient.cs" />
+    <Compile Include="Scripts\BugTest\FilterForAgent.cs" />
+    <Compile Include="Scripts\BugTest\ForwardEmailFromSent.cs" />
+    <Compile Include="Scripts\BugTest\ImportClientsFromCSV.cs" />
+    <Compile Include="Scripts\BugTest\InactivePickListStatuses.cs" />
+    <Compile Include="Scripts\BugTest\LeadPhoneUpdate.cs" />
+    <Compile Include="Scripts\BugTest\LeadSave.cs" />
+    <Compile Include="Scripts\BugTest\LeadZipCode.cs" />
+    <Compile Include="Scripts\BugTest\MeetingDateValidation.cs" />
+    <Compile Include="Scripts\BugTest\MeetingForLead.cs" />
+    <Compile Include="Scripts\BugTest\MerchantActivitiesUrlChangeCorp.cs" />
+    <Compile Include="Scripts\BugTest\MerchantURLChange.cs" />
+    <Compile Include="Scripts\BugTest\OfficeDocumentValidationExe.cs" />
+    <Compile Include="Scripts\BugTest\OfficeStateVerifyCorp.cs" />
+    <Compile Include="Scripts\BugTest\OpportunitiesValidateForExe.cs" />
+    <Compile Include="Scripts\BugTest\OpportunitiesZipCode.cs" />
+    <Compile Include="Scripts\BugTest\PartnerAgentBirthDateVerifySave.cs" />
+    <Compile Include="Scripts\BugTest\PartnerAgentWithoutUser.cs" />
+    <Compile Include="Scripts\BugTest\PartnerAgentWithoutUserSuccessConfirm.cs" />
+    <Compile Include="Scripts\BugTest\PartnerAgentWithUser.cs" />
+    <Compile Include="Scripts\BugTest\PartnerAssociationUserAdditionalInfo.cs" />
+    <Compile Include="Scripts\BugTest\PartnerAssociationWithoutUser.cs" />
+    <Compile Include="Scripts\BugTest\PartnerAssociationWithUser.cs" />
+    <Compile Include="Scripts\BugTest\PDFCategoriesViewInOffice.cs" />
+    <Compile Include="Scripts\BugTest\PDFEmailFromClient.cs" />
+    <Compile Include="Scripts\BugTest\PDFImportWizardMaping.cs" />
+    <Compile Include="Scripts\BugTest\PDFTemplatesPerminsions.cs" />
+    <Compile Include="Scripts\BugTest\RelatedToMeetingPaginationFilter.cs" />
+    <Compile Include="Scripts\BugTest\SaleAgentEmailValidation.cs" />
+    <Compile Include="Scripts\BugTest\SaleAgentURLChange.cs" />
+    <Compile Include="Scripts\BugTest\SaleAgentValidationFutureDate.cs" />
+    <Compile Include="Scripts\BugTest\SaleAgentWithoutUser.cs" />
+    <Compile Include="Scripts\BugTest\SaleAgentWithUser.cs" />
+    <Compile Include="Scripts\BugTest\SearchClientByFullName.cs" />
+    <Compile Include="Scripts\BugTest\SendEmailFromActivity.cs" />
+    <Compile Include="Scripts\BugTest\SendEmailNoteMultipleCC.cs" />
+    <Compile Include="Scripts\BugTest\ShowMeetingOnCalender.cs" />
+    <Compile Include="Scripts\BugTest\StatusFilterForEmployeeAgent.cs" />
+    <Compile Include="Scripts\BugTest\SystemPickListStatusAdmin.cs" />
+    <Compile Include="Scripts\BugTest\TicketCorpVerifyPermisionInBulkUpdate.cs" />
+    <Compile Include="Scripts\BugTest\TicketSettingAdmin.cs" />
+    <Compile Include="Scripts\BugTestNew\TicketTopicHeadingChangedToCreateIssue.cs" />
+    <Compile Include="Scripts\BugTest\ValidationPartnerAssociationRevenueShare.cs" />
+    <Compile Include="Scripts\BugTest\VendorsChangeHistoryFilter.cs" />
+    <Compile Include="Scripts\BugTest\VerifyEmailPhoneAfterSaveOnClientInfo.cs" />
+    <Compile Include="Scripts\BugTest\VerifyFilterTicketMerchantHistory.cs" />
+    <Compile Include="Scripts\BugTest\VerifyNoteWithExeForMeetingNotAdded.cs" />
+    <Compile Include="Scripts\BugTest\VerifyTypoInClientRateAndFess.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdjustmentToolURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminCorpDocumentURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminCorpEmailURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminCorpMeetingURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminCorpNotesURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminCorpTaskURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminEquipmentDownloadIdsURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminEquipmentEquipmentURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminEquipmentShippingCarrierURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminEquipmentVendorsURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminIntegrationIframeURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminMasterDataAmexRateURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminMasterDataMerchantTypeURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminMasterDataPricingPlanURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminMasterDatRateAndFeesURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminProductCategoryURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminProductProductURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminSystemThemeURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminTicketEmailTemplateURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminTicketPriorityURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminTicketResolutionURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\AdminTicketStatusURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\ClientDocumentUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\ClientEmailUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\ClientMeetingUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\ClientNotesUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\ClientTaskUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\ClientUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\ContactUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpEmployeeUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMasterDataAmexRateUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMasterDataMerchantTypeUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMasterDataPricingPlanUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMasterDataProcessorUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMasterDataRateAndFeesUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMerchantDocumentUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMerchantEmailUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMerchantNotesUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMerchantTaskUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMerchantTicketsUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpMerchantUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpOfficeCodeUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpOfficeUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpResidualIncomeCalWizardUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpResidualIncomePayoutSummaryUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpResidualIncomeViewReportsUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpResidualIncomeViewTransactionUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\CorpSystemTemplateUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\DashboardUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\DocumentUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\EditDashboardUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\EditReportUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\EmailUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\EmployeeUrlNumberChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\LeadsDocumentUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\LeadsEmailUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\LeadsMeetingUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\LeadsNotesUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\LeadsTaskUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\LeadsUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\MeetingUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\NotesUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\OpportunitiesEmailUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\OpportunitiesnDocumentUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\OpportunitiesnNotesUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\OpportunitiesUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\PartnerAgentURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\PartnerAssociationURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\PDFTemplateURLChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\ReportUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\TaskUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\TicketsUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\UsageStatisticUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\UserStatisticlUrlChange.cs" />
+    <Compile Include="Scripts\ChangeUrl\UserStatisticOfficelUrlChange.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AddAgentCodeForPartnerAgnet.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AddMultipleContact.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AddNoteIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AddressStateIssues.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AddressTypePickList.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AgentCreateField.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AgentEmployeePage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AllAgentDisplayePage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\AllUserPageInCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\BlankSubjectValidation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\BulkUpdatePopup.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CancelEditProfile.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ChangeStatusOfTicketAndVerifyStatus.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CheckFilter.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClickEditEquipmentAfterConfirmDelete.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientAddDocPopIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientCompanyMissingField.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientMerchantIssue1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientMerchantIssue2.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientOwnerSave.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientOwnerTabIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientPDFInactive.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientRequiredField.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientSharePDF.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientSSNIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientTextTab.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientVerifyCanadaCountry.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientViewUI.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ClientMissingPDFAggreement.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ConvertLeadMoveToRecycleBin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CopyrightNotAvail.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateAgentWithoutLogiIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateClientError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateDashboardNext.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateEquipmentNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateLeadErrrorMessage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateLeadWithRequiredFieldNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateOfficeNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreatePartnerIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreatePDFPackage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreatePickList.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateProcessorNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateReportError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateReportValidation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateSalesAgentIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateUserAdditionalFields.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateUserEmail.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateUserError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateUserError1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\CreateUserError2.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteDraft.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteEquipmentNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteOfficeURL.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeletePDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeletePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeletePickItemIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteProductAdmin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteShaEmployee.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DeleteTicket.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\DocumentVersionError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditCorpEmployee.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditDocSaveIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditGroupIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditMyProfile.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditOmahaAuthGripAdmin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditOppStateIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditPartnerAgentNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditPDFNameIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditPDFTemplateNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditPricingPlanIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EditThemeAdmin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EmailAccountIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EmailNoteWithRelatedTo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EmployeeAgentNS.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EmployeeStateIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EmployeeVerifyCanadaCountryCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EquepmentDeleteError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EquipentblankValidation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EquipmentModifierError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\EquipmentPular.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ExportClient.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ExportError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ExportingResidualIncomePayoutsReport.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FDNRequirement.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FieldDictionaryFields.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FieldDictionarySection.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FieldDisError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FieldOrderIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FilterIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\FirstDataNorthPDF.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\GetDefaultRatesAndFeesClient.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\GetDeafultRatesAndFeesLead.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\HttpsError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\IntegrationCodeAPICancel.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LanguageNameValidation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LastActivityBy.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LastLoginTime.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LeadConvertIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LoginAndLogoutNewSkinAsOffice.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VisitJiraDashboardTest.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LoginError1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\LoginError2.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MakeStatusActivePDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MakeStatusActivePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MakeStatusInActivePDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MakeStatusInActivePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ManageUser.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MerchantTabCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MissingPhoneSectionIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MissingProductTabIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\MouseOverTheButtonOpportunities.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\One000Added.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\OpportunititySubjectFiledValidateBlank.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\OppourtunitiesVerifyCanadaCountry.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PartnerAgentWithUserNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PartnerAssoSave.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PDFImportError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PDFPackageWithRule.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PermanentlyDeleteDocumentNewSkin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PermanentlyDeletePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PickListPopup.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\PracticalPDFProblem.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProcessorDeleteTypo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProductIpage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProductMaxLength.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProfilePictureChange.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProfilePicUplaodField.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ProfileViewOfClientLeadAndOpportunities.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RateAndFeesPushToOfficeBtn.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RefreshPicklist.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RememberMeLoginPage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ReportPDFBroken.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualAdjustmentTool.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualAdjustmentTool1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualIncomeOfficeAdjustmentToolAgentsFlat.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualIncomeOfficeAdjustmentToolAgentsPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualIncomeOfficeAdjustmentToolOfficeFlat.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ResidualIncomeOfficeAdjustmentToolOfficePercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RestoreDeletedPDFTemplate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RestorePDFTemplateCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentPartnerAgentAddFlatAmount.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentPartnerAgentAddPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentPartnerAgentRemoveFlatAmount.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentPartnerAgentRemovePercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueAdjustmentSaleManagerEmployeeAddPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueShareButtonForPartnerAgent.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueShareButtonForPartnerAssociation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueShareInDecimalPartnerAgent.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\RevenueShareInDecimalPartnerAssociation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\SalesUserIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\SaveDashboard.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\SaveEditProfileState.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\SaveLocation.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\SaveThemeIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ShippingFilterError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\Sys PRN Issue1.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TextWithTitle.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ThemeDefaultColor.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ThemeDeleteError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketComment.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketCommentPopup.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketingSystem.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketPopupIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketSettingOption.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TicketStatusIssue.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\TrashIconAvail.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UniqueDocError.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UpdateTextOnMarketingPageClient.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UploadedLogo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UserCountPage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\UserVerifyCountryCorp.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ValidationForFileTypeOfficeLogo.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VendorEmailVerification.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VendorSocialurlValidate.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyAddAnotherVersionDisplay.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyAstrick.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyBulkUpdateForClients.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyRecycleBin.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifySuccessMessage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\VerifyUserRedirectToShippingOnCancel.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ViewRevenueAdjustmentPartnerAgentAddFlatAmount.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ViewRevenueAdjustmentSaleAgentPercentage.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\WebsiteFilter.cs" />
+    <Compile Include="Scripts\NewSkinTaskJira\ZipCodeError.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CallsAdvanceFilterRelatedTo.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ImportAndMapPDFAzura.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EquipmentsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\DocumentsAdvanceFilterRelatedTo.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CallsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\DocumentsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ClientsAdvanceFilterActivities.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ContactsAdvanceFilterActivities.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\LeadsAdvanceFilterActivities.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AgentEmployeeAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ContactsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ClientsAdvanceFilterResultsPP.cs" />
+    <Compile Include="Scripts\BugTestNew\VerifyNotesCreditsIssue.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ActivitiesBulkUpdatesDocs.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ActivitiesBulkUpdatesCalls.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ActivitiesDocumentManagement2.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminCheckFieldRelationships.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminFieldGroupingTemplates.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminFieldLengthValidation.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ActivitiesNotesManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetFieldAsMandatory.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetFormatEmail.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetFormatSSN.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetFormatTAXID.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetValidationDate.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetValidationDecimal.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetValidationNumeric.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminSetValidationTime.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AdminValidateDisplayNames.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ActivitiesTasksManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ActivitiesMeetingsManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ActivitiesDocumentManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\DownloadIdsManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EquipmentManagement.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AddDocumentAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\AddNotesAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\ClientExportFileWithoutError.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateAdminProcessor.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateAPICodesIntegration.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateCategoryTickets.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateClientSectionMasterData.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateClientTabsMasterData.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateDepartmentOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateDownloadIds.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateDuplicateAvatarError.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateEquipments.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateGroups.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateIframeIntegration.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateLanguage.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateLeadsSectionMasterData.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateLeadsTabsMasterData.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateMerchantTypeAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateNewTaskAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateOfficeRoles.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateOfficeTeams.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateUserAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateOmahaAuthGrid.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreatePricingPlanAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreatePriorityTicket.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateProcessorWithoutError.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateProductCategory.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateProducts.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateResolutionTicket.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateShippingCarrier.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateStatus.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateTopicTickets.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\CreateVendors.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\DeleteVendor.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditDepartmentOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditDownloadIds.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditEquipment.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditIframeIntegration.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditNewMeeting.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditNewTask.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditNotesAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditPDFImportWizard.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditPricingPlanAdmin.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditProductCategories.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditProducts.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EditShippingCarriers.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\EmailNotification.cs" />
+    <Compile Include="Scripts\Pegasus_Admin\DeleteExecutionResultFile.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\AmexRatesPushToOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CorpEmployeeAdvanceFilter2.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CorpFieldRelationships.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CorpEmployeeAdvanceFilter.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\MerchantAdvanceFilterMerchantDetails.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\VerifyMerchantAdvanceFilterOrderOfCols.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\VerifyCreatedIframeForClientUser.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\VerifyCreatedIframeForPartnerAssociation.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\VerifyCreatedIframeForPartner.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\VerifyCorpCreatedIframeOnSaleAgentPage.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\VerifyCreatedIframeInOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreateAmexRates.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreateEmployee.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreateLanguageCorp.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreateMerchnatType.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreateOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CorpCreateOmahaAuthGrid.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreatePDFCategories.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreatePDFTemplate.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreatePricingPlan.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CorpIframeAppsCreation.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\ProcessorEditWithalreadyExistingNameIssue.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreateProcessor.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreateRatesAndFeesCorp.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CreateResdualIncomeAdjustmentTool.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\DeleteProcessor.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\DeletePublihedFileRI.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\EditAmexRates.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\EditAndDeleteLanguageCorp.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\EditAndDeleteMerchnatType.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\EditAndDeleteOmahaAuthGrid.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\EditAndDeletePricingPlan.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\EditOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\EditProcessor.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\EditProfileCorp.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\CorpEditUserLimit.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\JTable_Common_Layout_Corp.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\LanguagePushToOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\LoginAsCorp.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\MerchnatTypePushToOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\OfficeUserExportToCSV.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\OfficeUserExportToExcel.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\OfficeVerifyCodes.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\OfficeVerifyFND.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\OmahaAuthGridPushToOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\PDFImportWizard.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\PricingPlanPushToOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\ProcessorPushToOffice.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\RateAndFeesCopyCorp.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\SystemPickListAddressType.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\SystemPickListeAddressLabelEmail.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\SystemPickListeAddressLabelIms.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\SystemPickListeAddressLabelSocialMedia.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\SystemPickListeAddressPhoneType.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\SystemPickListeAddressType.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\SystemPickListSalutation.cs" />
+    <Compile Include="Scripts\Pegasus_Corp\MerchantAdvanceFilterResultPerPage.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\CorpEmployeeEmailAndConactIssue.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\CreateDemoOffice.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\DelateMasterLanguagesInBulk .cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\ELabelAddressIssue.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\PartnerAssociationCallThisPhone.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\ResidualIcomeViewReports.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\EmployeeAgentBirthdateOnInfoPage.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\LeadeAddressLabelAutoUpdate.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\VerifySalutaionForLead.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\ProductUpdateDate.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\EquipmentSortByAdvanceFilterIssue.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\VerifyEmployeeEAddressLabel.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\VerifyDefaultValueOfPerPageDropdown.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\VerifyNotesPage.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\PartnerAgentCodeInQuickLook.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\ProcessorNameOnSavingMerchant.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\VerifySelectedUserGroup.cs" />
+    <Compile Include="Scripts\SELENIUM_TESTCASE\AddressTypeProfilePage.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\AmexRateCorp.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\CheckOmahaFields.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\Client.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\CorporatePortal1.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\CorporatePortal2.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\CreateEditAvators.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\CreateEditMerchantType.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\Dashboard.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\DeleteOffice.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\DocumentManagement.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\EditUserLimitCorp.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\ExportUserToCsv.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\Iframe.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\LanguageCorp.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\CreateAndMergeLeads.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\LeadAndClientManagement.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\MergeContact.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\OfficeFieldDictionary.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\OmahaAuthGridCorp.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\Opportunities.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\PartnerPortal.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\PDFImpotWizard.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\PricingPlan.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\ProductManagement.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\PushToOffice.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\ResidualAdjustment.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\ResidualIncomeAdjustment.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\SaleAgent1.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\SaleAgent2.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\TaskAndMeeting.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\Tickets.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\ViewMerchant.cs" />
+    <Compile Include="Scripts\Pegasus_NewSkin\WebsitesAPIIntegration.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Screenshots\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\ApplicationSettings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Files\chrome.exe" />
+    <Content Include="Files\Up.jpg" />
+    <Content Include="Files\index.jpg" />
+    <Content Include="Files\index2.png" />
+    <Content Include="Locators\ActivitiesEmails_EmailAccount.xml" />
+    <Content Include="Locators\All_Processors.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\ListManagement.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\PAgentPortal_Leads.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Office_ClientUser.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\CorpSystem_Themes.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\MasterData_Category.xml" />
+    <Content Include="Locators\Gmail.xml" />
+    <Content Include="Locators\System_EmailTemplates.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Corp_Homepage.xml" />
+    <Content Include="Locators\Report_Report.xml" />
+    <Content Include="Locators\OfficeTickets_Tickets.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\MyProfilePage.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Integration_VantivAPI.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Mailinator.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\OfficeTickets_ViewTickets.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\ResidualIncome_OfficePayout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\DelateMasterLanguagesInBulk.xml" />
+    <Content Include="Locators\ProcessorNameOnSavingMerchant.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\VerifySelectedUserGroup.xml" />
+    <Content Include="Locators\AdminFieldGroupingTemplates.xml" />
+    <Content Include="Locators\AdminFieldLengthValidation.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\AdminFieldRelationships.xml" />
+    <Content Include="Locators\AdminSetFieldAsMandatory.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\AdminSetFormatEmail.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\AdminSetFormatFields.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\AdminSetFormatSSN.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\AdminSetFormatTAXID.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\AdminSetValidationDate.xml" />
+    <Content Include="Locators\AdminSetValidationDecimal.xml" />
+    <Content Include="Locators\AdminSetValidationNumeric.xml" />
+    <Content Include="Locators\AdminSetValidationTime.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\AdminValidateDisplayNames.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\CorpCommonLayout.xml" />
+    <Content Include="Locators\CorpFieldDictionary_Sections.xml" />
+    <Content Include="Locators\CorpFieldDictionary_Tabs.xml" />
+    <Content Include="Locators\CorpFieldRelationships.xml" />
+    <Content Include="Locators\CorpSystem_Settings.xml" />
+    <Content Include="Locators\CorpSystem_AuditTrails.xml" />
+    <Content Include="Locators\CorpSystem_EmailTemplates.xml" />
+    <Content Include="Locators\Corp_Office_Document.xml" />
+    <Content Include="Locators\Corp_Office_Meeting.xml" />
+    <Content Include="Locators\Corp_Statistics_UsageStatistics.xml" />
+    <Content Include="Locators\Corp_Statistics_UserStatistics.xml" />
+    <Content Include="Locators\CorpIntegrations_IframeApps.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\MasterData_AmexRate.xml" />
+    <Content Include="Locators\MasterData_RateAndFees.xml" />
+    <Content Include="Locators\OfficeAdminCommonLayout.xml" />
+    <Content Include="Locators\OfficeMainCommonLayout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\OfficeActivities_Calls.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Report_Report_AllReport.xml" />
+    <Content Include="Locators\AddressTypeProfilePage.xml" />
+    <Content Include="Locators\Tickets_EmailTemplate.xml" />
+    <Content Include="Locators\Ticket_Settings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\CorpOffice_OfficeCodes.xml" />
+    <Content Include="Locators\Corp_Merchant.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\CorpPDFTemplate_Template.xml" />
+    <Content Include="Locators\Office_FieldGroupingTemplate.xml" />
+    <Content Include="Locators\CorpResidualIncome_Payouts.xml" />
+    <Content Include="Locators\Office_FieldDictionary_Fields.xml" />
+    <Content Include="Locators\Office_Contacts.xml" />
+    <Content Include="Locators\Reports_DashBoards.xml" />
+    <Content Include="Locators\ResidualIncome_MasterData.xml" />
+    <Content Include="Locators\System_Themes.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\OfficeTickets_AllTickets.xml" />
+    <Content Include="Locators\CorpMasterData_AmexRate.xml" />
+    <Content Include="Locators\CorpMasterdata_Language.xml" />
+    <Content Include="Locators\CorpMasterdata_MerchantType.xml" />
+    <Content Include="Locators\CorpMasterdata_OmahaAuthGrid.xml" />
+    <Content Include="Locators\CorpMasterdata_PricingPlan.xml" />
+    <Content Include="Locators\CorpMasterData_Processors.xml" />
+    <Content Include="Locators\CorpMasterdata_RatesAndFees.xml" />
+    <Content Include="Locators\CorpMasterdata_UserLimits.xml" />
+    <Content Include="Locators\CorpOffice_Office.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\CorpOffice_Users.xml" />
+    <Content Include="Locators\CorpPDFTemplate_Categories.xml" />
+    <Content Include="Locators\CorpPDFTemplate_ImportWizard.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\CorpResidualIncome_Import.xml" />
+    <Content Include="Locators\CorpResidualIncome_Masterdata_AdjustmentTool.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\CorpSystem_Avtars.xml" />
+    <Content Include="Locators\Corp_Employee.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Corp_Profile.xml" />
+    <Content Include="Locators\Agents_Employees.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Equipment_DownloadIDs.xml" />
+    <Content Include="Locators\Equipment_Equipment.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Equipment_shippingCarrier.xml" />
+    <Content Include="Locators\Equipment_Vendors.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Integrations_IframeApps.xml" />
+    <Content Include="Locators\Integration_API.xml" />
+    <Content Include="Locators\Login.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\LoginAsCorp.xml" />
+    <Content Include="Locators\MasterData_Language.xml" />
+    <Content Include="Locators\MasterData_MerchantType.xml" />
+    <Content Include="Locators\MasterData_OmahaAuthGrid.xml" />
+    <Content Include="Locators\MasterData_PricingPlan.xml" />
+    <Content Include="Locators\MasterData_processors.xml" />
+    <Content Include="Locators\OfficeActivities_Meeting.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\OfficeActivities_Tasks.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\OfficeAdmin_Corporate.xml" />
+    <Content Include="Locators\OfficeActivities_Documents.xml" />
+    <Content Include="Locators\OfficeActivities_Notes.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Office_Clients.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Office_Department.xml" />
+    <Content Include="Locators\Office_FieldDictionary_Sections.xml" />
+    <Content Include="Locators\Office_FieldDictionary_Tabs.xml" />
+    <Content Include="Locators\Office_Group.xml" />
+    <Content Include="Locators\Office_Leads.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Office_Roles.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Office_Teams.xml" />
+    <Content Include="Locators\Office_User.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Agents_PartnerAgents.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Office_MyProfile.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Office_Opportunities.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\DashBoard_CreateDashBoard.xml" />
+    <Content Include="Locators\Agents_PartnerAssociation.xml" />
+    <Content Include="Locators\Agents_1099SalesAgent.xml" />
+    <Content Include="Locators\Yopmail.xml" />
+    <Content Include="Locators\Reports_CreateReport.xml" />
+    <Content Include="Locators\PDFTemplate_PDFTemplate.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\ResidualIncome_OfficePayout_DetailedPayout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\PDFTemplate_ImportWizard.xml" />
+    <Content Include="Locators\Products_Category.xml" />
+    <Content Include="Locators\Products_Product.xml" />
+    <Content Include="Locators\Agents_AllAgents.xml" />
+    <Content Include="Locators\System_Picklists.xml" />
+    <Content Include="Locators\OfficeActivities_Emails.xml" />
+    <Content Include="Locators\OfficeTickets_CreateTickets.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Locators\Tickets_EmailNotifications.xml" />
+    <Content Include="Locators\Ticket_MasterData.xml" />
+    <Content Include="Selenium\Selenium.WebDriverBackedSelenium.pdb" />
+    <Content Include="Selenium\ThoughtWorks.Selenium.Core.pdb" />
+    <Content Include="Selenium\WebDriver.pdb" />
+    <Content Include="Selenium\WebDriver.Support.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Files\1.pdf" />
+    <None Include="Files\2.pdf" />
+    <None Include="Files\AgentImport.xlsx" />
+    <None Include="Files\AZURA Bill of Sale.pdf" />
+    <None Include="Files\clientsamples%282%29.csv" />
+    <None Include="Files\clientsamples.csv" />
+    <None Include="Files\contactsamples.csv" />
+    <None Include="Files\contactsamplesInvalid.csv" />
+    <None Include="Files\CORNERSTONEBUSINESSRESO808.csv" />
+    <None Include="Files\FDN_Samples.csv" />
+    <None Include="Files\FirstDataNorth_ResidualSamples - Small.csv" />
+    <None Include="Files\Google Chrome.lnk" />
+    <None Include="Files\leadsamples.csv" />
+    <None Include="Files\leadslist.csv" />
+    <None Include="Files\opportunitysamples.csv" />
+    <None Include="Files\real.pdf" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Content Include="packages\Selenium.WebDriver.ChromeDriver.2.21.0.0\driver\chromedriver.exe">
+      <Link>chromedriver.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

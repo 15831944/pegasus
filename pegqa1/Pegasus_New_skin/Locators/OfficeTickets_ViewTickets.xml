@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ResolveBtn><![CDATA[//button[@id='resolve_button']]]></ResolveBtn>
+  
+  <!--Resolution Popup-->
+  <Resolution><![CDATA[//select[@id='TicketResolution']]]></Resolution>
+  <ResolvedOptn><![CDATA[//option[@value='Resolved']]]></ResolvedOptn>
+
+</Locators>

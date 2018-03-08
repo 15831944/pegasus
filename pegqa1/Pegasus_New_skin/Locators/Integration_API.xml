@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[//a[@title='Add New API Key']]]></Create>
+  <APIKey><![CDATA[//*[@id='autoCode']]]></APIKey>
+  <Version><![CDATA[//*[@id='ApiCodeVersion']]]></Version>
+  <Status><![CDATA[//*[@id='ApiLeadStatus']]]></Status>
+  <Responsibilities><![CDATA[//*[@id='ApiLeadAssignedUserId']]]></Responsibilities>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <ClickCanelApi><![CDATA[//div[@class='white-bg']/div/a[@title='Cancel']]]></ClickCanelApi>
+  
+  
+  
+  
+  
+
+</Locators>
+
+

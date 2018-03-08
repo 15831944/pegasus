@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- This locator file is used in conjunction with AdminSetFieldAsMandatoryHelper.cs and -->
+<!-- AdminSetFieldAsMandatory.cs -->
+
+<!-- Phases of the test -->
+<!-- Beginning in the Office Main Section  -->
+<!-- Changing setting to mandatory in the Office Admin Section  -->
+<!-- Confirming change in the Office Main Section  -->
+<!-- Restoring to default in the Office Admin Section  -->
+<!-- Confirming in the Office Main Section  -->
+<!-- Restore to default  -->
+
+<Locators>
+
+
+  <ClientsTab><![CDATA[//*[@id="menu"]/li[5]/a]]></ClientsTab>
+  <CompanySearchBar><![CDATA[//*[@id="gs_company_dba_name"]]]></CompanySearchBar>
+  <FirstClient><![CDATA[//*[@id="136663"]/td[15]/a]]></FirstClient>
+  <CompanyDetails><![CDATA[//*[@id="page-wrapper"]/div[4]/div[2]/div/ul/li[3]/a]]></CompanyDetails>
+  <CompanyDetailsSection><![CDATA[//*[@id="ClientEditForm"]/div[7]/div[1]/div/div/div[3]/div/div/div/div[3]/div[1]]]></CompanyDetailsSection>
+  <FederalTaxID><![CDATA[//*[@id="ClientDetailTaxID"]]]></FederalTaxID>
+  <Save><![CDATA[//*[@id="ClientEditForm"]/div[5]/div[1]/div[2]/button]]></Save>
+
+
+  <FieldDictionary><![CDATA[//*[@id="menu"]/li[12]/a/span[1]]]></FieldDictionary>
+  <Fields><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/a]]></Fields>
+  <FieldProperties><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/ul/li[1]/a]]></FieldProperties>
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+  <ClientsModule><![CDATA[//*[@id="SearchFormModuleId"]/option[2]]]></ClientsModule>
+  <Search><![CDATA[//*[@id="page-wrapper"]/div[4]/div[1]/div/div/div/div[1]/div/div/button/i]]></Search>
+  <filter><![CDATA[//*[@id="filter"]]]></filter>
+  <FederalTax><![CDATA[//*[@id='metafieldsmanage']//div[16]/a]]></FederalTax>
+  
+  <MandatoryCheckBox><![CDATA[//*[@id="MetaTableValidationMandatory"]]]></MandatoryCheckBox>
+  <SaveFieldManager><![CDATA[//*[@id="fieldvalidation"]/div[6]/div/div/button]]></SaveFieldManager>
+
+
+
+</Locators>

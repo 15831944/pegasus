@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <PricingTemplateName><![CDATA[//*[@id='CorporateMasterRateTemplateName']]]></PricingTemplateName>
+  <ProcessorType><![CDATA[//*[@id='processor_type']]]></ProcessorType>
+  <SelectMerchanType><![CDATA[//*[@id='CorporateMasterRateMerchantType']]]></SelectMerchanType>
+  <MethodOfAcceptingCards><![CDATA[//*[@id='CorporateMasterRateCardAcceptMethod']]]></MethodOfAcceptingCards>
+  <DiscountFrequency><![CDATA[//*[@id='CorporateMasterRatePayDiscFreq']]]></DiscountFrequency>
+  <VicaCreditOualifiedPercentage><![CDATA[//*[@id='ClientRatesFeeQualRate']]]></VicaCreditOualifiedPercentage>
+  <PricePlan><![CDATA[//*[@id='CorporateMasterRatePricingPlan']]]></PricePlan>
+  <ClickOnCopy><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[2]/i]]></ClickOnCopy>
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <LoginBtn><![CDATA[//*[@id='UserLoginLoginForm']/button]]></LoginBtn>
+  <ClickOnPushOffice><![CDATA[//a[@title='Push to Offices']]]></ClickOnPushOffice>
+  <ClickRateAndFeesSave><![CDATA[//div[@class='col-lg-4 form-bttns-align']/a[2]]]></ClickRateAndFeesSave>
+  <EditRateAndFeesIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[1]/i]]></EditRateAndFeesIcon>
+  <PushToOfficeMasterRateAndFes><![CDATA[//a[@title='Push to Offices']]]></PushToOfficeMasterRateAndFes>
+  <DebitNetworkInterFacePassThrough><![CDATA[//*[@id='ClientRatesFeePayIntPassThru']]]></DebitNetworkInterFacePassThrough>
+  <SaveEdit><![CDATA[//div[@class='col-lg-4 form-bttns-align']/a[2]]]></SaveEdit>
+  <SearchTemp><![CDATA[//*[@id='gs_template_name']]]></SearchTemp>
+  <ClickOnDelete><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Delete Master Rate']]]></ClickOnDelete>
+  <CorpRateFessClickAny><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[1]/i]]></CorpRateFessClickAny>
+  <CloneRatesAndFee><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[2]/i]]></CloneRatesAndFee>
+  <Clone1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]]]></Clone1>
+  <VisaCreditQualified><![CDATA[//*[@id='ClientRatesFeeQualRate']]]></VisaCreditQualified>
+
+
+
+
+
+
+
+
+</Locators>

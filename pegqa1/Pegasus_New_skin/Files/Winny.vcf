@@ -1,0 +1,10 @@
+					BEGIN:VCARD
+VERSION:3.0
+FN:Winny 
+N: Mr Winny Teoh 
+TITLE: Contact 
+ORG: Glutamic 
+ADR;TYPE=Location:; ; ; ; ; ;  
+EMAIL;TYPE=IM;TYPE=pref:venkata@yopmail.com 
+TEL;TYPE=Cell: (1231231232) - ext: 213
+END:VCARD

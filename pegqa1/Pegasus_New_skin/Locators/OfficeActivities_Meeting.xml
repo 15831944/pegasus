@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  
+  <!--All Meetings page-->
+  <CreateMeetingBtn><![CDATA[//a[span[contains(text(),'Create')]]]]></CreateMeetingBtn>
+  <SelectCheckbox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectCheckbox>
+  <SelectCheckbox2><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></SelectCheckbox2>
+  <SearchSubject><![CDATA[//*[@id='gs_name']]]></SearchSubject>
+  <DeleteBtn><![CDATA[//a[@title='Delete']/span]]></DeleteBtn>
+  
+  
+  
+  
+  <Subject><![CDATA[//*[@id='MeetingName']]]></Subject>
+  <Location><![CDATA[//*[@id='MeetingLocation']]]></Location>
+  <Priority><![CDATA[//*[@id='MeetingPriority']]]></Priority>
+  <Description><![CDATA[//*[@id='MeetingDescription']]]></Description>
+  <StartDate><![CDATA[//*[@id='MeetingStartDate']]]></StartDate>
+  <EndDate><![CDATA[//*[@id='MeetingEndDate']]]></EndDate>
+  <Primary><![CDATA[//*[@id='notetaskbox']/div/div[5]/div[3]/div/input]]></Primary>>
+  <RelatedTo><![CDATA[//*[@id='MeetingParentType']]]></RelatedTo>
+  <SelectBtn><![CDATA[//*[@id='assignParent']/i]]></SelectBtn>
+  <FindListIcon><![CDATA[//*[@id='assignParent']]]></FindListIcon>
+  <SelectClient><![CDATA[//table[1]/tbody/tr[1]/td[3]/a]]></SelectClient>
+  <Status><![CDATA[//*[@id='MeetingStatus']]]></Status>
+  <AssignedUserGroup><![CDATA[//*[@id='MeetingAssignedUserGroupId']]]></AssignedUserGroup>
+  <AssignedOwner><![CDATA[//*[@id='MeetingAssignedUserId']]]></AssignedOwner>
+  <SelectedClient><![CDATA[//table[1]/tbody/tr[1]/td[3]/a]]></SelectedClient>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/span/a]]></Edit>
+ 
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SaveDoc><![CDATA[//a[text()='Save']]]></SaveDoc>
+  <BulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></BulkUpdate>
+  <UpDateStatus><![CDATA[//a[text()='Change Status']]]></UpDateStatus>
+  <SaveNoteMeeting><![CDATA[//a[@title='Save']]]></SaveNoteMeeting>
+  <SelectActivityType><![CDATA[//*[@id='gs_activity_type']]]></SelectActivityType>
+  <OpenMeeting><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></OpenMeeting>
+  <OpenMeetingClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></OpenMeetingClient>
+  <ClickOnRecycleBin><![CDATA[//span[contains(text(),'Recycle Bin')]]]></ClickOnRecycleBin>
+  <ClickOnSubjectBin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></ClickOnSubjectBin>
+  <ClickOnClientMeeting><![CDATA[//table/tbody/tr[1]/td[3]/a]]></ClickOnClientMeeting>
+  <ClickOnNewMeeting><![CDATA[//a[@title='Add Meeting']]]></ClickOnNewMeeting>
+    
+  <ClickOnAnyMeeting><![CDATA[//table[@id='list1']/tbody/tr[2]/td[12]/a]]></ClickOnAnyMeeting>
+  <CancelMeeting><![CDATA[//span[text()='Cancel']]]></CancelMeeting>
+  <ClickOnDeleteIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/span/a[1]/span]]></ClickOnDeleteIcon>
+  <ClickOnAddDocumentBtn><![CDATA[//*[@id='adddocument']]]></ClickOnAddDocumentBtn>
+  <EnterDocumentName><![CDATA[//*[@id='DocumentName']]]></EnterDocumentName>
+  <BrowseDoc><![CDATA[//*[@id='DocumentFiles']]]></BrowseDoc>
+  <BrowserDoc1><![CDATA[//*[@id='DocumentFiles_F1']]]></BrowserDoc1>
+  <SelectLedForMeeting><![CDATA[//table[@class='table table-hover table-mail']/tbody/tr[1]/td[2]/a]]></SelectLedForMeeting>
+  <ClickSaveOfDocPopUp><![CDATA[//*[@id='CreateDocumentForm']//button[text()='Save']]]></ClickSaveOfDocPopUp>
+  <ClickDocSubjectName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/a]]></ClickDocSubjectName>
+  <ClickOnNoteMeeting><![CDATA[//*[@id='addnote']]]></ClickOnNoteMeeting>
+  <EnterSubNote><![CDATA[//*[@id='NoteName']]]></EnterSubNote>
+  <DocumentFileNotesMeet><![CDATA[//*[@id='DocumentFile']]]></DocumentFileNotesMeet>
+  <DoucumentFirstInList><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/a]]></DoucumentFirstInList>
+  <MeetingSubject><![CDATA[//*[@id='MeetingName']]]></MeetingSubject>
+  <ClickMeeting1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickMeeting1>
+  
+  <DeleteMeetingPermanently><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/span/a[1]/span]]></DeleteMeetingPermanently>
+  <AddAttachment><![CDATA[//a[@title='Add Attachment']]]></AddAttachment>
+  <SaveAttachment><![CDATA[//a[text()='Save']]]></SaveAttachment>
+  <Attachmenterror><![CDATA[//*[@id='Documentcustom-error']]]></Attachmenterror>
+  <File_Upload><![CDATA[//*[@id='DocumentFile']]]></File_Upload>
+  <CategoryLabel><![CDATA[//*[@id='category']]]></CategoryLabel>
+  <AttachName><![CDATA[//*[@id='DocumentName']]]></AttachName>
+  <RemoveAttach><![CDATA[//a[@title='Remove Attachment']]]></RemoveAttach>
+  <NameError><![CDATA[//*[@id='MeetingName-error']]]></NameError>
+  <StartDateError><![CDATA[//*[@id='MeetingStartDate-error']]]></StartDateError>
+  <ParentError><![CDATA[//*[@id='MeetingParentType-error']]]></ParentError>
+  <ChangeStatus><![CDATA[//*[@id='MeetingStatusUpdateStatus']]]></ChangeStatus>
+  <UpdateButton><![CDATA[//button[text()='Update']]]></UpdateButton>
+  <UpdateOwner><![CDATA[//*[@id='change_owner']//button[text()='Update']]]></UpdateOwner>
+  <UpdateGroup><![CDATA[//*[@id='change_meeting_group']//button[text()='Update']]]></UpdateGroup>
+  <UpdatePriority><![CDATA[//*[@id='change_meeting_priority']//button[text()='Update']]]></UpdatePriority>
+  <ChangeOwner><![CDATA[//a[text()='Change Owner']]]></ChangeOwner>
+  <ChangeResponsibility><![CDATA[//*[@id='MeetingOwnerUpdateAssignedUserId']]]></ChangeResponsibility>
+  <ChangeUserGroup><![CDATA[//a[text()='Change User Group']]]></ChangeUserGroup>
+  <SelectUserGroup><![CDATA[//*[@id='MeetingGroupUpdateAssignedUserGroupId']]]></SelectUserGroup>
+  <ChangePriority><![CDATA[//a[text()='Change Priority']]]></ChangePriority>
+  <SelectPriority><![CDATA[//*[@id='MeetingPriorityUpdatePriority']]]></SelectPriority>
+  <SaveCategory><![CDATA[//button[text()='Save']]]></SaveCategory>
+  <VerifyStatus><![CDATA[//*[@id='status']]]></VerifyStatus>
+  <VerifyPriority><![CDATA[//*[@id='priority']/span[1]]]></VerifyPriority>
+  <VerifyCategory><![CDATA[//*[@id='category']]]></VerifyCategory>
+  <VerifyResponsibility><![CDATA[//*[@id='responsibility']]]></VerifyResponsibility>
+  <EditLink><![CDATA[//span[text()='Edit']]]></EditLink>
+  <SelectCategory><![CDATA[//*[@id='MeetingCategoryId']]]></SelectCategory>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[17]//div[text()='Status']]]></HeadStatus>
+  <HeadPriority><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[18]//div[text()='Priority']]]></HeadPriority>
+  <HeadOwner><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[19]//div[text()='Owner']]]></HeadOwner>
+  <HeadCreated><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[20]//div[text()='Created']]]></HeadCreated>
+  <HeadStatus6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[17]//div[text()='Status']]]></HeadStatus6>
+  <HeadPriority7><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[18]//div[text()='Contact Name']]]></HeadPriority7>
+
+  <HeadStatus4><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[15]//div[text()='Status']]]></HeadStatus4>
+  <HeadPriority8><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[19]//div[text()='Priority']]]></HeadPriority8>
+
+
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <Apply><![CDATA[//button[text()='Apply']]]></Apply>
+
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofResults><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofResults>
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+
+  <MeetingWithNotes><![CDATA[//*[@id='MeetingNotes']]]></MeetingWithNotes>
+  <NoteMeeting><![CDATA[//table[@class='table table-bordered']/tbody/tr[1]/td[5]/a]]></NoteMeeting>
+  <MeetingWithClients><![CDATA[//*[@id='MeetingClientMeeting']]]></MeetingWithClients>
+  <MeetingClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]]]></MeetingClient>
+  <MeetingWithLeads><![CDATA[//*[@id='MeetingLeadMeeting']]]></MeetingWithLeads>
+  <MeetingWithOpps><![CDATA[//*[@id='MeetingOpportunityMeeting']]]></MeetingWithOpps>
+  <MeetingWithAttach.><![CDATA[//*[@id='MeetingMeetingattachment']]]></MeetingWithAttach.>
+  <DocForMeeting><![CDATA[//table[@class='table']/tbody/tr[1]/td[1]]]></DocForMeeting>
+  
+  <!--Filed tab-->
+  <OwnerField><![CDATA[//*[@id='gs_first_name']]]></OwnerField>
+  <CreatedByfield><![CDATA[//*[@id='gs_createdby']]]></CreatedByfield>
+  <Owner><![CDATA[//select[@id='gs_owner']]]></Owner>
+ 
+  <!--My Calendar tab-->
+  <GoogleAuth><![CDATA[//label[@id='syncWithGoogle']/a]]></GoogleAuth>
+ 
+</Locators>
+
+

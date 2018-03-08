@@ -1,0 +1,108 @@
+E:\pegqa\Pegasus_New_skin\bin\Debug\chromedriver.exe
+E:\pegqa\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll.config
+E:\pegqa\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.pdb
+E:\pegqa\Pegasus_New_skin\bin\Debug\Atlassian.Jira.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\EasyHttp.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\JsonFx.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\LinqToExcel.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\Newtonsoft.Json.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\Remotion.Data.Linq.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\RestSharp.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\ThoughtWorks.Selenium.Core.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\WebDriver.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\WebDriver.Support.dll
+E:\pegqa\Pegasus_New_skin\bin\Debug\Atlassian.Jira.xml
+E:\pegqa\Pegasus_New_skin\bin\Debug\JsonFx.xml
+E:\pegqa\Pegasus_New_skin\bin\Debug\LinqToExcel.xml
+E:\pegqa\Pegasus_New_skin\bin\Debug\Newtonsoft.Json.xml
+E:\pegqa\Pegasus_New_skin\bin\Debug\RestSharp.xml
+E:\pegqa\Pegasus_New_skin\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+E:\pegqa\Pegasus_New_skin\bin\Debug\ThoughtWorks.Selenium.Core.xml
+E:\pegqa\Pegasus_New_skin\bin\Debug\WebDriver.xml
+E:\pegqa\Pegasus_New_skin\bin\Debug\WebDriver.Support.xml
+E:\pegqa\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.csprojResolveAssemblyReference.cache
+E:\pegqa\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.dll
+E:\pegqa\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.pdb
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\chromedriver.exe
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll.config
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.pdb
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Atlassian.Jira.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\EasyHttp.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\JsonFx.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\LinqToExcel.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Newtonsoft.Json.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Remotion.Data.Linq.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\RestSharp.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\WebDriver.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\WebDriver.Support.dll
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Atlassian.Jira.xml
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\JsonFx.xml
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\LinqToExcel.xml
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Newtonsoft.Json.xml
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\RestSharp.xml
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\WebDriver.xml
+D:\Automation\pegqa\Pegasus_New_skin\bin\Debug\WebDriver.Support.xml
+D:\Automation\pegqa\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.csprojResolveAssemblyReference.cache
+D:\Automation\pegqa\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.dll
+D:\Automation\pegqa\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.pdb
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.csprojResolveAssemblyReference.cache
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.pdb
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\chromedriver.exe
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll.config
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.pdb
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Atlassian.Jira.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\EasyHttp.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\JsonFx.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\LinqToExcel.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Newtonsoft.Json.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Remotion.Data.Linq.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\RestSharp.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\WebDriver.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\WebDriver.Support.dll
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Atlassian.Jira.xml
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\JsonFx.xml
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\LinqToExcel.xml
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Newtonsoft.Json.xml
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\RestSharp.xml
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\WebDriver.xml
+D:\Automation\latestAutomationForPeg\pegqa1\Pegasus_New_skin\bin\Debug\WebDriver.Support.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.csprojResolveAssemblyReference.cache
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\obj\Debug\Pegasus_New_skin.pdb
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\chromedriver.exe
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll.config
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Pegasus_New_skin.pdb
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Atlassian.Jira.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\EasyHttp.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\JsonFx.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\LinqToExcel.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Newtonsoft.Json.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Remotion.Data.Linq.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\RestSharp.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\WebDriver.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\WebDriver.Support.dll
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Atlassian.Jira.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\JsonFx.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\LinqToExcel.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Newtonsoft.Json.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\RestSharp.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\WebDriver.xml
+D:\Satish Kr Prasad\Automation rough\pegqa1\Pegasus_New_skin\bin\Debug\WebDriver.Support.xml

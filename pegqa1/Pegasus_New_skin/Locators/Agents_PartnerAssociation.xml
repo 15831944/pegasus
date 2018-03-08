@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--Create Partner Association-->
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <AutoGenPswd><![CDATA[//input[@id='UserAutogenerate']]]></AutoGenPswd>
+  <Password><![CDATA[//input[@id='UserPassword']]]></Password>
+  <ClickOnAvatar><![CDATA[//div[@class='form-group col-sm-4']/ul/li[1]/input]]></ClickOnAvatar>
+  <Birthday><![CDATA[//input[@id='PartnerAssociationBirthdate']]]></Birthday>
+  <LastName><![CDATA[//*[@id='PartnerAssociationLastName']]]></LastName>
+  <FirstNAME><![CDATA[//*[@id='PartnerAssociationFirstName']]]></FirstNAME>
+  <TwitterURL><![CDATA[//*[@id='PartnerAssociationTwitterUrl']]]></TwitterURL>
+  <LinkedInUrl><![CDATA[//*[@id='PartnerAssociationLinkedinUrl']]]></LinkedInUrl>
+  <FaceBookUrl><![CDATA[//*[@id='PartnerAssociationFacebookUrl']]]></FaceBookUrl>
+  <ClickSaveBTN><![CDATA[//button[@title='Save']]]></ClickSaveBTN>
+  <Name><![CDATA[//*[@id='PartnerAssociationName']]]></Name>
+  <eAddressType><![CDATA[//*[@id='PartnerAssociationElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='PartnerAssociationElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='PartnerAssociationElectronicAddress0ElectronicContent']]]></eAddress>
+  <AddressType><![CDATA[//*[@id='PartnerAssociationAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='PartnerAssociationAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='PartnerAssociationAddress0City']]]></City>
+  <State><![CDATA[//*[@id='PartnerAssociationAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='PartnerAssociationAddress0PostalCode']]]></PostalCode>
+  
+  
+  
+  <!--All Partner Association-->
+  <RevenueSharesBtn><![CDATA[//a[@title='Revenue Shares']]]></RevenueSharesBtn>
+  <SearchAssociation><![CDATA[//*[@id='gs_contactNm']]]></SearchAssociation>
+  <Association1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></Association1>
+  <EditAssociation1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span/a/i]]></EditAssociation1>
+  
+  
+  <!--Codes and Revenue Share page-->
+  <NewRevenueShareBtn><![CDATA[//span[contains(text(),'Add a New Revenue Share')]]]></NewRevenueShareBtn>
+  <AgentCode><![CDATA[//input[@id='PartnerAssociationCodesShareAssociationCode']]]></AgentCode>
+  <RevenueShare><![CDATA[//input[@id='PartnerAssociationCodesShareRevenueShare']]]></RevenueShare>
+  <Save><![CDATA[//form[@id='PartnerAssociationCodesShareAssociationsRevenueShareForm']/div[4]/a[1]]]></Save>
+  <SearchAssCode><![CDATA[//input[@id='gs_association_code']]]></SearchAssCode>
+  <EditBtn1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/span[1]/a[1]]]></EditBtn1>
+  <AssCodeEdit1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/input]]></AssCodeEdit1>
+  <RevenueShareEdit1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/input]]></RevenueShareEdit1>
+  <SaveBtn1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/span[2]/a[1]]]></SaveBtn1>
+  
+  
+  
+  <!--Partner Association-->
+  <CreateAsso><![CDATA[//a[@title='Create New Partner Association']]]></CreateAsso>
+  
+  <Assobirth><![CDATA[//*[@id='PartnerAssociationBirthdate']]]></Assobirth>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <AssSave><![CDATA[//button[@title='Save']]]></AssSave>
+  <PhoneIcon><![CDATA[//a[@title='Call this Phone']/span]]></PhoneIcon>
+  <RevenueSahrnepartneragent><![CDATA[//a[@title='Revenue Shares']]]></RevenueSahrnepartneragent>
+  <RevenueSahrnepartnerasso><![CDATA[//a[@title='Add a New Association Revenue Share']]]></RevenueSahrnepartnerasso>
+  <AgentNameSelect><![CDATA[//*[@id='PartnerAssociationCodesSharePartnerAssociationId']]]></AgentNameSelect>
+  <ProcessorSelect><![CDATA[//*[@id='PartnerAssociationCodesShareProcessor']]]></ProcessorSelect>
+  <ProcessorCodePAss><![CDATA[//*[@id='PartnerAssociationCodesShareAssociationCode']]]></ProcessorCodePAss>
+  <RevenueShareps><![CDATA[//*[@id='PartnerAssociationCodesShareRevenueShare']]]></RevenueShareps>
+  <SaveRS><![CDATA[//*[@id='PartnerAssociationCodesShareAssociationsRevenueShareForm']/div[4]/a[1]]]></SaveRS>
+  <VerifyFlashMessage><![CDATA[//*[@id='flashMessage']]]></VerifyFlashMessage>
+  <SearchDeciaml><![CDATA[//*[@id='gs_revenue_share']]]></SearchDeciaml>
+  <VerifyValueInDecimal><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_revenue_share']]]></VerifyValueInDecimal>
+  <ClickOnEditicon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[1]/a]]></ClickOnEditicon>
+  
+  <VerifyDateBirth><![CDATA[//div[@class='col-lg-6']/div[3]/div[2]]]></VerifyDateBirth>
+  <VerifyTwitter><![CDATA[//div[@class='col-lg-6']/div[4]/div[2]]]></VerifyTwitter>
+  <VerifyFaceBook><![CDATA[//div[@class='col-lg-6']/div[5]/div[2]]]></VerifyFaceBook>
+  <SelectStatus1><![CDATA[//*[@id='gs_status']]]></SelectStatus1>
+  <EnterEmail><![CDATA[//*[@id='gs_electronic_content']]]></EnterEmail>
+  
+  <SelectLanguage><![CDATA[//*[@id='PartnerAssociationLanguage']]]></SelectLanguage>
+  <DBAName><![CDATA[//*[@id='PartnerAssociationDba']]]></DBAName>
+  <SelectSalutation><![CDATA[//*[@id='PartnerAssociationSalutation']]]></SelectSalutation>
+  <SElectUserType><![CDATA[//*[@id='UserType']]]></SElectUserType>
+  <SelectRadioNewBtn><![CDATA[//*[@id='EmployeeCreatenew1']]]></SelectRadioNewBtn>
+  <ClickONiToolBox><![CDATA[//div[@class='ibox-tools']]]></ClickONiToolBox>
+  <AddConctInfo><![CDATA[//*[@id='contactinfo']//a/i[@class='fa fa-chevron-up']]]></AddConctInfo>
+  <VerifyTextAdd><![CDATA[//*[@id='etabs-0']/div/div/div[3]/label]]></VerifyTextAdd>
+  <UserEaDDRESS><![CDATA[//*[@id='EmployeeElectronicAddress1ElectronicContent']]]></UserEaDDRESS>
+  <SelectPhoneType><![CDATA[//*[@id='PartnerAssociationPhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='PartnerAssociationPhone0PhoneNumber']]]></PhoneNumber>
+  
+  <EditPartnerAssociation><![CDATA[//span[text()='Edit']]]></EditPartnerAssociation>
+  
+  <ClickONcheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickONcheckBox>
+  
+  
+  <VerifyTextPresent><![CDATA[//div[@class='col-lg-9']/h2/a[1]]]></VerifyTextPresent>
+  <ClickOnPartnerAssociation><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></ClickOnPartnerAssociation>
+  <ClickAddNewAgentCode><![CDATA[//*[@id='actionbuttons']]]></ClickAddNewAgentCode>
+  <EnterSaleCode><![CDATA[//*[@id='PartnerAssociationCodesShareAssociationCode']]]></EnterSaleCode>
+  <EnterRevenueShare><![CDATA[//*[@id='PartnerAssociationCodesShareRevenueShare']]]></EnterRevenueShare>
+  <ClickRevenueShareSaveBtn><![CDATA[//button[text()='Save']]]></ClickRevenueShareSaveBtn>
+  <ClickOnEditAgentCodeRS><![CDATA[//table[@id='list2']/tbody/tr[2]/td[6]/span[1]/a[1]]]></ClickOnEditAgentCodeRS>
+  <EnterRevenueShareValue><![CDATA[//table[@id='list2']/tbody/tr[2]/td[5]/input]]></EnterRevenueShareValue>
+  <ClickSaveRS><![CDATA[//table[@id='list2']/tbody/tr[2]/td[6]/span[2]/a[1]]]></ClickSaveRS>
+  <VerifyRsValidation><![CDATA[//*[@id='infocnt']]]></VerifyRsValidation>
+  <ModifiedOn><![CDATA[//div[contains(@class, 'row pull')]//small[3]]]></ModifiedOn>
+  <EditAsso><![CDATA[//a[@title='Edit Details']]]></EditAsso>
+  <PhoneNum><![CDATA[//*[@id='PartnerAssociationPhone0PhoneNumber']]]></PhoneNum>
+  <VerifyeLabel><![CDATA[//*[@id='PartnerAssociationElectronicAddress0ElectronicContentLabel']/option[text()='Work']]]></VerifyeLabel>
+  <AddEmail><![CDATA[//*[@id='addemail']]]></AddEmail>
+  <EmailType2><![CDATA[//*[@id='PartnerAssociationElectronicAddress1EmailImWebType']]]></EmailType2>
+  <EmailAdd2><![CDATA[//*[@id='PartnerAssociationElectronicAddress1ElectronicContent']]]></EmailAdd2>
+  <VerifyEmail><![CDATA[//span[text()='test@gmail.com']]]></VerifyEmail>
+  <RemoveEmail><![CDATA[//a[@onclick='deleteemail(1)']]]></RemoveEmail>
+  
+  <!--Lead-->
+  <LeadTab><![CDATA[//span[text()='Leads']]]></LeadTab>
+  <CreateLead><![CDATA[//a[@title='Create New Lead']/span]]></CreateLead>
+  <LeadEType><![CDATA[//*[@id='LeadElectronicAddress0ElectronicContentType']]]></LeadEType>
+  <NameError><![CDATA[//*[@id='PartnerAssociationName-error']]]></NameError>
+  <FirstNameErr><![CDATA[//*[@id='PartnerAssociationFirstName-error']]]></FirstNameErr>
+  <LastNameErr><![CDATA[//*[@id='PartnerAssociationLastName-error']]]></LastNameErr>
+  <EtypeError><![CDATA[//*[@id='PartnerAssociationElectronicAddress0ElectronicContentType-error']]]></EtypeError>
+  <ElabelError><![CDATA[//*[@id='PartnerAssociationElectronicAddress0ElectronicContentLabel-error']]]></ElabelError>
+  <eAddressErrror><![CDATA[//*[@id='PartnerAssociationElectronicAddress0ElectronicContent-error']]]></eAddressErrror>
+  <Cancel><![CDATA[//a[@title='Cancel']]]></Cancel>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <EditLink><![CDATA[//*[@id='rerun']/span]]></EditLink>
+  <EmplStatus><![CDATA[//*[contains(@id,'gs_status') or contains(@id,'gs_active')]]]></EmplStatus>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <ApplyButton><![CDATA[//button[text()='Apply']]]></ApplyButton>
+  <BottomResults><![CDATA[//*[@id='list1_pager_left']/div]]></BottomResults>
+  
+  <SelectAsso1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectAsso1>
+  <BulkUpdate><![CDATA[//span[contains(text(),'Bulk Update')]]]></BulkUpdate>
+  <ChangeStatus><![CDATA[//a[text()='Change Status']]]></ChangeStatus>
+  <SelectStatus><![CDATA[//*[@id='PartnerStatusUpdateStatus']]]></SelectStatus>
+  <UpdateStatus><![CDATA[//*[@id='change_status']/div[2]/div/div[3]/a/button]]></UpdateStatus>
+  <PartnerAssoBirthday><![CDATA[//*[@id='PartnerAssociationBirthdate']]]></PartnerAssoBirthday>
+  
+  <DisplayedCols><![CDATA[//*[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Status']]]></HeadStatus>
+  <HeadEmail><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='E-Mail']]]></HeadEmail>
+  <HeadPhone><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Phone']]]></HeadPhone>
+  <HeadModified><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[19]//div[text()='Modified']]]></HeadModified>
+  <HeadEmail5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='E-Mail']]]></HeadEmail5>
+  <HeadPhone6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Phone']]]></HeadPhone6>
+
+  <HeadEmail3><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='E-Mail']]]></HeadEmail3>
+  <HeadPhone7><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[14]//div[text()='Phone']]]></HeadPhone7>
+
+
+
+
+</Locators>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  
+  
+  
+  
+  
+  <!--/////////////////////////////////////////////////////////////////////////-->
+  <!--Reports-->
+  <ReportingPeriod><![CDATA[//select[@id='reporting_period']]]></ReportingPeriod>
+  <FileDate><![CDATA[//select[@id='file_date']]]></FileDate>
+  <Processor><![CDATA[//select[@id='processor']]]></Processor>
+  <FileFormat><![CDATA[//select[@id='file_format']]]></FileFormat>
+  <SearchBtn><![CDATA[//a[@title='Search Payouts']]]></SearchBtn>
+  <ReportTitle><![CDATA[//span[@class='font-20 bold']]]></ReportTitle>
+  <DolphoWeerCheckBox><![CDATA[//input[@id='3152']]]></DolphoWeerCheckBox>
+  <SendBtn><![CDATA[//a[@class='ui_send btn btn-primary btn-xs pull-right']]]></SendBtn>
+  
+  
+  <Advance><![CDATA[//*[@id='layout_disp']/span]]></Advance>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <Exp><![CDATA[//*[@id='exportactions']]]></Exp>
+  <ExpCSV><![CDATA[//*[@id='export_csv']]]></ExpCSV>
+  <PDFImage><![CDATA[//*[@id='attachtypePdf']]]></PDFImage>
+  <RPMPeriod><![CDATA[//select[@id='gs_reporting_period']]]></RPMPeriod>
+  <RPMCalender><![CDATA[//div[@class='datepicker-days']]]></RPMCalender>
+
+  
+  
+  
+  <!--///////////////////////////////////////////////////////////////////////////-->
+  <!--Summary Reports-->
+  <FiltersBtn><![CDATA[//span[contains(text(),'Filters')]]]></FiltersBtn>
+  <NoOfRecrdsTxt><![CDATA[//td[@id='list1_pager_left']/div]]></NoOfRecrdsTxt>
+  
+  <!--Filters-->
+  <Processordrpdwn><![CDATA[//form[@id='SummarySummaryReportsForm']/div[2]/div/div[1]/div/button]]></Processordrpdwn>
+  <Proc3Optn><![CDATA[//label[contains(text(),'First Data North')]]]></Proc3Optn>
+  <ApplyBtn><![CDATA[//button[contains(text(),'Apply')]]]></ApplyBtn>
+  <ResetBtn><![CDATA[//button[contains(text(),'Reset')]]]></ResetBtn>
+  
+  
+  
+  
+  
+  
+  
+  
+</Locators>

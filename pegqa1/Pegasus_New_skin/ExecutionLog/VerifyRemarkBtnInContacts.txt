@@ -1,0 +1,129 @@
+Login with valid credentials
+Verify Page title
+Redirect to contact page.
+Verify title
+Reditect to create contact page.
+First Name
+Last Name
+Company DBA Name
+Select Phone type
+Enter Phone Number
+Click on Add Remark button
+Enter Remark
+Select EAddress type
+Enter Eadress
+Click Add Remark button
+Enter Remark
+Click on Save button
+Enter Contact Name in Search Box
+Login with valid credentials
+Verify Page title
+Redirect to contact page.
+Verify title
+Reditect to create contact page.
+First Name
+Last Name
+Company DBA Name
+Select Phone type
+Enter Phone Number
+Click on Add Remark button
+Enter Remark
+Select EAddress type
+Enter Eadress
+Click Add Remark button
+Enter Remark
+Click on Save button
+Enter Contact Name in Search Box
+Login with valid credentials
+Verify Page title
+Redirect to contact page.
+Verify title
+Reditect to create contact page.
+First Name
+Last Name
+Company DBA Name
+Click on Add Remark button
+Enter Remark
+Click Add Remark button
+Enter Remark
+Click on Save button
+Enter Contact Name in Search Box
+Click on Edit icon
+Verify Show Remark text for Phone
+Login with valid credentials
+Verify Page title
+Redirect to contact page.
+Verify title
+Reditect to create contact page.
+First Name
+Last Name
+Company DBA Name
+Click on Add Remark button
+Enter Remark
+Click Add Remark button
+Enter Remark
+Click on Save button
+Enter Contact Name in Search Box
+Click on Edit icon
+Verify Show Remark text for Phone
+Verify Show Remark text for Email
+Login with valid credentials
+Verify Page title
+Redirect to contact page.
+Verify title
+Reditect to create contact page.
+First Name
+Last Name
+Company DBA Name
+Click on Add Remark button
+Enter Remark
+Click Add Remark button
+Enter Remark
+Click on Save button
+Enter Contact Name in Search Box
+Click on Edit icon
+Verify Show Remark text for Phone
+Verify Show Remark text for Email
+Redirect to contact page.
+Enter Contact Name in Search Box
+Click on check box
+Click on Delete button
+Login with valid credentials
+Verify Page title
+Redirect to contact page.
+Verify title
+Reditect to create contact page.
+First Name
+Last Name
+Company DBA Name
+Click on Add Remark button
+Enter Remark
+Click Add Remark button
+Enter Remark
+Click on Save button
+Enter Contact Name in Search Box
+Click on Edit icon
+Verify Show Remark text for Phone
+Verify Show Remark text for Email
+Redirect to contact page.
+Enter Contact Name in Search Box
+Click on check box
+Click on Delete button
+Login with valid credentials
+Verify Page title
+Redirect to contact page.
+Verify title
+Reditect to create contact page.
+First Name
+Last Name
+Company DBA Name
+Click on Add Remark button
+Login with valid credentials
+Verify Page title
+Redirect to contact page.
+Verify title
+Reditect to create contact page.
+First Name
+Last Name
+Company DBA Name
+Click on Add Remark button

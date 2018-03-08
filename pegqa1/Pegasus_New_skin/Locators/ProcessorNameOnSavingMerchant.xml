@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <CreateBtn><![CDATA[//span[text()='Create']]]></CreateBtn>
+  <CompanyNameTab><![CDATA[//*[@id='LeadDetailCompanyName']]]></CompanyNameTab>
+  <Status><![CDATA[//*[@id='LeadStatus']]]></Status>
+  <Responsibility><![CDATA[//*[@id='LeadAssignedUserId']]]></Responsibility>
+  <NextBtn><![CDATA[//button[contains(text(),'Next')]]]></NextBtn>
+  <BusinessDetailsTab><![CDATA[//a[text()='Business Details']]]></BusinessDetailsTab>
+  <SaveBtn><![CDATA[//button[contains(text(),'Save')]]]></SaveBtn>
+  <RoutingNumber><![CDATA[//*[@id='LeadBankAccountRoutingNr']]]></RoutingNumber>
+  <ProcessorName><![CDATA[//*[@id='LeadDetailIfyesProcessorName']]]></ProcessorName>
+  <CompanySearchField><![CDATA[//*[@id='gs_company_name']]]></CompanySearchField>
+  <FirstCompanyName><![CDATA[//table[@id='list1']//tr[2]//td[14]/a]]></FirstCompanyName>
+  <FirstCheckBox><![CDATA[//table[@id='list1']//tr[2]//td[1]/input]]></FirstCheckBox>
+  <DeleteBtn><![CDATA[//span[text()='Delete']]]></DeleteBtn>
+  <BusinessBankAcc><![CDATA[//h5[contains(text(),'Business Banking Account')]]]></BusinessBankAcc>
+  
+  
+</Locators>

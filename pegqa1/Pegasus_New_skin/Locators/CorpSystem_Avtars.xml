@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <AvatarName><![CDATA[//*[@id='CorporateAvatarName']]]></AvatarName>
+  <AvatarType><![CDATA[//*[@id='CorporateAvatarCorpUserTypeId']]]></AvatarType>
+  <Status><![CDATA[//*[@id='CorporateAvatarInactive']]]></Status>
+  <Save><![CDATA[//input[@value='Save']]]></Save>
+  <SelectUserType><![CDATA[//*[@id='CorporateAvatarCorpUserTypeId']]]></SelectUserType>
+  <SearchAvatars><![CDATA[//*[@id='gs_name']]]></SearchAvatars>
+  <ClickEditAvator><![CDATA[//table[@id='list1']//tr[2]/td[4]/span[1]/a/i]]></ClickEditAvator>
+  <DeleteIcon><![CDATA[//table[@id='list1']//tr[2]//td[4]/span[3]/a]]></DeleteIcon>
+</Locators>
+
+

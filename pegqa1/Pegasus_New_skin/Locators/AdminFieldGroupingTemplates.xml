@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--This locator file is used in conjunction with AdminFieldGroupingTemplates.cs and -->
+<!--AdminFieldGroupingTemplatesHelper.cs -->
+
+
+<Locators>
+  
+  <FieldDictionary><![CDATA[//*[@id="menu"]/li[12]/a/span[1]]]></FieldDictionary>
+  <Fields><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/a]]></Fields>
+  <FieldGroupingTemplates><![CDATA[//*[@id="menu"]/li[12]/ul/li[4]/a]]></FieldGroupingTemplates>
+  <CreateButton><![CDATA[//a[contains(text(),'Create')]]]></CreateButton>
+  <TemplateNameField><![CDATA[//*[@id="MetaFieldGroupingTemplateName"]]]></TemplateNameField>
+  <Module><![CDATA[//*[@id='MetaFieldGroupingTemplateZModuleId']]]></Module>
+  <Tab><![CDATA[//*[@id="tab"]]]></Tab>
+  <Section><![CDATA[//*[@id="section"]]]></Section>
+  <Field><![CDATA[//*[@id="field_name"]]]></Field>
+  <AddFieldButton><![CDATA[//div[4]/div[2]/div[1]/div[5]/div/a]]></AddFieldButton>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+
+  <FirstPDFTemple><![CDATA[//tr[2]/td[10]/a]]></FirstPDFTemple>
+  <TestTemplate><![CDATA[//*[@id="left"]/div/div[2]/div/div[4]/div[2]/a]]></TestTemplate> 
+  <CloneTemplate><![CDATA[//span[contains(text(),'Clone')]]]></CloneTemplate>
+  <ClonedTemplate><![CDATA[//*[@id="left"]/div/div[2]/div/div[4]/div[2]/a]]></ClonedTemplate>
+  <DeleteClonedTemplate><![CDATA[//span[contains(text(),'Delete')]]]></DeleteClonedTemplate>
+  <DeleteTemplate><![CDATA[//span[contains(text(),'Delete')]]]></DeleteTemplate>
+  
+  <PDFTemplatesTab><![CDATA[//*[@id="menu"]/li[7]/a/span[1]]]></PDFTemplatesTab>
+  <PDFTemplatesList><![CDATA[//*[@id="menu"]/li[7]/ul/li[2]/a]]></PDFTemplatesList>
+  <EditATemplate><![CDATA[//table[@id='list1']//tr[2]/td[9]/a[1]]]></EditATemplate>
+  <PDFFileFiled><![CDATA[//*[@id='MetaTablePdfFieldAddress1TextBox']]]></PDFFileFiled> 
+  <FirstField><![CDATA[//*[@id='MetaTablePdfFieldAddress1TextBox']]]></FirstField>
+  <PegasusField><![CDATA[//*[@id='field_name']]]></PegasusField>
+  <ByFieldGroupingTemplate><![CDATA[//*[@id="typeoffieldTemplate"]]]></ByFieldGroupingTemplate>
+  <SelectATemplate><![CDATA[//*[@id='left']//div[2]//div[4]/div[2]/a]]></SelectATemplate>
+  <TemplateTest><![CDATA[//*[@id="template"]/option[2]]]></TemplateTest>
+
+  <EditPDFMap><![CDATA[//tr[2]/td[9]/a[4]/i]]></EditPDFMap>
+  <Map><![CDATA[//*[@id="directmapdiv"]/div[2]/div[2]/a[1]/span/i]]></Map>
+  <SaveMapping><![CDATA[//button[contains(text(),'Save')]]]></SaveMapping>
+  <ConfirmMapping><![CDATA[//*[@id="importform"]/div[2]/div[2]/li[2]/span[1]/a/i]]></ConfirmMapping>
+  <UndoMapping><![CDATA[//*[@id="directmapdiv"]/div[2]/div[2]/a[2]/span]]></UndoMapping>
+  
+</Locators>  

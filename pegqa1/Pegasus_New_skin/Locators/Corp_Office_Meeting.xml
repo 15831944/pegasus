@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <ClickOnRecycleBin><![CDATA[//span[text()='Recycle Bin']]]></ClickOnRecycleBin>
+  <ClickOnSubjectBin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></ClickOnSubjectBin>
+  <ClickOnAnyOffice><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnAnyOffice>
+  <Subject><![CDATA[//*[@id='MeetingName']]]></Subject>
+  <NewMeeting><![CDATA[//*[@id='createMeeting']]]></NewMeeting>
+  <Location><![CDATA[//*[@id='MeetingLocation']]]></Location>
+  <Priority><![CDATA[//*[@id='MeetingPriority']]]></Priority>
+  <Description><![CDATA[//*[@id='MeetingDescription']]]></Description>
+  <ActivityType><![CDATA[//*[@id='gs_activity_type']]]></ActivityType>
+  <StartDate><![CDATA[//*[@id='MeetingStartDate']]]></StartDate>
+  <EndDate><![CDATA[//*[@id='MeetingEndDate']]]></EndDate>
+  <Primary><![CDATA[//*[@id='notetaskbox']/div/div[5]/div[3]/div/input]]></Primary>>
+  <RelatedTo><![CDATA[//*[@id='MeetingParentType']]]></RelatedTo>
+  <FindListIcon><![CDATA[//*[@id='assignParent']]]></FindListIcon>
+  <AssignedOwner><![CDATA[//*[@id='MeetingAssignedUserId']]]></AssignedOwner>
+  <SelectedClient><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr[1]/td[2]/a]]></SelectedClient>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Edit Meeting']]]></Edit>
+  <SearchSubject><![CDATA[//*[@id='gs_name']]]></SearchSubject>
+  <EditMeetingIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a/span/img]]></EditMeetingIcon>
+  <LabelEndDate><![CDATA[//label[text()='End date']]]></LabelEndDate>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  
+</Locators>
+
+

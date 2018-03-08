@@ -1,0 +1,213 @@
+Login with valid username and password
+Verify Page title
+Go to Partner Agent page.
+Verify page title.
+Click On Create button
+Verify page title..
+Click on save button.
+Verify validation for first name
+Verify validation for last name
+Verify validation for e address type
+Verify validation for eAddress label 
+Verify validation for  eaddress
+Enter an invalid eAddress
+Verify validation for invalid eAddress.
+Enter an invalid eAddress.
+Verify validation for invalid eaddress
+Click on cancel button.
+Verify page title
+Click On Create button
+Verify page title..
+Select Salutation for agent
+Enter agent FirstNAME
+Enter agent LastName
+Enter agent Date Of Birth
+Enter agent agent DBAName
+Enter agent LinkedInUrl
+Enter agent FaceBook Url
+Enter agent TwitterURL
+Select agent language.
+Select agent eAddressType
+Select agent eAddressLebel
+Enter agent eAddressType
+Select agent phone type.
+Enter agent PhoneNumber
+Select agent Address Type  
+Enter agent AddressLine1
+Enter agent Postal code
+Click On Checkbox create user
+Enter agent UserName
+Click On Avatar
+Click on save button.
+Wait for agent creation success.
+Wait for locator to be present
+Verify agent created by credits.
+Verify agent modified by credits.
+Click on edit  button.
+Verify page title.
+Enter agent LastName
+Enter agent Date Of Birth
+Enter agent DBAName
+Enter agent LinkedInUrl
+Enter agent FaceBook Url
+Enter agent TwitterURL
+Select agent language.
+Click on save button.
+Wait for agent updation success text.
+Login with valid username and password
+Verify Page title
+Go to Partner Agent page.
+Verify page title.
+Click On Create button
+Verify page title..
+Click on save button.
+Verify validation for first name
+Verify validation for last name
+Verify validation for e address type
+Verify validation for eAddress label 
+Verify validation for  eaddress
+Enter an invalid eAddress
+Verify validation for invalid eAddress.
+Enter an invalid eAddress.
+Verify validation for invalid eaddress
+Click on cancel button.
+Verify page title
+Click On Create button
+Verify page title..
+Select Salutation for agent
+Enter agent FirstNAME
+Enter agent LastName
+Enter agent Date Of Birth
+Enter agent agent DBAName
+Enter agent LinkedInUrl
+Enter agent FaceBook Url
+Enter agent TwitterURL
+Select agent language.
+Select agent eAddressType
+Select agent eAddressLebel
+Enter agent eAddressType
+Select agent phone type.
+Enter agent PhoneNumber
+Select agent Address Type  
+Enter agent AddressLine1
+Enter agent Postal code
+Click On Checkbox create user
+Enter agent UserName
+Click On Avatar
+Click on save button.
+Wait for agent creation success.
+Wait for locator to be present
+Verify agent created by credits.
+Verify agent modified by credits.
+Click on edit  button.
+Verify page title.
+Enter agent LastName
+Enter agent Date Of Birth
+Enter agent DBAName
+Enter agent LinkedInUrl
+Enter agent FaceBook Url
+Enter agent TwitterURL
+Select agent language.
+Click on save button.
+Wait for agent updation success text.
+Wait for locator to be present.
+Verify agent created by credits
+Verify agent modified by credits
+Logout from the application.
+Login with valid username and password
+Verify Page title
+Go to Partner Agent page.
+Verify page title.
+Click On Create button
+Verify page title..
+Click on save button.
+Verify validation for first name
+Verify validation for last name
+Verify validation for e address type
+Verify validation for eAddress label 
+Verify validation for  eaddress
+Enter an invalid eAddress
+Verify validation for invalid eAddress.
+Enter an invalid eAddress.
+Verify validation for invalid eaddress
+Click on cancel button.
+Verify page title
+Click On Create button
+Verify page title..
+Select Salutation for agent
+Enter agent FirstNAME
+Enter agent LastName
+Enter agent Date Of Birth
+Enter agent agent DBAName
+Enter agent LinkedInUrl
+Enter agent FaceBook Url
+Enter agent TwitterURL
+Select agent language.
+Select agent eAddressType
+Select agent eAddressLebel
+Enter agent eAddressType
+Select agent phone type.
+Enter agent PhoneNumber
+Select agent Address Type  
+Enter agent AddressLine1
+Enter agent Postal code
+Click On Checkbox create user
+Enter agent UserName
+Click On Avatar
+Click on save button.
+Verify agent created by credits.
+Verify agent modified by credits.
+Click on edit  button.
+Verify page title.
+Enter agent LastName
+Enter agent Date Of Birth
+Enter agent DBAName
+Enter agent LinkedInUrl
+Enter agent FaceBook Url
+Enter agent TwitterURL
+Select agent language.
+Click on save button.
+Verify agent created by credits
+Verify agent modified by credits
+Logout from the application.
+Login with valid username and password
+Verify Page title
+Go to Partner Agent page.
+Verify page title.
+Click On Create button
+Verify page title..
+Click on save button.
+Verify validation for first name
+Verify validation for last name
+Verify validation for e address type
+Verify validation for eAddress label 
+Verify validation for  eaddress
+Enter an invalid eAddress
+Verify validation for invalid eAddress.
+Enter an invalid eAddress.
+Verify validation for invalid eaddress
+Click on cancel button.
+Verify page title
+Click On Create button
+Verify page title..
+Select Salutation for agent
+Enter agent FirstNAME
+Enter agent LastName
+Enter agent Date Of Birth
+Enter agent agent DBAName
+Enter agent LinkedInUrl
+Enter agent FaceBook Url
+Enter agent TwitterURL
+Select agent language.
+Select agent eAddressType
+Select agent eAddressLebel
+Enter agent eAddressType
+Select agent phone type.
+Enter agent PhoneNumber
+Select agent Address Type  
+Enter agent AddressLine1
+Enter agent Postal code
+Click On Checkbox create user
+Enter agent UserName
+Click On Avatar
+Click on save button.

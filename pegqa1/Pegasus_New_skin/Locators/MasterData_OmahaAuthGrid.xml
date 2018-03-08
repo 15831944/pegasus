@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[//a[@title='Add New Grid Id']]]></Create>
+  <GridId><![CDATA[//*[@id='MasterDataGridid']]]></GridId>
+  <VisaPosAuthfees><![CDATA[//*[@id='MasterDataVisaPosAuthFee']]]></VisaPosAuthfees>
+  <MCPosAuthFees><![CDATA[//*[@id='MasterDataMastercardPosAuthFee']]]></MCPosAuthFees>
+  <AmexPosAuthFees><![CDATA[//*[@id='MasterDataAmexPosAuthFee']]]></AmexPosAuthFees>
+  <DiscPosAuthFees><![CDATA[//*[@id='MasterDataDiscoverPosAuthFee']]]></DiscPosAuthFees>
+  <JCBPosAuthFees><![CDATA[//*[@id='MasterDataJcbPosAuthFee']]]></JCBPosAuthFees>
+  <ARUFee><![CDATA[//*[@id='MasterDataAruFee']]]></ARUFee>
+  <VoiceAuthFees><![CDATA[//*[@id='MasterDataVoiceAuthFee']]]></VoiceAuthFees>
+  <AVSElectronicFees><![CDATA[//*[@id='MasterDataAvsElectronicFee']]]></AVSElectronicFees>
+  <AVSVoiveFees><![CDATA[//*[@id='MasterDataAvsVoiceFee']]]></AVSVoiveFees>
+  <Save><![CDATA[//*[@id='masterdataCreate']]]></Save>
+  <SearchGridId><![CDATA[//*[@id='gs_gridid']]]></SearchGridId>
+  <ClickEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[@title='Edit']]]></ClickEdit>
+  <DeleteIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[2]]]></DeleteIcon>
+  
+</Locators>
+
+

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create New Rule']]]></Create>
+  <ProcessorType><![CDATA[//*[@id='ResidualMasterProcessor']]]></ProcessorType>
+  <RuleSetName><![CDATA[//*[@id='RirPayoutMasterRulesetRulesetName']]]></RuleSetName>
+  <RuleType><![CDATA[//*[@id='rule_type0']]]></RuleType>
+  <Amount><![CDATA[//*[@id='amount_field0']]]></Amount>
+  <AddRemove><![CDATA[//*[@id='RirPayoutMasterRulesetCustomRule0CalcType']]]></AddRemove>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <RMPProcessor><![CDATA[//*[@id='ResidualMasterProcessor']]]></RMPProcessor>
+  <RMPProcessorError><![CDATA[//*[@id='ResidualMasterProcessor-error']]]></RMPProcessorError>
+  <RMPSetName><![CDATA[//*[@id='RirPayoutMasterRulesetRulesetName']]]></RMPSetName>
+  <RMPSetNameError><![CDATA[//*[@id='RirPayoutMasterRulesetRulesetName-error']]]></RMPSetNameError>
+  <RMPRule><![CDATA[//select[@id='rule_type0']]]></RMPRule>
+  <RMPRuleField><![CDATA[//*[@id='amount_field0']]]></RMPRuleField>
+  <RMPRuleError><![CDATA[//*[@id='amount_field0-error']]]></RMPRuleError>
+  <RMPRuleError><![CDATA[//*[@id='amount_field0-error']]]></RMPRuleError>
+  <RMPAddRule><![CDATA[//a[@id='addrule']]]></RMPAddRule>
+  <SearchRuleSetNAme><![CDATA[//*[@id='gs_ruleset_name']]]></SearchRuleSetNAme>
+  <DeleteIcon><![CDATA[//a[@title='Delete Rule']]]></DeleteIcon>
+  <EditAdjustment><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[1]/i]]></EditAdjustment>
+  <AddAnotherRule><![CDATA[//*[@id='addrule']]]></AddAnotherRule>
+
+
+
+  <AdjustmentToolTitle><![CDATA[//h2[@class='custom_breadcrumbs']/a[contains(@href,'/newthemecorp/rir/masterrules')]]]></AdjustmentToolTitle>
+  
+</Locators>
+
+

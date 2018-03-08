@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <SearchName><![CDATA[//*[@id='gs_label']]]></SearchName>
+  <SearchModule><![CDATA[//*[@id='gs_module']]]></SearchModule>
+  <AddressType><![CDATA[//a[text()='Address Type']]]></AddressType>
+  <AddNewItem><![CDATA[//a[@title='Add New Item']]]></AddNewItem>
+  <PicklistItem><![CDATA[//*[@id='PickListValueValue']]]></PicklistItem>
+  <Cancel><![CDATA[//button[@title='Back to Picklists']]]></Cancel>
+  <Save><![CDATA[//button[@title='Save Picklist Value']]]></Save>
+  <eAddressLabelEmail><![CDATA[//a[text()='eAddress Label for E-Mails']]]></eAddressLabelEmail>
+  <eAddressLabelIMS><![CDATA[//a[text()='eAddress Label for IMs']]]></eAddressLabelIMS>
+  <eAddressLabelForSocialMedia><![CDATA[//a[text()='eAddress Label for Social Media']]]></eAddressLabelForSocialMedia>
+  <PhoneType><![CDATA[//a[text()='Phone Type']]]></PhoneType>
+  <eAddressType><![CDATA[//a[text()='eAddress Type']]]></eAddressType>
+  <Salutation><![CDATA[//a[text()='Salutation']]]></Salutation>
+  <PickList1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[1]]]></PickList1>
+  <PickType><![CDATA[//*[@id='PickListValueValue']]]></PickType>
+  <SavePicklist><![CDATA[//*[@id='add-item-submit']]]></SavePicklist>
+  <ShippingPick><![CDATA[//table[@id='list1']/tbody/tr/td/a[contains(text(),'Shipping Method')]]]></ShippingPick>
+  <AddPick><![CDATA[//a[@title='Add New Item']]]></AddPick>
+  <PickType><![CDATA[//*[@id='PickListValueValue']]]></PickType>
+  <PickSave><![CDATA[//form[@id='PickListValueAddNewItemForm']/div/div/div/button[@title='Save Picklist Value']]]></PickSave>
+  <DeletePick><![CDATA[//a[@title='Delete Item']]]></DeletePick>
+  <Cancel><![CDATA[//button[contains(text(),'Cancel')]]]></Cancel>
+  <EditPick><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'pick-lists/edit')]]]></EditPick>
+  <AddAnoth><![CDATA[//h3[contains(text(),'Add another item')]]]></AddAnoth>
+  <RefreshPick><![CDATA[//a[@title='Refresh']]]></RefreshPick>
+  <EditPickRefresh><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'pick-lists/edit')]]]></EditPickRefresh>
+  <EnterNamePicklist><![CDATA[//*[@id='gs_label']]]></EnterNamePicklist>
+  <EnterModule><![CDATA[//*[@id='gs_module']]]></EnterModule>
+  <ClickOnStatuses><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a]]></ClickOnStatuses>
+  <EnterPickListValue><![CDATA[//*[@id='PickListValueValue']]]></EnterPickListValue>
+  <PickListSaveBtn><![CDATA[//button[@title='Save Picklist Value']]]></PickListSaveBtn>
+  <ReplacePiclist><![CDATA[//*[@id='PickListValueReplaceItem']]]></ReplacePiclist>
+  <PicklistSaveBtnReplace><![CDATA[//button[@title='Save Picklist Value']]]></PicklistSaveBtnReplace>
+  
+</Locators>

@@ -1,0 +1,12 @@
+Redirect To Language
+Login with valid credential  Username
+Verify Page title
+Redirect To Language
+Verify Page title
+Click On Create Btn
+Enter Language Name
+Clcik on Master Data
+Verify Text
+Redirect To Language
+Click Delete btn 
+Click Delete btn  

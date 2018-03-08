@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <EnterEmail><![CDATA[//input[@id='inboxfield']]]></EnterEmail>
+  <ChkInbox><![CDATA[//button[@class='btn btn-dark']]]></ChkInbox>
+  <ChkFirstMail><![CDATA[//div[@class='someviewport']/div[1]//div[@title='FROM:']]]></ChkFirstMail>
+  <SubjectFirstMail><![CDATA[//div[@class='someviewport']/div[1]/div[2]/div[5]//div[contains(text(),'You have documents')]]]></SubjectFirstMail>
+  
+  
+  <Yopmail><![CDATA[//*[@id='login']]]></Yopmail>
+  <YopmailClick><![CDATA[//input[@value='Check Inbox']]]></YopmailClick>
+  <UserYop><![CDATA[//span[contains(text(),'Pegasus: New User Account Created')]]]></UserYop>
+  <OfficeLink><![CDATA[//a[contains(@href,'https://www.mypegasuscrm.com/userVerification')]]]></OfficeLink>
+  <NewOffice><![CDATA[//ol//a[@rel='nofollow']]]></NewOffice>
+
+</Locators>

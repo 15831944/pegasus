@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[contains(@title,'Create New')]]]></Create>
+  <PricingPlan><![CDATA[//*[@id='CorporateMasterPricingPlanName']]]></PricingPlan>
+  <SelectProcessor><![CDATA[//*[@id='CorporateMasterPricingPlanProcessorId']]]></SelectProcessor>
+  <Save><![CDATA[//*[//@title='Save']/div[2]/div/div[2]/a[2]]]></Save>
+  <PushOffice><![CDATA[//a[@title='Push to Offices']]]></PushOffice>
+  <SearchPricingPlan><![CDATA[//*[@id='gs_name']]]></SearchPricingPlan>
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[1]]]></ClickOnEdit>
+  <DeletePricing><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[2]]]></DeletePricing>
+  <SaveEditBtn><![CDATA[//a[@title='Save']]]></SaveEditBtn>
+  <ClickOnMasterPricingPlan><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnMasterPricingPlan>
+
+</Locators>

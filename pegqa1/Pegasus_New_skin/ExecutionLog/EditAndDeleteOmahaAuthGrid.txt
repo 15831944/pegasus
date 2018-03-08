@@ -1,0 +1,3 @@
+Click on delete
+Accept Alert
+Verify Corporate Master Omaha Auth Grid Deleted Successfully.

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Add New Language']]]></Create>
+  <Language><![CDATA[//*[@id='CorporateLanguageName']]]></Language>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <SearchLang><![CDATA[//*[@id='gs_name']]]></SearchLang>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/span[1]/a[1]]]></Edit>
+  <EditLanguage><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/input]]></EditLanguage>
+  <SaveEditLanguage><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/span[2]/a[1]]]></SaveEditLanguage>
+  <Delete><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/span[1]/a[2]]]></Delete>
+  <DeletePopup><![CDATA[//*[@id='dData']]]></DeletePopup>
+  <PushToOfficeLang><![CDATA[//a[@title='Push to Offices']]]></PushToOfficeLang>
+  <SearchLanguageOffice><![CDATA[//*[@id='gs_name']]]></SearchLanguageOffice>
+  <LanguageBlank><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@class='editable']]]></LanguageBlank>
+  <LanguageSave1><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Save this row']]]></LanguageSave1>
+  <LanguageClose><![CDATA[//*[@id='closedialog']]]></LanguageClose>
+  <LanguageCancel><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Restore this row']]]></LanguageCancel>
+  <LanguageOK><![CDATA[//*[@id='dData']]]></LanguageOK>
+  <EditLanguage_Button><![CDATA[//table[@id='list1']//tr[2]/td[4]//a[text()='Edit']]]></EditLanguage_Button>
+  <EnterLanguage_Name><![CDATA[//table[@id='list1']//tr[2]/td[3]/input]]></EnterLanguage_Name>
+  
+  
+  
+</Locators>

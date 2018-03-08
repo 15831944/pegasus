@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--Create-->
+  <FirstNAME><![CDATA[//*[@id='EmployeeFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  <BirthDay><![CDATA[//*[@id='EmployeeBirthday']]]></BirthDay>
+  <eAddressType><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></eAddress>
+  <SelectPhoneType><![CDATA[//*[@id='EmployeePhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='EmployeePhone0PhoneNumber']]]></PhoneNumber>
+  <AddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='EmployeeAddress0City']]]></City>
+  <State><![CDATA[//*[@id='EmployeeAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></PostalCode>
+  <ClickONcheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickONcheckBox>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <AutoGenPswd><![CDATA[//input[@id='UserAutogenerate']]]></AutoGenPswd>
+  <Password><![CDATA[//input[@id='UserPassword']]]></Password>
+  <ClickOnSAvatarBtn><![CDATA[//div[@class='row']/div[3]/ul/li/input]]></ClickOnSAvatarBtn>
+  
+  
+  
+  
+  <ClickOnSaleAgnetChkBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnSaleAgnetChkBox>
+  <ChangeDepartment><![CDATA[//*[@id='page-wrapper']/div/div/div/ul/li/a[contains(text(),'Change Department')]]]></ChangeDepartment>
+  <SelectDepartmentSaleAgnet><![CDATA[//*[@id='EmpDepartmentUpdateOrgDeptId']]]></SelectDepartmentSaleAgnet>#IT
+  <ClickOnBulkUpdate><![CDATA[//*[@id='page-wrapper']/div/div/div/button/span[contains(text(),'Bulk Update')]]]></ClickOnBulkUpdate>
+  <ChangeTeam><![CDATA[//a[text()='Change Team']]]></ChangeTeam>
+  <ChangeStatus><![CDATA[//a[text()='Change Status']]]></ChangeStatus>
+  <SelectStatus><![CDATA[//*[@id='EmpStatusUpdateStatus']]]></SelectStatus>#Active
+  <ChangeRole><![CDATA[//a[text()='Change Role']]]></ChangeRole>
+  <ClickOnAgent1099><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_contactNm']/a]]></ClickOnAgent1099>
+  <ClickOnCreatebtnAdjmnt><![CDATA[//div[@class='ibox-title']/div/div/button]]></ClickOnCreatebtnAdjmnt>
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <SelectAdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></SelectAdjustmentFor>#Agent
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>#Transaction
+  <SelectReportingPeriod><![CDATA[//*[@id='RirOrgMasterRulesetReportingMonth']]]></SelectReportingPeriod>#00
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>#Any
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>#1
+  <EnterAmount><![CDATA[//*[@id='amount_field0']]]></EnterAmount>
+  <SalesAgent><![CDATA[//span[text()='Sales Agent']]]></SalesAgent>  
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>#Add
+  <ClickOnSaveBtnAdjustmnet><![CDATA[//a[@title='Save']]]></ClickOnSaveBtnAdjustmnet>
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreateBtn>
+  <ClickSaveNskin><![CDATA[//button[@title='Save']]]></ClickSaveNskin>
+  <SelectSalutation><![CDATA[//*[@id='EmployeeSalutation']]]></SelectSalutation>
+  
+  <EnterAgentName><![CDATA[//*[@id='gs_contactNm']]]></EnterAgentName>
+  <SelectStatusAdjtmnt><![CDATA[//*[@id='gs_active']]]></SelectStatusAdjtmnt>
+  <ClickOnAgent1099><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_contactNm']/a]]></ClickOnAgent1099>
+  <ClickSaleManager><![CDATA[//a[@title='Sales Manager']]]></ClickSaleManager>
+  <CollapseSignCont.Info><![CDATA[//*[@id='EmployeeCreateSalesUserForm']/div[3]/div[2]/div/div/div[1]/div/a/i]]></CollapseSignCont.Info>
+  <CollapseDetails><![CDATA[//*[@id='EmployeeCreateSalesUserForm']/div[3]/div[3]//div[1]//a/i[contains(@class,'chevron-up')]]]></CollapseDetails>
+  <SaveSaleAgent><![CDATA[//button[@title='Save']]]></SaveSaleAgent>
+  
+  <ClickOnAgentTab><![CDATA[//a[@title='Agents']]]></ClickOnAgentTab>
+ 
+  <!--AgentLead-->
+  <ClickSaveBtn><![CDATA[//button[contains(text(),'Save')]]]></ClickSaveBtn>
+  <ClickOnDubBtn><![CDATA[//div[@class='modal-content']/div[3]/button[1]]]></ClickOnDubBtn>
+  <EnterFirstName><![CDATA[//*[@id='LeadDetailFirstName']]]></EnterFirstName>
+  <EnterLastName><![CDATA[//*[@id='LeadDetailLastName']]]></EnterLastName>
+  <LeadCompanyName><![CDATA[//*[@id='LeadDetailCompanyName']]]></LeadCompanyName>
+  <SelectLeadStatus><![CDATA[//*[@id='LeadStatus']]]></SelectLeadStatus>#New
+  <SelectResponsibities><![CDATA[//*[@id='LeadAssignedUserId']]]></SelectResponsibities>#Howard Tang
+  <VerifyTextOnPopUpLead><![CDATA[//h3[text()='Existing Leads']]]></VerifyTextOnPopUpLead>
+  <LeadRadio><![CDATA[//table/tbody/tr/td[1]/input]]></LeadRadio>
+  <CraeteLeadDub><![CDATA[//button[text()='Create Duplicate']]]></CraeteLeadDub>
+  <CancelOpp><![CDATA[//a[@title='Cancel']]]></CancelOpp>
+  <VerifyTextPresentLead><![CDATA[//h2[text()='Leads']]]></VerifyTextPresentLead>
+  <LeadCompyRadioBtn><![CDATA[//*[@id='LeadMergeForm']/div[2]/div/div[1]/div[1]/div[1]/label/input]]></LeadCompyRadioBtn>
+  <ClickOn1stOpp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOn1stOpp>
+  <ClickOn2ndOpp><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></ClickOn2ndOpp>
+  <ClickOnMergeRecords><![CDATA[//span[text()='Merge Records']]]></ClickOnMergeRecords>
+  <ClickOnMergeBtn><![CDATA[//a[@title='Merge']]]></ClickOnMergeBtn>
+  <ClickOnCname><![CDATA[//*[@id='OpportunityMergeForm']/div[2]/div[1]/div/div[1]/div[1]/label/input]]></ClickOnCname>
+  <!--AgentClient-->
+  <ClientCompDBA><![CDATA[//*[@id='ClientDetailCompanyDbaName']]]></ClientCompDBA>
+  <ClientStatus><![CDATA[//*[@id='ClientStatus']]]></ClientStatus>
+  <SelectClientResponsibility><![CDATA[//*[@id='ClientAssignedUserId']]]></SelectClientResponsibility>
+  <VerifyTextPresentClient><![CDATA[//h2[text()='Clients']]]></VerifyTextPresentClient>
+  <ClientCompToMrge><![CDATA[//*[@id='ClientMergeForm']/div[2]/div[1]/div/div[1]/div[1]/label/input]]></ClientCompToMrge>
+
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <ApplyButton><![CDATA[//button[text()='Apply']]]></ApplyButton>
+  <BottomResults><![CDATA[//*[@id='list1_pager_left']/div]]></BottomResults>
+
+  <DisplayedCols><![CDATA[//*[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Status']]]></HeadStatus>
+  <HeadRole><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Role']]]></HeadRole>
+  <HeadDepartment><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Department']]]></HeadDepartment>
+  <HeadTeam><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[14]//div[text()='Team']]]></HeadTeam>
+  <HeadRole5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Role']]]></HeadRole5>
+  <HeadDepartment6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Department']]]></HeadDepartment6>
+  <Modified8><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[15]//div[text()='Modified']]]></Modified8>
+  <Modified5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Modified']]]></Modified5>
+  <HeadRole3><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='Role']]]></HeadRole3>
+  <HeadDepartment7><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[14]//div[text()='Department']]]></HeadDepartment7>
+
+
+
+</Locators>

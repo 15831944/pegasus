@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <DeleteFile><![CDATA[//table[@id='related_positions_table']/tbody/tr[2]/td[9]/a[4]/i]]></DeleteFile>
+  <ImportNew><![CDATA[//a[@title='Import New']]]></ImportNew>
+  <ProcessorType><![CDATA[//*[@id='ImportIndexProcessor']]]></ProcessorType>
+  <ReportingPeriod><![CDATA[//*[@id='ImportIndexReportingMonth']]]></ReportingPeriod>
+  <ReportingYear><![CDATA[//*[@id='ImportIndexReportingYear']]]></ReportingYear>
+  <FileDate><![CDATA[//*[@id='ImportIndexFileDate']]]></FileDate>
+  <SelectDate><![CDATA[//div[contains(@class,'picker-months')]//tfoot[1]//th[text()='Today']]]></SelectDate>
+  <ClickDate><![CDATA[//td[contains(@class,'day') and text()='28']]]></ClickDate>
+  <SelectBrowseCSVFile><![CDATA[//*[@id='ImportIndexCsvFile']]]></SelectBrowseCSVFile>
+  <Import><![CDATA[//button[@title='Import']]]></Import>
+  <MapOfficeCode><![CDATA[//*[@id='ImportIndexOfficeCode']]]></MapOfficeCode>
+  <MerchantId><![CDATA[//*[@id='ImportIndexMerchantID']]]></MerchantId>
+  <AgentCode><![CDATA[//*[@id='ImportIndexAgentId']]]></AgentCode>
+  <Process><![CDATA[//a[@title='Process']]]></Process>
+  <SelectReportingPeriod><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[1]/select]]></SelectReportingPeriod>
+  
+  <ProcessorFiler><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[3]/select]]></ProcessorFiler>
+  <FilterFileFormat><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[4]/select]]></FilterFileFormat>
+  <FileName><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[5]/input]]></FileName>
+  <SelectStatus><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[6]/select]]></SelectStatus>
+  <ClickOnCalculation><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[1]/i]]></ClickOnCalculation>
+  <SkipStep><![CDATA[//strong[text()='Skip this step']]]></SkipStep>
+  <CalculatePayouts><![CDATA[//a[text()='Calculate ']]]></CalculatePayouts>
+  <PublishPayout><![CDATA[//a[text()='Publish ']]]></PublishPayout>
+  <DeletePublished><![CDATA[//table[contains(@id,'related_positions')]/tbody/tr[2]/td[9]/a[6]/i]]></DeletePublished>
+  <ClickOnStep1><![CDATA[//a[@title='Setup/Override Revenue Shares']]]></ClickOnStep1>
+  <EnterRevenuePercentage><![CDATA[//*[@id='text1']]]></EnterRevenuePercentage>
+  <ClickOnApplyCheckBox><![CDATA[//*[@id='ResidualFileRevenueOrgrevenueshare']]]></ClickOnApplyCheckBox>
+  <ClickOnCalucationSaveBtn><![CDATA[//button[@title='Save']]]></ClickOnCalucationSaveBtn>
+  <ClickCalculatePayout><![CDATA[//a[@title='Calculate Payouts']]]></ClickCalculatePayout>
+  <ClickOnFileDateImported><![CDATA[//*[@id='hasDatepickerFileDate']]]></ClickOnFileDateImported>
+  <SelectStatus><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[6]/select]]></SelectStatus>
+  <ClickOnCalculationwizard><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[1]/i]]></ClickOnCalculationwizard>
+  <ClickOnViewTransaction><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[2]/i]]></ClickOnViewTransaction>
+  <CalculationWizartd><![CDATA[//a[@title='Calculation Wizard']/i]]></CalculationWizartd>
+  
+  
+</Locators>

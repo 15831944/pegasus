@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--Create/Edit employee page-->
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <AdminUserAvatar><![CDATA[//ul[@class='list-unstyled']/li[1]/input]]></AdminUserAvatar>
+  <AddressType1><![CDATA[//select[@id='CorporateUserAddress0Type']]]></AddressType1>
+  
+  
+  
+  
+  
+  <!--All Employee page-->
+  <ClickOnEmployee><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a]]></ClickOnEmployee>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  
+  
+  
+  
+  <!--View Employee-->
+  <Address1><![CDATA[//div[@class='col-lg-4']/div[3]/div[1]]]></Address1>
+  
+  
+  
+  
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']]]></MenuIcon>
+  <Create><![CDATA[//span[contains(text(),'Create')]]]></Create>
+  
+  <Astric><![CDATA[//span[text()='*']]]></Astric>
+  <PrimaryEmail><![CDATA[//*[@id='UserVerificationEmail']]]></PrimaryEmail>
+  <Salutation><![CDATA[//*[@id='CorporateUserSalutation']]]></Salutation>
+   
+  <FirstName><![CDATA[//*[@id='CorporateUserFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='CorporateUserLastName']]]></LastName>
+  <AvtarCorporateAdmin><![CDATA[//*[@id='245']]]></AvtarCorporateAdmin>
+  <PhoneSelectCountry><![CDATA[//*[@id='CorporateUserPhone0PhoneCountryCode']]]></PhoneSelectCountry>
+  <PhoneNumber><![CDATA[//*[@id='CorporateUserPhone0PhoneNumber']]]></PhoneNumber>
+  <PrimaryPhoneRadio><![CDATA[//*[@id='radios']]]></PrimaryPhoneRadio>
+  <eAddress><![CDATA[//*[@id='CorporateUserElectronicAddress0ElectronicContent']]]></eAddress>
+  <PrimaryEmailRadio><![CDATA[//*[@id='radio']]]></PrimaryEmailRadio>
+  <AddressLine1><![CDATA[//*[@id='CorporateUserAddress0AddressLine1']]]></AddressLine1>
+  <ZipCode><![CDATA[//*[@id='CorporateUserAddress0PostalCode']]]></ZipCode>
+  <Country><![CDATA[//*[@id='CorporateUserAddress0Country']]]></Country>
+  <AddAddress><![CDATA[//*[@id='addaddress']]]></AddAddress>
+  <RemoveAddress><![CDATA[//a[@onclick='deleteaddress(1)']]]></RemoveAddress>
+  <AddressLine2><![CDATA[//*[@id='CorporateUserAddress1AddressLine1']]]></AddressLine2>
+  <ZipCOde2><![CDATA[//*[@id='CorporateUserAddress1PostalCode']]]></ZipCOde2>
+  <State><![CDATA[//*[@id='CorporateUserAddress0State']]]></State>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span/a/i]]></ClickOnEdit>
+  <EditEmployee><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/span/a/i]]></EditEmployee>
+  <ClickSaveBtn><![CDATA[//a[@title='Save']]]></ClickSaveBtn>
+  <searchEmail><![CDATA[//*[@id='gs_electronic_content']]]></searchEmail>
+  <SearchEmpName><![CDATA[//*[@id='gs_contactNm']]]></SearchEmpName>
+  <VerifyValidation><![CDATA[//*[@id='CorporateUserFirstName-error']]]></VerifyValidation>
+  <VerifyAvatar><![CDATA[//*[@id='data[User][user_avatar_id][]-error']]]></VerifyAvatar>
+  <VerifyEmail><![CDATA[//*[@id='CorporateUserElectronicAddress0ElectronicContent-error']]]></VerifyEmail>
+  <VerifyPhoneNumber><![CDATA[//*[@id='CorporateUserPhone0PhoneNumber-error']]]></VerifyPhoneNumber>
+  <VerifyLastName><![CDATA[//*[@id='CorporateUserLastName-error']]]></VerifyLastName>
+  <VerifyValidation><![CDATA[//*[@id='CorporateUserFirstName-error']]]></VerifyValidation>
+  
+  <VerifyMandatoryStar><![CDATA[//div[@class='ibox-content']/div[2]/div[4]/label[text()='Last Name ']/span[@class='star']]]></VerifyMandatoryStar>
+  <SearchEnterEmail><![CDATA[//*[@id='gs_electronic_content']]]></SearchEnterEmail>
+  <EmployeesTab><![CDATA[//span[text()='Employees']]]></EmployeesTab>
+  
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <SortBy><![CDATA[//*[@id='order']]]></SortBy>
+  <AscendingRadio><![CDATA[//*[@id='CorporateSortOrderAsc']]]></AscendingRadio>
+  <Apply><![CDATA[//button[text()='Apply']]]></Apply> 
+  <AddPhone><![CDATA[//*[@id='addphone']]]></AddPhone>
+  <AddEmail><![CDATA[//*[@id='addemail']]]></AddEmail>
+  <PhoneNumber2><![CDATA[//*[@id='CorporateUserPhone1PhoneNumber']]]></PhoneNumber2>
+  <EaddressType2><![CDATA[//*[@id='CorporateUserElectronicAddress1EmailImWebType']]]></EaddressType2>
+  <eAddress2><![CDATA[//*[@id='CorporateUserElectronicAddress1ElectronicContent']]]></eAddress2>
+  <RemovePhone><![CDATA[//a[contains(@onclick ,'deletephone(1)')]]]></RemovePhone>
+  <PRimaryPhone2><![CDATA[//div[@id='ptabs-1']//*[@id='radios']]]></PRimaryPhone2>
+  <RemoveEmail><![CDATA[//a[@onclick='deleteemail(1)']]]></RemoveEmail>
+  <PrimaryEmail2><![CDATA[//div[@id='etabs-1']//input[@id='radio']]]></PrimaryEmail2>
+  <RemoveEmail><![CDATA[//a[@title='Delete E-Mail']]]></RemoveEmail>
+  <RemovePhone><![CDATA[//a[@onclick='deletephone(1)']]]></RemovePhone>
+  <EAddressType2><![CDATA[//*[@id='CorporateUserElectronicAddress1ElectronicContentType']]]></EAddressType2>
+  <EAddressLabel1><![CDATA[//*[@id='CorporateUserElectronicAddress0ElectronicContentLabel']]]></EAddressLabel1>
+  <LastLogon><![CDATA[//option[text()='Last Logon']]]></LastLogon>
+  <UpButton><![CDATA[//*[@id='btn-up']/span]]></UpButton>
+  <LastLog5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[@id='jqgh_list1_last_logon']]]></LastLog5>
+  <LastLog3><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[7]//div[@id='jqgh_list1_last_logon']]]></LastLog3>
+  <AdvanceFilter><![CDATA[//span[text()=' Advanced Filter']]]></AdvanceFilter>
+  
+  <DisplayCols><![CDATA[//select[@id='display_cols']]]></DisplayCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-up']/span]]></MoveDown>
+  <Apply><![CDATA[//button[text()='Apply']]]></Apply>
+  <HeadZipCode><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Zipcode']]]></HeadZipCode>
+  <HeadState><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='State']]]></HeadState>
+  <HeadCity><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='City']]]></HeadCity>
+  <Phone3><![CDATA[//table[@class='ui-jqgrid-htable']/namethead/tr[1]/th[7]//div[text()='Phone']]]></Phone3>
+  <Email2><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[6]//div[text()='E-Mail']]]></Email2>
+  <Email1><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[5]//div[text()='E-Mail']]]></Email1>
+  <Phone4><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[8]//div[text()='Phone']]]></Phone4>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofResults><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofResults>
+  <UserDetailsFN><![CDATA[//div[contains(@class,'-bg m-n xborder')]/div[2]/div/div[1]/div[1]/input[2]]]></UserDetailsFN>
+  <UserDetailsLN><![CDATA[//div[contains(@class,'-bg m-n xborder')]/div[2]/div/div[2]/div[1]/input[2]]]></UserDetailsLN>
+  <UserDetailEmail><![CDATA[//div[contains(@class,'-bg m-n xborder')]/div[2]/div/div[1]/div[2]/input[2]]]></UserDetailEmail>
+  <UserDetailsCity><![CDATA[//div[contains(@class,'-bg m-n xborder')]/div[2]/div/div[2]/div[2]/input[2]]]></UserDetailsCity>
+  <UserDetailZipCode><![CDATA[//div[contains(@class,'-bg m-n xborder')]/div[2]/div/div[2]/div[3]/input[2]]]></UserDetailZipCode>
+  <VerifyName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a]]></VerifyName>
+  <VerifyEmail2><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]]]></VerifyEmail2>
+  <VerifyCity><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]]]></VerifyCity>
+  <VerifyZip><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]]]></VerifyZip>
+
+
+
+
+
+
+</Locators>

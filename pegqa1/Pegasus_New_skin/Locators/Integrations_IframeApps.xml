@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create Iframe']]]></Create>
+  <TabName><![CDATA[//*[@id='OrganizationIframeAppName']]]></TabName>
+  <UserNameInputFieldName><![CDATA[//*[@id='OrganizationIframeAppUserParam']]]></UserNameInputFieldName>
+  <PasswordInputFieldNmae><![CDATA[//*[@id='OrganizationIframeAppPasswordParam']]]></PasswordInputFieldNmae>
+  <LoginURL><![CDATA[//*[@id='login']]]></LoginURL>
+  <mainportalCheckbox><![CDATA[//*[@id='OrganizationIframeAppEmployee']]]></mainportalCheckbox>
+  <ClientPortal><![CDATA[//*[@id='OrganizationIframeAppClient']]]></ClientPortal>
+  <PartnerPortal><![CDATA[//*[@id='OrganizationIframeAppPartner']]]></PartnerPortal>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SearchTabName><![CDATA[//*[@id='gs_name']]]></SearchTabName>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[1]/i]]></Edit>
+  <ClickCancelIframe><![CDATA[//a[@title='Cancel']]]></ClickCancelIframe>
+  <IframeAPPvERIFY><![CDATA[//h3[text()='Iframe Apps']]]></IframeAPPvERIFY>
+  <ClickOnDelete><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[2]]]></ClickOnDelete>
+  <ClickOnIframe><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[1]/i]]></ClickOnIframe>
+  <SearchTabName><![CDATA[//*[@id='gs_name']]]></SearchTabName>
+  <TabNameErr><![CDATA[//*[@id='OrganizationIframeAppName-error']]]></TabNameErr>
+  <UserNameErr><![CDATA[//*[@id='OrganizationIframeAppUserParam-error']]]></UserNameErr>
+  <PasswrdErr><![CDATA[//*[@id='OrganizationIframeAppPasswordParam-error']]]></PasswrdErr>
+  <URLErr><![CDATA[//*[@id='login-error']]]></URLErr>
+  <URLErr2><![CDATA[//*[@id='login_url']]]></URLErr2>
+  <Cancel><![CDATA[//a[@title='Cancel']]]></Cancel>
+  <Chkbox1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></Chkbox1>
+  <ChkBox2><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></ChkBox2>
+  <DeleteMultiple><![CDATA[//*[@id='deleteIframe']/span]]></DeleteMultiple>
+  
+</Locators>
+
+

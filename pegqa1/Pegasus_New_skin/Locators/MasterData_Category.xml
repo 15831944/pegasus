@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--All Categories-->
+  <SearchName><![CDATA[//input[@id='gs_name']]]></SearchName>
+  <SearchCategory><![CDATA[//input[@id='gs_category']]]></SearchCategory>
+  <Category1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></Category1>
+  
+  
+  <!--Merchants-->
+  <SearchMerchant><![CDATA[//input[@id='gs_name']]]></SearchMerchant>
+  <DeleteMerchant1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a/i]]></DeleteMerchant1>
+  <MerchantCreate><![CDATA[//a[@title='Create New Category']]]></MerchantCreate>
+  <CategoryName><![CDATA[//input[@id='CategoryName']]]></CategoryName>
+  <SaveBtn><![CDATA[//form[@id='CategoryCategoryCreateForm']/div[2]/div/div[2]/a[2]]]></SaveBtn>
+
+</Locators>

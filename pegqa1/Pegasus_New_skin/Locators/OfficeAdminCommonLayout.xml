@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Dropdown><![CDATA[//*[@id="page-wrapper"]/div[1]/nav/ul/li[2]/ul]]></Dropdown>
+  <AdminButton><![CDATA[//*[@id="page-wrapper"]/div[1]/nav/ul/li[2]/ul/li[1]/a]]></AdminButton>
+  
+  <!-- Office Tab-->
+  <Office><![CDATA[//a[@href='/newthemecorp/pegasustestoffice/admin']]]></Office>
+
+  <Users><![CDATA[//*[@id="menu"]/li[2]/ul/li[1]/a]]></Users>
+  <ClientUsers><![CDATA[//*[@id="menu"]/li[2]/ul/li[2]/a]]></ClientUsers>
+  <Departments><![CDATA[//*[@id="menu"]/li[2]/ul/li[3]/a]]></Departments>
+  <Roles><![CDATA[//*[@id="menu"]/li[2]/ul/li[4]/a]]></Roles>
+  <Teams><![CDATA[//*[@id="menu"]/li[2]/ul/li[5]/a]]></Teams>
+  <Avatars><![CDATA[//*[@id="menu"]/li[2]/ul/li[6]/a]]></Avatars>
+  <Groups><![CDATA[//*[@id="menu"]/li[2]/ul/li[7]/a]]></Groups>
+  
+  <!--Corporate Tab-->
+  <Corporate><![CDATA[//a[@href='/newthemecorp/pegasustestoffice/mycorp']]]></Corporate>
+  
+  <!-- System Tab -->
+  <System><![CDATA[//ul[@id='menu']/li[9]]]></System>
+  <Modules><![CDATA[//*[@id="menu"]/li[4]/ul/li[1]/a]]></Modules>
+  <Themes><![CDATA[//*[@id="menu"]/li[4]/ul/li[2]/a]]></Themes>
+  <Picklists><![CDATA[//*[@id="menu"]/li[4]/ul/li[3]/a]]></Picklists>
+  <Email_Templates><![CDATA[//*[@id="menu"]/li[4]/ul/li[5]/a]]></Email_Templates>
+  <Audit_Trial><![CDATA[//*[@id="menu"]/li[4]/ul/li[6]/a]]></Audit_Trial>
+
+  <!-- Master Data Tab -->
+  <MasterDataTab><![CDATA[//ul[@id='menu']/li[6]]]></MasterDataTab>
+  
+  <RatesAndFees><![CDATA[//*[@id="menu"]/li[5]/ul/li[1]/a]]></RatesAndFees>
+  <AmexRates><![CDATA[//*[@id="menu"]/li[5]/ul/li[2]/a]]></AmexRates>
+  <MerchantTypes><![CDATA[//*[@id="menu"]/li[5]/ul/li[3]/a]]></MerchantTypes>
+  <PricingPlans><![CDATA[//*[@id="menu"]/li[5]/ul/li[4]/a]]></PricingPlans>
+  <OmahaAuthGrids><![CDATA[//*[@id="menu"]/li[5]/ul/li[7]/a]]></OmahaAuthGrids>
+  <Categories><![CDATA[//*[@id="menu"]/li[5]/ul/li[8]/a]]></Categories>
+  <Languages><![CDATA[//*[@id="menu"]/li[5]/ul/li[9]/a]]></Languages>
+
+  <!-- Statisitics Tab -->
+  <StatisticsTab><![CDATA[//ul[@id='menu']/li[7]]]></StatisticsTab>
+  
+  <UserStatistics><![CDATA[//*[@id="menu"]/li[6]/ul/li[1]/a]]></UserStatistics>
+  <UsageStatistics><![CDATA[//*[@id="menu"]/li[6]/ul/li[2]/a]]></UsageStatistics>
+
+  <!-- PDF Templates Tab -->
+  <PDFTemplatesTab><![CDATA[//ul[@id='menu']/li[12]]]></PDFTemplatesTab>
+  
+  <PDFTemplates><![CDATA[//*[@id="menu"]/li[7]/ul/li[2]/a]]></PDFTemplates>
+
+  <!-- Tickets Tab -->
+  <TicketsTab><![CDATA[//ul[@id='menu']/li[8]]]></TicketsTab>
+
+  <EmailTemplates><![CDATA[//*[@id="menu"]/li[8]/ul/li[3]/a]]></EmailTemplates>
+
+
+  <!-- Integrations Tab -->
+  <IntegrationsTab><![CDATA[//ul[@id='menu']/li[10]]]></IntegrationsTab>
+  
+  <IframeApps><![CDATA[//*[@id="menu"]/li[9]/ul/li[3]/a]]></IframeApps>
+
+  <!-- Products Tab -->
+  <ProductsTab><![CDATA[//ul[@id='menu']/li[11]]]></ProductsTab>
+  
+  <Products><![CDATA[//*[@id="menu"]/li[10]/ul/li[2]/a]]></Products>
+
+  <!-- Equipment Tab -->
+  <EquipmentTab><![CDATA[//ul[@id='menu']/li[13]]]></EquipmentTab>
+  
+  <Equipment><![CDATA[//*[@id="menu"]/li[11]/ul/li[1]/a]]></Equipment>
+  <Vendors><![CDATA[//*[@id="menu"]/li[11]/ul/li[2]/a]]></Vendors>
+  <DownloadIDs><![CDATA[//*[@id="menu"]/li[11]/ul/li[3]/a]]></DownloadIDs>
+  <ShippingCarriers><![CDATA[//*[@id="menu"]/li[11]/ul/li[4]/a]]></ShippingCarriers>
+  
+  <!--Field Dictionary-->
+  <FieldDicTab><![CDATA[//ul[@id='menu']/li[14]]]></FieldDicTab>
+  
+
+  <!--Elements to be tested for-->
+    <GridView><![CDATA[//*[@id="gview_list1"]]]></GridView>
+    <JQGridHdiv><![CDATA[//*[@id="gview_list1"]/div[2]]]></JQGridHdiv>
+    <HBox><![CDATA[//*[@id="gview_list1"]/div[2]/div]]></HBox>
+    <HTable><![CDATA[//*[@id="gview_list1"]/div[2]/div/table]]></HTable>
+    <ToolBar><![CDATA[//*[@id="gview_list1"]/div[2]/div/table/thead/tr[2]]]></ToolBar>
+    <BDiv><![CDATA[//*[@id="gview_list1"]/div[3]]]></BDiv>
+    <Bottom><![CDATA[//*[@id="list1_pager"]]]></Bottom>
+
+</Locators>

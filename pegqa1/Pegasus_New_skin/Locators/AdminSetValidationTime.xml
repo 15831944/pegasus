@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- AdminSetValidationTime.xml is used in conjunction with AdminSetValidationTime.cs and -->
+<!-- AdminSetValidationTime.cs -->
+
+<Locators>
+  <!--Clients-->
+  <ClientsTab><![CDATA[//*[@id="menu"]/li[5]/a]]></ClientsTab>
+  <CompanySearchBar><![CDATA[//*[@id="gs_company_dba_name"]]]></CompanySearchBar>
+  <FirstClient><![CDATA[//*[@id="136663"]/td[15]/a]]></FirstClient>
+  <Contacts><![CDATA[//a[text()='Contacts']]]></Contacts>
+  <Title><![CDATA[//*[@id="ClientContact0ClientContactContactTitle"]]]></Title>
+  <Save><![CDATA[//*[@id='ClientEditForm']/div[7]/div[2]/div/button]]></Save>
+
+  <!--Filed Dictionary-->
+  <FieldDictionary><![CDATA[//*[@id="menu"]/li[12]/a/span[1]]]></FieldDictionary>
+  <Fields><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/a]]></Fields>
+  <FieldProperties><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/ul/li[1]/a]]></FieldProperties>
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+  <ClientsModule><![CDATA[//*[@id="SearchFormModuleId"]/option[2]]]></ClientsModule>
+  <Search><![CDATA[//button[@title='Search']]]></Search>
+  <filter><![CDATA[//*[@id="filter"]]]></filter>
+  <TitleField><![CDATA[//*[@id='metafieldsmanage']//div[40]/a]]></TitleField>
+  <ApplyDataTypeValidation><![CDATA[//*[@id="MetaTableValidationDatatype"]]]></ApplyDataTypeValidation>
+  
+  <FieldDataType><![CDATA[//*[@id="MetaTableValidationDataType"]]]></FieldDataType>
+  <SelectTime><![CDATA[//*[@id="MetaTableValidationDataType"]/option[5]]]></SelectTime>
+
+  <SaveFieldManager><![CDATA[//button[contains(text(),'Save')]]]></SaveFieldManager>
+  
+  <!--new-->
+  <Processor><![CDATA[//select[@id='SearchFormProcessorId']]]></Processor>
+  <Tab><![CDATA[//select[@id='SearchFormTabName']]]></Tab>
+  <Section><![CDATA[//select[@id='SearchFormSectionName']]]></Section>
+  <ContactTitle><![CDATA[//a[contains(text(),'Title')]]]></ContactTitle>
+  <ProcFieldFormat><![CDATA[//input[@id='MetaTableProcessorValidationFieldFormat']]]></ProcFieldFormat>
+  <ProcFieldContntType><![CDATA[//select[@id='MetaTableProcessorValidationFormatType']]]></ProcFieldContntType>
+  <ProcApplyDataTypeValidation><![CDATA[//input[@id='MetaTableProcessorValidationDatatype']]]></ProcApplyDataTypeValidation>
+  <ProcFieldDataType><![CDATA[//select[@id='MetaTableProcessorValidationDataType']]]></ProcFieldDataType>
+  
+</Locators>

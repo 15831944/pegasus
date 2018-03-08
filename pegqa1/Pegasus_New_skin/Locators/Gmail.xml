@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <UseAnotherAccBtn><![CDATA[//div[@id='identifierLink']/div[2]/p]]></UseAnotherAccBtn>
+  <EnterEmail><![CDATA[//input[@id='identifierId']]]></EnterEmail>
+  <NextBtn><![CDATA[//span[text()='Next']]]></NextBtn>
+  <EnterPswrd><![CDATA[//input[@type='password']]]></EnterPswrd>
+  <AllowBtn><![CDATA[//span[text()='ALLOW']]]></AllowBtn>
+
+</Locators>

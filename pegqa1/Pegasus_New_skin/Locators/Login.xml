@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <Login>
+    <Username><![CDATA[//input[contains(@id, 'UserLoginUserName')]]]></Username>
+    <Password><![CDATA[//*[@id='UserLoginPasswordHash']]]></Password>
+    <Enter><![CDATA[//button[@type='submit']]]></Enter>
+  </Login>
+  
+  <!-- EDIT 1099 SALE AGENT PROFILE  -->
+  <ClickOnProfile><![CDATA[//div[@id='tophead']/div[2]/table/tbody/tr/td/img]]></ClickOnProfile>
+  <ClickOnProfile1099SALEaGENT><![CDATA[//a[@href='/chycorp/atlanta_office/myprofile']]]></ClickOnProfile1099SALEaGENT>
+  <EditProfile><![CDATA[//a[@title='Edit Profile']]]></EditProfile>
+  <AddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></AddressLine1>
+  <County><![CDATA[//*[@id='EmployeeAddress0County']]]></County>
+  <SelectCountry><![CDATA[//*[@id='EmployeeAddress0Country']]]></SelectCountry>#Canada
+  <SelectState><![CDATA[//*[@id='EmployeeAddress0State']]]></SelectState>#BC
+  <EditProfileSave><![CDATA[//*[@id='EmployeeEditProfileForm']/div[5]/div/a[1]/span[1]]]></EditProfileSave>
+  <ClickOnSettingTab><![CDATA[//*[@id='main_container']/div[2]/ul/li[2]/a]]></ClickOnSettingTab>
+  <NameFormat><![CDATA[//*[@id='Setting0Value']]]></NameFormat>
+  <DateFormat><![CDATA[//*[@id='Setting2Value']]]></DateFormat>
+  <PhoneNumber><![CDATA[//*[@id='Setting7Value']]]></PhoneNumber>
+  <SaveChangeSetting><![CDATA[//*[@id='SettingMyprofileForm']/div[7]/div/a[1]/span[1]]]></SaveChangeSetting>
+ 
+</Locators>

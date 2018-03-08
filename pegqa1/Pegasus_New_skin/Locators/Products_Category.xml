@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create New Category']]]></Create>
+  <Name><![CDATA[//*[@id='ProductCategoryName']]]></Name>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SearchName><![CDATA[//*[@id='gs_productname']]]></SearchName>
+  <Edit><![CDATA[//div[@class='ibox-content']//ul[2]//li[last()]/div/span[1]/a[2]/i]]></Edit>
+  <UpdateMessage><![CDATA[//*[@id='flashMessage']]]></UpdateMessage>
+  <SaveEdit><![CDATA[//input[@title='Save']]]></SaveEdit>
+  <ClickProductCategory><![CDATA[//ul[@id='sortable']/li[1]/div[1]/span[1]/a[2]]]></ClickProductCategory>
+  <NameError><![CDATA[//*[@id='ProductCategoryName-error']]]></NameError>
+  <DefaultView><![CDATA[//*[@id='ProductCategoryCanCollapse']]]></DefaultView>
+  <DNDCategory><![CDATA[//span[text()='Do not delete']]]></DNDCategory>
+  <Edit2><![CDATA[//ul[@id='sortable']//li[2]//a[@title='Edit Category']]]></Edit2>
+  <DeleteIcon><![CDATA[//div[@class='ibox-content']//ul[2]//li[last()]//span//a[3]]]></DeleteIcon>
+  
+</Locators>

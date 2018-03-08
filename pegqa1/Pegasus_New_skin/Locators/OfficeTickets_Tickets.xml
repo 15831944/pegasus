@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  
+  <!--All Tickets page-->
+  <FirstTicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td[21]/a]]></FirstTicket>
+  <SelectStatus><![CDATA[//select[@id='gs_status']]]></SelectStatus>
+  
+  
+  
+  
+  
+  <!--Create ticket page-->
+  
+  
+  
+  
+  
+  <!--View ticket page-->
+  <NewTask><![CDATA[//a[@title='New Task']]]></NewTask>
+  <AddNote><![CDATA[//a[@id='addnote1']]]></AddNote>
+  
+  
+  <!--View ticket page >> All Activities-->
+  <SelectActivityType><![CDATA[//select[@id='gs_activity_type']]]></SelectActivityType>
+  <SearchActivity><![CDATA[//input[@id='gs_name']]]></SearchActivity>
+  <FirstActvtyTcktStatus><![CDATA[//table[@id='list1']/tbody/tr[2]/td[16]]]></FirstActvtyTcktStatus>
+  <Activity1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></Activity1>
+  
+  
+  
+
+
+</Locators>

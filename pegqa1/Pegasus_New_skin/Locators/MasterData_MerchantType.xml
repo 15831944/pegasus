@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  
+  <Create><![CDATA[//a[@title='Create New Merchant Type']]]></Create>
+  <MerchantType><![CDATA[//*[@id='MasterMerchantTypeMerchantType']]]></MerchantType>
+  <SearchMerchanttype><![CDATA[//*[@id='gs_merchant_type']]]></SearchMerchanttype>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <ClickOnMerchantAdmin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnMerchantAdmin>
+  <Cancel><![CDATA[//a[@title='Cancel']]]></Cancel>
+  <DeleteIcon><![CDATA[//a[@title='Delete Merchant Type']]]></DeleteIcon>
+</Locators>
+
+

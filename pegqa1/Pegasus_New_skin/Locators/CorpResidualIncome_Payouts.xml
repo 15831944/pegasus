@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <SeleUserType><![CDATA[//*[@id='gs_usertype']]]></SeleUserType>
+  <FillDate><![CDATA[//*[@id='file_date']]]></FillDate>
+  <FillPro><![CDATA[//*[@id='processor']]]></FillPro>
+  <FSSearch><![CDATA[//a[@title='Search']]]></FSSearch>
+  <FillFile><![CDATA[//*[@id='left']/div[2]/span[1]/a]]></FillFile>
+  <ExcelReoprt><![CDATA[//div[@class='noprint pull-right']/table/tbody/tr/td/a/img[contains(@src,'excel')]]]></ExcelReoprt>
+  <ClickOnAnyPayoutSummary><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a]]></ClickOnAnyPayoutSummary>
+  <ResidualIncoemViewReports><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[4]/i]]></ResidualIncoemViewReports>
+  <ResidualStatus><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[6]/select]]></ResidualStatus>
+  <ReportingPeriod><![CDATA[//*[@id='reporting_period']]]></ReportingPeriod>
+  <SelectedOffices><![CDATA[//*[@id='sendtoSelected']]]></SelectedOffices>
+  <Office1><![CDATA[//*[@id='292']]]></Office1>
+  
+  
+</Locators>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Advance><![CDATA[//*[@id='layout_disp']/span]]></Advance>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <Exp><![CDATA[//*[@id='exportactions']]]></Exp>
+  <ExpCSV><![CDATA[//*[@id='export_csv']]]></ExpCSV>
+  <PDFImage><![CDATA[//*[@id='attachtypePdf']]]></PDFImage>
+  <RPMPeriod><![CDATA[//select[@id='gs_reporting_period']]]></RPMPeriod>
+  <RPMCalender><![CDATA[//div[@class='datepicker-days']]]></RPMCalender>
+
+</Locators>

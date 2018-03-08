@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Name><![CDATA[//*[@id='EquipmentShippingCarrierName']]]></Name>
+  <Website><![CDATA[//*[@id='EquipmentShippingCarrierWebsite']]]></Website>
+  <Create><![CDATA[//a[@title='Create New Shipping Carrier']]]></Create>
+  <TrackingURL><![CDATA[//*[@id='login']]]></TrackingURL>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SearchName><![CDATA[//*[@id='gs_name']]]></SearchName>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a[1]/i]]></Edit>
+  <FilterName><![CDATA[//*[@id='gs_name']]]></FilterName>
+  <NonFilter><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]]]></NonFilter>
+  <RefreshButton><![CDATA[//*[@id='reloadform']/span]]></RefreshButton>
+  <ClickCancelBtn><![CDATA[//div[@class='col-lg-12']/div[2]/a[@title='Cancel']]]></ClickCancelBtn>
+  <VerifyTextHedaing><![CDATA[//*[@id='page-wrapper']/div[3]/div/div[1]/h3]]></VerifyTextHedaing>
+  <ClickOnShippingCarriersLink><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[text()='Shipping Validation']]]></ClickOnShippingCarriersLink>
+  <ClickOnCreateShipping><![CDATA[//a[@title='Create New Shipping Carrier']]]></ClickOnCreateShipping>
+  <OpenAnyShiping><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></OpenAnyShiping>
+  <ShippingNameErr><![CDATA[//*[@id='EquipmentShippingCarrierName-error']]]></ShippingNameErr>
+  <TrackinError><![CDATA[//*[@id='login-error']]]></TrackinError>
+  <TrackingError2><![CDATA[//*[@id='login_url']/span]]></TrackingError2>
+  <WebError><![CDATA[//*[@id='EquipmentShippingCarrierWebsite-error']]]></WebError>
+  <Status><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a[2]/i]]></Status>
+  
+  
+  
+  
+  
+</Locators>

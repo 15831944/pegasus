@@ -1,0 +1,126 @@
+Login with valid username and password
+Verify Page title
+Redirect to the URL
+Click on Create button
+Enter First Name
+Enter Last Name
+Select eAddress type
+Login with valid username and password
+Verify Page title
+Redirect to the URL
+Click on Create button
+Enter First Name
+Enter Last Name
+Select eAddress type
+Login with valid username and password
+Verify Page title
+Redirect to the URL
+Click on Create button
+Enter First Name
+Enter Last Name
+Select eAddress type
+Enter eAddress
+Select Address type
+Enter Address Line1
+Enter Address Line2
+Enter Postal Code
+Enter Username
+Click Partner User Avatar check box
+Click Save button
+Click Advanced Filter button
+Login with valid username and password
+Verify Page title
+Redirect to the URL
+Click on Create button
+Enter First Name
+Enter Last Name
+Select eAddress type
+Enter eAddress
+Select Address type
+Enter Address Line1
+Enter Address Line2
+Enter Postal Code
+Enter Username
+Click Partner User Avatar check box
+Click Save button
+Click Advanced Filter button
+Login with valid username and password
+Verify Page title
+Redirect to the URL
+Click on Create button
+Enter First Name
+Enter Last Name
+Select eAddress type
+Enter eAddress
+Select Address type
+Enter Address Line1
+Enter Address Line2
+Enter Postal Code
+Enter Username
+Click Partner User Avatar check box
+Click Save button
+Redirect to All Partner Agents page
+Click Advanced Filter button
+Select Address Line1 from Available Columns
+Move Address Line1 to Display Columns
+Select Address Line2 from Available Columns
+Move Address Line2 to Display Columns
+Move Address Line2 to Display Columns
+Search Agent
+Verify Address Line 1
+Verify Address Line 2
+Login with valid username and password
+Verify Page title
+Redirect to the URL
+Click on Create button
+Enter First Name
+Enter Last Name
+Select eAddress type
+Enter eAddress
+Select Address type
+Enter Address Line1
+Enter Address Line2
+Enter Postal Code
+Enter Username
+Click Partner User Avatar check box
+Click Save button
+Redirect to All Partner Agents page
+Click Advanced Filter button
+Select Address Line1 from Available Columns
+Move Address Line1 to Display Columns
+Select Address Line2 from Available Columns
+Move Address Line2 to Display Columns
+Move Address Line2 to Display Columns
+Search Agent
+Verify Address Line 1
+Verify Address Line 2
+Login with valid username and password
+Verify Page title
+Redirect to the URL
+Click on Create button
+Enter First Name
+Enter Last Name
+Select eAddress type
+Enter eAddress
+Select Address type
+Enter Address Line1
+Enter Address Line2
+Enter Postal Code
+Enter Username
+Click Partner User Avatar check box
+Click Save button
+Login with valid username and password
+Verify Page title
+Redirect to the URL
+Click on Create button
+Enter First Name
+Enter Last Name
+Select eAddress type
+Enter eAddress
+Select Address type
+Enter Address Line1
+Enter Address Line2
+Enter Postal Code
+Enter Username
+Click Partner User Avatar check box
+Click Save button

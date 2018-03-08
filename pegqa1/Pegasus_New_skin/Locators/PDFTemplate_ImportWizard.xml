@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Import><![CDATA[//input[@value='Import']]]></Import>
+  <SelectModule><![CDATA[//*[@id='PdfTemplateModule']]]></SelectModule>
+  <SelectFile><![CDATA[//*[@id='PdfTemplatePdfFile']]]></SelectFile>
+  <Next><![CDATA[//button[@title='Next']]]></Next>
+  <Category><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></Category>
+  <MakeInactive><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Make Inactive']]]></MakeInactive>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Edit PDF Template']]]></Edit>
+  <Name><![CDATA[//*[@id='PdfTemplateName']]]></Name>
+  <EnterDescription><![CDATA[//*[@id='PdfTemplateDescription']]]></EnterDescription>
+  <SearchPDF><![CDATA[//*[@id='gs_file_name']]]></SearchPDF>
+  <SearchModule><![CDATA[//*[@id='gs_module_name']]]></SearchModule> 
+  <PDF1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></PDF1>
+  <DeletePDF><![CDATA[//*[@id='deletepdf']/span]]></DeletePDF>
+  <Save1><![CDATA[//*[@id='saveForm']]]></Save1>//*[@id='saveForm']
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <Tab><![CDATA[//select[@id='tab']]]></Tab>
+  <Section><![CDATA[//*[@id='section']]]></Section>
+  <Fields><![CDATA[//*[@id='field_name']]]></Fields>
+  <SubSection><![CDATA[//*[@id='sub_section']]]></SubSection>
+  <ClickOnReCycleBin><![CDATA[//a[@title='Recycle PDF Templates']]]></ClickOnReCycleBin>
+  <ClickOnRestoreTemplate><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[@title='Restore This PDF Templatet']]]></ClickOnRestoreTemplate>
+  <RecycleBin><![CDATA[//span[text()='Recycle Bin']]]></RecycleBin>
+  <ClickOnDelete><![CDATA[//a[@title='Delete']]]></ClickOnDelete>
+  <ClickNextBtn2><![CDATA[//a[@title='Next']]]></ClickNextBtn2>
+  <SaveEdit><![CDATA[//button[@title='Save']]]></SaveEdit>
+  <CheckBox1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></CheckBox1>
+  <DisplayinTabs><![CDATA[//*[@id='PdfTemplateTabLink']]]></DisplayinTabs>
+  <CanShare><![CDATA[//*[@id='PdfTemplateShareLink']]]></CanShare>
+  <CanEmail><![CDATA[//*[@id='PdfTemplateEmailLink']]]></CanEmail>
+  <AllTeams><![CDATA[//*[@id='OrganizationAllTeams0']]]></AllTeams>
+  <SearchName><![CDATA[//*[@id='gs_name']]]></SearchName>
+  <EditPDFMapping><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a[4]/i]]></EditPDFMapping>
+  <DefaultDictionary><![CDATA[//*[@id='typeoffieldStandard']]]></DefaultDictionary>
+  <MapFieldDirectly><![CDATA[//*[@id='mapping_typeDirectmapping']]]></MapFieldDirectly>
+  <MapWithRule><![CDATA[//*[@id='mapping_typeCreaterule']]]></MapWithRule>
+  <SearchPDFField><![CDATA[//*[@id='ImportIndexFilter']]]></SearchPDFField>
+  <Tab><![CDATA[//*[@id='tab']]]></Tab>
+  <Section><![CDATA[//*[@id='section']]]></Section>
+  <SubSection><![CDATA[//*[@id='sub_section']]]></SubSection>
+  <PegasusField><![CDATA[//*[@id='field_name']]]></PegasusField>
+  <SelectRuleType><![CDATA[//*[@id='ImportIndexPopRulesetType']]]></SelectRuleType>
+  <SelectContactOwner><![CDATA[//*[@id='ImportIndexPopContactType']]]></SelectContactOwner>
+  <PrimaryOther><![CDATA[//*[@id='maindiv']/div[1]/div[2]/select]]></PrimaryOther>
+  <SelectContactOwnerFiled><![CDATA[//*[@id='contact_field0']]]></SelectContactOwnerFiled>
+  <SaveRule><![CDATA[//a[@title='Save Rule']/span]]></SaveRule>
+  <AddField><![CDATA[//a[@title='Add']]]></AddField>
+  <SelectDelimiter1><![CDATA[//*[@id='pegasus_field1']]]></SelectDelimiter1>
+  <SelectDelimiter2><![CDATA[//*[@id='pegasus_field2']]]></SelectDelimiter2>
+  <VendorMiddleName><![CDATA[//*[@id='addcontacttabs-1']/div/div[3]/select]]></VendorMiddleName>
+  <VendorLastName><![CDATA[//*[@id='addcontacttabs-2']/div/div[3]/select]]></VendorLastName>
+  <Remove2><![CDATA[//*[@id='2']]]></Remove2>
+  <Remove1><![CDATA[//*[@id='1']]]></Remove1>
+  <OfficeDetailFields><![CDATA[//*[@id='ImportIndexPopOfficeField']]]></OfficeDetailFields>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</Locators>
+
+

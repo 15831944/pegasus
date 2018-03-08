@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <ClictBulkUpdateBtn><![CDATA[//div[@title='Bulk Update']/button]]></ClictBulkUpdateBtn>
+  <ClickOnBulkUpdateClient><![CDATA[//div[@title='Bulk Update']/button]]></ClickOnBulkUpdateClient>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <PartnerAgent><![CDATA[//*[@id='hide_cols']/option[contains(text(),'Partner Association Name')]]]></PartnerAgent>
+  <Add><![CDATA[//*[@id='btn-add']/span]]></Add>
+  <AddPartner><![CDATA[//*[@id='display_cols']/option[contains(text(),'Partner Association Name')]]]></AddPartner>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <Client1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></Client1>
+  <ClickOnCheckBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnCheckBox>
+  <BlukUpdateChangeSaleManager><![CDATA[//a[text()='Change Sales Manager']]]></BlukUpdateChangeSaleManager>
+  <ClickOnBulkUpdateClient><![CDATA[//div[@title='Bulk Update']/button]]></ClickOnBulkUpdateClient>
+  <SelectSaleManager><![CDATA[//*[@id='ClientSalesManagerUpdateSalesManagerId']]]></SelectSaleManager>
+  <AddressLine1LocationAddress><![CDATA[//*[@id='ClientDetailLocationAddressLine1']]]></AddressLine1LocationAddress>
+  <ZipCodeLocationAddress><![CDATA[//*[@id='ClientDetailLocationPostalCode']]]></ZipCodeLocationAddress>
+  <AddressLine1MailingAddress><![CDATA[//*[@id='ClientDetailMailingAddressLine1']]]></AddressLine1MailingAddress>
+  <ZipCodeMailingAddress><![CDATA[//*[@id='ClientDetailMailingPostalCode']]]></ZipCodeMailingAddress>
+  <ClickOnImport><![CDATA[//span[text()='Import']]]></ClickOnImport>
+  <EntereAddressCont.><![CDATA[//*[@id='ClientContactContactElectronicAddress0ElectronicContent']]]></EntereAddressCont.>
+  <SelectLabelCont><![CDATA[//*[@id='ClientContactContactElectronicAddress0ElectronicContentLabel']]]></SelectLabelCont>
+  <eAddressTypeCont><![CDATA[//*[@id='ClientContactContactElectronicAddress0ElectronicContentType']]]></eAddressTypeCont>
+  <ClickOnImportClint><![CDATA[//*[@id='importform']/input[2]]]></ClickOnImportClint>
+  <ClickImprtProcess><![CDATA[//button[@title='Import']]]></ClickImprtProcess>
+  <SelectFile><![CDATA[//*[@id='vcard_file']]]></SelectFile>
+  <ClickOnAnyClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'view')]]]></ClickOnAnyClient>
+  <CompanyDetails><![CDATA[//a[text()='Company Details']]]></CompanyDetails>
+  <PartnerAssociation><![CDATA[//div[contains(text(),'Partner Association Name')]]]></PartnerAssociation>
+  <DropAssociation><![CDATA[//*[@id='gs_association']]]></DropAssociation>
+  <ClcikAddNote><![CDATA[//a[@title='Add Note']]]></ClcikAddNote>
+  <ClickOnContactTab><![CDATA[//a[text()='Contacts']]]></ClickOnContactTab>
+  <AddMeeting><![CDATA[//span[text()='New Meeting']]]></AddMeeting>
+  <AddNotes><![CDATA[//*[@id='addnote1']/span]]></AddNotes>
+  <AddTask><![CDATA[//span[text()='New Task']]]></AddTask>
+  <AddEmail><![CDATA[//span[text()='Send E-Mail']]]></AddEmail>
+  <ContactCountry><![CDATA[//*[@id='ClientContactContactAddress0Country']]]></ContactCountry>
+  <ContactState><![CDATA[//*[@id='ClientContactContactAddress0State']]]></ContactState>
+  <SelectLocationCountry><![CDATA[//*[@id='ClientDetailLocationCountry']]]></SelectLocationCountry>#Canada
+  <SelectComapnyState><![CDATA[//*[@id='ClientDetailLocationState']]]></SelectComapnyState>
+  <ClickOnClientTab><![CDATA[//a[@title='Clients']]]></ClickOnClientTab>
+  <AddDoc><![CDATA[//*[@id='adddocument1']]]></AddDoc>
+  <Website><![CDATA[//option[contains(text(),'Website')]]]></Website>
+  <ClickOn1stOpp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOn1stOpp>
+  <ClickOn2ndOpp><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></ClickOn2ndOpp>
+  <ClickOnMergeRecords><![CDATA[//span[text()='Merge Records']]]></ClickOnMergeRecords>
+  <ClientCompToMrge><![CDATA[//*[@id='ClientMergeForm']/div[2]/div[1]/div/div[1]/div[1]/label/input]]></ClientCompToMrge>
+  <ClickOnMergeBtn><![CDATA[//a[@title='Merge']]]></ClickOnMergeBtn>
+  <Advance><![CDATA[//*[@id='layout_disp']/span]]></Advance>
+  <PegResult><![CDATA[//*[@id='pageresults']/option[text()='1000']]]></PegResult>
+  <LocationOffice><![CDATA[//*[@id='ClientDetailInternationalLocation']]]></LocationOffice>
+  <CONTZipCode><![CDATA[//*[@id='ClientContactContactAddress0PostalCode']]]></CONTZipCode>
+  <ContactDetails><![CDATA[//a[text()='Contacts']]]></ContactDetails>
+  <ClientNoteSubject><![CDATA[//*[@id='NoteName']]]></ClientNoteSubject>
+  <TextAraExpand><![CDATA[//textarea[@id='DocumentDescription' and contains(@style,'width')]]]></TextAraExpand>
+  <ZipField><![CDATA[//*[@id='ClientContact0ClientContactContactAddress0PostalCode']]]></ZipField>
+  <MerchantNumber><![CDATA[//a[text()='Merchant Numbers']]]></MerchantNumber>
+  <MerchantNumberHighlighted><![CDATA[//a[text()='Merchant Numbers' and @aria-expanded='true']]]></MerchantNumberHighlighted>
+  <CustomerRelationHighlighted><![CDATA[//a[text()='Customer Relationship' and @aria-expanded='true']]]></CustomerRelationHighlighted>
+  <CustomerRelationship><![CDATA[//a[text()='Customer Relationship']]]></CustomerRelationship>
+  <TerminalsHighlighted><![CDATA[//a[text()='Terminals & Equipment' and @aria-expanded='true']]]></TerminalsHighlighted>
+  <TerminalsandEquipments><![CDATA[//a[text()='Terminals & Equipment']]]></TerminalsandEquipments>
+  <Products><![CDATA[//a[text()='Products']]]></Products>
+  <OwnerTab><![CDATA[//a[text()='Owners']]]></OwnerTab>
+  <Cont.PhoneType><![CDATA[//*[@id='ClientContactContactPhone0PhoneType']]]></Cont.PhoneType>
+  <SelectCountryCode><![CDATA[//*[@id='ClientContactContactPhone0PhoneCountryCode']]]></SelectCountryCode>
+  <EnterPhnNumber><![CDATA[//*[@id='ClientContactContactPhone0PhoneNumber']]]></EnterPhnNumber>
+  <ProductsHighlighted><![CDATA[//a[text()='Products' and @aria-expanded='true']]]></ProductsHighlighted>
+  <ContactFirstName><![CDATA[//*[@id='ClientContactContactFirstName']]]></ContactFirstName>
+  <ContactLastName><![CDATA[//*[@id='ClientContactContactLastName']]]></ContactLastName>
+  <ContactZipCode><![CDATA[//*[@id='ClientContactContactAddress0PostalCode']]]></ContactZipCode>
+  <SelectSalutationOwner><![CDATA[//*[@id='ClientOwnerContactSalutation']]]></SelectSalutationOwner>
+  <OwnerLastName><![CDATA[//*[@id='ClientOwnerContactLastName']]]></OwnerLastName>
+  <OwnerPhoneType><![CDATA[//*[@id='ClientOwnerContactPhone0PhoneType']]]></OwnerPhoneType>#Emergency
+  <OwnerCodeCounrty><![CDATA[//*[@id='ClientOwnerContactPhone0PhoneCountryCode']]]></OwnerCodeCounrty>#Canada / United States
+  <OwnerPhoneNumber><![CDATA[//*[@id='ClientOwnerContactPhone0PhoneNumber']]]></OwnerPhoneNumber>
+  <OwnerAddressType><![CDATA[//*[@id='ClientOwnerContactAddress0Type']]]></OwnerAddressType>
+  <OwnerEAddressLabel><![CDATA[//*[@id='ClientOwnerContactElectronicAddress0ElectronicContentLabel']]]></OwnerEAddressLabel>
+  <OwnereAddressEnter><![CDATA[//*[@id='ClientOwnerContactElectronicAddress0ElectronicContent']]]></OwnereAddressEnter>
+  <OwnerZipCode><![CDATA[//*[@id='ClientOwnerContactAddress0PostalCode']]]></OwnerZipCode>
+  <ClickDbaname><![CDATA[//table/tbody/tr/td[2]/a]]></ClickDbaname>
+  <SaveButtonByTitle><![CDATA[//button[@title='Save']]]></SaveButtonByTitle>
+  <ExportBtn><![CDATA[//div[@title='Export']]]></ExportBtn>
+  <ExportToCSV><![CDATA[//div[@class='grid_toolbar_back']/div[3]/div[2]/ul/li[1]/a]]></ExportToCSV>
+  <ExportToExcel><![CDATA[//*[@id='export_excel']]]></ExportToExcel>
+  <ClickeMAILtOsEND><![CDATA[//div[@class='panel-body']/div[2]/div[2]/div/div[1]/div/div[2]/div[2]/div[1]/a]]></ClickeMAILtOsEND>
+  <EmterEmailAddressPDF><![CDATA[//*[@id='ClientEmailAddress']]]></EmterEmailAddressPDF>
+  <RecipinetName><![CDATA[//*[@id='ClientEmailName']]]></RecipinetName>
+  <ClickOnEmail><![CDATA[//div[@id='card_service_agreements']/table/tbody/tr[1]/td[2]/table/tbody/tr[2]/td[1]/a]]></ClickOnEmail>
+  <ConirmAndContinue><![CDATA[//button[@title='Confirm Options and Continue']]]></ConirmAndContinue>
+  <ClickOnSendPDFEmail><![CDATA[//div[@class='mail-box-header']/div[2]/a[1]]]></ClickOnSendPDFEmail>
+  <SearchEmailSharePdf><![CDATA[//*[@id='gs_electronic_content']]]></SearchEmailSharePdf>
+  <ProductHighlighted><![CDATA[//*[@id='ClientCreateForm']/div[3]/div[1]/div/div/div[1]/div/ul/li[12]/a]]></ProductHighlighted>
+  <LastByActivity><![CDATA[//*[@id='hide_cols']/option[contains(text(),'Last Activity By')]]]></LastByActivity>
+  <AddArrow><![CDATA[//*[@id='btn-add']/span]]></AddArrow>
+  <NoText><![CDATA[//div[@class='ibox-title']/input]]></NoText>
+  <Chy><![CDATA[//a[contains(text(),'Chy')]]]></Chy>
+  <Info><![CDATA[//a[contains(text(),'Info')]]]></Info>
+  <CancelOpp><![CDATA[//a[@title='Cancel']]]></CancelOpp>
+  <VerifyTextPresentClient><![CDATA[//h2[text()='Clients']]]></VerifyTextPresentClient>
+  <OwnerFirstName><![CDATA[//*[@id='ClientOwnerContactFirstName']]]></OwnerFirstName>
+  <OwnerFNameEdit><![CDATA[//*[@id='ClientOwner0ClientOwnerContactFirstName']]]></OwnerFNameEdit>
+  <OwnerEmail><![CDATA[//*[@id='ClientOwner0ClientOwnerContactElectronicAddress0ElectronicContent']]]></OwnerEmail>
+  <OwnerSave><![CDATA[//button[@title='Save']]]></OwnerSave>
+  <IdentificationState><![CDATA[//*[@id='ClientOwner0ClientOwnerDriversLicenseState']]]></IdentificationState>
+  <OwnerBAnkruptyField><![CDATA[//*[@id='ClientOwner0ClientOwnerBankruptcy']/option[text()='Yes']]]></OwnerBAnkruptyField>
+  <BankruptyState><![CDATA[//*[@id='ClientOwner0ClientOwnerBankruptState']]]></BankruptyState>
+  <BusinessState><![CDATA[//*[@id='ClientOwner0ClientOwnerBusinessBankruptState']]]></BusinessState>
+  <PDFTab><![CDATA[//a[text()='PDFs']]]></PDFTab>
+  <NorthPDF><![CDATA[//a[contains(text(),'First Data North Schedule A')]]]></NorthPDF>
+  <tabRateFees><![CDATA[//a[text()='Rates & Fees']]]></tabRateFees>
+  <SelectProcessorRF><![CDATA[//*[@id='ClientRatesFeeProcessor']]]></SelectProcessorRF>#Processor 1186688466 Edited
+  <SeleectMerchantRF><![CDATA[//*[@id='ClientRatesFeeIndustry']]]></SeleectMerchantRF>
+  <MethodOfAcceptingRF><![CDATA[//*[@id='ClientRatesFeeCardAcceptMethod']]]></MethodOfAcceptingRF>#Manually swiped
+  <ClickOnGetDefaultRates><![CDATA[//button[text()='Get Default Rates']]]></ClickOnGetDefaultRates>
+  <VerifyPopulatedFiedl><![CDATA[//*[@id='ClientRatesFeeTemplates']/option[contains(text(),'Rates & Fees')]]]></VerifyPopulatedFiedl>
+  <ClickOnBulkUpdateClient><![CDATA[//div[@title='Bulk Update']/button]]></ClickOnBulkUpdateClient>
+  <TicHover><![CDATA[//*[@id='menu']/li[8]/a[@title='Tickets']]]></TicHover>
+  <PDFShare><![CDATA[//div[@class='panel-body']/div[2]/div[2]/div/div[1]/div/div/div/div/a[contains(text(),'Share')]]]></PDFShare>
+  <StatusError><![CDATA[//label[@id='ClientStatus-error']]]></StatusError>
+  <StatusMandatory><![CDATA[//label[contains(text(),'Status')]/span[text()='*']]]></StatusMandatory>
+  <SSN><![CDATA[//*[@id='ClientOwner0ClientOwnerSsn']]]></SSN>
+  <TextCardServiceAggreement><![CDATA[//h5[text()='Card Service Agreements']]]></TextCardServiceAggreement>
+  <MailingCountry><![CDATA[//*[@id='ClientDetailMailingCountry']]]></MailingCountry>
+  <LocationCountry><![CDATA[//*[@id='ClientDetailLocationCountry']]]></LocationCountry>
+  <OwnerAddressCountry><![CDATA[//*[@id='ClientOwnerContactAddress0Country']]]></OwnerAddressCountry>
+  <ContactAddressCountry><![CDATA[//*[@id='ClientContactContactAddress0Country']]]></ContactAddressCountry>
+  <TextOwnwerInfo><![CDATA[//*[contains(text(),'Owner Information')]]]></TextOwnwerInfo>
+  <ClientStatus><![CDATA[//*[@id='ClientStatus']]]></ClientStatus>
+  <ClientResponsibility><![CDATA[//*[@id='ClientAssignedUserId']]]></ClientResponsibility>
+  <ClientCompany><![CDATA[//a[text()='Company Details']]]></ClientCompany>
+  <ClientDBAName><![CDATA[//*[@id='ClientDetailCompanyDbaName']]]></ClientDBAName>
+  <ClientLegalName><![CDATA[//*[@id='ClientDetailCompanyLegalName']]]></ClientLegalName>
+  <ExportAsExcelLead><![CDATA[//*[@id='export_excel']]]></ExportAsExcelLead>
+  <RatesAndFee><![CDATA[//a[text()='Rates & Fees']]]></RatesAndFee>
+  <VerifyTextInstruction><![CDATA[//div[@id='processor_change_data']/div[25]/div[1]/h5]]></VerifyTextInstruction>
+  <SpanTextExport><![CDATA[//span[text()='Export']]]></SpanTextExport>
+  <Export><![CDATA[//button[@title='Export']]]></Export>
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <Advance><![CDATA[//*[@id='layout_disp']/span]]></Advance>
+  <ProcessorOption><![CDATA[//*[@id='hide_cols']/option[text()='Processor']]]></ProcessorOption>
+  <AddArrow><![CDATA[//*[@id='btn-add']/span]]></AddArrow>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <ClickOnMarketingTab><![CDATA[//a[text()='Marketing']]]>></ClickOnMarketingTab>
+  <SelectDidMerchantChooseOffice><![CDATA[//*[@id='ClientDetailPrevProcName']]]></SelectDidMerchantChooseOffice>
+  <PreviousMerchantAccnt><![CDATA[//*[@id='ClientDetailPrevMerchAcct']]]></PreviousMerchantAccnt>
+  <SelectPreviousProcessorState><![CDATA[//*[@id='ClientDetailPrevProcState']]]></SelectPreviousProcessorState>
+  <EnterZipCodeClnt><![CDATA[//*[@id='ClientDetailLocationPostalCode']]]></EnterZipCodeClnt>
+  <AddressLine1MailingAddress><![CDATA[//*[@id='ClientDetailMailingAddressLine1']]]></AddressLine1MailingAddress>
+  <DocName><![CDATA[//*[@id='DocumentName']]]></DocName>
+  <BrowseFile><![CDATA[//*[@id='DocumentFiles']]]></BrowseFile>
+  <SaveDoc><![CDATA[//a[text()='Save']]]></SaveDoc>
+  <ClientDoc1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClientDoc1>
+  <ConvertedBy><![CDATA[//div[contains(@class, 'responsive')]//td[2]/a]]></ConvertedBy>
+  <DeleteDoc><![CDATA[//table/tbody/tr/td[6]/a/i]]></DeleteDoc>
+  <DeleteRbin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/div/a[1]]]></DeleteRbin>
+  <SearchClient><![CDATA[//*[@id='gs_company_dba_name']]]></SearchClient>
+  <DeleteClient><![CDATA[//*[@id='deleteclient']/span]]></DeleteClient>
+  <Assignments><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div/div[1]]]></Assignments>
+  
+  <MapBusinessDBA><![CDATA[//*[@id="field_name1"]]]></MapBusinessDBA>
+  <MapBusinessLegal><![CDATA[//*[@id="field_name2"]]]></MapBusinessLegal>
+  <MapStatus><![CDATA[//*[@id="field_name3"]]]></MapStatus>
+  <MapAddress1><![CDATA[//*[@id="field_name4"]]]></MapAddress1>
+  <MapAddress2><![CDATA[//*[@id="field_name5"]]]></MapAddress2>
+  <MapCity><![CDATA[//*[@id="field_name6"]]]></MapCity>
+  <MapState><![CDATA[//*[@id="field_name7"]]]></MapState>
+  <MapCountry><![CDATA[//*[@id="field_name8"]]]></MapCountry>
+  
+  <ImportMap><![CDATA[//*[@id="importform"]/div[4]/div/button]]></ImportMap>
+  
+  <ImportTab><![CDATA[//*[@id="page-wrapper"]/div[3]/div[2]/a[6]/span]]></ImportTab>
+
+  <CompanyDetailsTab><![CDATA[//*[@id="page-wrapper"]/div[4]/div[2]/div/ul/li[3]/a]]></CompanyDetailsTab>
+  <BusinessLegalName><![CDATA[//*[@id="ClientDetailCompanyLegalName"]]]></BusinessLegalName>
+  <Assignments><![CDATA[//*[@id="ClientEditForm"]/div[6]/div/div/div[1]/svg/text]]></Assignments>
+  <Status><![CDATA[//*[@id="ClientEditForm"]/div[6]/div/div/div[1]/svg/text]]></Status>
+  <AddressLine1><![CDATA[//*[@id="ClientDetailLocationAddressLine1"]]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id="ClientDetailLocationAddressLine2"]]]></AddressLine2>
+  <City><![CDATA[//*[@id="ClientDetailLocationCity"]]]></City>
+  <State><![CDATA[//*[@id="ClientDetailLocationState"]]]></State>
+  <Country><![CDATA[//*[@id="ClientDetailLocationCountry"]]]></Country>
+  <Zipcode><![CDATA[//*[@id="ClientDetailLocationPostalCode"]]]></Zipcode>
+  <AddressLine1><![CDATA[//*[@id="ClientDetailLocationAddressLine1"]]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id="ClientDetailLocationAddressLine2"]]]></AddressLine2>
+
+  <Delete><![CDATA[//*[@id="deleteclient"]/span]]></Delete>
+</Locators>
+
+

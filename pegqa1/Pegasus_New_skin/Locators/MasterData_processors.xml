@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[link=Create]]></Create>
+  <Back><![CDATA[link=Back]]></Back>
+  <Refresh><![CDATA[link=Refresh]]></Refresh>
+  <SearchProcessorName><![CDATA[//*[@id='gs_processor_name']]]></SearchProcessorName>
+  <SelectProcessor><![CDATA[]]></SelectProcessor>
+  <SearchProcessorCode><![CDATA[//*[@id='gs_processor_code']]]></SearchProcessorCode>
+  <Status><![CDATA[//*[@id='gs_inactive']]]></Status>
+  <EditIcon><![CDATA[//a[@title='Edit Processor']]]></EditIcon>
+  <DeleteIcon><![CDATA[//a[@title='Delete Processor']]]></DeleteIcon>
+  <ProcessorName1><![CDATA[//*[@id='MasterProcessorProcessorName']]]></ProcessorName1>
+  <ProcessorName><![CDATA[//*[@id='MasterProcessorNewProcessorName']]]></ProcessorName>
+  <FetchFieldsFrom><![CDATA[//*[@id='MasterProcessorFieldFromProcessor']]]></FetchFieldsFrom>
+  <ProcessorCode><![CDATA[//*[@id='MasterProcessorProcessorCode']]]></ProcessorCode>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <Cancel><![CDATA[//a[@title='Cancel']]]></Cancel>
+
+</Locators>
+
+

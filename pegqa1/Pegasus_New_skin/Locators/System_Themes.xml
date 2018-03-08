@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ClickOnSystemTab><![CDATA[//*[@id='menu']/li[4]/a]]></ClickOnSystemTab>
+  <EnterThemeSearch><![CDATA[//*[@id='gs_name']]]></EnterThemeSearch>
+  <EditIconTheme><![CDATA[//table[@id='list1']//tr[2]//td[5]/a[1]/i]]></EditIconTheme>
+  <EditIcon><![CDATA[//table[@id='list1']//tr[2]//td[5]/a[4]/i]]></EditIcon>
+  <SaveBtn><![CDATA[//button[@title='Save']]]></SaveBtn>
+  <DeleteIcon><![CDATA[//table[@id='list1']//tr[2]//td[5]/a[3]/i]]></DeleteIcon>
+  
+  
+  <CLickSaveButton><![CDATA[//button[@title='Save as New']]]></CLickSaveButton>
+  <ThemeName><![CDATA[//*[@id='ThemeName']]]></ThemeName>
+  <DefaultColor><![CDATA[//label[text()='Tab Default Color']]]></DefaultColor>
+  <DeleteTheme><![CDATA[//table[@id='list1']//tr[2]//td[5]/a[3]/i]]></DeleteTheme>
+  <DefaultValue1><![CDATA[//td[@title='Pegasus New']]]></DefaultValue1>
+  <DefaultValue2><![CDATA[//td[@title='Pegasus Classic']]]></DefaultValue2>
+  <DefaultValue3><![CDATA[//td[@title='Pegasus test themes ']]]></DefaultValue3>
+  <ClickThemeIcon><![CDATA[//table[@id='list1']//tr[2]//td[5]/a[4]/i]]></ClickThemeIcon>
+  <SelectFont><![CDATA[//*[@id='ThemeOption15Value']]]></SelectFont>
+</Locators>

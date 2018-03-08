@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  
+  <!--All Processors Page-->
+  <SearchProcName><![CDATA[//input[@id='gs_processor_name']]]></SearchProcName>
+  <Create><![CDATA[//a[@title='Create New Processor']]]></Create>
+  
+  
+  <!--Create Processor-->
+  <ProcName><![CDATA[//input[@id='MasterProcessorNewProcessorName']]]></ProcName>
+  <FetchField><![CDATA[//select[@id='MasterProcessorFieldFromProcessor']]]></FetchField>
+  <ProcCode><![CDATA[//input[@id='MasterProcessorProcessorCode']]]></ProcCode>
+  <Status><![CDATA[//select[@id='MasterProcessorInactive']]]></Status>
+  <SaveBtn><![CDATA[//div[@class='col-lg-4 form-bttns-align']/a[@title='Save']]]></SaveBtn>
+  
+  
+</Locators>

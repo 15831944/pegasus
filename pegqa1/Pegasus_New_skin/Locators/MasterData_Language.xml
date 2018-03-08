@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Add New Language']]]></Create>
+  <Name><![CDATA[//*[@id='OrganizationLanguageName']]]></Name>
+  <Save><![CDATA[//*[@id='OrganizationLanguageLanguagesForm']/div/div/div/a[@title='Save']]]></Save>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[1]]]></Edit>
+  <Language><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@name='name']]]></Language>
+  <SaveEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span[2]/a[1]]]></SaveEdit>
+  <Delete><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[2]]]></Delete>
+  <DeletePrompt><![CDATA[//*[@id='dData']]]></DeletePrompt>
+
+</Locators>

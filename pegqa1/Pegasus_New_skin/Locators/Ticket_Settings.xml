@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <SaveBtn><![CDATA[//button[@title='Save']]]></SaveBtn>
+  
+  
+  <!--Auto Assignment Settings-->
+  <TickDefCategory><![CDATA[//*[@id='assign0Category']]]></TickDefCategory>
+  <SetDept><![CDATA[//*[@id='assign0Department']]]></SetDept>
+  <SetPriority><![CDATA[//*[@id='assign0Priority']]]></SetPriority>
+  <SetAssignto><![CDATA[//*[@id='assign0Owner']]]></SetAssignto>
+  <SetAssignMgr><![CDATA[//*[@id='assign0Manager']]]></SetAssignMgr>
+  <AddAnotherValue><![CDATA[//*[@id='anotherclick']/span]]></AddAnotherValue>
+  <TickDefCategory2><![CDATA[//*[@id='assign1Category']]]></TickDefCategory2>
+  <SetDept2><![CDATA[//*[@id='assign1Department']]]></SetDept2>
+  <SetPriority2><![CDATA[//*[@id='assign1Priority']]]></SetPriority2>
+  <SetAssignto2><![CDATA[//*[@id='assign1Owner']]]></SetAssignto2>
+  <SetAssignMgr2><![CDATA[//*[@id='assign1Manager']]]></SetAssignMgr2>
+  
+  
+  
+  <TSDropdown><![CDATA[//select[@id='assign0Owner']/option[2]]]></TSDropdown>
+  <TSDropdown1><![CDATA[//*[@id='assign0Priority']/option[2]]]></TSDropdown1>
+  <TSDropdown2><![CDATA[//*[@id='assign0Manager']/option[2]]]></TSDropdown2>
+  <SelectTicketCreatedStatus><![CDATA[//*[@id='OrganizationTicketSettingDefaultstatus']]]></SelectTicketCreatedStatus>
+  <ResolvedTicketStatus><![CDATA[//*[@id='OrganizationTicketSettingResolved']]]></ResolvedTicketStatus>
+  <ClosedTicketStatus><![CDATA[//*[@id='OrganizationTicketSettingCompleted']]]></ClosedTicketStatus>
+  <ClickOnAddBtn><![CDATA[//button[@title='Save']]]></ClickOnAddBtn>
+  
+  
+  <DeleteAddedValue><![CDATA[//*[@id='anotherrulediv-1']/div/a]]></DeleteAddedValue>
+  <AgentEditOpen><![CDATA[//div/div[3]/*//div[1]//input[@value='Open']]]></AgentEditOpen>
+  <AgentEditReso><![CDATA[//div/div[3]/*//div[1]//input[@value='Resolved']]]></AgentEditReso>
+  <AgentEditClosed><![CDATA[//div/div[3]/*//div[1]//input[@value='Closed']]]></AgentEditClosed>
+  <AgentDeleteOpen><![CDATA[//div/div[3]/div/*//input[@value='Open']]]></AgentDeleteOpen>
+  <AgentDeleteReso><![CDATA[//div/div[3]/div/*//input[@value='Resolved']]]></AgentDeleteReso>
+  <AgentDeleteClose><![CDATA[//div/div[3]/div/*//input[@value='Closed']]]></AgentDeleteClose>
+  <ClientEditOpen><![CDATA[//div/div[4]/*//div[1]//input[@value='Open']]]></ClientEditOpen>
+  <ClientEditClosed><![CDATA[//div/div[4]/*//div[1]//input[@value='Closed']]]></ClientEditClosed>
+  <ClientEditResol><![CDATA[//div/div[4]/*//div[1]//input[@value='Resolved']]]></ClientEditResol>
+  <ClientDeleteClosed><![CDATA[//div[3]//div[4]/div[2]/div[2]//input[@value='Closed']]]></ClientDeleteClosed>
+  <ClientDeleteOpen><![CDATA[//div[3]//div[4]/div[2]/div[2]//input[@value='Open']]]></ClientDeleteOpen>
+  <ClientDeleteResol><![CDATA[//div[3]//div[4]/div[2]/div[2]//input[@value='Resolved']]]></ClientDeleteResol>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+</Locators>

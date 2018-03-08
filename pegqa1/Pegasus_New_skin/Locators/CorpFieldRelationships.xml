@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Documented by Khalil Shakir -->
+<!-- This Documents assists with checking Field Relationships in the Pegasus Corp Portal -->
+
+<Locators>
+
+<!--Residual Income Field-->  
+  <ResidualIncomeTab><![CDATA[//*[@id='menu']/li[11]/a]]></ResidualIncomeTab>
+  <MasterDataSubTab><![CDATA[//*[@id='menu']/li[11]/ul/li[3]/a]]></MasterDataSubTab>
+  <RevenueShareSetup><![CDATA[//*[@id='menu']/li[11]/ul/li[3]/ul/li[1]/a]]></RevenueShareSetup>
+  <ProcessorType><![CDATA[//*[@id="ProcessorTypeProcessor"]]]></ProcessorType>
+  <FieldFormat><![CDATA[//*[@id='ProcessorTypeFileType']]]></FieldFormat>
+
+  
+<!--System Field-->
+  <System><![CDATA[//*[@id="menu"]/li[12]/a]]></System>
+  <Settings><![CDATA[//*[@id="menu"]/li[12]/ul/li[5]/a]]></Settings>
+  <Country><![CDATA[//*[@id="CorporateSetting0Value"]]]></Country>
+  <CurrenyCanada><![CDATA[//*[@id='CorporateSetting2Value']]]></CurrenyCanada>
+  <CurrencyUS><![CDATA[//*[@id='CorporateSetting1Value']]]></CurrencyUS>
+
+</Locators>

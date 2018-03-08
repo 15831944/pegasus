@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create New Teams']]]></Create>
+  <Name><![CDATA[//*[@id='HierarchieName']]]></Name>
+  <Department><![CDATA[//*[@id='HierarchieOrgDeptId']]]></Department>
+  <Save><![CDATA[//*[@id='hierarchyCreate']]]></Save>
+  <SearchTeam><![CDATA[//*[@id='gs_name']]]></SearchTeam>
+  <DeleteTeam><![CDATA[//a[@title='Delete Team']]]></DeleteTeam>
+</Locators>

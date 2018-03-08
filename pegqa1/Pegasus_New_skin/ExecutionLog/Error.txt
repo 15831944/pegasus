@@ -1,0 +1,348 @@
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_CallsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_CallsHelper.cs:line 94
+   at PegasusTests.Scripts.ClientsTests.VerifyCallsCreatedAndModifiedByCredits.verifyCallsCreatedAndModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyCallsCreatedAndModifiedByCredits.cs:line 109
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_ClientsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_ClientsHelper.cs:line 217
+   at PegasusTests.Scripts.Corp.VerifyClientCreatedAndModifiedByCredits.verifyClientCreatedAndModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyClientCreatedAndModifiedByCredits.cs:line 60
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_ClientsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_ClientsHelper.cs:line 217
+   at PegasusTests.Scripts.ClientsTests.VerifyClientsAdvanceFilerColumnOrder.verifyClientsAdvanceFilerColumnOrder() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyClientsAdvanceFilerColumnOrder.cs:line 138
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Integration_IframeAppsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Integration_IframeAppsHelper.cs:line 77
+   at PegasusTests.Scripts.ClientsTests.VerifyCreatedIframeInOfficePortal.verifyCreatedIframeInOfficePortal() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyCreatedIframeInOffficePortal.cs:line 127
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Integration_IframeAppsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Integration_IframeAppsHelper.cs:line 77
+   at PegasusTests.Scripts.ClientsTests.VerifyCreatedIframeInPartnerAgent.verifyCreatedIframeInPartnerAgent() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyCreatedIframeInPartnerAgent.cs:line 85
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Integration_IframeAppsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Integration_IframeAppsHelper.cs:line 77
+   at PegasusTests.Scripts.ClientsTests.VerifyCreatedIframeOnPartnerAssociationPage.verifyCreatedIframeOnPartnerAssociationPage() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyCreatedIframeOnPartnerAssociationPage.cs:line 127
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Eqiupment_EquipmentHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Eqiupment_EquipmentHelper.cs:line 95
+   at PegasusTests.Scripts.ClientsTests.VerifyEquipmentCreatedAndByModifiedByCredits.verifyEquipmentCreatedAndByModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyEquipmentCreatedAndByModifiedByCredits.cs:line 75
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_LeadsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_LeadsHelper.cs:line 116
+   at PegasusTests.Scripts.Corp.VerifyLeadsCreatedAndModifiedByCredentials.verifyLeadsCreatedAndModifiedByCredentials() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyLeadsCreatedAndModifiedByCredentials.cs:line 73
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.GetText(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 321
+   at PegasusTests.PageHelper.OfficeActivities_MeetingHelper.VerifyText(String XmlNode, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_MeetingHelper.cs:line 50
+   at PegasusTests.Scripts.ClientsTests.VerifyMeetingCreatedModifiedByCredits.verifyMeetingCreatedModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyMeetingCreatedModifiedByCredits.cs:line 65
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_NotesHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_NotesHelper.cs:line 96
+   at PegasusTests.Scripts.ClientsTests.VerifyNotesCreatedAndModifiedByCredits.verifyNotesCreatedAndModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyNotesCreatedAndModifiedByCredits.cs:line 124
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Integration_IframeAppsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Integration_IframeAppsHelper.cs:line 77
+   at PegasusTests.Scripts.ClientsTests.VerifyOfficeCreatedIframeOnClientUserPage.verifyOfficeCreatedIframeOnClientUserPage() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyOfficeCreatedIframeOnClientUserPage.cs:line 127
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_OpportunitiesHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_OpportunitiesHelper.cs:line 93
+   at PegasusTests.Scripts.Corp.VerifyOpportunitiesCreatedModifiedByCredits.verifyOpportunitiesCreatedModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyOpportunitiesCreatedModifiedByCredits.cs:line 70
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Agents_PartnerAgentsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Agents_PartnerAgentsHelper.cs:line 68
+   at PegasusTests.Scripts.ClientsTests.VerifyPartnerAgentCreatedAndModifiedByCredits.verifyPartnerAgentCreatedAndModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyPartnerAgentCreatedAndModifiedByCredits.cs:line 170
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Agents_PartnerAssociationHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Agents_PartnerAssociationHelper.cs:line 56
+   at PegasusTests.Scripts.ClientsTests.VerifyPartnerAssociationCreatedAndModifiedByCredits.verifyPartnerAssociationCreatedAndModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyPartnerAssociationCreatedAndModifiedByCredits.cs:line 165
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_CallsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_CallsHelper.cs:line 94
+   at PegasusTests.Scripts.Corp.VerifyQuicklookLabelsForCalls.verifyQuicklookLabelsForCalls() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyQuicklookLabelsForCalls.cs:line 125
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_ClientsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_ClientsHelper.cs:line 217
+   at PegasusTests.Scripts.Corp.VerifyQuickLookLabelsForClients.verifyQuickLookLabelsForClients() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForClients.cs:line 61
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_ContactsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_ContactsHelper.cs:line 77
+   at PegasusTests.Scripts.Corp.VerifyQuickLookLabelsForContacts.verifyQuickLookLabelsForContacts() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForContacts.cs:line 141
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_DocumentHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_DocumentHelper.cs:line 119
+   at PegasusTests.Scripts.Corp.VerifyQuickLookLabelsForDocuments.verifyQuickLookLabelsForDocuments() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForDocuments.cs:line 138
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_LeadsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_LeadsHelper.cs:line 116
+   at PegasusTests.Scripts.Corp.VerifyQuickLookLabelsForLeads.verifyQuickLookLabelsForLeads() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForLeads.cs:line 72
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.GetText(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 321
+   at PegasusTests.PageHelper.OfficeActivities_MeetingHelper.VerifyText(String XmlNode, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_MeetingHelper.cs:line 50
+   at PegasusTests.Scripts.Corp.VerifyQuickLookLabelsForMeetings.verifyQuickLookLabelsForMeetings() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForMeetings.cs:line 68
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_OpportunitiesHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_OpportunitiesHelper.cs:line 93
+   at PegasusTests.Scripts.Corp.VerifyQuickLookLabelsForOpportunity.verifyQuickLookLabelsForOpportunity() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForOpportunity.cs:line 70
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_TasksHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_TasksHelper.cs:line 123
+   at PegasusTests.Scripts.Corp.VerifyQuickLookLabelsForTasks.verifyQuickLookLabelsForTasks() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyQuickLookLabelsForTasks.cs:line 87
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_TasksHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_TasksHelper.cs:line 123
+   at PegasusTests.Scripts.ClientsTests.VerifyTaskCreatedAndModifiedByCredits.verifyTaskCreatedAndModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyTaskCreatedAndModifiedByCredits.cs:line 89
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeTickets_CreateTicketsHelper.ClickElement(String XmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeTickets_CreateTicketsHelper.cs:line 27
+   at PegasusTests.Scripts.ClientsTests.VerifyTicketsBulkUpdates.verifyTicketsBulkUpdates() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyTicketsBulkUpdates.cs:line 83
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.WaitForText(String text, Int32 timeout) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 650
+   at PegasusTests.Scripts.ClientsTests.VerifyValidationForCategory.verifyValidationForCategory() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyValidationForCategory.cs:line 78
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Equipment_VendorsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Equipment_VendorsHelper.cs:line 105
+   at PegasusTests.Scripts.ClientsTests.VerifyVendorsCreatedAndModifiedByCredits.verifyVendorsCreatedAndModifiedByCredits() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin1\VerifyVendorsCreatedAndModifiedByCredits.cs:line 94
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.TypeText(String Field, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 113
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetFormatPhone.setFormatToPhone() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetFormatPhone.cs:line 128
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_CallsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_CallsHelper.cs:line 94
+   at PegasusTests.Scripts.ClientsTests.CallsAdvanceFilterRelatedTo.callsAdvanceFilterRelatedTo() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CallsAdvanceFilterRelatedTo.cs:line 141
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.PDFTemplate_ImportWizardHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\PDFTemplate_ImportWizardHelper.cs:line 60
+   at PegasusTests.Scripts.ClientsTests.ImportAndMapPDFAzura.importAndMapPDFAzura() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\ImportAndMapPDFAzura.cs:line 123
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_CallsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_CallsHelper.cs:line 94
+   at PegasusTests.Scripts.ClientsTests.CallsAdvanceFilterResultsPP.callsAdvanceFilterResultsPP() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CallsAdvanceFilterResultsPP.cs:line 73
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_DocumentHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_DocumentHelper.cs:line 119
+   at PegasusTests.Scripts.ClientsTests.ActivitiesDocumentManagement2.activitiesDocumentManagement2() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\ActivitiesDocumentManagement2.cs:line 203
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 286
+   at PegasusTests.PageHelper.AdminCheckFieldRelationshipsHelper.ClickElement(String XmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminCheckFieldRelationshipsHelper.cs:line 33
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminCheckFieldRelationships.checkFieldRelationships() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminCheckFieldRelationships.cs:line 79
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.AdminFieldGroupingTemplatesHelper.ClickElement(String XmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminFieldGroupingTemplatesHelper.cs:line 32
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminFieldGroupingTemplates.createTemplate() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminFieldGroupingTemplates.cs:line 101
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.checkAndClick(String XmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 58
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminFieldLengthValidation.setFieldLength() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminFieldLengthValidation.cs:line 120
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_NotesHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_NotesHelper.cs:line 96
+   at PegasusTests.Scripts.ClientsTests.ActivitiesNotesManagement.activitiesNotesManagement() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\ActivitiesNotesManagement.cs:line 113
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.ClickElement(String XmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 34
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetFieldAsMandatory.setFieldToMandatory() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetFieldAsMandatory.cs:line 110
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.TypeText(String Field, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 113
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetFormatEmail.setFormatToEmail() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetFormatEmail.cs:line 105
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.TypeText(String Field, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 113
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetFormatSSN.setFormatToSSN() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetFormatSSN.cs:line 98
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.TypeText(String Field, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 113
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetFormatTAXID.setFormatToTAXID() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetFormatTAXID.cs:line 126
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.TypeText(String Field, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 113
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetValidationDate.setFieldToDate() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetValidationDate.cs:line 119
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.TypeText(String Field, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 113
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetValidationDecimal.setFieldToDecimal() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetValidationDecimal.cs:line 118
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.AdminSetFormatFieldsHelper.TypeText(String Field, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetFormatFieldsHelper.cs:line 113
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetValidationNumeric.setFieldToNumeric() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetValidationNumeric.cs:line 95
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.AdminSetValidationTimeHelper.TypeText(String Field, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminSetValidationTimeHelper.cs:line 55
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminSetValidationTime.setFieldToMandatory() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminSetValidationTime.cs:line 96
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 286
+   at PegasusTests.PageHelper.AdminValidateDisplayNamesHelper.ClickElement(String XmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\AdminValidateDisplayNamesHelper.cs:line 34
+   at Pegasus_New_skin.Scripts.Pegasus_Admin.AdminValidateDisplayNames.validateName() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AdminValidateDisplayNames.cs:line 126
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_TasksHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_TasksHelper.cs:line 123
+   at PegasusTests.Scripts.ClientsTests.ActivitiesTasksManagement.activitiesTasksManagement() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\ActivitiesTasksManagement.cs:line 94
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.GetText(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 321
+   at PegasusTests.PageHelper.OfficeActivities_MeetingHelper.VerifyText(String XmlNode, String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_MeetingHelper.cs:line 50
+   at PegasusTests.Scripts.ClientsTests.ActivitiesMeetingsManagement.activitiesMeetingsManagement() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\ActivitiesMeetingsManagement.cs:line 69
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at PegasusTests.PageHelper.Comm.DriverHelper.ClickViaJavaScript(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 483
+   at PegasusTests.PageHelper.Office_ClientsHelper.ClickForce(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_ClientsHelper.cs:line 232
+   at PegasusTests.Scripts.Admin.DownloadIdsManagement.downloadIdsManagement() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\DownloadIdsManagement.cs:line 148
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_DocumentHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_DocumentHelper.cs:line 119
+   at PegasusTests.Scripts.ClientsTests.AddDocumentAdmin.addDocumentAdmin() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AddDocumentAdmin.cs:line 72
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.OfficeActivities_NotesHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\OfficeActivities_NotesHelper.cs:line 96
+   at PegasusTests.Scripts.ClientsTests.AddNotesAdmin.addNotesAdmin() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\AddNotesAdmin.cs:line 66
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Integration_APIHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Integration_APIHelper.cs:line 79
+   at PegasusTests.Scripts.ClientsTests.CreateAPICodesIntegration.createAPICodesIntegration() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CreateAPICodesIntegration.cs:line 80
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_FieldDictionary_SectionsHelper.DeleteSection(String text) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_FieldDictionary_SectionsHelper.cs:line 86
+   at PegasusTests.Scripts.ClientsTests.CreateClientSectionMasterData.createClientSectionMasterData() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CreateClientSectionMasterData.cs:line 105
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Eqiupment_EquipmentHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Eqiupment_EquipmentHelper.cs:line 95
+   at PegasusTests.Scripts.ClientsTests.CreateEquipments.createEquipments() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CreateEquipments.cs:line 94
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Integration_IframeAppsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Integration_IframeAppsHelper.cs:line 77
+   at PegasusTests.Scripts.ClientsTests.CreateIframeIntegration.createIframeIntegration() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CreateIframeIntegration.cs:line 82
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Office_UserHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Office_UserHelper.cs:line 109
+   at PegasusTests.Scripts.Admin.CreateUserAdmin.createUserAdmin() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CreateUserAdmin.cs:line 90
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.Scripts.ClientsTests.CreateProcessorWithoutError.createProcessorWithoutError() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CreateProcessorWithoutError.cs:line 90
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Equipment_VendorsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Equipment_VendorsHelper.cs:line 105
+   at PegasusTests.Scripts.Admin.CreateVendors.createVendors() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\CreateVendors.cs:line 95
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Equipment_VendorsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Equipment_VendorsHelper.cs:line 105
+   at PegasusTests.Scripts.Admin.DeleteVendor.deleteVendor() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\DeleteVendor.cs:line 95
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Eqiupment_EquipmentHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Eqiupment_EquipmentHelper.cs:line 95
+   at PegasusTests.Scripts.ClientsTests.EditEquipment.editEquipment() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\EditEquipment.cs:line 83
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Integration_IframeAppsHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Integration_IframeAppsHelper.cs:line 77
+   at PegasusTests.Scripts.ClientsTests.EditIframeIntegration.editIframeIntegration() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\EditIframeIntegration.cs:line 117
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
+   at PegasusTests.PageHelper.Tickets_EmailNotificationHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Tickets_EmailNotificationHelper.cs:line 47
+   at PegasusTests.Scripts.Admin.EmailNotification.emailNotification() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\EmailNotification.cs:line 80

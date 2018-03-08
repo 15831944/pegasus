@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  
+  <!--Create Contact-->
+  <FirstNAME><![CDATA[//*[@id='ContactFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='ContactLastName']]]></LastName>
+  <CompanyName><![CDATA[//*[@id='ContactCompanyName']]]></CompanyName>
+  <AddPhone><![CDATA[//a[text()='Add Phone']]]></AddPhone>
+  <PhoneType1><![CDATA[//*[@id='ContactPhone0PhoneType']]]></PhoneType1>
+  <PhoneNumber1><![CDATA[//*[@id='ContactPhone0PhoneNumber']]]></PhoneNumber1>
+  <PrimaryRadio1><![CDATA[//*[@id='radios']]]></PrimaryRadio1>
+  <AddRemarkPhnBtn1><![CDATA[//span[@id='add_desc_ph_link0']]]></AddRemarkPhnBtn1>
+  <AddRemarkPhnArea1><![CDATA[//textarea[@id='ContactPhone0Description']]]></AddRemarkPhnArea1>
+  <PhoneType2><![CDATA[//*[@id='ContactPhone1PhoneType']]]></PhoneType2>
+  <PhoneNumber2><![CDATA[//*[@id='ContactPhone1PhoneNumber']]]></PhoneNumber2>
+  <PrimaryRadio2><![CDATA[//input[@name='data[ContactPhone][1][primary]']]]></PrimaryRadio2>
+  <EaddressType><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContentType']]]></EaddressType>
+  <EaddressLabel><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContentLabel']]]></EaddressLabel>
+  <Eaddress><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContent']]]></Eaddress>
+  <AddRemarkEmailBtn1><![CDATA[//span[@id='addEmail_link0']]]></AddRemarkEmailBtn1>
+  <AddRemarkEmailArea1><![CDATA[//textarea[@id='ContactElectronicAddress0Description']]]></AddRemarkEmailArea1>
+  <SaveContactN><![CDATA[//button[@title='Save']]]></SaveContactN>
+  <Status><![CDATA[//select[@id='ContactStatus']]]></Status>
+  
+  
+  
+  
+  <!--All Contacts page-->
+  <SearchName><![CDATA[//*[@id='gs_contactNm']]]></SearchName>
+  <SearchCompanyName><![CDATA[//input[@id='gs_company_name']]]></SearchCompanyName>
+  <FirstEditIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/div/a/span]]></FirstEditIcon>
+  <SelectIstContact><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectIstContact>
+  <FirstCompName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]]]></FirstCompName>
+  <Contact1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></Contact1>
+  <BulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></BulkUpdate>
+  <BU_Status><![CDATA[//select[@id='ContactStatusUpdateStatus']]]></BU_Status>
+  <BU_StatusUpdate><![CDATA[//div[@id='change_status']/div[2]/div/div[3]/a/button]]></BU_StatusUpdate>
+  
+  
+  
+  
+  <!--View Contact-->
+  <ContactStatus><![CDATA[//div[@id='status']]]></ContactStatus>
+  <CreateNewTMBtn><![CDATA[//button[@class='btn btn-primary btn-xs dropdown-toggle']]]></CreateNewTMBtn>
+  <TaskOption><![CDATA[//a[@id='addtask']]]></TaskOption>
+  <MeetingOption><![CDATA[//a[@id='addmeeting']]]></MeetingOption>
+  <SelectActivityType><![CDATA[//*[@id='gs_activity_type']]]></SelectActivityType>
+  <SearchActivity><![CDATA[//input[@id='gs_name']]]></SearchActivity>
+  <FirstActvtyCntctStatus><![CDATA[//table[@id='list1']/tbody/tr[2]/td[16]]]></FirstActvtyCntctStatus>
+
+  
+  
+  <VerifyContact><![CDATA[//h2[text()='Contacts']]]></VerifyContact>
+  <Cancelbtn><![CDATA[//a[@title="Cancel"]]]></Cancelbtn>
+  <Advance><![CDATA[//*[@id='layout_disp']/span]]></Advance>
+  <PegResult><![CDATA[//*[@id='pageresults']/option[text()='1000']]]></PegResult>
+  <VerifyContact><![CDATA[//h2[text()='Contacts']]]></VerifyContact>
+  <Cancelbtn><![CDATA[//a[@title="Cancel"]]]></Cancelbtn>
+  
+  
+  <SearchCompany><![CDATA[//*[@id='gs_company_name']]]></SearchCompany>
+  
+  <EditContactNewSkin><![CDATA[//Table[@id='list1']/tbody/tr[2]/td[7]/div/a/span]]></EditContactNewSkin>
+  <ClickOnDuplicate><![CDATA[//button[text()='Create Duplicate']]]></ClickOnDuplicate>
+  <UploadFile><![CDATA[//*[@id='vcard_file']]]></UploadFile>
+  <Import><![CDATA[//span[text()='Import']]]></Import>
+  <ImportBtn><![CDATA[//*[@id='importform']/input[2]]]></ImportBtn>
+  
+  <Select2ndContact><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></Select2ndContact>
+  <MergeRecordContact><![CDATA[//*[@id='mergeContacts']/span]]></MergeRecordContact>
+  <SelectCompContact><![CDATA[//*[@id='ContactMergeForm']/div[2]/div/div[1]/div[1]/div[1]/label/input]]></SelectCompContact>
+  <ClickOnMergeBtn><![CDATA[//a[@title='Merge']]]></ClickOnMergeBtn>
+  <AddEmail><![CDATA[//*[@id='addemail']]]></AddEmail>
+  
+  <EaddressType2><![CDATA[//*[@id='ContactElectronicAddress1EmailImWebType']]]></EaddressType2>
+  <Eaddress2><![CDATA[//*[@id='ContactElectronicAddress1ElectronicContent']]]></Eaddress2>
+  <PriamryRadioEmail><![CDATA[//*[@id='email_option_2']//input[@id='radio']]]></PriamryRadioEmail>
+  <RemoveEmailIcon><![CDATA[//*[@id='1']]]></RemoveEmailIcon>
+  <VerifyDublicateContact><![CDATA[//h5[text()='Duplicate records has been found']]]></VerifyDublicateContact>
+  <CheckTheFirstContact><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></CheckTheFirstContact>
+  <ClickOnDeleteIcon><![CDATA[//span[text()='Delete']]]></ClickOnDeleteIcon>
+  <ClickOnContactRCRestore><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/div/a[2]/span]]></ClickOnContactRCRestore>
+  <ClickOnDeleteIconRCBin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/div/a[1]/span]]></ClickOnDeleteIconRCBin>
+  <ImportVCard><![CDATA[//span[text()='Import vCard']]]></ImportVCard>
+  <BrowseVcard><![CDATA[//*[@id='vcard_file']]]></BrowseVcard>
+  <ImportBtn><![CDATA[//input[@value='Import vCard']]]></ImportBtn>
+  <MergeRadio><![CDATA[//*[@id='ContactMergeForm']/div[2]/div[2]/div[1]/div[1]/label/input]]></MergeRadio>
+ 
+  <CategoryLabel><![CDATA[//*[@id='category']]]></CategoryLabel>
+  <SalesManagerLabel><![CDATA[//*[@id='salesmanager']]]></SalesManagerLabel>
+  
+  
+  <RemovePhone><![CDATA[//a[@title='Delete Phone']]]></RemovePhone>
+  
+  <ExistingContactOverlay><![CDATA[//h3[text()='Existing Contacts']]]></ExistingContactOverlay>
+  <DuplicateRadio><![CDATA[//*[@id='info']/div/table/tbody/tr/td[1]/input]]></DuplicateRadio>
+  <Type><![CDATA[//*[@id='type']]]></Type>
+  <StatusV><![CDATA[//*[@id='status']]]></StatusV>
+  <Source><![CDATA[//*[@id='referral_source']]]></Source>
+  <ResponsibilityV><![CDATA[//*[@id='responsibility']/span[1]]]></ResponsibilityV>
+  <ResponsibiltyField><![CDATA[//*[@id='gs_owner']]]></ResponsibiltyField>
+  <EditLink><![CDATA[//*[@id='rerun']/span]]></EditLink>
+  <SelectSource><![CDATA[//*[@id='ContactReferralSource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='ContactCategoryId']]]></SelectCategory>
+  <Responsibility><![CDATA[//*[@id='ContactAssignedUserId']]]></Responsibility>
+  <SalesManager><![CDATA[//*[@id='ContactSalesManagerId']]]></SalesManager>
+  <SelectType><![CDATA[//*[@id='ContactType']]]></SelectType>
+  <Savetext><![CDATA[//button[text()='Save']]]></Savetext>
+  <SelectResp><![CDATA[//*[@id='responsibility']/form/select]]></SelectResp>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+  <VcardDownload><![CDATA[//span[text()='Download vCard']]]></VcardDownload>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <Apply><![CDATA[//button[text()='Apply']]]></Apply>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofResults><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofResults>
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadCompany><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[10]//div[text()='Company Name']]]></HeadCompany>
+  <HeadContact><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Contact Type']]]></HeadContact>
+  <HeadPhone><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Phone']]]></HeadPhone>
+  <HeadEmail><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='E-Mail']]]></HeadEmail>
+  <HeadPhone5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Phone']]]></HeadPhone5>
+  <HeadEmail4><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='E-Mail']]]></HeadEmail4>
+  <HeadPhone2><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Phone']]]></HeadPhone2>
+  <HeadEmail6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='E-Mail']]]></HeadEmail6>
+
+  <!--Contact with Activites-->
+  <ShowActivities><![CDATA[//label[text()='Show']]]></ShowActivities>
+  <ContactWithNotes><![CDATA[//*[@id='ContactWithnotes']]]></ContactWithNotes>  
+  <ContactWithTask><![CDATA[//*[@id='ContactWithopentasks']]]></ContactWithTask>
+  <ContactsWithCLosedTasks><![CDATA[//*[@id='ContactWithclosedtasks']]]></ContactsWithCLosedTasks>
+  <ContactWithDocs><![CDATA[//*[@id='ContactWithattachments']]]></ContactWithDocs>
+  <ContactWithEmails><![CDATA[//*[@id='ContactWithemails']]]></ContactWithEmails>
+  
+  <!--Activity Type-->
+  <NotesContacts><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='Notes']]]></NotesContacts>
+  <TasksContacts><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='Tasks']]]></TasksContacts>
+  <DOcumentsContacts><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='Documents']]]></DOcumentsContacts>
+  <EmailsContacts><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]//a[text()='E-Mails']]]></EmailsContacts>
+
+  <!--Tab field-->
+  <CreatedByField><![CDATA[//*[@id='gs_first_name']]]></CreatedByField>
+  <ResponsibilityField><![CDATA[//*[@id='gs_owner']]]></ResponsibilityField>
+  
+</Locators>

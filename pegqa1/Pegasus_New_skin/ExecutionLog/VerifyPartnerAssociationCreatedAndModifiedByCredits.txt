@@ -1,0 +1,206 @@
+Login with valid username and password
+Verify Page title
+Redirect to partner Association page
+Verify page title.
+Click On Create button
+Verify page title..
+Click on save button.
+Verify validation for association name.
+Login with valid username and password
+Verify Page title
+Redirect to partner Association page
+Verify page title.
+Click On Create button
+Verify page title..
+Click on save button.
+Verify validation for association name.
+Login with valid username and password
+Verify Page title
+Redirect to partner Association page
+Verify page title.
+Click On Create button
+Verify page title..
+Enter Association name
+Click on save button.
+Verify validation for association name.
+Verify validation for first name
+Verify validation for last name
+Verify validation for e address type
+Verify validation for eAddress label 
+Verify validation for  eaddress
+Enter an invalid eAddress
+Verify validation for invalid eAddress.
+Enter an invalid eAddress.
+Verify validation for invalid eaddress
+Click on cancel button.
+Verify page title
+Click On Create button
+Verify page title..
+Enter Association name
+Enter Association name
+Enter Association DBAName
+Select Association Salutation
+Enter Association FirstNAME
+Enter Association LastName
+Select Association Language
+Select Association eAddressType
+Select Association eAddressLebel
+Enter Association eAddressType
+Select Association PhoneType
+Select Association Address Type   
+Enter Association AddressLine1
+Enter Association Phone Number
+Click On Checkbox
+Login with valid username and password
+Verify Page title
+Redirect to partner Association page
+Verify page title.
+Click On Create button
+Verify page title..
+Enter Association name
+Click on save button.
+Verify validation for association name.
+Verify validation for first name
+Verify validation for last name
+Verify validation for e address type
+Verify validation for eAddress label 
+Verify validation for  eaddress
+Enter an invalid eAddress
+Verify validation for invalid eAddress.
+Enter an invalid eAddress.
+Verify validation for invalid eaddress
+Click on cancel button.
+Verify page title
+Click On Create button
+Verify page title..
+Enter Association name
+Enter Association name
+Enter Association DBAName
+Select Association Salutation
+Enter Association FirstNAME
+Enter Association LastName
+Select Association Language
+Select Association eAddressType
+Select Association eAddressLebel
+Enter Association eAddressType
+Select Association PhoneType
+Select Association Address Type   
+Enter Association AddressLine1
+Enter Association Phone Number
+Enter Association UserName
+Click On Avatar
+Click on Save button.
+Verify association created by credits.
+Verify Association modified by credits.
+Click on edit  button.
+Verify page title.
+Enter Association FirstNAME
+Enter Association LastName
+Select Association Language
+Select Association eAddressType
+Select Association eAddressLebel
+Enter Association eAddressType
+Select Association PhoneType
+Select Association Address Type   
+Enter Association AddressLine1
+Enter Association Phone Number
+Click on save button.
+Verify association created by credits
+Verify association modified by credits
+Logout from the application.
+Login with valid username and password
+Verify Page title
+Redirect to partner Association page
+Verify page title.
+Click On Create button
+Verify page title..
+Enter Association name
+Click on save button.
+Verify validation for association name.
+Verify validation for first name
+Verify validation for last name
+Verify validation for e address type
+Verify validation for eAddress label 
+Verify validation for  eaddress
+Enter an invalid eAddress
+Verify validation for invalid eAddress.
+Enter an invalid eAddress.
+Verify validation for invalid eaddress
+Click on cancel button.
+Verify page title
+Click On Create button
+Verify page title..
+Enter Association name
+Enter Association name
+Enter Association DBAName
+Select Association Salutation
+Enter Association FirstNAME
+Enter Association LastName
+Select Association Language
+Select Association eAddressType
+Select Association eAddressLebel
+Enter Association eAddressType
+Select Association PhoneType
+Select Association Address Type   
+Enter Association AddressLine1
+Enter Association Phone Number
+Enter Association UserName
+Click On Avatar
+Click on Save button.
+Verify association created by credits.
+Verify Association modified by credits.
+Click on edit  button.
+Verify page title.
+Enter Association FirstNAME
+Enter Association LastName
+Select Association Language
+Select Association eAddressType
+Select Association eAddressLebel
+Enter Association eAddressType
+Select Association PhoneType
+Select Association Address Type   
+Enter Association AddressLine1
+Enter Association Phone Number
+Click on save button.
+Verify association created by credits
+Verify association modified by credits
+Logout from the application.
+Login with valid username and password
+Verify Page title
+Redirect to partner Association page
+Verify page title.
+Click On Create button
+Verify page title..
+Enter Association name
+Click on save button.
+Verify validation for association name.
+Verify validation for first name
+Verify validation for last name
+Verify validation for e address type
+Verify validation for eAddress label 
+Verify validation for  eaddress
+Enter an invalid eAddress
+Verify validation for invalid eAddress.
+Enter an invalid eAddress.
+Verify validation for invalid eaddress
+Click on cancel button.
+Verify page title
+Click On Create button
+Verify page title..
+Enter Association name
+Enter Association name
+Enter Association DBAName
+Select Association Salutation
+Enter Association FirstNAME
+Enter Association LastName
+Select Association Language
+Select Association eAddressType
+Select Association eAddressLebel
+Enter Association eAddressType
+Select Association PhoneType
+Select Association Address Type   
+Enter Association AddressLine1
+Enter Association Phone Number
+Enter Association UserName
+Click On Avatar
+Click on Save button.

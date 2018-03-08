@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Documented by Khalil Shakir -->
+<!-- This Documents assists with checking Field Relationships in the Pegasus Admin Portal -->
+
+
+<Locators>
+
+  <OpenRateAndFees><![CDATA[//*[@id="menu"]/li[5]/ul/li[1]/a]]></OpenRateAndFees>
+  <Temp1234><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></Temp1234>
+  <ProcessorType><![CDATA[//*[@id='processor_type']]]></ProcessorType>
+  <FirstDataOmahaOption><![CDATA[//*[@id="processor_type"]/option[3]]]></FirstDataOmahaOption>
+  <DiscountCollected><![CDATA[//*[@id="ClientRatesFeePayDiscFreq"]]]></DiscountCollected>
+  <FirstDataNorthOption><![CDATA[//*[@id="processor_type"]/option[2]]]></FirstDataNorthOption>
+  <DiscountFrequency><![CDATA[//*[@id="ClientRatesFeePayDiscFreq"]]]></DiscountFrequency>
+
+  <MasterData><![CDATA[//*[@id="menu"]/li[5]/a]]></MasterData>
+  <FrontEndOption><![CDATA[//*[@id="menu"]/li[5]/ul/li[6]/a]]></FrontEndOption>
+  <FDNButton><![CDATA[//*[@id="FrontEndValueProcessorId67013"]]]></FDNButton>
+  <FrontEndValuesField><![CDATA[//*[@id="MasterProcessorFrontendValue0Value"]]]></FrontEndValuesField>
+
+  <Statistics><![CDATA[//*[@id="menu"]/li[6]/a]]></Statistics>
+  <UserStatistics><![CDATA[link=User Statistics]]></UserStatistics>
+  <DateDropDown><![CDATA[//*[@id="UsersFileDate"]]]></DateDropDown>
+  <Yesterday><![CDATA[//*[@id="UsersFileDate"]/option[2]]]></Yesterday>
+  <ThisWeek><![CDATA[//*[@id="UsersFileDate"]/option[3]]]></ThisWeek>
+  <ThisMonth><![CDATA[//*[@id="UsersFileDate"]/option[5]]]></ThisMonth>
+  <LastMonth><![CDATA[//*[@id="UsersFileDate"]/option[6]]]></LastMonth>
+  <ThisQuarter><![CDATA[//*[@id="UsersFileDate"]/option[7]]]></ThisQuarter>
+  <LastQuarter><![CDATA[//*[@id="UsersFileDate"]/option[8]]]></LastQuarter>
+  <ThisYear><![CDATA[//*[@id="UsersFileDate"]/option[9]]]></ThisYear>
+  <LastYear><![CDATA[//*[@id="UsersFileDate"]/option[10]]]></LastYear>
+  <Last12Months><![CDATA[//*[@id="UsersFileDate"]/option[11]]]></Last12Months>
+  <Custom><![CDATA[//*[@id="UsersFileDate"]/option[12]]]></Custom>
+
+  <Tickets><![CDATA[//*[@id="menu"]/li[8]/a]]></Tickets>
+  <Settings><![CDATA[//*[@id="menu"]/li[8]/ul/li[2]/a]]></Settings>
+    
+  <ReportingTimeStamp><![CDATA[//*[@id="TicketAgingAgingFrom"]]]></ReportingTimeStamp>
+  <StatusChangeOption><![CDATA[//*[@id="TicketAgingAgingFrom"]/option[2]]]></StatusChangeOption>
+  <SelectStatus><![CDATA[//*[@id="TicketAgingFromStatus"]]]></SelectStatus>
+  
+  <ClosedTimeStamp><![CDATA[//*[@id="TicketAgingAgingTo"]]]></ClosedTimeStamp>  
+  <StatusChangeTimeStamp><![CDATA[//*[@id="TicketAgingAgingTo"]/option[2]]]></StatusChangeTimeStamp>
+  <SelectStatus><![CDATA[//*[@id="TicketAgingToStatus"]]]></SelectStatus>
+  
+  <FieldDictionary><![CDATA[//*[@id="menu"]/li[12]/a]]></FieldDictionary>  
+  
+  <Sections><![CDATA[//*[@id="menu"]/li[12]/ul/li[2]/a]]></Sections>
+  <SelectModule><![CDATA[//*[@id="loadmoduletabs"]]]></SelectModule>
+  <ClientsOption><![CDATA[//*[@id="loadmoduletabs"]/option[3]]]></ClientsOption>
+  <CompanyAddress><![CDATA[//*[@id="list_97748"]/div]]></CompanyAddress>
+  <LeadsOption><![CDATA[//*[@id="loadmoduletabs"]/option[2]]]></LeadsOption>
+  <Processor><![CDATA[//*[@id="list_97806"]/div]]></Processor>
+  <OpportunitiesOption><![CDATA[//*[@id="loadmoduletabs"]/option[1]]]></OpportunitiesOption>
+  <Details><![CDATA[//*[@id="list_97778"]/div]]></Details>
+
+  <Fields><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/a]]></Fields>
+  <FieldProperties><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/ul/li[1]/a]]></FieldProperties>
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+  <Search><![CDATA[//button[@title='Search']]]></Search>
+ 
+  <Clients><![CDATA[//*[@id="SearchFormModuleId"]/option[2]]]></Clients>
+  <AmexVolume><![CDATA[//*[@id="metafieldsmanage"]/div/div/div/div/div[1]/div[2]/div/div[2]/a]]></AmexVolume>
+  <Leads><![CDATA[//*[@id="SearchFormModuleId"]/option[3]]]></Leads>
+  <Salutation><![CDATA[//*[@id="metafieldsmanage"]/div/div/div/div/div[1]/div[2]/div/div[2]/a]]></Salutation>
+  <Opportunities><![CDATA[//*[@id="SearchFormModuleId"]/option[4]]]></Opportunities>
+  <OpportunityName><![CDATA[//*[@id="metafieldsmanage"]/div/div/div/div/div[1]/div[2]/div/div[2]/a]]></OpportunityName>
+  
+  <FieldDictionary><![CDATA[//*[@id="menu"]/li[12]/a]]></FieldDictionary>
+  <Fields><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/a]]></Fields>
+  <FieldOrder><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/ul/li[2]/a]]></FieldOrder>
+  <Module><![CDATA[//*[@id='SearchFormModuleId']]]></Module>
+ 
+  <FieldGrpOrderMgmt><![CDATA[//*[@id="field_typeFieldtemplate"]]]></FieldGrpOrderMgmt>
+  <Module2><![CDATA[//*[@id="SearchFormModuleId"]]]></Module2>
+  <Clients2><![CDATA[//*[@id="SearchFormModuleId"]/option[2]]]></Clients2>
+  <Tab><![CDATA[//*[@id="SearchFormTabName"]]]></Tab>
+  <CompanyDetails2><![CDATA[//*[@id="SearchFormTabName"]/option[2]]]></CompanyDetails2>
+  <Section><![CDATA[//*[@id="SearchFormSectionName"]]]></Section>
+  <CompanyDetails3><![CDATA[//*[@id="SearchFormSectionName"]/option[4]]]></CompanyDetails3>
+  <Search2><![CDATA[//*[@id="page-wrapper"]/div[4]/div/div/div/div/div[2]/div[1]/div/a/i]]></Search2>
+  <BusinessDBAName><![CDATA[//*[@id="fieldsorder-2101263"]/div/span[2]]]></BusinessDBAName>
+  
+  <FieldGrpTemplateMgmt><![CDATA[//*[@id="field_typeFieldtemplate"]]]></FieldGrpTemplateMgmt>
+  <FieldGroupingTemplate><![CDATA[//*[@id="SearchFormMetaFieldGroupingTemplateId"]]]></FieldGroupingTemplate>
+  <Test1><![CDATA[//*[@id="SearchFormMetaFieldGroupingTemplateId"]/optgroup/option]]></Test1>
+  <CompanyDetails4><![CDATA[//*[@id="SearchFormTabName"]/option[2]]]></CompanyDetails4>
+  <Section3><![CDATA[//*[@id="SearchFormSectionName"]]]></Section3>
+  <CompanyAddress2><![CDATA[//*[@id="SearchFormSectionName"]]]></CompanyAddress2>
+  <Search3><![CDATA[//*[@id="page-wrapper"]/div[4]/div/div/div/div/div[2]/div[1]/div/a]]></Search3>
+  <BusineessAddressLine1><![CDATA[//*[@id="templatefieldsorder-176"]/div/span[2]]]></BusineessAddressLine1>
+ 
+  
+</Locators>

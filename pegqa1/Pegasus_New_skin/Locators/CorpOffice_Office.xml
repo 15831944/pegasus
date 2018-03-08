@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <ProfileIcon><![CDATA[//i[@id='dropdownMenu1']]]></ProfileIcon>
+  <Logout><![CDATA[//a[@title='Logout']]]></Logout>
+  
+  
+  <!--Create Office-->
+  <EaddressType><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentType']]]></EaddressType>
+  <PrimaryRadioEmail1><![CDATA[//input[@id='radio']]]></PrimaryRadioEmail1>
+  
+  
+  
+  
+  <!--All Offices page-->
+  <SelectStatus><![CDATA[//select[@id='gs_active']]]></SelectStatus>
+  
+  
+  
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']]]></MenuIcon>
+  <Create><![CDATA[//a[contains(text(),'Create')]]]></Create>
+  <Name><![CDATA[//*[@id='OrganizationName']]]></Name>
+  <DBAName><![CDATA[//*[@id='OrganizationDba']]]></DBAName>
+  <Website><![CDATA[//*[@id='OrganizationWebsite']]]></Website>
+  <VendorName><![CDATA[//*[@id='OrganizationVendorName']]]></VendorName>
+  <VendorCode><![CDATA[//*[@id='OrganizationVendorCode']]]></VendorCode>
+  <OfficePhoneNumber><![CDATA[//*[@id='OrganizationPhoneNumber']]]></OfficePhoneNumber>
+  <BusinessPhoneNumber><![CDATA[//*[@id='OrganizationPhoneTollfreeNumber']]]></BusinessPhoneNumber>
+  <FaxNumber><![CDATA[//*[@id='OrganizationFaxNumber']]]></FaxNumber>
+  <LinkedURL><![CDATA[//*[@id='OrganizationLinkedinUrl']]]></LinkedURL>
+  <FacebookURL><![CDATA[//*[@id='OrganizationFacebookUrl']]]></FacebookURL>
+  <TwitterURL><![CDATA[//*[@id='OrganizationTwitterUrl']]]></TwitterURL>
+  <OfficeCode><![CDATA[//*[@id='OrganizationSalesId']]]></OfficeCode>
+  <OfficeTabCorp><![CDATA[//span[text()='Offices']]]></OfficeTabCorp>
+  <OfficeBtn><![CDATA[//a[text()='Offices']]]></OfficeBtn>
+  <SelectCountryCorp><![CDATA[//*[@id='OrganizationAddress0Country']]]></SelectCountryCorp>
+  <Astric><![CDATA[//span[text()='*']]]></Astric>
+  <ClickAddAddressBtn><![CDATA[//*[@id='addAddress']]]></ClickAddAddressBtn>
+  <VerifyLabelAddressType><![CDATA[//*[@id='tabs-1']/div[1]/label]]></VerifyLabelAddressType>
+  <AddressLine2><![CDATA[//*[@id='tabs-1']/div[2]/input]]></AddressLine2>
+  <ZipCode2><![CDATA[//*[@id='OrganizationAddress1PostalCode']]]></ZipCode2>
+  <Country2><![CDATA[//*[@id='OrganizationAddress1Country']]]></Country2>
+  <City2><![CDATA[//*[@id='OrganizationAddress1City']]]></City2>
+  <ClickOnAnyCorp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnAnyCorp>
+  <ResetPassword><![CDATA[//small[text()='Reset Password']]]></ResetPassword>
+  <BrowseDoc><![CDATA[//*[@id='DocumentFiles']]]></BrowseDoc>
+  <EnterNameToSearch><![CDATA[//*[@id='gs_name']]]></EnterNameToSearch>
+  <ClickOnSendEmail><![CDATA[//a[@title='Send E-Mail']]]></ClickOnSendEmail>
+  <EnterToEmail><![CDATA[//*[@id='EmailToAddrs']]]></EnterToEmail>
+  <EnterSubjectEmail><![CDATA[//*[@id='EmailName']]]></EnterSubjectEmail>
+  <ClickOnSendEmailPopUp><![CDATA[//a[@title='Send']]]></ClickOnSendEmailPopUp>
+  <ClickOnAddNotes><![CDATA[//a[@title='Add Note']]]></ClickOnAddNotes>
+  <EnterNoteSubject><![CDATA[//*[@id='NoteName']]]></EnterNoteSubject>
+  <AddDocumentOff><![CDATA[//*[@id='adddocument1']]]></AddDocumentOff>
+  <NameDocumentOff><![CDATA[//*[@id='DocumentName']]]></NameDocumentOff>
+  <AttachBrowse><![CDATA[//*[@id='DocumentFiles']]]></AttachBrowse>
+  <SaveNotesOffice><![CDATA[//a[@title='Save']]]></SaveNotesOffice>
+  <ClickOnMeeting><![CDATA[//*[@id='createMeeting']]]>></ClickOnMeeting>
+  <EnterSubjectMeeting><![CDATA[//*[@id='MeetingName']]]></EnterSubjectMeeting>
+  <EnterMeetingStartDate><![CDATA[//*[@id='MeetingStartDate']]]></EnterMeetingStartDate>
+  <AddressType><![CDATA[//*[@id='OrganizationAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='OrganizationAddress0AddressLine1']]]></AddressLine1>
+  <ZIpCode><![CDATA[//*[@id='OrganizationAddress0PostalCode']]]></ZIpCode>
+  <SelectState><![CDATA[//*[@id='OrganizationAddress0State']]]></SelectState>
+  <PrimaryUserName><![CDATA[//*[@id='UserUserName']]]></PrimaryUserName>
+  <AutoGenPassword><![CDATA[//*[@id='UserAutogenerate']]]></AutoGenPassword>
+  <PrimaryPassword><![CDATA[//*[@id='UserPassword']]]></PrimaryPassword>
+  <Salutation><![CDATA[//*[@id='EmployeeSalutation']]]></Salutation>
+  <FirstName><![CDATA[//*[@id='EmployeeFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  <eAddress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></eAddress>
+  <Save><![CDATA[//div[@class='col-lg-2 form-bttns-align']//button[@title='Save']]]></Save>
+  <SaveEdit><![CDATA[//button[@title='Save']]]></SaveEdit>
+  <EditLink><![CDATA[//span[text()='Edit']]]></EditLink>
+  <EditOffice><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[1]]]></EditOffice>
+  <DeleteOffice><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a[3]/span]]></DeleteOffice>
+  <ConfirmDelete><![CDATA[//button[@title='Delete']]]></ConfirmDelete>
+  <EnterSelenium><![CDATA[//*[@id='gs_name']]]></EnterSelenium>
+  <VerifyCode><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_sales_id']]]></VerifyCode>
+  <ClickOnOffice><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'offices/view')]]]></ClickOnOffice>
+  <OfficeFDN><![CDATA[//*[@id='OrganizationFdnAgentNumber-error']]]></OfficeFDN>
+  
+  <EditLink><![CDATA[//*[@id='rerun']/span]]></EditLink>
+  <EaddressLabel><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentLabel']]]></EaddressLabel>
+  <Eadresstype2><![CDATA[//*[@id='EmployeeElectronicAddress1EmailImWebType']]]></Eadresstype2>
+  <Office1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></Office1>
+  <WeblinkValidation><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent-error']]]></WeblinkValidation>
+  <AddEmail><![CDATA[//*[@id='addemail']]]></AddEmail>
+  <EditAddEmail><![CDATA[//a[text()='Add E-Mail']]]></EditAddEmail>
+  <RemoveAddress><![CDATA[//a[@onclick='deleteAddress(1)']]]></RemoveAddress>
+  <NewMeeting><![CDATA[//*[@id='createMeeting']/span]]></NewMeeting>
+  <MeetingSubject><![CDATA[//*[@id='MeetingName']]]></MeetingSubject>
+  <StartDate><![CDATA[//*[@id='MeetingStartDate']]]></StartDate>
+  <DueDate><![CDATA[//*[@id='MeetingEndDate']]]></DueDate>
+  <SaveMeeting><![CDATA[//*[@id='CreateMeetingForm']//a[1]]]></SaveMeeting>
+  <StartHour><![CDATA[//*[@id='MeetingStartHour']]]></StartHour>
+  <StartMinute><![CDATA[//*[@id='asset_id']]]></StartMinute>
+  <DueHour><![CDATA[//*[@id='MeetingEndHour']]]></DueHour>
+  <DueMinute><![CDATA[//*[@id='end_min']]]></DueMinute>
+  <AddressLine2Add><![CDATA[//*[@id='tabs-1']/div[2]/input]]></AddressLine2Add>
+  <EnterEmail2><![CDATA[//*[@id='EmployeeElectronicAddress1ElectronicContent']]]></EnterEmail2>
+  <AddPhone><![CDATA[//*[@id='addphone']]]></AddPhone>
+  <Phone2><![CDATA[//*[@id='EmployeePhone1PhoneNumber']]]></Phone2>
+  <Phone><![CDATA[//*[@id='EmployeePhone0PhoneNumber']]]></Phone>
+  <PrimaryRadioPhone1><![CDATA[//div[@id='ptabs-0']/div[5]/input]]></PrimaryRadioPhone1>
+  <PrimaryPhoneRadio2><![CDATA[//div[@id='ptabs-1']/div/div[5]/input]]></PrimaryPhoneRadio2>
+  <EmailType2><![CDATA[//*[@id='emaitabs-1']/div[1]/div/select]]></EmailType2>
+  <EmailLabel2><![CDATA[//*[@id='EmployeeElectronicAddress1ElectronicContentLabel']]]></EmailLabel2>
+  <VerifyLabel2><![CDATA[//*[@id='EmployeeElectronicAddress1ElectronicContentLabel']/option[text()='Weblink']]]></VerifyLabel2>
+  <PrimaryUser_ChkBox><![CDATA[//*[@id='OrganizationNoprimarycontact']]]></PrimaryUser_ChkBox>
+  <ValidationFirstName><![CDATA[//*[@id='EmployeeFirstName-error']]]></ValidationFirstName>
+  <ValidationLastName><![CDATA[//*[@id='EmployeeLastName-error']]]></ValidationLastName>
+  <ValidationEmail><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent-error']]]></ValidationEmail>
+  <ProfileIcon><![CDATA[//*[@id='dropdownMenu1']]]></ProfileIcon>
+  
+</Locators>

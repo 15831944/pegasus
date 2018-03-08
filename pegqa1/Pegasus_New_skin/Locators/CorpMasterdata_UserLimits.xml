@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <EditUserLimt><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Edit this row']]]></EditUserLimt>
+  <EmployeeLimit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@name='employees_count']]]></EmployeeLimit>
+  <Sale1099Agent><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@name='sales_users_count']]]></Sale1099Agent>
+  <ClientUser><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@name='client_users_count']]]></ClientUser>
+  <PartnerUser><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@name='partner_users_count']]]></PartnerUser>
+  <Save><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/span[2]/a[1]]]></Save>
+
+</Locators>

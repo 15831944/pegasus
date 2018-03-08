@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- AdminFieldLengthValidation.xml is linked to AdminFieldLengthValidation.cs and -->
+<!-- AdminFieldLengthValidationHelper.cs  -->
+
+<Locators>
+  
+
+  <ClientsTab><![CDATA[//*[@id="menu"]/li[5]/a]]></ClientsTab>
+  <FirstClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></FirstClient>
+  <CompanyDetails><![CDATA[link=Company Details]]></CompanyDetails>
+  <CityField><![CDATA[//*[@id='ClientDetailMailingCity']]]></CityField>
+  <Save><![CDATA[//*[@id="ClientEditForm"]/div[5]/div[1]/div[2]/button]]></Save>
+
+
+  <FieldDictionary><![CDATA[//*[@id="menu"]/li[12]/a/span[1]]]></FieldDictionary>
+  <Fields><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/a]]></Fields>
+  <FieldProperties><![CDATA[//*[@id="menu"]/li[12]/ul/li[3]/ul/li[1]/a]]></FieldProperties>
+  <Module><![CDATA[//*[@id="SearchFormModuleId"]]]></Module>
+  <ClientsModule><![CDATA[//*[@id="SearchFormModuleId"]/option[2]]]></ClientsModule>
+  <Search><![CDATA[//*[@id="page-wrapper"]/div[4]/div[1]/div/div/div/div[1]/div/div/button/i]]></Search>
+  <filter><![CDATA[//*[@id="filter"]]]></filter>
+  <City><![CDATA[//*[@id='metafieldsmanage']//div[3]/a]]></City>
+  <FieldLengthCheckBox><![CDATA[//*[@id="MetaTableValidationFieldLength"]]]></FieldLengthCheckBox>
+  <MinBox><![CDATA[//*[@id="MetaTableValidationMin"]]]></MinBox>
+  <MaxBox><![CDATA[//*[@id="MetaTableValidationMax"]]]></MaxBox>
+  <SaveFieldManager><![CDATA[//*[@id="MetaTableValidationOfficeMetaFieldManagementForm"]/div[2]/div[2]/button]]></SaveFieldManager>
+
+
+
+</Locators>

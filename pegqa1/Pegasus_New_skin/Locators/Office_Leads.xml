@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  
+  <!--All Leads Page-->
+  <FirstLead><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]/a]]></FirstLead>
+  <SearchCompany><![CDATA[//input[@id='gs_company_name']]]></SearchCompany>
+  <ImportvCard><![CDATA[//span[text()='Import vCard']]]></ImportvCard>
+  
+  
+  
+  <!--Create Leads-->
+  <CompanyName><![CDATA[//input[@id='LeadDetailCompanyName']]]></CompanyName>
+  <FirstNameLead><![CDATA[//input[@id='LeadDetailFirstName']]]></FirstNameLead>
+  <LastName><![CDATA[//input[@id='LeadDetailLastName']]]></LastName>
+  <LeadStatus><![CDATA[//select[@id='LeadStatus']]]></LeadStatus>
+  <Responsibility><![CDATA[//select[@id='LeadAssignedUserId']]]></Responsibility>
+  <Save><![CDATA[//div[@class='col-lg-8 form-bttns-align']//button[@title='Save']]]></Save>
+  
+  <!--Assignments-->
+  <Assignments><![CDATA[//*[@id='LeadCreateForm']/div[3]/div/div/div[1]]]></Assignments>
+  <MergeDuplicate><![CDATA[//button[@title='Merge']]]></MergeDuplicate>
+  <CategoryLeads><![CDATA[//*[@id='category']]]></CategoryLeads>
+  <Account_Manager><![CDATA[//*[@id='manager']]]></Account_Manager>
+  <Save_AccountManager><![CDATA[//div[@id='manager']//button[text()='Save']]]></Save_AccountManager>
+  <ClientType><![CDATA[//*[@id='client_type']]]></ClientType>
+  <Status><![CDATA[//*[@id='status']]]></Status>
+  <Source><![CDATA[//*[@id='referral_source']]]></Source>
+  <Category><![CDATA[//*[@id='category']]]></Category>
+  
+  
+  <!--Info page-->
+  <AddNote><![CDATA[//span[text()='Add Note']]]></AddNote>
+  <AddDocument><![CDATA[//span[text()='Add Document']]]></AddDocument>
+  <LogACall><![CDATA[//span[text()='Log a Call']]]></LogACall>
+  <SelectActivityType><![CDATA[//*[@id='gs_activity_type']]]></SelectActivityType>
+  <ActivitySubject><![CDATA[//*[@id='gs_name']]]></ActivitySubject>
+  <ClickNotes1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickNotes1>
+  <ClickConvert><![CDATA[//*[@id='convert']/span]]></ClickConvert>
+  <ClickYes><![CDATA[//*[@id='LeadConversionDelete1']]]></ClickYes>
+  <ClickNo><![CDATA[//input[@id='LeadConversionDelete0']]]></ClickNo>
+  <MeetingChkBx><![CDATA[//form[@id='LeadConversionViewForm']/div[3]/div[2]/div[2]/div[3]/input]]></MeetingChkBx>
+  <TasksChkBx><![CDATA[//form[@id='LeadConversionViewForm']/div[3]/div[2]/div[2]/div[4]/input]]></TasksChkBx>
+  <EmailChkBx><![CDATA[//form[@id='LeadConversionViewForm']/div[3]/div[2]/div[2]/div[5]/input]]></EmailChkBx>
+  <CallsChkBx><![CDATA[//form[@id='LeadConversionViewForm']/div[3]/div[2]/div[2]/div[6]/input]]></CallsChkBx>
+  
+  
+  
+  
+  <!--PDF tab-->
+  <PDFTab><![CDATA[//a[text()='PDFs']]]></PDFTab>
+  
+  
+  
+  
+  <!--Company Details-->
+  <CompanyDetails><![CDATA[//a[text()='Company Details']]]></CompanyDetails>
+  <SaveCD><![CDATA[//div[@class='col-lg-4 form-bttns-align']/button]]></SaveCD>
+  <Salutaion><![CDATA[//*[@id='LeadDetailSalutation']]]></Salutaion>
+
+
+  <OtherInfoExpand><![CDATA[//*[@id='LeadEditForm']/div[6]/div[1]/div/div/div[3]/div/div/div/div[8]/div[1]/div/a/i]]></OtherInfoExpand>
+  <OpeningDate><![CDATA[//input[@id='LeadDetailPrevProcessorOpenDate']]]></OpeningDate>
+  <DateOfCurrentOwnership><![CDATA[//input[@id='LeadDetailCurrentOwnDate']]]></DateOfCurrentOwnership>
+  
+  
+  
+  
+  <!--Business Details-->
+  <BusinessTab><![CDATA[//a[contains(text(),'Business Details')]]]></BusinessTab>
+  <Processor><![CDATA[//select[@id='LeadDetailProcessor']]]></Processor>
+  <SaveBD><![CDATA[//div[@class='col-lg-4 form-bttns-align']/button]]></SaveBD>
+
+
+
+  <!--Rates and Fees-->
+  <ClickOnRateFees><![CDATA[//a[text()='Rates & Fees']]]></ClickOnRateFees>
+  
+  
+  
+  
+  <!--Marketing-->
+  <MarketingTab><![CDATA[//a[@id='Marketing']]]></MarketingTab>
+  <MrchntChsOffice><![CDATA[//select[@id='LeadDetailPrevProcName']]]></MrchntChsOffice>
+  <PreMrchntAcc><![CDATA[//select[@id='LeadDetailPrevMerchAcct']]]></PreMrchntAcc>
+  <PreProcCity><![CDATA[//input[@id='LeadDetailPrevProcCity']]]></PreProcCity>
+  <PreProcState><![CDATA[//select[@id='LeadDetailPrevProcState']]]></PreProcState>
+  <PreProcZip><![CDATA[//input[@id='LeadDetailPrevProcZip']]]></PreProcZip>
+  
+  
+  <!--Import vCard page-->
+  <BrowsevCardfile><![CDATA[//input[@id='vcard_file']]]></BrowsevCardfile>
+  <ImportvCardBtn><![CDATA[//form[@id='importform']/input[2]]]></ImportvCardBtn>
+  
+  
+  
+  <MenuIcon><![CDATA[//*[@id='expandleftnav']/i]]></MenuIcon>
+  <CreateBtn><![CDATA[//span[contains(text(),'Create')]]]></CreateBtn>
+  <ClickOnCheckBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input]]></ClickOnCheckBox>
+  <ClickOnBulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></ClickOnBulkUpdate>
+  <ChangeSaleManager><![CDATA[//a[text()='Change Sales Manager']]]></ChangeSaleManager>
+  <SelectSalesManager><![CDATA[//*[@id='LeadSalesManagerUpdateSalesManagerId']]]></SelectSalesManager>#423
+  <ClickUpodate><![CDATA[//*[@id='LeadSalesManagerUpdateIndexForm']/div[2]/table/tbody/tr/td[3]/a/span]]></ClickUpodate>
+  <ClickUpdate><![CDATA[//button[text()='Update']]]></ClickUpdate>
+  <MailingAddressLine1><![CDATA[//*[@id='LeadDetailMailingAddressLine1']]]></MailingAddressLine1>
+  <MailingCity><![CDATA[//*[@id='LeadAddress1City']]]></MailingCity>
+  <MailingState><![CDATA[//*[@id='LeadAddress1State']]]></MailingState>
+  <MailingZipCode><![CDATA[//*[@id='LeadDetailMailingPostalCode']]]></MailingZipCode>
+  <AddressLine1><![CDATA[//*[@id='LeadDetailLocationAddressLine1']]]></AddressLine1>
+  <eAddressType><![CDATA[//*[@id='LeadElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <AddressLine2><![CDATA[//*[@id='LeadDetailLocationAddressLine2']]]></AddressLine2>
+  <SearchLName><![CDATA[//*[@id='gs_contactNm']]]></SearchLName>
+  <CompanyName><![CDATA[//*[@id='LeadDetailCompanyName']]]></CompanyName>
+  <CopyAddress><![CDATA[//*[@id='LeadDetail0SameAsLocation']]]></CopyAddress>
+  
+  <ClickAnyLead><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]/a]]></ClickAnyLead>
+  
+  
+  
+  <PartnerAgent><![CDATA[//*[@id='LeadPartnerAgentId']]]></PartnerAgent>
+  <PartnerAssociation><![CDATA[//*[@id='LeadPartnerAssociationId']]]></PartnerAssociation>
+  
+  
+  
+  <SaveConvertLead><![CDATA[//*[@id='LeadConversionViewForm']/div[4]/button[1]]]></SaveConvertLead>
+  <ClickYes><![CDATA[//*[@id='LeadConversionDelete1']]]></ClickYes>
+  <LeadType><![CDATA[//*[@id='LeadClientType']]]></LeadType>
+  
+  <LeadsTab><![CDATA[//a[@title='Leads']]]></LeadsTab>
+  <LeadTab><![CDATA[//ul[@id='menu']/li[5]/a/span]]></LeadTab>
+  <HomeTab><![CDATA[//a[@title='Home']/span]]></HomeTab>
+  <ClickOnAddMeeting><![CDATA[//span[text()='New Meeting']]]></ClickOnAddMeeting>
+  <EnterSubjectMeeting><![CDATA[//*[@id='MeetingName']]]></EnterSubjectMeeting>
+  <ClickOnStartDate><![CDATA[//*[@id='MeetingStartDate']]]></ClickOnStartDate>
+  <SelectDate><![CDATA[//td[text()='22']]]></SelectDate>
+  <ClickOnEndDate><![CDATA[//*[@id='MeetingEndDate']]]></ClickOnEndDate>
+  <SeletEndDate><![CDATA[//td[text()='24']]]></SeletEndDate>
+  <ClickOnSaveMeeting><![CDATA[//button[@title='Save']]]></ClickOnSaveMeeting>
+  <ClickOnConvert><![CDATA[//*[@id='convert']/span]]></ClickOnConvert>
+  <ClickonPopUpSave><![CDATA[//button[@type='submit']]]></ClickonPopUpSave>
+  <ClickOnExport><![CDATA[//div[@title='Export']/button]]></ClickOnExport>
+  <ExportAsCSVlEAD><![CDATA[//*[@id='export_csv']]]></ExportAsCSVlEAD>
+  <ExportAsExcelLead><![CDATA[//*[@id='export_excel']]]></ExportAsExcelLead>
+  <SpanTextExport><![CDATA[//span[text()='Export']]]></SpanTextExport>
+  <CancelConvert><![CDATA[//button[@type='button']/i[@class='fa fa-times']]]></CancelConvert>
+  <CheckDocToDel><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></CheckDocToDel>
+  <VerifyWork><![CDATA[//*[@id='LeadConversionPdfsForm']/div/div/div/label]]></VerifyWork>
+  <LeadImport><![CDATA[//input[@value='Import']]]></LeadImport>
+  <BrowseFile><![CDATA[//*[@id='vcard_file']]]></BrowseFile>
+  <SaveLeadButton><![CDATA[//button[@title='Save']]]></SaveLeadButton>
+  <LeadZip><![CDATA[//*[@id='LeadDetailLocationPostalCode']]]></LeadZip>
+  <ClickOnMergeRecords><![CDATA[//span[text()='Merge Records']]]></ClickOnMergeRecords>
+  <ClickOnMergeBtn><![CDATA[//a[@title='Merge']]]></ClickOnMergeBtn>
+  <LeadCompyRadioBtn><![CDATA[//div[1]/div[1]/label/input]]></LeadCompyRadioBtn>
+  <CancelOpp><![CDATA[//a[@title='Cancel']]]></CancelOpp>
+  <VerifyTextPresentLead><![CDATA[//h2[text()='Leads']]]></VerifyTextPresentLead>
+  <LeadStatus><![CDATA[//*[@id='LeadStatus']]]></LeadStatus>#New
+  <SelectResponsibiltiy><![CDATA[//*[@id='gs_owner']]]></SelectResponsibiltiy>
+  
+  
+  
+  
+  <LeadLastName><![CDATA[//*[@id='LeadDetailLastName']]]></LeadLastName>
+  <SaveLeadNewSkin><![CDATA[//button[@title='Save']]]></SaveLeadNewSkin>
+  <CreateDuplicate><![CDATA[//*[@id='messageduplicate']/div[2]/div/div[3]/button[1]]]></CreateDuplicate>
+  
+  <SelectProcessorRFL><![CDATA[//*[@id='LeadRatesFeeProcessor']]]></SelectProcessorRFL>#Processor 1186688466 Edited
+  <SeleectMerchantRFL><![CDATA[//*[@id='LeadRatesFeeIndustry']]]></SeleectMerchantRFL>
+  <ClickOnGetDefaultRatesL><![CDATA[//button[text()='Get Default Rates']]]></ClickOnGetDefaultRatesL>
+  <VerifyPopulatedFiedlL><![CDATA[//*[@id='LeadRatesFeeTemplates']/option[contains(text(),'Rates & Fees')]]]></VerifyPopulatedFiedlL>
+  <LeadAcceptingMethod><![CDATA[//*[@id='LeadRatesFeeCardAcceptMethod']]]></LeadAcceptingMethod>#Manually Swiped
+  <EnterUserName><![CDATA[//*[@id='UserLoginUserName']]]></EnterUserName>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <LoginBtnRem><![CDATA[//button[text()='Login']]]></LoginBtnRem>
+  <ClickOnRememberMe><![CDATA[//*[@id='UserLoginLoginForm']/div[4]/div/div/div/ins]]></ClickOnRememberMe>
+  <CraeteLeadDub><![CDATA[//button[text()='Create Duplicate']]]></CraeteLeadDub>
+  <DuplicateRadio><![CDATA[//*[@id='info']/table/tbody/tr/td[1]/input]]></DuplicateRadio>
+  <ClickOn1stOpp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOn1stOpp>
+  <ClickOn2ndOpp><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></ClickOn2ndOpp>
+  <ConvertSaveLead><![CDATA[//*[@id='LeadConversionViewForm']/div[4]/button[1]]]></ConvertSaveLead>
+  
+  <ClickDelLeadbutton><![CDATA[//span[contains(text(),'Delete')]]]></ClickDelLeadbutton>
+  <ClickOnRestoreLeadIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/div/a[2]/span]]></ClickOnRestoreLeadIcon>
+  <DeleteLeadPer><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/div/a[1]/span]]></DeleteLeadPer>
+  
+  <EnterDocuName><![CDATA[//*[@id='DocumentName']]]></EnterDocuName>
+  <SendEmail><![CDATA[//span[text()='Send E-Mail']]]></SendEmail>
+  <AddMeeting><![CDATA[//span[text()='New Meeting']]]></AddMeeting>
+  
+  <AddTask><![CDATA[//span[text()='New Task']]]></AddTask>
+  <Editedby><![CDATA[//div[contains(@class, 'border-bottom')]//small[3]]]></Editedby>
+  <ModifiedBy><![CDATA[//div[contains(@class, 'pull-right')]//small[3]]]></ModifiedBy>
+  <CompanySearch><![CDATA[//*[@id='gs_company_name']]]></CompanySearch>
+  <DeleteLead><![CDATA[//span[text()='Delete']]]></DeleteLead>
+  <CancelMeeting><![CDATA[//span[text()='Cancel']]]></CancelMeeting>
+  <ClientDoc1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClientDoc1>
+  <DeleteDoc><![CDATA[//table/tbody/tr/td[6]/a/i]]></DeleteDoc>
+  <SearchLeadRbin><![CDATA[//*[@id='gs_company_name']]]></SearchLeadRbin>
+  <DeleteRbin><![CDATA[//tr[2]/td[6]/div/a[1]]]></DeleteRbin>
+  
+ 
+  <AccountManager><![CDATA[//*[@id='manager']]]></AccountManager>
+  <PartnerAgentl><![CDATA[//*[@id='partner']]]></PartnerAgentl>
+  <PartnerAssociationl><![CDATA[//*[@id='partnerassociation']]]></PartnerAssociationl>
+  <SalesManager><![CDATA[//*[@id='salesmanager']]]></SalesManager>
+  <EditAssignment><![CDATA[//*[@id='LeadEditForm']/div[5]/div/div/div[1]]]></EditAssignment>
+  <Clientt><![CDATA[//*[@id='LeadClientType']]]></Clientt>
+  <SelectSource><![CDATA[//*[@id='LeadReferralSource']]]></SelectSource>
+  <SelectCat><![CDATA[//*[@id='LeadCategoryId']]]></SelectCat>
+  <SelectAcc.Mgr><![CDATA[//*[@id='LeadAssignedManagerId']]]></SelectAcc.Mgr>
+  <Ugroup><![CDATA[//*[@id='LeadAssignedUserGroupId']]]></Ugroup>
+  <SelectSaleManager><![CDATA[//*[@id='LeadSalesManagerId']]]></SelectSaleManager>
+  <InfoTab><![CDATA[//a[text()='Info']]]></InfoTab>
+  <Lead1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></Lead1>
+  <CreatedBy><![CDATA[//div[contains(@class,'col-lg-')]//small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[contains(@class,'col-lg-')]//small[3]]]></ModifiedBy>
+  <ClientsType><![CDATA[//*[@id='client_type']]]></ClientsType>
+  <BackIcon><![CDATA[//a[@title='Back to Dashboard']/span/i]]></BackIcon>
+  <BackLabel><![CDATA[//span[contains(text(),'Back')]]]></BackLabel>
+  <RefeshIcon><![CDATA[//*[@id='reloadform']/i]]></RefeshIcon>
+  <RefreshLabel><![CDATA[//span[text()='Refresh']]]></RefreshLabel>
+  <DeleteIcon><![CDATA[//a[@title='Delete']/i]]></DeleteIcon>
+  <DeleteLabel><![CDATA[//span[text()='Delete']]]></DeleteLabel>
+  <BUlkUpdateIcon><![CDATA[//div[@title='Bulk Update']/button/i]]></BUlkUpdateIcon>
+  <BulkUpdateLabel><![CDATA[//span[contains(text(),'Bulk Update ')]]]></BulkUpdateLabel>
+  <AdvanceFilIcon><![CDATA[//*[@id='layout_disp']/i]]></AdvanceFilIcon>
+  <AdvancefiltLabel><![CDATA[//span[text()='Advanced Filter']]]></AdvancefiltLabel>
+  <CreateIcon><![CDATA[//a[@title='Create New Lead']/i]]></CreateIcon>
+  <CreateLabel><![CDATA[//span[text()='Create']]]></CreateLabel>
+  <ImportIcon><![CDATA[//a[@title='Import Leads']/i]]></ImportIcon>
+  <ImportLabel><![CDATA[//span[text()='Import']]]></ImportLabel>
+  <MergeIcon><![CDATA[//*[@id='Merge Records']/i]]></MergeIcon>
+  <MergeLabel><![CDATA[//span[text()='Merge Records']]]></MergeLabel>
+  <ExportIcon><![CDATA[//div[@title='Export']/button/i]]></ExportIcon>
+  
+  <ExportLabel><![CDATA[//a[text()='Export']]]></ExportLabel>
+  <ExportCsv><![CDATA[//*[@id='export_csv']]]></ExportCsv>
+  <ExportExcel><![CDATA[//*[@id='export_excel']]]></ExportExcel>
+  <RecycleBinIcon><![CDATA[//a[@title='Recycle Leads']]]></RecycleBinIcon>
+  <RecycleLabel><![CDATA[//span[text()='Recycle Bin']]]></RecycleLabel>
+  <AllLeads><![CDATA[//button[@title='All Leads']]]></AllLeads>
+  <MyLeads><![CDATA[//button[@title='My Leads']]]></MyLeads>
+  <MyTeamLeads><![CDATA[//button[@title='My Team's Leads']]]></MyTeamLeads>
+  <MySavedFilters><![CDATA[//button[@title='My Saved Filters']]]></MySavedFilters>
+  <VcardIcon><![CDATA[//a[@title='Create a Lead from Vcard']/i]]></VcardIcon>
+  <VcardLabel><![CDATA[//span[text()='Import vCard']]]></VcardLabel>
+  <EditLeadPartner><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a/span]]></EditLeadPartner>
+  <Information><![CDATA[//h5[text()='Information']]]></Information>
+
+
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <ResetAdvFilter><![CDATA[//*[@id='fbox_list1_reset']/button]]></ResetAdvFilter>
+
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+  <No.ofResults><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofResults>
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <ShowActivities><![CDATA[//*[@id='shid2']]]></ShowActivities>
+  <LeadWithNote><![CDATA[//*[@id='LeadWithnotes']]]></LeadWithNote>
+  <LeadNotees><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></LeadNotees>
+  <LeadOpenMeet><![CDATA[//*[@id='LeadWithopenmeetings']]]></LeadOpenMeet>
+  <LeadsMeetings><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></LeadsMeetings>
+  <LeadClosedMeet><![CDATA[//*[@id='LeadWithclosedmeetings']]]></LeadClosedMeet>
+  <LeadsWithOpenTaks><![CDATA[//*[@id='LeadWithopentasks']]]></LeadsWithOpenTaks>
+  <LeadsClosedTaks><![CDATA[//*[@id='LeadWithclosedtasks']]]></LeadsClosedTaks>
+  <LeadsTasks><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></LeadsTasks>
+  <LeadsWithDocs><![CDATA[//*[@id='LeadWithattachments']]]></LeadsWithDocs>
+  <LeadsDOcs><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></LeadsDOcs>
+  <LeadsWithEmails><![CDATA[//*[@id='LeadWithemails']]]></LeadsWithEmails>
+  <LEadsEmails><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/a]]></LEadsEmails>
+  <Lead1Partner><![CDATA[//table[@id='list1']/tbody/tr[2]/td[12]/a]]></Lead1Partner>
+  <SearchCategory><![CDATA[//*[@id='gs_cat']]]></SearchCategory>
+  <CategoryLeads2><![CDATA[//table[@id='list1']/tbody/tr[2]/td[21]/div]]></CategoryLeads2>
+  
+  <!--tab Field -->
+  <CreatedByField><![CDATA[//*[@id='gs_first_name']]]></CreatedByField>
+  
+</Locators>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--All Themes-->
+  <SearchTheme><![CDATA[//input[@id='gs_name']]]></SearchTheme>
+  <DeleteNormal><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a[3]/i]]></DeleteNormal>
+  
+  
+  <!--Edit Theme-->
+  <ThemeName><![CDATA[//input[@id='CorporateThemeName']]]></ThemeName>
+  <SaveAsNew><![CDATA[//button[@title='Save as New']]]></SaveAsNew>
+  
+  
+  
+</Locators>

@@ -1,0 +1,66 @@
+Click On Create
+Select Salutation
+Enter FirstName
+Enter LastName
+Enter Date Of Birth
+Enter DBAName
+Enter LinkedInUrl
+Enter FaceBook Url
+Enter TwitterURL
+Select DBAName
+Select eAddressType
+Select eAddressLebel
+Enter eAddressType
+Select SelectPhoneType
+Enter PhoneNumber
+Select Address Type  
+Enter AddressLine1
+Enter Postal code
+Click On Checkbox
+Enter UserName
+Click On Avatar
+Click on save button btn
+Click On Create
+Select Salutation
+Enter the name
+Enter FirstNAME
+Enter LastName
+Enter Date Of Birth
+Enter DBAName
+Enter LinkedInUrl
+Enter FaceBook Url
+Enter TwitterURL
+Select language.
+Select eAddressType
+Select eAddressLebel
+Enter eAddressType
+Select SelectPhoneType
+Enter PhoneNumber
+Select Address Type  
+Enter AddressLine1
+Enter Postal code
+Enter Username
+Select Avatar
+Click Save Agent btn
+Click On Create
+Select Salutation
+Enter the name
+Enter FirstNAME
+Enter LastName
+Enter Date Of Birth
+Enter DBAName
+Enter LinkedInUrl
+Enter FaceBook Url
+Enter TwitterURL
+Select language.
+Select eAddressType
+Select eAddressLebel
+Enter eAddressType
+Select SelectPhoneType
+Enter PhoneNumber
+Select Address Type  
+Enter AddressLine1
+Enter Postal code
+Enter Username
+Select Avatar
+Click Save Agent btn

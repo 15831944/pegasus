@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <Create><![CDATA[//a[contains(@title,'Amex Rates')]]]></Create>
+  <MCCCode><![CDATA[//*[@id='CorporateMasterRatesAmexMccCode']]]></MCCCode>
+  <AmexRate><![CDATA[//*[@id='CorporateMasterRatesAmexAmexRate']]]></AmexRate>
+  <AmexPerItem><![CDATA[//*[@id='CorporateMasterRatesAmexAmexPerItem']]]></AmexPerItem>
+  <PushOffice><![CDATA[//a[@title='Push to Offices']]]></PushOffice>
+  <SecrhMCCCodes><![CDATA[//*[@id='gs_mcc_code']]]></SecrhMCCCodes>
+  <Save><![CDATA[//*[@id='CorporateMasterRatesAmexCorpManageAmexRatesForm']/div[2]/div/div[2]/a[2]]]></Save>
+  <EnterMccCode><![CDATA[//*[@id='gs_mcc_code']]]></EnterMccCode>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/div/a[@title='Edit Amex Rate']]]></Edit>
+  <Delete><![CDATA[//table[@id='list1']/tbody/tr[2]/td/div/a[@title='Delete Amex Rate']]]></Delete>
+  <ClickOnEmployeeCorp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnEmployeeCorp>
+  <Save1><![CDATA[//a[@title='Save']]]></Save1>
+</Locators>

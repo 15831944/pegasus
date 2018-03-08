@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--Product-->
+  <Create><![CDATA[//a[@title='Create New Product']]]></Create>
+  <Name><![CDATA[//*[@id='ProductName']]]></Name>
+  <SelectCheckBoxForFirst><![CDATA[//table[@id='list1']//tr[2]//input]]></SelectCheckBoxForFirst>
+  <AddCustomField><![CDATA[//a[@title='Add Custom Field']]]></AddCustomField>
+  <BulkUpdateButton><![CDATA[//span[contains(text(),'Bulk Update')]]]></BulkUpdateButton>
+  <SelectDefaultView><![CDATA[//*[@id='ProductViewUpdateCanCollapse']]]></SelectDefaultView>
+  <ChangeDefaultView><![CDATA[//a[text()='Change Default View']]]></ChangeDefaultView>
+  <Category><![CDATA[//*[@id='ProductCategoryId']]]></Category>
+  <FieldName><![CDATA[//*[@id='ProductCustomFieldName']]]></FieldName>
+  <Type><![CDATA[//*[@id='ProductCustomFieldType']]]></Type>
+  <ContentType><![CDATA[//*[@id='ProductCustomFieldDataType']]]></ContentType>
+  <DataLength><![CDATA[//*[@id='ProductCustomFieldDataLength']]]></DataLength>
+  <DataValidation><![CDATA[//*[@id='ProductCustomFieldValidation']]]></DataValidation>
+  <Required><![CDATA[//*[@id='ProductCustomFieldRequired']]]></Required>
+  <Description><![CDATA[//*[@id='ProductCustomFieldDescription']]]></Description>
+  <Save1><![CDATA[//button[@title='Save']]]></Save1>
+  <Save><![CDATA[//input[@title='Save']]]></Save>
+  <SearchProduct><![CDATA[//*[@id='gs_productname']]]></SearchProduct>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a[1]/i]]></Edit>  
+  <DeleteProduct><![CDATA[//table[@id='list1']/tbody/tr[2]/td[4]/a[2]]]></DeleteProduct>
+  <SaveEdit><![CDATA[//input[@title='Save']]]></SaveEdit>
+  <ClickProduct1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a[1]]]></ClickProduct1>
+  <SelectProduct1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectProduct1>
+  <CustomFieldName><![CDATA[//*[@id='ProductCustomFieldEditName']]]></CustomFieldName>
+  <CustomType><![CDATA[//*[@id='ProductCustomFieldEditType']]]></CustomType>
+  <EditDataLength><![CDATA[//*[@id='ProductCustomFieldEditDataLength']]]></EditDataLength>
+  <EditContenttypt><![CDATA[//*[@id='ProductCustomFieldEditDataType']]]></EditContenttypt>
+  <Status><![CDATA[//*[@id='ProductStatus']]]></Status>
+  
+</Locators>

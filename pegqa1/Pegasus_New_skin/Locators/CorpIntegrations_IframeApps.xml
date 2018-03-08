@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <Create><![CDATA[//a[@title='Create Iframe']]]></Create>
+  <TabName><![CDATA[//*[@id='CorporateIframeAppName']]]></TabName>
+  <UserName><![CDATA[//*[@id='CorporateIframeAppUserParam']]]></UserName>
+  <Paasword><![CDATA[//*[@id='CorporateIframeAppPasswordParam']]]></Paasword>
+  <LoginUrl><![CDATA[//*[@id='login']]]></LoginUrl>
+  <TabAppearOnOffice><![CDATA[//*[@id='CorporateIframeAppEmployee']]]></TabAppearOnOffice>
+  <TabAppearClient><![CDATA[//*[@id='CorporateIframeAppClient']]]></TabAppearClient>
+  <TabAppearPartner><![CDATA[//*[@id='CorporateIframeAppPartner']]]></TabAppearPartner>
+  <UsrNAme><![CDATA[//*[@id='CorporateIframeAppUsername']]]></UsrNAme>
+  <Passwrd><![CDATA[//*[@id='CorporateIframeAppPassword']]]></Passwrd>
+  <AllOffices><![CDATA[//input[@name = 'data[CorporateIframeApp][office_access]' and @value='0']]]></AllOffices>
+  <Save><![CDATA[//a[@title='Save']]]></Save>
+  <Cancel><![CDATA[//a[@title='Cancel']]]></Cancel>
+  <TabNameError><![CDATA[//*[@id='CorporateIframeAppName-error']]]></TabNameError>
+  <UserNameerror><![CDATA[//*[@id='CorporateIframeAppUserParam-error']]]></UserNameerror>
+  <PassWordError><![CDATA[//*[@id='CorporateIframeAppPasswordParam-error']]]></PassWordError>
+  <URLError><![CDATA[//*[@id='login-error']]]></URLError>
+  <URLError2><![CDATA[//*[@id='login_url']]]></URLError2>
+  <SearchTabName><![CDATA[//*[@id='gs_name']]]></SearchTabName>
+  <Edit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[1]/i]]></Edit>
+  <Delete><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[2]/span]]></Delete>  
+  <UserID><![CDATA[//*[@id='user']]]></UserID>
+  <PasswordID><![CDATA[//*[@id='pass']]]></PasswordID>
+  <SignIn><![CDATA[//button[@title='Sign In']]]></SignIn>
+  <Chkbox1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></Chkbox1>
+  <ChkBox2><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></ChkBox2>
+  <DeleteMultiple><![CDATA[//*[@id='deleteIframe']/span]]></DeleteMultiple>
+</Locators>
+
+

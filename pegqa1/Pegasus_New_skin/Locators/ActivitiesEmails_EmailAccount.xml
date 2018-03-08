@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <Save><![CDATA[//*[@id='EmailAccountAccountCreateForm']/div[2]/div/div[2]/a[2]/i]]></Save>
+  <EmailValidationMsg><![CDATA[//*[@id='EmailAccountServer-error']]]></EmailValidationMsg>
+</Locators>

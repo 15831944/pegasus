@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--Create Document page-->
+  <Name><![CDATA[//*[@id='DocumentName']]]></Name>
+  <BrowseAttachment><![CDATA[//*[@id='DocumentFile']]]></BrowseAttachment>
+  <Attachment><![CDATA[//input[@id='DocumentFiles']]]></Attachment>
+  <DocumentVersion><![CDATA[//*[@id='DocumentVersion']]]></DocumentVersion>
+  <UserGroup><![CDATA[//select[@id='DocumentAssignedUserGroupId']]]></UserGroup>
+  <ClientPopupSave><![CDATA[//form[@id='CreateDocumentForm']/div[4]/button[1]]]></ClientPopupSave>
+  
+  
+  
+  <!--All Documents page-->
+  <SearchDocumet><![CDATA[//*[@id='gs_name']]]></SearchDocumet>
+  <OpenDoc><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a]]></OpenDoc>
+  <ClickOnCheckBox><![CDATA[//table[@id='list1']//tr[2]//td/input]]></ClickOnCheckBox>
+  <ClickOndelete><![CDATA[//span[contains(text(),'Delete')]]]></ClickOndelete>#AccepAlert
+
+
+
+
+  <!--View Document page-->
+  <AssgnUserGroup><![CDATA[//div[@id='usergroup']]]></AssgnUserGroup>
+  
+  
+  
+ 
+  
+  <Status><![CDATA[//*[@id='DocumentStatus']]]></Status>
+  <Category><![CDATA[//*[@id='DocumentCategoryId']]]></Category>
+  <AssignOwner><![CDATA[//*[@id='DocumentAssignedUserId']]]></AssignOwner>
+  <EditDoc><![CDATA[//table[@id='list1']/tbody/tr[2]/td/div/a[@title='Edit Document']]]></EditDoc>
+  <NewVersion><![CDATA[//a[@title='Add New Version']]]></NewVersion>
+  <DocVersion2><![CDATA[//form[@id='CreateDocumentForm']/div/div/input[@readonly='readOnly']]]></DocVersion2>
+  <DocCommnet><![CDATA[//*[@id='DocumentComment']]]></DocCommnet>
+  <ClickOnDoc><![CDATA[//span[text()='Create']]]></ClickOnDoc>
+  <EnterDocName><![CDATA[//*[@id='DocumentName']]]></EnterDocName>  
+  
+  <CheckDocToDel><![CDATA[//table[@id='list1']//tr[2]/td[1]/input]]></CheckDocToDel>
+  <DeleteRecycleBin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[1]]]></DeleteRecycleBin>
+  
+  <ClickOnCheckBox2><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></ClickOnCheckBox2>
+  
+  <ClickOnReycleBin><![CDATA[//span[text()='Recycle Bin']]]></ClickOnReycleBin>
+  <ClickOnDeletePer><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/a[@title='Delete Document Permenantly']]]></ClickOnDeletePer>
+  
+  <DeleteDoc><![CDATA[//span[text()='Delete']]]></DeleteDoc>
+  <Trash><![CDATA[//a[@title='Delete Document']]]></Trash>
+  <ReletedTo><![CDATA[//*[@id='DocumentParentType']]]></ReletedTo>
+  <ClickOnClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickOnClient>
+  <ClickAddDocumentClient><![CDATA[//*[@id='adddocument1']]]></ClickAddDocumentClient>
+  <ClcikDocClientSave><![CDATA[//a[text()='Save']]]></ClcikDocClientSave>
+  <Assign><![CDATA[//*[@id='assignrecord']]]></Assign>
+  <AssignUser><![CDATA[//*[@id='popupContent']/table[1]/tbody/tr[1]/td[3]/a]]></AssignUser>
+  <ClickOnCreateDoc><![CDATA[//span[text()='Create']]]></ClickOnCreateDoc>
+  <DocumentCancelButton><![CDATA[//a[@title='Cancel']]]></DocumentCancelButton>
+  <VerifyDocumentHeader><![CDATA[//h2[text()='Documents']]]></VerifyDocumentHeader>
+  <DocumentClick><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/a]]></DocumentClick>
+  <AddVersion><![CDATA[//*[@id='adddocument']]]></AddVersion>
+  <AddVersionSave><![CDATA[//input[@title='Save']]]></AddVersionSave>
+  <AddComment><![CDATA[//*[@id='DocumentComment']]]></AddComment>
+  <RestoredDoc><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[2]/i]]></RestoredDoc>
+  <DeleteDocument><![CDATA[//*[@title='Delete']]]></DeleteDocument>
+  <DeleteVersion><![CDATA[//table/tbody/tr[1]/td[6]//a]]></DeleteVersion>
+  <EditSave><![CDATA[//input[@value='Save']]]></EditSave> 
+  <Save><![CDATA[//button[@title='Save']]]></Save>
+  <SaveDocOppo><![CDATA[//form[@id='CreateDocumentForm']//button[contains(text(),'Save')]]]></SaveDocOppo>
+  <BrowseFile><![CDATA[//*[@id='DocumentFiles']]]></BrowseFile>
+  <ClickOnAnyDocuemnt><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/a]]></ClickOnAnyDocuemnt>
+  <ClickDocument1><![CDATA[//table[@id='list1']//tr[2]/td[16]/a]]></ClickDocument1>
+  <SelectActivityType><![CDATA[//*[@id='gs_activity_type']]]></SelectActivityType>
+  <ClickNotes1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[15]/a]]></ClickNotes1>
+  <DeleteDocumentopp><![CDATA[//div[@class='table-responsive']//table//tr[1]//td[6]/a/i]]></DeleteDocumentopp>
+  <EmailThisDocument><![CDATA[//a[@title='Send This Note as E-mail']]]></EmailThisDocument>
+  <VerifyEmailAttachment><![CDATA[//div[@class='attachDiv']/span]]></VerifyEmailAttachment>
+  <NameError><![CDATA[//*[@id='DocumentName-error']]]></NameError>
+  <AttachmentError><![CDATA[//*[@id='DocumentFile-error']]]></AttachmentError>
+  <BulkUpdate><![CDATA[//div[@title='Bulk Update']/button]]></BulkUpdate>
+  <ChangeStatus><![CDATA[//a[text()='Change Status']]]></ChangeStatus>
+  <SelectStatus><![CDATA[//*[@id='DocumentStatusUpdateStatus']]]></SelectStatus>
+  <UpdateStatus><![CDATA[//*[@id='DocumentStatusUpdateIndexForm']//a]]></UpdateStatus>
+  <ChangeOwner><![CDATA[//a[@onclick="bulkUpdate('change_owner')"]]]></ChangeOwner>
+  <SelectOwner><![CDATA[//*[@id='DocumentOwnerUpdateAssignedUserId']]]></SelectOwner>
+  <UpdateOwner><![CDATA[//*[@id='DocumentOwnerUpdateIndexForm']//a]]></UpdateOwner>
+  <ChangeUserGroup><![CDATA[//a[text()='Change User Group']]]></ChangeUserGroup>
+  <SelectGroup><![CDATA[//*[@id='DocumentGroupUpdateAssignedUserGroupId']]]></SelectGroup>
+  <UpdateGroup><![CDATA[//*[@id='DocumentGroupUpdateIndexForm']//a]]></UpdateGroup>
+  <VerifyStatus><![CDATA[//*[@id='status']]]></VerifyStatus>
+  <VerifyCategory><![CDATA[//*[@id='category']/small]]></VerifyCategory>
+  <VerifyResponsibility><![CDATA[//*[@id='responsibility']]]></VerifyResponsibility>
+  <EditLink><![CDATA[//*[@id='rerun']/span]]></EditLink>
+  <Category2><![CDATA[//*[@id='category']]]></Category2>
+  <DeleteRecycle><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[1]/i]]></DeleteRecycle>
+  <CreatedBy><![CDATA[//div[@class='col-lg-12']/small[2]]]></CreatedBy>
+  <ModifiedBy><![CDATA[//div[@class='col-lg-12']/small[3]]]></ModifiedBy>
+ 
+  
+
+  <DocsWithClients><![CDATA[//*[@id='DocumentWithClients']]]></DocsWithClients>
+  <AdvanceFilter><![CDATA[link=Advanced Filter]]></AdvanceFilter>
+  <Apply><![CDATA[//button[@title='Apply']]]></Apply>
+  <RelatedTo><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]]]></RelatedTo>
+  <DocsWithContacts><![CDATA[//*[@id='DocumentWithcontacts']]]></DocsWithContacts>
+  <DocsWithLeads><![CDATA[//*[@id='DocumentWithleads']]]></DocsWithLeads>
+  <DocsWithMeetings><![CDATA[//*[@id='DocumentWithmeetings']]]></DocsWithMeetings>
+  <DocsWithOppo><![CDATA[//*[@id='DocumentWithopportunities']]]></DocsWithOppo>
+  <DOcsWithTasks><![CDATA[//*[@id='DocumentWithtasks']]]></DOcsWithTasks>
+  <No.ofRecords><![CDATA[//*[@id='list1_pager_left']/div]]></No.ofRecords>
+  <ResultsPerPage><![CDATA[//*[@id='pageresults']]]></ResultsPerPage>
+
+
+  <DisplayedCols><![CDATA[//select[@id='display_cols']]]></DisplayedCols>
+  <AddCols><![CDATA[//*[@id='btn-add']/span]]></AddCols>
+  <RemoveCols><![CDATA[//*[@id='btn-remove']/span]]></RemoveCols>
+  <AvailableCols><![CDATA[//select[@id='hide_cols']]]></AvailableCols>
+  <MoveUp><![CDATA[//*[@id='btn-up']/span]]></MoveUp>
+  <MoveDown><![CDATA[//*[@id='btn-down']/span]]></MoveDown>
+  <HeadCreated><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[13]//div[text()='Created']]]></HeadCreated>
+  <HeadStatus><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Status']]]></HeadStatus>
+  <HeadOwner><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Owner']]]></HeadOwner>
+  <HeadModified><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[14]//div[text()='Modified']]]></HeadModified>
+  <HeadStatus5><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[11]//div[text()='Status']]]></HeadStatus5>
+  <HeadOwner6><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Owner']]]></HeadOwner6>
+
+  <HeadStatus3><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[9]//div[text()='Status']]]></HeadStatus3>
+  <HeadOwner7><![CDATA[//table[@class='ui-jqgrid-htable']/thead/tr[1]/th[12]//div[text()='Owner']]]></HeadOwner7>
+  
+  <!--Tab Field-->
+  <OwnerField><![CDATA[//*[@id='gs_first_name']]]></OwnerField>
+
+</Locators>

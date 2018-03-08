@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <ClickOnClientANY><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnClientANY>
+  <ClickOnAddDocument><![CDATA[//*[@id='adddocument1']]]></ClickOnAddDocument>
+  <EnterSubjectDocCorp><![CDATA[//*[@id='DocumentName']]]></EnterSubjectDocCorp>
+  <EnterSubjectDocCorp><![CDATA[//*[@id='DocumentName']]]></EnterSubjectDocCorp>
+  <ClickAttachmentDoc><![CDATA[//*[@id='DocumentFiles']]]></ClickAttachmentDoc>
+  <SelectTicketInMerchnatHistory><![CDATA[//*[@id='gs_activity_type']]]></SelectTicketInMerchnatHistory>#Tickets
+  <ClickOnEditMeetingIcon><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a/span/img]]></ClickOnEditMeetingIcon>
+  <CorporateNameDocumentCorp><![CDATA[//*[@id='CorporateDocumentName']]]></CorporateNameDocumentCorp>
+  <VerifyValidationForName><![CDATA[//*[@id='CorporateDocumentName-error']]]></VerifyValidationForName>
+
+</Locators>
+
+
