@@ -13,5 +13,10 @@
   <DeleteList><![CDATA[//ul[@id='listManagerGroup']/li[1]/a/i]]></DeleteList>
   <Deletebuttn><![CDATA[//button[@id='delete-list']]]></Deletebuttn>
   <Entrycheckbox><![CDATA[//*[@id='clients']/tbody/tr[1]/td[2]/div/label]]></Entrycheckbox>
+  <SettingIcon><![CDATA[//*[@id='datatableSettings']]]></SettingIcon>
+  <SearchBox><![CDATA[//input[@id='searchHeaderColumns']]]></SearchBox>
+  <PlusIcon><![CDATA[//*[@id='modalHeaderColumnsleft']/div[2]/div/div[2]/div/i]]></PlusIcon>
+  <CrossIcon><![CDATA[//*[@id='modalHeaderColumnsright']/div[10]/div/p/i]]]></CrossIcon>
+  <Apply><![CDATA[//*[@id='storeHeaderColumns']]]></Apply>
 
 </Locators>

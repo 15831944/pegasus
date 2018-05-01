@@ -363,6 +363,8 @@
     <Compile Include="Scripts\DeleteData\CleanMasterPriceCrop.cs" />
     <Compile Include="Scripts\DeleteData\CropDefaultProcesser.cs" />
     <Compile Include="Scripts\List Management\CreateNewListOnDroppingItems.cs" />
+    <Compile Include="Scripts\List Management\AdvanceFilterDetailedPayout.cs" />
+    <Compile Include="Scripts\List Management\CustomColumnsLead.cs" />
     <Compile Include="Scripts\List Management\SearchListManagementItem.cs" />
     <Compile Include="Scripts\List Management\RenameListManagementItem.cs" />
     <Compile Include="Scripts\New\CreateCorpProcessorFromExcelSheet.cs" />
