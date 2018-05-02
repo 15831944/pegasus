@@ -16,7 +16,13 @@
   <SettingIcon><![CDATA[//*[@id='datatableSettings']]]></SettingIcon>
   <SearchBox><![CDATA[//input[@id='searchHeaderColumns']]]></SearchBox>
   <PlusIcon><![CDATA[//*[@id='modalHeaderColumnsleft']/div[2]/div/div[2]/div/i]]></PlusIcon>
-  <CrossIcon><![CDATA[//*[@id='modalHeaderColumnsright']/div[10]/div/p/i]]]></CrossIcon>
+  <PlusIcon2><![CDATA[//*[@id='modalHeaderColumnsleft']/div[2]/div/div[7]/div/i]]></PlusIcon2>
+  <PlusIcon3><![CDATA[//*[@id='modalHeaderColumnsleft']/div[2]/div/div[9]/div/i]]></PlusIcon3>
+  <CrossIcon><![CDATA[//*[@id='modalHeaderColumnsright']/div[1]/div/p/i]]]></CrossIcon>
   <Apply><![CDATA[//*[@id='storeHeaderColumns']]]></Apply>
+  <ApplyDetails><![CDATA[//*[@id='storeDetailColumns']]]></ApplyDetails>
+  <Cancel><![CDATA[//*[@id='modalHeaderColumns']/div/div/div/div[3]/button[1]]]></Cancel>
+  <VerifyField><![CDATA[//*[@id='leads_wrapper']/div[1]/div[1]/div/table/thead/tr[1]/th[8]]]></VerifyField>
+  <VerifyText><![CDATA[//*[@id='leads']/tbody/tr[2]/td/div[1]/div[9]/h5]]></VerifyText>
 
 </Locators>

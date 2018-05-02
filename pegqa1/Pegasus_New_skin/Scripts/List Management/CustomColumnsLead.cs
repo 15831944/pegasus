@@ -41,8 +41,8 @@ namespace PegasusTests.Scripts.ClientsTests
             String JIRA = "";
             String Status = "Pass";
 
-            //try
-            //{
+            try
+            {
                 executionLog.Log("CustomColumnsLead", "Login with valid username and password");
                 Login(username[0], password[0]);
                 Console.WriteLine("Logged in as: " + username[0] + " / " + password[0]);
@@ -73,71 +73,90 @@ namespace PegasusTests.Scripts.ClientsTests
 
                 executionLog.Log("CustomColumnsLead", "Clear Search Field value");
                 listManagementHelper.ClearTextBoxValue("//input[@id='searchHeaderColumns']");
-                listManagementHelper.WaitForWorkAround(1000);
-
-                //executionLog.Log("CustomColumnsLead", "Click on Cross icon");
-                //listManagementHelper.ClickElement("CrossIcon");
-                //listManagementHelper.WaitForWorkAround(1000);
-
+               
                 executionLog.Log("CustomColumnsLead", "Click on Apply Button");
                 listManagementHelper.ClickForce("Apply");
                 listManagementHelper.WaitForWorkAround(1000);
 
-                //executionLog.Log("CustomColumnsLead", "Verify the Option in Display Column");
-                //listManagementHelper.VerifyText("//*[@id='modalHeaderColumnsright']/div[10]/div/p", "Account Manager");
-                //listManagementHelper.WaitForWorkAround(1000);
+                executionLog.Log("CustomColumnsLead", "Click on Settings icon");
+                listManagementHelper.ClickForce("SettingIcon");
+                listManagementHelper.WaitForWorkAround(2000);
 
+                executionLog.Log("CustomColumnsLead", "Click on Search Box");
+                listManagementHelper.TypeText("SearchBox", "Category");
+                listManagementHelper.WaitForWorkAround(1000);
+
+                executionLog.Log("CustomColumnsLead", "Click on Plus icon");
+                listManagementHelper.ClickElement("PlusIcon2");
+                listManagementHelper.WaitForWorkAround(1000);
+
+                executionLog.Log("CustomColumnsLead", "Click on Cancel button");
+                listManagementHelper.ClickElement("Cancel");
+                listManagementHelper.WaitForWorkAround(1000);
+
+                executionLog.Log("CustomColumnsLead", "Click on Settings icon");
+                listManagementHelper.ClickForce("SettingIcon");
+                listManagementHelper.WaitForWorkAround(2000);
+
+                executionLog.Log("CustomColumnsLead", "Click on Search Box");
+                listManagementHelper.TypeText("SearchBox", "Category");
+                listManagementHelper.WaitForWorkAround(1000);
+
+                executionLog.Log("CustomColumnsLead", "Click on Search Box");
+                listManagementHelper.VerifyTextAvailable("Category");
+                listManagementHelper.WaitForWorkAround(1000);
+                Console.WriteLine("Field Is Not Saved");
 
                 }
-            //}
-            //catch (Exception e)
-            //{
-            //    executionLog.Log("Error", e.StackTrace);
-            //    Status = "Fail";
+            }
+            catch (Exception e)
+            {
+                executionLog.Log("Error", e.StackTrace);
+                Status = "Fail";
 
-            //    String counter = executionLog.readLastLine("counter");
-            //    String Description = executionLog.GetAllTextFile("CustomColumnsLead");
-            //    String Error = executionLog.GetAllTextFile("Error");
-            //    if (counter == "")
-            //    {
-            //        counter = "0";
-            //    }
-            //    bool result = loginHelper.CheckExstingIssue("Rename ListManagement Item");
-            //    if (!result)
-            //    {
-            //        if (Int16.Parse(counter) < 9)
-            //        {
-            //            executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
-            //            loginHelper.CreateIssue("Rename ListManagement Item", "Bug", "Medium", "Equipment page", "QA", "Log in as: " + username[0] + " / " + password[0] + "\n\nSteps:\n" + Description + "\n\n\nError Description:\n" + Error);
-            //            string id = loginHelper.getIssueID("Rename ListManagement Item");
-            //            TakeScreenshot("CustomColumnsLead");
-            //            string directoryName = loginHelper.GetnewDirectoryName(GetPath());
-            //            var location = directoryName + "\\CustomColumnsLead.png";
-            //            loginHelper.AddAttachment(location, id);
-            //        }
-            //    }
-            //    else
-            //    {
-            //        if (Int16.Parse(counter) < 9)
-            //        {
-            //            executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
-            //            TakeScreenshot("CustomColumnsLead");
-            //            string id = loginHelper.getIssueID("Rename ListManagement Item");
-            //            string directoryName = loginHelper.GetnewDirectoryName(GetPath());
-            //            var location = directoryName + "\\CustomColumnsLead.png";
-            //            loginHelper.AddAttachment(location, id);
-            //            loginHelper.AddComment(loginHelper.getIssueID("Rename ListManagement Item"), "This issue is still occurring");
-            //        }
-            //    }
-            //    JIRA = loginHelper.getIssueID("Rename ListManagement Item");
-            //    //  executionLog.DeleteFile("Error");
-            //    throw;
+                String counter = executionLog.readLastLine("counter");
+                String Description = executionLog.GetAllTextFile("CustomColumnsLead");
+                String Error = executionLog.GetAllTextFile("Error");
+                if (counter == "")
+                {
+                    counter = "0";
+                }
+                bool result = loginHelper.CheckExstingIssue("Custom Columns Lead");
+                if (!result)
+                {
+                    if (Int16.Parse(counter) < 9)
+                    {
+                        executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
+                        loginHelper.CreateIssue("Custom Columns Lead", "Bug", "Medium", "Equipment page", "QA", "Log in as: " + username[0] + " / " + password[0] + "\n\nSteps:\n" + Description + "\n\n\nError Description:\n" + Error);
+                        string id = loginHelper.getIssueID("Custom Columns Lead");
+                        TakeScreenshot("CustomColumnsLead");
+                        string directoryName = loginHelper.GetnewDirectoryName(GetPath());
+                        var location = directoryName + "\\CustomColumnsLead.png";
+                        loginHelper.AddAttachment(location, id);
+                    }
+                }
+                else
+                {
+                    if (Int16.Parse(counter) < 9)
+                    {
+                        executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
+                        TakeScreenshot("CustomColumnsLead");
+                        string id = loginHelper.getIssueID("Custom Columns Lead");
+                        string directoryName = loginHelper.GetnewDirectoryName(GetPath());
+                        var location = directoryName + "\\CustomColumnsLead.png";
+                        loginHelper.AddAttachment(location, id);
+                        loginHelper.AddComment(loginHelper.getIssueID("Custom Columns Lead"), "This issue is still occurring");
+                    }
+                }
+                JIRA = loginHelper.getIssueID("Custom Columns Lead");
+                //  executionLog.DeleteFile("Error");
+                throw;
 
-            //}
-            //finally
-            //{
-            //    executionLog.DeleteFile("RenameListManagement Item");
-            //    executionLog.WriteInExcel("Rename ListManagement Item", Status, JIRA, "List Management");
-            //}
+            }
+            finally
+            {
+               executionLog.DeleteFile("CustomColumnsLead");
+                executionLog.WriteInExcel("Custom Columns Lead", Status, JIRA, "List Management");
+            }
         }
     }

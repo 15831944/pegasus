@@ -1,0 +1,64 @@
+Login with valid username and password
+Verify Page title
+Redirect To List Management page
+Redirect To List Management page
+Click on Settings icon
+Click on Search Box
+Click on Plus icon
+Clear Search Field value
+Click on Apply Button
+Click on Settings icon
+Click on Search Box
+Click on Plus icon
+Click on Cancel button
+Click on Settings icon
+Click on Search Box
+Click on Search Box
+Login with valid username and password
+Verify Page title
+Redirect To List Management page
+Redirect To List Management page
+Click on Settings icon
+Click on Search Box
+Click on Plus icon
+Clear Search Field value
+Click on Apply Button
+Click on Settings icon
+Click on Search Box
+Click on Plus icon
+Click on Cancel button
+Click on Settings icon
+Click on Search Box
+Verify The Field
+Login with valid username and password
+Verify Page title
+Redirect To List Management page
+Redirect To List Management page
+Click on Settings icon
+Click on Search Box
+Click on Plus icon
+Clear Search Field value
+Click on Apply Button
+Click on Settings icon
+Click on Search Box
+Click on Plus icon
+Click on Cancel button
+Click on Settings icon
+Click on Search Box
+Verify The Field
+Login with valid username and password
+Verify Page title
+Redirect To List Management page
+Redirect To List Management page
+Click on Settings icon
+Click on Search Box
+Click on Plus icon
+Clear Search Field value
+Click on Apply Button
+Click on Settings icon
+Click on Search Box
+Click on Plus icon
+Click on Cancel button
+Click on Settings icon
+Click on Search Box
+Verify The Field

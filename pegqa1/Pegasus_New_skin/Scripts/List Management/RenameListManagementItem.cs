@@ -41,8 +41,8 @@ namespace PegasusTests.Scripts.ClientsTests
             String JIRA = "";
             String Status = "Pass";
 
-            //try
-            //{
+            try
+            {
                 executionLog.Log("RenameListManagementItem", "Login with valid username and password");
                 Login(username[0], password[0]);
                 Console.WriteLine("Logged in as: " + username[0] + " / " + password[0]);
@@ -106,55 +106,55 @@ namespace PegasusTests.Scripts.ClientsTests
                 
 
                 }
-            //}
-            //catch (Exception e)
-            //{
-            //    executionLog.Log("Error", e.StackTrace);
-            //    Status = "Fail";
+            }
+            catch (Exception e)
+            {
+                executionLog.Log("Error", e.StackTrace);
+                Status = "Fail";
 
-            //    String counter = executionLog.readLastLine("counter");
-            //    String Description = executionLog.GetAllTextFile("RenameListManagementItem");
-            //    String Error = executionLog.GetAllTextFile("Error");
-            //    if (counter == "")
-            //    {
-            //        counter = "0";
-            //    }
-            //    bool result = loginHelper.CheckExstingIssue("Rename ListManagement Item");
-            //    if (!result)
-            //    {
-            //        if (Int16.Parse(counter) < 9)
-            //        {
-            //            executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
-            //            loginHelper.CreateIssue("Rename ListManagement Item", "Bug", "Medium", "Equipment page", "QA", "Log in as: " + username[0] + " / " + password[0] + "\n\nSteps:\n" + Description + "\n\n\nError Description:\n" + Error);
-            //            string id = loginHelper.getIssueID("Rename ListManagement Item");
-            //            TakeScreenshot("RenameListManagementItem");
-            //            string directoryName = loginHelper.GetnewDirectoryName(GetPath());
-            //            var location = directoryName + "\\RenameListManagementItem.png";
-            //            loginHelper.AddAttachment(location, id);
-            //        }
-            //    }
-            //    else
-            //    {
-            //        if (Int16.Parse(counter) < 9)
-            //        {
-            //            executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
-            //            TakeScreenshot("RenameListManagementItem");
-            //            string id = loginHelper.getIssueID("Rename ListManagement Item");
-            //            string directoryName = loginHelper.GetnewDirectoryName(GetPath());
-            //            var location = directoryName + "\\RenameListManagementItem.png";
-            //            loginHelper.AddAttachment(location, id);
-            //            loginHelper.AddComment(loginHelper.getIssueID("Rename ListManagement Item"), "This issue is still occurring");
-            //        }
-            //    }
-            //    JIRA = loginHelper.getIssueID("Rename ListManagement Item");
-            //    //  executionLog.DeleteFile("Error");
-            //    throw;
+                String counter = executionLog.readLastLine("counter");
+                String Description = executionLog.GetAllTextFile("RenameListManagementItem");
+                String Error = executionLog.GetAllTextFile("Error");
+                if (counter == "")
+                {
+                    counter = "0";
+                }
+                bool result = loginHelper.CheckExstingIssue("Rename ListManagement Item");
+                if (!result)
+                {
+                    if (Int16.Parse(counter) < 9)
+                    {
+                        executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
+                        loginHelper.CreateIssue("Rename ListManagement Item", "Bug", "Medium", "Equipment page", "QA", "Log in as: " + username[0] + " / " + password[0] + "\n\nSteps:\n" + Description + "\n\n\nError Description:\n" + Error);
+                        string id = loginHelper.getIssueID("Rename ListManagement Item");
+                        TakeScreenshot("RenameListManagementItem");
+                        string directoryName = loginHelper.GetnewDirectoryName(GetPath());
+                        var location = directoryName + "\\RenameListManagementItem.png";
+                        loginHelper.AddAttachment(location, id);
+                    }
+                }
+                else
+                {
+                    if (Int16.Parse(counter) < 9)
+                    {
+                        executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
+                        TakeScreenshot("RenameListManagementItem");
+                        string id = loginHelper.getIssueID("Rename ListManagement Item");
+                        string directoryName = loginHelper.GetnewDirectoryName(GetPath());
+                        var location = directoryName + "\\RenameListManagementItem.png";
+                        loginHelper.AddAttachment(location, id);
+                        loginHelper.AddComment(loginHelper.getIssueID("Rename ListManagement Item"), "This issue is still occurring");
+                    }
+                }
+                JIRA = loginHelper.getIssueID("Rename ListManagement Item");
+                //  executionLog.DeleteFile("Error");
+                throw;
 
-            //}
-            //finally
-            //{
-            //    executionLog.DeleteFile("RenameListManagement Item");
-            //    executionLog.WriteInExcel("Rename ListManagement Item", Status, JIRA, "List Management");
-            //}
+            }
+            finally
+            {
+                executionLog.DeleteFile("RenameListManagement Item");
+                executionLog.WriteInExcel("Rename ListManagement Item", Status, JIRA, "List Management");
+            }
         }
     }

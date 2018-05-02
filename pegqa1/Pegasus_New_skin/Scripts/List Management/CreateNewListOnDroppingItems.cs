@@ -41,8 +41,8 @@ namespace PegasusTests.Scripts.ClientsTests
             String JIRA = "";
             String Status = "Pass";
 
-            //try
-            //{
+            try
+            {
             executionLog.Log("CreateNewListOnDroppingItems", "Login with valid username and password");
                 Login(username[0], password[0]);
                 Console.WriteLine("Logged in as: " + username[0] + " / " + password[0]);
@@ -68,55 +68,55 @@ namespace PegasusTests.Scripts.ClientsTests
                 listManagementHelper.WaitForWorkAround(4000);
 
                 }
-            //}
-            //catch (Exception e)
-            //{
-            //    executionLog.Log("Error", e.StackTrace);
-            //    Status = "Fail";
+            }
+            catch (Exception e)
+            {
+                executionLog.Log("Error", e.StackTrace);
+                Status = "Fail";
 
-            //    String counter = executionLog.readLastLine("counter");
-            //    String Description = executionLog.GetAllTextFile("CreateNewListOnDroppingItems");
-            //    String Error = executionLog.GetAllTextFile("Error");
-            //    if (counter == "")
-            //    {
-            //        counter = "0";
-            //    }
-            //    bool result = loginHelper.CheckExstingIssue("Create New List On Dropping Items");
-            //    if (!result)
-            //    {
-            //        if (Int16.Parse(counter) < 9)
-            //        {
-            //            executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
-            //            loginHelper.CreateIssue("Create New List On Dropping Items", "Bug", "Medium", "Equipment page", "QA", "Log in as: " + username[0] + " / " + password[0] + "\n\nSteps:\n" + Description + "\n\n\nError Description:\n" + Error);
-            //            string id = loginHelper.getIssueID("Create New List On Dropping Items");
-            //            TakeScreenshot("CreateNewListOnDroppingItems");
-            //            string directoryName = loginHelper.GetnewDirectoryName(GetPath());
-            //            var location = directoryName + "\\CreateNewListOnDroppingItems.png";
-            //            loginHelper.AddAttachment(location, id);
-            //        }
-            //    }
-            //    else
-            //    {
-            //        if (Int16.Parse(counter) < 9)
-            //        {
-            //            executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
-            //            TakeScreenshot("CreateNewListOnDroppingItems");
-            //            string id = loginHelper.getIssueID("Create New List On Dropping Items");
-            //            string directoryName = loginHelper.GetnewDirectoryName(GetPath());
-            //            var location = directoryName + "\\CreateNewListOnDroppingItems.png";
-            //            loginHelper.AddAttachment(location, id);
-            //            loginHelper.AddComment(loginHelper.getIssueID("Create New List On Dropping Items"), "This issue is still occurring");
-            //        }
-            //    }
-            //    JIRA = loginHelper.getIssueID("Create New List On Dropping Items");
-            //    //  executionLog.DeleteFile("Error");
-            //    throw;
+                String counter = executionLog.readLastLine("counter");
+                String Description = executionLog.GetAllTextFile("CreateNewListOnDroppingItems");
+                String Error = executionLog.GetAllTextFile("Error");
+                if (counter == "")
+                {
+                    counter = "0";
+                }
+                bool result = loginHelper.CheckExstingIssue("Create New List On Dropping Items");
+                if (!result)
+                {
+                    if (Int16.Parse(counter) < 9)
+                    {
+                        executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
+                        loginHelper.CreateIssue("Create New List On Dropping Items", "Bug", "Medium", "Equipment page", "QA", "Log in as: " + username[0] + " / " + password[0] + "\n\nSteps:\n" + Description + "\n\n\nError Description:\n" + Error);
+                        string id = loginHelper.getIssueID("Create New List On Dropping Items");
+                        TakeScreenshot("CreateNewListOnDroppingItems");
+                        string directoryName = loginHelper.GetnewDirectoryName(GetPath());
+                        var location = directoryName + "\\CreateNewListOnDroppingItems.png";
+                        loginHelper.AddAttachment(location, id);
+                    }
+                }
+                else
+                {
+                    if (Int16.Parse(counter) < 9)
+                    {
+                        executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
+                        TakeScreenshot("CreateNewListOnDroppingItems");
+                        string id = loginHelper.getIssueID("Create New List On Dropping Items");
+                        string directoryName = loginHelper.GetnewDirectoryName(GetPath());
+                        var location = directoryName + "\\CreateNewListOnDroppingItems.png";
+                        loginHelper.AddAttachment(location, id);
+                        loginHelper.AddComment(loginHelper.getIssueID("Create New List On Dropping Items"), "This issue is still occurring");
+                    }
+                }
+                JIRA = loginHelper.getIssueID("Create New List On Dropping Items");
+                //  executionLog.DeleteFile("Error");
+                throw;
 
-            //}
-            //finally
-            //{
-            //    executionLog.DeleteFile("CreateNewListOnDroppingItems");
-            //    executionLog.WriteInExcel("Create New List On Dropping Items", Status, JIRA, "List Management");
-            //}
+            }
+            finally
+            {
+                executionLog.DeleteFile("CreateNewListOnDroppingItems");
+                executionLog.WriteInExcel("Create New List On Dropping Items", Status, JIRA, "List Management");
+            }
         }
     }

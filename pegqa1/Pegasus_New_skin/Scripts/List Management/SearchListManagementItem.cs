@@ -41,8 +41,8 @@ namespace PegasusTests.Scripts.ClientsTests
             String Jira = "";
             String Status = "Pass";
 
-            //try
-            //{
+            try
+            {
                 executionLog.Log("SearchListManagementItem", "Login with valid username and password");
                 Login(username[0], password[0]);
                 Console.WriteLine("Logged in as: " + username[0] + " / " + password[0]);
@@ -113,55 +113,55 @@ namespace PegasusTests.Scripts.ClientsTests
                 
 
                 }
-            //}
-            //catch (Exception e)
-            //{
-            //    executionLog.Log("Error", e.StackTrace);
-            //    Status = "Fail";
+            }
+            catch (Exception e)
+            {
+                executionLog.Log("Error", e.StackTrace);
+                Status = "Fail";
 
-            //    String counter = executionLog.readLastLine("counter");
-            //    String Description = executionLog.GetAllTextFile("SearchListManagementItem");
-            //    String Error = executionLog.GetAllTextFile("Error");
-            //    if (counter == "")
-            //    {
-            //        counter = "0";
-            //    }
-            //    bool result = loginHelper.CheckExstingIssue("Search List Management Item");
-            //    if (!result)
-            //    {
-            //        if (Int16.Parse(counter) < 9)
-            //        {
-            //            executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
-            //            loginHelper.CreateIssue("Search List Management Item", "Bug", "Medium", "Equipment page", "QA", "Log in as: " + username[0] + " / " + password[0] + "\n\nSteps:\n" + Description + "\n\n\nError Description:\n" + Error);
-            //            string id = loginHelper.getIssueID("Rename ListManagement Item");
-            //            TakeScreenshot("SearchListManagementItem");
-            //            string directoryName = loginHelper.GetnewDirectoryName(GetPath());
-            //            var location = directoryName + "\\SearchListManagementItem.png";
-            //            loginHelper.AddAttachment(location, id);
-            //        }
-            //    }
-            //    else
-            //    {
-            //        if (Int16.Parse(counter) < 9)
-            //        {
-            //            executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
-            //            TakeScreenshot("SearchListManagementItem");
-            //            string id = loginHelper.getIssueID("Search List Management Item");
-            //            string directoryName = loginHelper.GetnewDirectoryName(GetPath());
-            //            var location = directoryName + "\\SearchListManagementItem.png";
-            //            loginHelper.AddAttachment(location, id);
-            //            loginHelper.AddComment(loginHelper.getIssueID("Search List Management Item"), "This issue is still occurring");
-            //        }
-            //    }
-            //    JIRA = loginHelper.getIssueID("Search List Management Item");
-            //    //  executionLog.DeleteFile("Error");
-            //    throw;
+                String counter = executionLog.readLastLine("counter");
+                String Description = executionLog.GetAllTextFile("SearchListManagementItem");
+                String Error = executionLog.GetAllTextFile("Error");
+                if (counter == "")
+                {
+                    counter = "0";
+                }
+                bool result = loginHelper.CheckExstingIssue("Search List Management Item");
+                if (!result)
+                {
+                    if (Int16.Parse(counter) < 9)
+                    {
+                        executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
+                        loginHelper.CreateIssue("Search List Management Item", "Bug", "Medium", "Equipment page", "QA", "Log in as: " + username[0] + " / " + password[0] + "\n\nSteps:\n" + Description + "\n\n\nError Description:\n" + Error);
+                        string id = loginHelper.getIssueID("Rename ListManagement Item");
+                        TakeScreenshot("SearchListManagementItem");
+                        string directoryName = loginHelper.GetnewDirectoryName(GetPath());
+                        var location = directoryName + "\\SearchListManagementItem.png";
+                        loginHelper.AddAttachment(location, id);
+                    }
+                }
+                else
+                {
+                    if (Int16.Parse(counter) < 9)
+                    {
+                        executionLog.Count("counter", (Int16.Parse(counter) + 1).ToString());
+                        TakeScreenshot("SearchListManagementItem");
+                        string id = loginHelper.getIssueID("Search List Management Item");
+                        string directoryName = loginHelper.GetnewDirectoryName(GetPath());
+                        var location = directoryName + "\\SearchListManagementItem.png";
+                        loginHelper.AddAttachment(location, id);
+                        loginHelper.AddComment(loginHelper.getIssueID("Search List Management Item"), "This issue is still occurring");
+                    }
+                }
+                JIRA = loginHelper.getIssueID("Search List Management Item");
+                //  executionLog.DeleteFile("Error");
+                throw;
 
-            //}
-            //finally
-            //{
-            //    executionLog.DeleteFile("SearchListManagementItem");
-            //    executionLog.WriteInExcel("Search List Management Item", Status, JIRA, "List Management");
-            //}
+            }
+            finally
+            {
+                executionLog.DeleteFile("SearchListManagementItem");
+                executionLog.WriteInExcel("Search List Management Item", Status, JIRA, "List Management");
+            }
         }
     }
