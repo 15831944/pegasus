@@ -17,7 +17,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestCategory("All")]
         [TestCategory("Bug")]
         [TestCategory("TS1")]
-        [TestCategory("BugTest")]
+        [TestCategory("List Management")]
         public void customizeRecordDetailsOpportunities()
         {
             string[] username = null;

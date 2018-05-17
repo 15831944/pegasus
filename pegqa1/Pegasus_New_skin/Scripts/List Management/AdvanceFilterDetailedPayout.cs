@@ -12,7 +12,7 @@ namespace PegasusTests.Scripts.Corp
         [TestCategory("All")]
         [TestCategory("Bug")]
         [TestCategory("TS2")]
-        [TestCategory("BugTestNew")]
+        [TestCategory("List Management")]
         public void advanceFilterDetailedPayout()
         {
             string[] username1 = null;
