@@ -16,7 +16,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestMethod]
         [TestCategory("All")]
         [TestCategory("Bug")]
-        [TestCategory("TS1")]
+        [TestCategory("TS9")]
         [TestCategory("List Management")]
         public void renameListManagementItem()
         {
@@ -103,9 +103,7 @@ namespace PegasusTests.Scripts.ClientsTests
 
                 //executionLog.Log("RenameListManagementItem", "Click on Delete button");
                 //listManagementHelper.ClickElement("Deletebuttn");
-                
 
-                }
             }
             catch (Exception e)
             {
@@ -158,3 +156,4 @@ namespace PegasusTests.Scripts.ClientsTests
             }
         }
     }
+}

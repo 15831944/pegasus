@@ -16,7 +16,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestMethod]
         [TestCategory("All")]
         [TestCategory("Bug")]
-        [TestCategory("TS1")]
+        [TestCategory("TS9")]
         [TestCategory("List Management")]
         public void createNewListOnDroppingItems()
         {
@@ -68,7 +68,6 @@ namespace PegasusTests.Scripts.ClientsTests
                 listManagementHelper.WaitForWorkAround(4000);
 
                 }
-            }
             catch (Exception e)
             {
                 executionLog.Log("Error", e.StackTrace);
@@ -120,3 +119,4 @@ namespace PegasusTests.Scripts.ClientsTests
             }
         }
     }
+}

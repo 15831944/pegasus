@@ -16,7 +16,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestMethod]
         [TestCategory("All")]
         [TestCategory("Bug")]
-        [TestCategory("TS1")]
+        [TestCategory("TS9")]
         [TestCategory("List Management")]
         public void customColumnsClients()
         {
@@ -73,7 +73,7 @@ namespace PegasusTests.Scripts.ClientsTests
 
                 executionLog.Log("CustomColumnsClients", "Clear Search Field value");
                 listManagementHelper.ClearTextBoxValue("//input[@id='searchHeaderColumns']");
-               
+
                 executionLog.Log("CustomColumnsClients", "Click on Apply Button");
                 listManagementHelper.ClickForce("Apply");
                 listManagementHelper.WaitForWorkAround(1000);
@@ -107,7 +107,7 @@ namespace PegasusTests.Scripts.ClientsTests
                 listManagementHelper.WaitForWorkAround(1000);
                 Console.WriteLine("Field Is Not Saved");
 
-                }
+
             }
             catch (Exception e)
             {
@@ -155,8 +155,9 @@ namespace PegasusTests.Scripts.ClientsTests
             }
             finally
             {
-               executionLog.DeleteFile("CustomColumnsClients");
+                executionLog.DeleteFile("CustomColumnsClients");
                 executionLog.WriteInExcel("Custom Columns Clients", Status, JIRA, "List Management");
             }
         }
     }
+}

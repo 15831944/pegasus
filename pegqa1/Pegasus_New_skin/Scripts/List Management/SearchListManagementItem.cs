@@ -16,7 +16,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestMethod]
         [TestCategory("All")]
         [TestCategory("Bug")]
-        [TestCategory("TS1")]
+        [TestCategory("TS9")]
         [TestCategory("List Management")]
         public void searchListManagementItem()
         {
@@ -38,7 +38,7 @@ namespace PegasusTests.Scripts.ClientsTests
             var name = "Test" + GetRandomNumber();
             var name2 = "Testlist" + GetRandomNumber();
             var Id = "12345" + GetRandomNumber();
-            String Jira = "";
+            String JIRA = "";
             String Status = "Pass";
 
             try
@@ -110,9 +110,9 @@ namespace PegasusTests.Scripts.ClientsTests
 
                 //executionLog.Log("SearchListManagementItem", "Click on Delete button");
                 //listManagementHelper.ClickElement("Deletebuttn");
-                
 
-                }
+
+
             }
             catch (Exception e)
             {
@@ -165,3 +165,4 @@ namespace PegasusTests.Scripts.ClientsTests
             }
         }
     }
+}

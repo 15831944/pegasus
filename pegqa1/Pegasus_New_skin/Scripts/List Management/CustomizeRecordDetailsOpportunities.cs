@@ -16,7 +16,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestMethod]
         [TestCategory("All")]
         [TestCategory("Bug")]
-        [TestCategory("TS1")]
+        [TestCategory("TS9")]
         [TestCategory("List Management")]
         public void customizeRecordDetailsOpportunities()
         {
@@ -107,7 +107,7 @@ namespace PegasusTests.Scripts.ClientsTests
                 listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumns']/div/div/div/div[3]/button[1]");
                 listManagementHelper.WaitForWorkAround(1000);
 
-                }
+
             }
             catch (Exception e)
             {
@@ -155,8 +155,9 @@ namespace PegasusTests.Scripts.ClientsTests
             }
             finally
             {
-               executionLog.DeleteFile("CustomizeRecordDetailsOpportunities");
+                executionLog.DeleteFile("CustomizeRecordDetailsOpportunities");
                 executionLog.WriteInExcel("Customize Record Details Opportunities", Status, JIRA, "List Management");
             }
         }
     }
+}

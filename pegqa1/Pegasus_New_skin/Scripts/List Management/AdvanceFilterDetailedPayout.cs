@@ -11,7 +11,7 @@ namespace PegasusTests.Scripts.Corp
         [TestMethod]
         [TestCategory("All")]
         [TestCategory("Bug")]
-        [TestCategory("TS2")]
+        [TestCategory("TS9")]
         [TestCategory("List Management")]
         public void advanceFilterDetailedPayout()
         {

@@ -16,7 +16,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestMethod]
         [TestCategory("All")]
         [TestCategory("Bug")]
-        [TestCategory("TS1")]
+        [TestCategory("TS9")]
         [TestCategory("List Management")]
         public void customColumnsLead()
         {
@@ -73,7 +73,7 @@ namespace PegasusTests.Scripts.ClientsTests
 
                 executionLog.Log("CustomColumnsLead", "Clear Search Field value");
                 listManagementHelper.ClearTextBoxValue("//input[@id='searchHeaderColumns']");
-               
+
                 executionLog.Log("CustomColumnsLead", "Click on Apply Button");
                 listManagementHelper.ClickForce("Apply");
                 listManagementHelper.WaitForWorkAround(1000);
@@ -107,7 +107,7 @@ namespace PegasusTests.Scripts.ClientsTests
                 listManagementHelper.WaitForWorkAround(1000);
                 Console.WriteLine("Field Is Not Saved");
 
-                }
+
             }
             catch (Exception e)
             {
@@ -155,8 +155,9 @@ namespace PegasusTests.Scripts.ClientsTests
             }
             finally
             {
-               executionLog.DeleteFile("CustomColumnsLead");
+                executionLog.DeleteFile("CustomColumnsLead");
                 executionLog.WriteInExcel("Custom Columns Lead", Status, JIRA, "List Management");
             }
         }
     }
+}
