@@ -24,5 +24,8 @@
   <Cancel><![CDATA[//*[@id='modalHeaderColumns']/div/div/div/div[3]/button[1]]]></Cancel>
   <VerifyField><![CDATA[//*[@id='leads_wrapper']/div[1]/div[1]/div/table/thead/tr[1]/th[8]]]></VerifyField>
   <VerifyText><![CDATA[//*[@id='leads']/tbody/tr[2]/td/div[1]/div[9]/h5]]></VerifyText>
+  <ListManager><![CDATA[//*[@id='toggleListManager']/span/i[2]]]></ListManager>
+  <ParentEntry><![CDATA[//*[@id='leadsParentList']/tbody/tr[1]]]></ParentEntry>
+  <RemoveList><![CDATA[//li[@title='Remove from List']]]></RemoveList>
 
 </Locators>

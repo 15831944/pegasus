@@ -1140,5 +1140,16 @@ namespace PegasusTests.PageHelper.Comm
             SelectDropDownByText(xmlnode, "All");
 
         }
+
+        //Right click on any entry
+        public void RightClick(string locator)
+        {
+            IWebElement element = _driver.FindElement(ByLocator(locator));
+
+            Actions builder = new Actions(_driver);
+            builder.ContextClick(element).Build().Perform();
+            WaitForWorkAround(2000);
+        }
+
     }
 }
