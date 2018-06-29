@@ -1,0 +1,17 @@
+Login with valid username and password
+Verify Page title
+Redirect To List Management page
+Redirect To List Management page
+Click on Expand Details Icon
+Verify Status field
+Login with valid username and password
+Verify Page title
+Redirect To List Management page
+Redirect To List Management page
+Click on Expand Details Icon
+Login with valid username and password
+Verify Page title
+Redirect To List Management page
+Redirect To List Management page
+Click on Expand Details Icon
+Click on Select All Check Box 

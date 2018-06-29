@@ -46,8 +46,8 @@ namespace PegasusTests.Scripts.Corp
                 VisitOffice("categories");
                 masterData_CategoryHelper.WaitForWorkAround(3000);
 
-                executionLog.Log("VerifyMerchantCategoryCreated", "Search Merchants");
-                masterData_CategoryHelper.TypeText("SearchName", "Merchants");
+                executionLog.Log("VerifyMerchantCategoryCreated", "Search Cients");
+                masterData_CategoryHelper.TypeText("SearchName", "Clients");
                 masterData_CategoryHelper.WaitForWorkAround(2000);
 
                 executionLog.Log("VerifyMerchantCategoryCreated", "Open category");

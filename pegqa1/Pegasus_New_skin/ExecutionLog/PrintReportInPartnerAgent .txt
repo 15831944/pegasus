@@ -1,0 +1,20 @@
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Check Merchant ID checkbox
+Uncheck Sales Transaction checkbox
+Uncheck Average Ticket checkbox
+Uncheck Office Income checkbox
+Uncheck Office Adjustment checkbox
+Uncheck Agent Revenue Share checkbox
+Click on Save button
+Logout from the application.
+Login with valid username and password
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Verify Reports Generated
+Click on Print button

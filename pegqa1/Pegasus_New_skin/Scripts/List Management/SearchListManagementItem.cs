@@ -17,7 +17,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestCategory("All")]
         [TestCategory("Bug")]
         [TestCategory("TS1")]
-        [TestCategory("BugTest")]
+        [TestCategory("ListManagement")]
         public void searchListManagementItem()
         {
             string[] username = null;
@@ -55,9 +55,9 @@ namespace PegasusTests.Scripts.ClientsTests
                 listManagementHelper.ClickElement("Marketing");
                 listManagementHelper.WaitForWorkAround(4000);
 
-                //executionLog.Log("SearchListManagementItem", "Redirect To List Management page");
-                //GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/en/listmanagements/clients");
-                //listManagementHelper.WaitForWorkAround(2000);
+                executionLog.Log("SearchListManagementItem", "Redirect To List Management page");
+                GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/en/listmanagements/clients");
+                listManagementHelper.WaitForWorkAround(2000);
 
                 executionLog.Log("SearchListManagementItem", "Click on Create list");
                 listManagementHelper.ClickForce("Create");

@@ -70,7 +70,7 @@ namespace PegasusTests.PageHelper.Comm
                 _driver = new FirefoxDriver();
             }
 
-            //_driver.Manage().Window.Maximize();
+            _driver.Manage().Window.Maximize();
 
             _selenium = new WebDriverBackedSelenium(_driver, _url);
 

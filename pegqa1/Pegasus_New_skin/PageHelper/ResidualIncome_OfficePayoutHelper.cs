@@ -55,6 +55,18 @@ namespace PegasusTests.PageHelper
             Click(locator);
         }
 
+        public void ClickViaJavaScript(string locator)
+        {
+            WaitForElementPresent(locator, 20);
+            //Assert.IsTrue(IsElementPresent(locator));
+            var el = _driver.FindElement(ByLocator(locator));
+
+            //OpenQA.Selenium.Interactions.Actions actions = new OpenQA.Selenium.Interactions.Actions(driver);
+            //actions.MoveToElement(el).ClickAndHold();
+
+            ((IJavaScriptExecutor)_driver).ExecuteScript("arguments[0].click();", el);
+        }
+
         // Select element by value.
         public void SelectByText(string xmlNode, string text)
         {

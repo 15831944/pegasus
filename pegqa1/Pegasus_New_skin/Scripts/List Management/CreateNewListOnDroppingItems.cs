@@ -17,7 +17,7 @@ namespace PegasusTests.Scripts.ClientsTests
         [TestCategory("All")]
         [TestCategory("Bug")]
         [TestCategory("TS1")]
-        [TestCategory("BugTest")]
+        [TestCategory("ListManagement")]
         public void createNewListOnDroppingItems()
         {
             string[] username = null;

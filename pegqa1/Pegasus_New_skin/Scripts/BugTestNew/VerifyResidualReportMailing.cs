@@ -36,8 +36,8 @@ namespace PegasusTests.Scripts.Corp
             String JIRA = "";
             String Status = "Pass";
 
-            //try
-            //{
+            try
+            {
 
                 executionLog.Log("VerifyResidualReportMailing", "Login with valid username and password");
                 Login(username[0], password[0]);
@@ -79,15 +79,15 @@ namespace PegasusTests.Scripts.Corp
                 executionLog.Log("VerifyResidualReportMailing", "Verify Report is Emailed successfully");
                 residual_income_officePayoutHelper.VerifyPageText("Report Mail Sent Successfully.");
 
-               
 
-            //}
-            //catch (Exception e)
-            //{
-                
-                
-                    
-            //}
+
+            }
+            catch (Exception e)
+            {
+
+
+
+            }
         }
     }
 }

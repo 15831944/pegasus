@@ -1,0 +1,14 @@
+Login with valid username and password
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.
+Wait for creation success text.

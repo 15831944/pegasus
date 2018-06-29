@@ -362,6 +362,16 @@
     <Compile Include="Scripts\DeleteData\OfficeCleanPricingPlan.cs" />
     <Compile Include="Scripts\DeleteData\CleanMasterPriceCrop.cs" />
     <Compile Include="Scripts\DeleteData\CropDefaultProcesser.cs" />
+    <Compile Include="Scripts\List Management\ResidualPegasusFieldDropDown.cs" />
+    <Compile Include="Scripts\List Management\LoginIntoMailChimp.cs" />
+    <Compile Include="Scripts\List Management\Pagination.cs" />
+    <Compile Include="Scripts\List Management\MoreDetailsIcon.cs" />
+    <Compile Include="Scripts\List Management\HorizontalAndVerticalScroll.cs" />
+    <Compile Include="Scripts\List Management\CreateListWithBlankName.cs" />
+    <Compile Include="Scripts\List Management\PartnerReportFullName.cs" />
+    <Compile Include="Scripts\List Management\PrintReportInPartnerAgent .cs" />
+    <Compile Include="Scripts\List Management\ExportingReportInPartnerAgent .cs" />
+    <Compile Include="Scripts\List Management\PartnerReportReflectsColumnsSpecified.cs" />
     <Compile Include="Scripts\List Management\CreateNewListOnDroppingItems.cs" />
     <Compile Include="Scripts\List Management\SearchListManagementItem.cs" />
     <Compile Include="Scripts\List Management\RenameListManagementItem.cs" />

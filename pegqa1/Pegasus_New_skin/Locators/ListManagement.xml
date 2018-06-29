@@ -2,16 +2,27 @@
 
 <Locators>
 
-  <Create><![CDATA[//div[@id='listManagerDropzone']/object]]></Create>
+  <Create><![CDATA[//div[@id='listManagerDropzone']/object[1]]]></Create>
   <Marketing><![CDATA[//ul[@id='menu']/li[9]/a/span[1]]]></Marketing>
   <ListName><![CDATA[//input[@id='listNameInput']]]></ListName>
   <Createbuttn><![CDATA[//button[@id='create-list']]]></Createbuttn>
   <SearchList><![CDATA[//input[@id='listManagerSearch']]]></SearchList>
-  <Firstlist><![CDATA[//ul[@id='listManagerGroup']/li/p]]></Firstlist>
+  <Firstlist><![CDATA[//*[@id='listManagerGroup']/li[1]/a[1]/p]]></Firstlist>
   <Name><![CDATA[//input[@id='listManagerListName']]]></Name>
   <Backbutton><![CDATA[//a[@id='backToListManager']/i]]></Backbutton>
   <DeleteList><![CDATA[//ul[@id='listManagerGroup']/li[1]/a/i]]></DeleteList>
   <Deletebuttn><![CDATA[//button[@id='delete-list']]]></Deletebuttn>
   <Entrycheckbox><![CDATA[//*[@id='clients']/tbody/tr[1]/td[2]/div/label]]></Entrycheckbox>
+  <ListManager><![CDATA[//*[@id='toggleListManager']/h4]]></ListManager>
+  <ValidationMessage><![CDATA[//*[@id='createListModal']/div/div/div/div/div[2]/p]]></ValidationMessage>
+  <DetailsIcon><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></DetailsIcon>
+  <Status><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></Status>
+  <Source><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></Source>
+  <CompanyName><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></CompanyName>
+  <MailChimpLogin><![CDATA[//*[@id='mailchimp-welcome-container']/a/button]]></MailChimpLogin>
+  <UserName><![CDATA[//*[@id='username']]]></UserName>
+  <Password><![CDATA[//*[@id='password']]]></Password>
+  <LoginButtn><![CDATA[//*[@id='login-form']/fieldset/div[3]/input]]></LoginButtn>
+  
 
 </Locators>

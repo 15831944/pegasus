@@ -1,0 +1,80 @@
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Select Partner Agent
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Select Partner Agent
+Verify Reports Generated
+Verify Partner Agent Name
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Select Partner Agent
+Verify Reports Generated
+Verify Partner Agent Name
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Select Partner Agent
+Verify Reports Generated
+Verify Partner Agent Name
+Verify Partner Agent Name
+Login with valid username and password
+Verify Page title
+Redirect To Report Columns page
+Select Reporting Period
+Select File Date
+Select Processor
+Select File Format
+Search Payouts
+Select Partner Agent
+Verify Reports Generated
+Verify Partner Agent Name
+Verify Partner Agent Name
+Verify Partner Agent Full Name
