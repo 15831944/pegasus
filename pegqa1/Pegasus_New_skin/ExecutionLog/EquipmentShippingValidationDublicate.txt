@@ -1,2 +1,0 @@
-Login with valid username and password
-Verify Page title

@@ -10,6 +10,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using Selenium;
+using OpenQA.Selenium.Interactions;
 
 namespace PegasusTests.PageHelper.Comm
 {
@@ -303,6 +304,9 @@ namespace PegasusTests.PageHelper.Comm
             }
 
         }
+
+       
+
           // Delete Existing File
   /*      public void DeleteFile()
         {

@@ -1,5 +1,0 @@
-Login with valid username and password
-Verify Page title
-Redirect to create meetings page.
-Select Related To
-Select client for meeting.

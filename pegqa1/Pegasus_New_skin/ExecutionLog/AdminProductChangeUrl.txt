@@ -1,7 +1,0 @@
-Login with valid username and password
-Verify Page title
-Redirect To Admin
-Goto Product >> Product
-Click On Any Product
-Change url of the page.
-Verify You don't have privilege.

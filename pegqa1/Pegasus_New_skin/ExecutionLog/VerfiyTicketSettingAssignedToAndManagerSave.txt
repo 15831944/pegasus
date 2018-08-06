@@ -1,7 +1,0 @@
-Login with valid username and password
-Verify Page title
-Redirect at ticket topic page.
-Select set as Department
-Select set as Assigned To
-Select set as Assigned Manager
-Click on Save button.

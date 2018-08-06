@@ -9,5 +9,8 @@
   <PDFImage><![CDATA[//*[@id='attachtypePdf']]]></PDFImage>
   <RPMPeriod><![CDATA[//select[@id='gs_reporting_period']]]></RPMPeriod>
   <RPMCalender><![CDATA[//div[@class='datepicker-days']]]></RPMCalender>
+  <Filtername><![CDATA[//*[@id='searchName']]]></Filtername>
+  <Update><![CDATA[//*[@id='saveSearch']/span]]></Update>
+  <SavedFilter><![CDATA[//*[@id='savedSearch']]]></SavedFilter>
 
 </Locators>

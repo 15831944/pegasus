@@ -71,5 +71,7 @@ namespace PegasusTests.PageHelper
             Assert.IsTrue(IsElementPresent(locator));
         }
 
-    }
-}
+
+            }
+        }
+    

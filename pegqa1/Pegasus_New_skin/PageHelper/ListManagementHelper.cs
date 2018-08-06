@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using PegasusTests.Locators;
 using PegasusTests.PageHelper.Comm;
 using System;
+using OpenQA.Selenium.Interactions;
 
 namespace PegasusTests.PageHelper
 {
@@ -281,7 +282,6 @@ namespace PegasusTests.PageHelper
             WaitForElementPresent(locator, 30);
             Assert.IsTrue(IsElementPresent(locator));
         }
-
-        
+ 
     }
 }
