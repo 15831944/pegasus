@@ -1,6 +1,0 @@
-Login with valid username and password
-Verify Page title
-Redirect to All PDF Templates page.
-Open a pdf
-Click on Clone button
-Click on Delete button

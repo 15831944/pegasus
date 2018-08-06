@@ -1,6 +1,0 @@
-Login with valid username and password
-Verify Page title
-Goto Master Data >> Rates and Fee
-Click On Rate And Fees
-Change the url with the url number of another office
-Verify Validation

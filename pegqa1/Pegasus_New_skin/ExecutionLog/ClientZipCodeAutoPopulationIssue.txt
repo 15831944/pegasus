@@ -1,4 +1,0 @@
-Enter Client Dba Name
-Select client status
-Select Client Res[onsibility.
-Click on next button

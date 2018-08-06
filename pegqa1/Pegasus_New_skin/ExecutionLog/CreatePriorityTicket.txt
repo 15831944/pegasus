@@ -1,4 +1,0 @@
-Click on delete item.
-Click on category to be deleted
-Select value to be replace with
-Confirm delete by clicking save.

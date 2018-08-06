@@ -1,4 +1,0 @@
-Login with valid username and password
-Verify Page title
-Redirect To Detailed Payout page
-Click on advance filter

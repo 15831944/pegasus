@@ -1,4 +1,0 @@
-Enter Username
-Select Avatar
-Deselect Auto Generate Password check box
-Enter Password
