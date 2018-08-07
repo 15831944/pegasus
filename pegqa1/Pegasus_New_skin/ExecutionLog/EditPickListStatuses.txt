@@ -1,7 +1,0 @@
-Click PickList Save Button
-Verify page title
-Click delete Button
-Click on item to deleted
-Selelct replace with item.
-Click PickList Save Button
-Accept alert message.

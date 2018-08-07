@@ -14,6 +14,11 @@
   <ReportingPeriod><![CDATA[//*[@id='reporting_period']]]></ReportingPeriod>
   <SelectedOffices><![CDATA[//*[@id='sendtoSelected']]]></SelectedOffices>
   <Office1><![CDATA[//*[@id='292']]]></Office1>
+  <ImportNew><![CDATA[//a[@id='actionbuttons']]]></ImportNew>
+  <Processor><![CDATA[//select[@id='ImportIndexProcessor']]]></Processor>
+  <TodayDate><![CDATA[//div[@class='datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-bottom']/div[1]/table/tbody/tr[1]/td[1]]]></TodayDate>
+  <ImportFileDate><![CDATA[//*[@id='ImportIndexFileDate']]]></ImportFileDate>
+ 
   
   
 </Locators>

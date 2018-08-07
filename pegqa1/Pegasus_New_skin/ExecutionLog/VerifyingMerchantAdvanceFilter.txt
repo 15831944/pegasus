@@ -1,6 +1,0 @@
-Login with valid username and password
-Verify Page title
-Goto Merchant
-Login with valid username and password
-Verify Page title
-Goto Merchant

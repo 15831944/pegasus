@@ -1,9 +1,0 @@
-Logout button
-Login with valid credential
-Verify Page title
-Logout button
-Login with valid credential
-Verify Page title
-Logout button
-Login with valid credential
-Verify Page title

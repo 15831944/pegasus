@@ -14,9 +14,22 @@
   <Processor><![CDATA[//select[@id='processor']]]></Processor>
   <FileFormat><![CDATA[//select[@id='file_format']]]></FileFormat>
   <SearchBtn><![CDATA[//a[@title='Search Payouts']]]></SearchBtn>
+  <Searchreport><![CDATA[//a[@title='Search']]]></Searchreport>
   <ReportTitle><![CDATA[//span[@class='font-20 bold']]]></ReportTitle>
   <DolphoWeerCheckBox><![CDATA[//input[@id='3152']]]></DolphoWeerCheckBox>
+  <AslamPartnerCheckBox><![CDATA[//input[@id='3241']]]></AslamPartnerCheckBox>
   <SendBtn><![CDATA[//a[@class='ui_send btn btn-primary btn-xs pull-right']]]></SendBtn>
+  <MerchantID><![CDATA[//div[@id='report_container']/table/thead/tr/th[1]]]></MerchantID>
+  <Merchantname><![CDATA[//div[@id='report_container']/table/thead/tr/th[2]]]></Merchantname>
+  <Merchantincome><![CDATA[//div[@id='report_container']/table/thead/tr/th[3]]]></Merchantincome>
+  <Merchantexpense><![CDATA[//div[@id='report_container']/table/thead/tr/th[4]]]></Merchantexpense>
+  <Salesvol><![CDATA[//div[@id='report_container']/table/thead/tr/th[5]]]></Salesvol>
+  <Payout><![CDATA[//div[@id='report_container']/table/thead/tr/th[6]]]></Payout>
+  <Exportexl><![CDATA[//div[@id='right']/div[1]/table/tbody/tr/td[1]/a/img]]></Exportexl>
+  <Exportpdf><![CDATA[//div[@id='right']/div[1]/table/tbody/tr/td[2]/a/img]]></Exportpdf>
+  <Print><![CDATA[//div[@id='right']/div[1]/table/tbody/tr/td[3]/a/img]]></Print>
+  
+  
   
   
   <Advance><![CDATA[//*[@id='layout_disp']/span]]></Advance>

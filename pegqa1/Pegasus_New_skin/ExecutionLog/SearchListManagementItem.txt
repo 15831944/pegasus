@@ -1,9 +1,0 @@
-Login with valid username and password
-Verify Page title
-Redirect To List Management page
-Click on Create list
-Name the list
-Click on Create button
-Search the list name
-verify the list name
-verify the list name

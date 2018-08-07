@@ -44,6 +44,7 @@ namespace PegasusTests.Scripts.ClientsTests
                 VerifyTitle("Dashboard");
                 Console.WriteLine("Redirected at Dashboard screen.");
 
+
             }
 
 

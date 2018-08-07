@@ -2,17 +2,30 @@
 
 <Locators>
 
-  <Create><![CDATA[//div[@id='listManagerDropzone']/object]]></Create>
+  <Create><![CDATA[//div[@id='listManagerDropzone']/object[1]]]></Create>
   <Marketing><![CDATA[//ul[@id='menu']/li[9]/a/span[1]]]></Marketing>
   <ListName><![CDATA[//input[@id='listNameInput']]]></ListName>
   <Createbuttn><![CDATA[//button[@id='create-list']]]></Createbuttn>
   <SearchList><![CDATA[//input[@id='listManagerSearch']]]></SearchList>
-  <Firstlist><![CDATA[//ul[@id='listManagerGroup']/li/p]]></Firstlist>
+  <Firstlist><![CDATA[//*[@id='listManagerGroup']/li[1]/a[1]/p]]></Firstlist>
   <Name><![CDATA[//input[@id='listManagerListName']]]></Name>
   <Backbutton><![CDATA[//a[@id='backToListManager']/i]]></Backbutton>
   <DeleteList><![CDATA[//ul[@id='listManagerGroup']/li[1]/a/i]]></DeleteList>
   <Deletebuttn><![CDATA[//button[@id='delete-list']]]></Deletebuttn>
   <Entrycheckbox><![CDATA[//*[@id='clients']/tbody/tr[1]/td[2]/div/label]]></Entrycheckbox>
+<<<<<<< HEAD
+  <ListManager><![CDATA[//*[@id='toggleListManager']/h4]]></ListManager>
+  <ValidationMessage><![CDATA[//*[@id='createListModal']/div/div/div/div/div[2]/p]]></ValidationMessage>
+  <DetailsIcon><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></DetailsIcon>
+  <Status><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></Status>
+  <Source><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></Source>
+  <CompanyName><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></CompanyName>
+  <MailChimpLogin><![CDATA[//*[@id='mailchimp-welcome-container']/a/button]]></MailChimpLogin>
+  <UserName><![CDATA[//*[@id='username']]]></UserName>
+  <Password><![CDATA[//*[@id='password']]]></Password>
+  <LoginButtn><![CDATA[//*[@id='login-form']/fieldset/div[3]/input]]></LoginButtn>
+  
+=======
   <SettingIcon><![CDATA[//*[@id='datatableSettings']]]></SettingIcon>
   <SearchBox><![CDATA[//input[@id='searchHeaderColumns']]]></SearchBox>
   <SearchDetail><![CDATA[//input[@id='searchDetailColumns']]]></SearchDetail>
@@ -26,5 +39,9 @@
   <Cancel><![CDATA[//*[@id='modalHeaderColumns']/div/div/div/div[3]/button[1]]]></Cancel>
   <VerifyField><![CDATA[//*[@id='leads_wrapper']/div[1]/div[1]/div/table/thead/tr[1]/th[8]]]></VerifyField>
   <VerifyText><![CDATA[//*[@id='leads']/tbody/tr[2]/td/div[1]/div[9]/h5]]></VerifyText>
+  <ListManager><![CDATA[//*[@id='toggleListManager']/span/i[2]]]></ListManager>
+  <ParentEntry><![CDATA[//*[@id='leadsParentList']/tbody/tr[1]]]></ParentEntry>
+  <RemoveList><![CDATA[//li[@title='Remove from List']]]></RemoveList>
+>>>>>>> cd722a07e82007ec8cf9a9bfc05489898a816d82
 
 </Locators>

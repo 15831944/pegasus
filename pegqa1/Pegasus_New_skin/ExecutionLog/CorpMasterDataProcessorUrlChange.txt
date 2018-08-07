@@ -1,4 +1,0 @@
-Login with valid username and password
-Verify Page title
-Go To Corp Master Data >> Create Processor
-Read Data from Excel File and Enter values

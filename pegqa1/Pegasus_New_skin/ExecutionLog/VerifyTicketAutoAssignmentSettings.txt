@@ -1,7 +1,0 @@
-Login with valid username and password
-Verify Page title
-Redirect at ticket topic page.
-Select category under Auto Assignment
-Select set as Department
-Select set as Priority
-Select set as Assigned To
