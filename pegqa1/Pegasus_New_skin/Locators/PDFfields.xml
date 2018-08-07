@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--General-->
+  <PegasusField><![CDATA[//*[@id='directmapdiv']/div[2]/div[1]/div[4]/div/button]]></PegasusField>
+  <Amexp><![CDATA[//*[@id='ClientRatesFeeAmexRate']]]></Amexp>
+  
+  <!--Clone of CoCardEnhancedBillback2105_ia_Final co-br mapping page-->
+  <DebitNtwkIntrchngPassThr><![CDATA[//*[@id='debit_network_Interchange_div']/select]]></DebitNtwkIntrchngPassThr>
+  <PricingMethod><![CDATA[//*[@id='Pricing_Method_div']/select]]></PricingMethod>
+  <VisaCredit_DiscRate><![CDATA[//*[@id='qualRate_div']/input]]></VisaCredit_DiscRate>
+  
+  
+  <!--Actual pdf-->
+  <VisaCredit_DisRate1><![CDATA[//*[@id='qualRate']]]></VisaCredit_DisRate1>
+  
+  
+</Locators>

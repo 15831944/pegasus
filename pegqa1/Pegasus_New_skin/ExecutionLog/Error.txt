@@ -346,3 +346,18 @@
    at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 287
    at PegasusTests.PageHelper.Tickets_EmailNotificationHelper.ClickElement(String xmlNode) in d:\Automation\pegqa\Pegasus_New_skin\PageHelper\Tickets_EmailNotificationHelper.cs:line 47
    at PegasusTests.Scripts.Admin.EmailNotification.emailNotification() in d:\Automation\pegqa\Pegasus_New_skin\Scripts\Pegasus_Admin\EmailNotification.cs:line 80
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFailure(String assertionName, String message)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.LoginHelper.EnterUserName(String username) in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\PageHelper\LoginHelper.cs:line 21
+   at PegasusTests.PageHelper.Comm.DriverTestCase.Login(String userName, String password) in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\PageHelper\Comm\DriverTestCase.cs:line 193
+   at PegasusTests.Scripts.ClientsTests.CustomizeRecordDetailsLeads.customizeRecordDetailsLeads() in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\Scripts\List Management\CustomizeRecordDetailsLeads.cs:line 47
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFailure(String assertionName, String message)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.SendKeys(String locator, String value) in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 259
+   at PegasusTests.PageHelper.LoginHelper.EnterUserName(String username) in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\PageHelper\LoginHelper.cs:line 21
+   at PegasusTests.PageHelper.Comm.DriverTestCase.Login(String userName, String password) in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\PageHelper\Comm\DriverTestCase.cs:line 193
+   at PegasusTests.Scripts.ClientsTests.CustomizeRecordDetailsLeads.customizeRecordDetailsLeads() in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\Scripts\List Management\CustomizeRecordDetailsLeads.cs:line 47
+   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)
+   at PegasusTests.PageHelper.Comm.DriverHelper.GetSelectedText(String locator) in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\PageHelper\Comm\DriverHelper.cs:line 436
+   at PegasusTests.Scripts.ClientsTests.VerifyMappingOfClone_of_CoCardEnhancedBillback2105_ia_Final_co_br.verifyMappingOfClone_of_CoCardEnhancedBillback2105_ia_Final_co_br() in D:\PegasusAutomationProj\pegasus\pegqa1\Pegasus_New_skin\Scripts\PDFMappings\VerifyMappingOfClone_of_CoCardEnhancedBillback2105_ia_Final_co_br.cs:line 70

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <AgentName><![CDATA[//*[@id="gs_contactNm"]]]></AgentName>
+  <AgentNameLast><![CDATA[//*[@id="gs_lastNm"]]]></AgentNameLast>
+  <AgentNameEmail><![CDATA[//*[@id="gs_electronic_content"]]]></AgentNameEmail>
+  <Create><![CDATA[//*[@id="actionbuttons"]]]></Create>
+
+  <FirstName><![CDATA[//*[@id="EmployeeFirstName"]]]></FirstName>
+  <LastName><![CDATA[//*[@id="EmployeeLastName"]]]></LastName>
+  <eAddressType><![CDATA[//*[@id="EmployeeElectronicAddress0ElectronicContentType"]]]></eAddressType>
+  <eAddressLabel><![CDATA[//*[@id="EmployeeElectronicAddress0ElectronicContentLabel"]]]></eAddressLabel>
+  <eAddress><![CDATA[//*[@id="EmployeeElectronicAddress0ElectronicContent"]]]></eAddress>
+  <Save><![CDATA[//*[@id="EmployeeCreateSalesUserForm"]/div[2]/div/div[2]/button]]></Save>
+  
+  <AssocName><![CDATA[//*[@id="PartnerAssociationName"]]]></AssocName>
+  <AssocFirstName><![CDATA[//*[@id="PartnerAssociationFirstName"]]]></AssocFirstName>
+  <AssocLastName><![CDATA[//*[@id="PartnerAssociationLastName"]]]></AssocLastName>
+  <AssoceAddressType><![CDATA[//*[@id="PartnerAssociationElectronicAddress0ElectronicContentType"]]]></AssoceAddressType>
+  <AssoceAddressLabel><![CDATA[//*[@id="PartnerAssociationElectronicAddress0ElectronicContentLabel"]]]></AssoceAddressLabel>
+  <AssoceAddress><![CDATA[//*[@id="PartnerAssociationElectronicAddress0ElectronicContent"]]]></AssoceAddress>
+  <AssocSave><![CDATA[//*[@id="PartnerAssociationAssociationCreateForm"]/div[4]/div/button]]></AssocSave>
+
+  <PAFirstName><![CDATA[//*[@id="PartnerAgentFirstName"]]]></PAFirstName>
+  <PALastName><![CDATA[//*[@id="PartnerAgentLastName"]]]></PALastName>
+  <PAeAddressType><![CDATA[//*[@id="PartnerAgentElectronicAddress0ElectronicContentType"]]]></PAeAddressType>
+  <PAeAddressLabel><![CDATA[//*[@id="PartnerAgentElectronicAddress0ElectronicContentLabel"]]]></PAeAddressLabel>
+  <PAeAddress><![CDATA[//*[@id="PartnerAgentElectronicAddress0ElectronicContent"]]]></PAeAddress>
+  <PASave><![CDATA[//*[@id="PartnerAgentAgentCreateForm"]/div[4]/div/button]]></PASave>
+  
+  <Responsibility><![CDATA[//*[@id="gs_owner"]]]></Responsibility>
+  <MID><![CDATA[//*[@id="gs_merchID"]]]></MID>
+  
+
+  <ResidualIncome><![CDATA[//*[@id="page-wrapper"]/div[4]/div[2]/div/ul/li[15]/a]]></ResidualIncome>
+  <SAClick><![CDATA[//*[@id="manager"]/span]]></SAClick>
+  <SAEdit><![CDATA[//*[@id="manager"]]]></SAEdit>
+  <SAAgentDrop><![CDATA[//*[@id="manager"]/form/select]]></SAAgentDrop>
+  <SASaveAgent><![CDATA[//*[@id="manager"]/form/button[1]]]></SASaveAgent>
+  <SAShareClick><![CDATA[//*[@id="sales_agent_share"]]]></SAShareClick>
+  <SAShareInput><![CDATA[//*[@id="sales_agent_share"]/form/input]]></SAShareInput>
+  <SASaveShare><![CDATA[//*[@id="sales_agent_share"]/form/button[1]]]></SASaveShare>
+
+  <PASClick><![CDATA[//*[@id="partnerassociation"]/span]]></PASClick>
+  <PASEdit><![CDATA[//*[@id="partnerassociation"]]]></PASEdit>
+  <PASAgentDrop><![CDATA[//*[@id="partnerassociation"]/form/select]]></PASAgentDrop>
+  <PASSaveAgent><![CDATA[//*[@id="partnerassociation"]/form/button[1]]]></PASSaveAgent>
+  <PASShareClick><![CDATA[//*[@id="partner_association_share"]]]></PASShareClick>
+  <PASShareInput><![CDATA[//*[@id="partner_association_share"]/form/input]]></PASShareInput>
+  <PASSaveShare><![CDATA[//*[@id="partner_association_share"]/form/button[1]]]></PASSaveShare>
+
+  <PAClick><![CDATA[//*[@id="partner"]/span]]></PAClick>
+  <PAEdit><![CDATA[//*[@id="partner"]]]></PAEdit>
+  <PAAgentDrop><![CDATA[//*[@id="partner"]/form/select]]></PAAgentDrop>
+  <PASaveAgent><![CDATA[//*[@id="partner"]/form/button[1]]]></PASaveAgent>
+  <PAShareClick><![CDATA[//*[@id="partner_agent_share"]]]></PAShareClick>
+  <PAShareInput><![CDATA[//*[@id="partner_agent_share"]/form/input]]></PAShareInput>
+  <PASaveShare><![CDATA[//*[@id="partner_agent_share"]/form/button[1]]]></PASaveShare>
+
+  <SMClick><![CDATA[//*[@id="salesmanager"]/span]]></SMClick>
+  <SMEdit><![CDATA[//*[@id="salesmanager"]]]></SMEdit>
+  <SMAgentDrop><![CDATA[//*[@id="salesmanager"]/form/select]]></SMAgentDrop>
+  <SMSaveAgent><![CDATA[//*[@id="salesmanager"]/form/button[1]]]></SMSaveAgent>
+  <SMShareClick><![CDATA[//*[@id="sales_manager_share"]]]></SMShareClick>
+  <SMShareInput><![CDATA[//*[@id="sales_manager_share"]/form/input]]></SMShareInput>
+  <SMSaveShare><![CDATA[//*[@id="sales_manager_share"]/form/button[1]]]></SMSaveShare>
+
+
+
+
+
+
+
+
+</Locators>

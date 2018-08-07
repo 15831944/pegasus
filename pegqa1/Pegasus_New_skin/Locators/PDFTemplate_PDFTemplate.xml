@@ -4,8 +4,9 @@
 
   <!--All PDF templates page-->
   <PDF1><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/a]]></PDF1>
-  
-  
+  <PDFHaloEdit><![CDATA[//a[@title='Edit PDFHalo Template Mapping']]]></PDFHaloEdit>
+  <SelectVisualMap><![CDATA[//input[@value='visualmapping']]]></SelectVisualMap>
+  <SubmitMapOptn><![CDATA[//button[@title='Submit']]]></SubmitMapOptn>
   
   <!--View PDF-->
   <Clone><![CDATA[//*[@id='page-wrapper']/div[3]/div[2]/a[2]/span]]></Clone>

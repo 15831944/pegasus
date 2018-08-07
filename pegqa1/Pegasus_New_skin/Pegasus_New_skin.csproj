@@ -113,6 +113,7 @@
     <Compile Include="PageHelper\CorpSystem_ThemesHelper.cs" />
     <Compile Include="PageHelper\MasterData_CategoryHelper.cs" />
     <Compile Include="PageHelper\GmailHelper.cs" />
+    <Compile Include="PageHelper\PDFfilesHelper.cs" />
     <Compile Include="PageHelper\System_EmailTemplatesHelper.cs" />
     <Compile Include="PageHelper\Corp_HomepageHelper.cs" />
     <Compile Include="PageHelper\Report_ReportHelper.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="PageHelper\DeleteDataHelper\DeleteDataHelper.cs" />
     <Compile Include="PageHelper\DelateMasterLanguagesInBulkHelper.cs" />
     <Compile Include="PageHelper\ProcessorNameOnSavingMerchantHelper.cs" />
+    <Compile Include="PageHelper\UpdateAgentHelper.cs" />
     <Compile Include="PageHelper\VerifySelectedUserGroupHelper.cs" />
     <Compile Include="PageHelper\AdminCheckFieldRelationshipsHelper.cs" />
     <Compile Include="PageHelper\AdminFieldGroupingTemplatesHelper.cs" />
@@ -357,6 +359,7 @@
     <Compile Include="Scripts\BugTestNew\TaskResultsPerPageIssue.cs" />
     <Compile Include="Scripts\BugTestNew\VerifyDocumentDisplayedColumnIssue.cs" />
     <Compile Include="Scripts\BugTestNew\PartAgentLeadsCreditsIssue.cs" />
+    <Compile Include="Scripts\BugTest\UpdateAgent.cs" />
     <Compile Include="Scripts\BugTest\VerifyOfficeWithAllModules.cs" />
     <Compile Include="Scripts\BugTest\GlobalSearchBar.cs" />
     <Compile Include="Scripts\DeleteData\OfficeCleanPricingPlan.cs" />
@@ -374,6 +377,7 @@
     <Compile Include="Scripts\List Management\RenameListManagementItem.cs" />
     <Compile Include="Scripts\New\CreateCorpProcessorFromExcelSheet.cs" />
     <Compile Include="Scripts\New\CreateAgentsFromExcelSheet.cs" />
+    <Compile Include="Scripts\PDFMappings\VerifyMappingOfClone_of_CoCardEnhancedBillback2105_ia_Final_co_br.cs" />
     <Compile Include="Scripts\Pegasus_Admin1\LeadsAdvanceFilterResultsPP.cs" />
     <Compile Include="Scripts\Pegasus_Admin1\LeadsExportFileWithoutError.cs" />
     <Compile Include="Scripts\Pegasus_Admin1\LoginAndLogout.cs" />
@@ -1109,6 +1113,9 @@
     </Content>
     <Content Include="Locators\MasterData_Category.xml" />
     <Content Include="Locators\Gmail.xml" />
+    <Content Include="Locators\PDFfields.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Locators\System_EmailTemplates.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -1136,6 +1143,7 @@
     <Content Include="Locators\ProcessorNameOnSavingMerchant.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Locators\UpdateFour.xml" />
     <Content Include="Locators\VerifySelectedUserGroup.xml" />
     <Content Include="Locators\AdminFieldGroupingTemplates.xml" />
     <Content Include="Locators\AdminFieldLengthValidation.xml">

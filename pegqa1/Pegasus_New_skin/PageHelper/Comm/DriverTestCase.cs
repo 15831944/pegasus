@@ -41,11 +41,11 @@ namespace PegasusTests.PageHelper.Comm
             CreateExeFolder();
             _oWaXmlData.LoadXML("../../Config/ApplicationSettings.xml");
 
-            _url = _oWaXmlData.getNodeValue("settings/URLTest/application");
+            _url = _oWaXmlData.getNodeValue("settings/URL/Office");
            _urlJiraDashboard = _oWaXmlData.getNodeValue("settings/URLTest/JIRA_Dashboard");
-            LogoutUrl = _oWaXmlData.getNodeValue("settings/URLTest/logout");
-            _office = _oWaXmlData.getNodeValue("settings/URLTest/Office");
-            _corp = _oWaXmlData.getNodeValue("settings/URLTest/Corp");
+            LogoutUrl = _oWaXmlData.getNodeValue("settings/URL/logout");
+            _office = _oWaXmlData.getNodeValue("settings/URL/Office");
+            _corp = _oWaXmlData.getNodeValue("settings/URL/Corp");
 
             BrowserType = _oWaXmlData.getNodeValue("settings/browserdata/browser");
 

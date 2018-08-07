@@ -204,7 +204,7 @@
   <RatesAndFee><![CDATA[//a[text()='Rates & Fees']]]></RatesAndFee>
   <SelectProcessorRF><![CDATA[//*[@id="ClientRatesFeeProcessor"]]]></SelectProcessorRF>
   <PricingPlan><![CDATA[//select[@id='ClientRatesFeePricingMethod']]]></PricingPlan>
-  
+  <RandFSave><![CDATA[//*[@id='ClientEditForm']/div[5]/div[1]/div[2]/button]]></RandFSave>
   
   
   

@@ -19,6 +19,7 @@ namespace PegasusTests.PageHelper
             : base(idriver)
         {
             locatorReader = new LocatorReader("PDFTemplate_PDFTemplate.xml");
+            //locatorReader = new LocatorReader("PDFfields.xml");
         }
 
         // Type into given xml node

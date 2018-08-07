@@ -15,12 +15,14 @@
   <Entrycheckbox><![CDATA[//*[@id='clients']/tbody/tr[1]/td[2]/div/label]]></Entrycheckbox>
   <SettingIcon><![CDATA[//*[@id='datatableSettings']]]></SettingIcon>
   <SearchBox><![CDATA[//input[@id='searchHeaderColumns']]]></SearchBox>
+  <SearchDetail><![CDATA[//input[@id='searchDetailColumns']]]></SearchDetail>
+  <ExpandIconClient><![CDATA[//*[@id='clients']/tbody/tr[1]/td[1]]]></ExpandIconClient>
   <PlusIcon><![CDATA[//*[@id='modalHeaderColumnsleft']/div[2]/div/div[2]/div/i]]></PlusIcon>
   <PlusIcon2><![CDATA[//*[@id='modalHeaderColumnsleft']/div[2]/div/div[7]/div/i]]></PlusIcon2>
   <PlusIcon3><![CDATA[//*[@id='modalHeaderColumnsleft']/div[2]/div/div[9]/div/i]]></PlusIcon3>
   <CrossIcon><![CDATA[//*[@id='modalHeaderColumnsright']/div[1]/div/p/i]]]></CrossIcon>
-  <Apply><![CDATA[//*[@id='storeHeaderColumns']]]></Apply>
-  <ApplyDetails><![CDATA[//*[@id='storeDetailColumns']]]></ApplyDetails>
+  <Apply><![CDATA[//*[@id='modalHeaderColumns']/div/div/div/div[3]/button[2]]]></Apply>
+  <ApplyDetails><![CDATA[//*[@id='modalDetailColumns']/div/div/div/div[3]/button[2]]]></ApplyDetails>
   <Cancel><![CDATA[//*[@id='modalHeaderColumns']/div/div/div/div[3]/button[1]]]></Cancel>
   <VerifyField><![CDATA[//*[@id='leads_wrapper']/div[1]/div[1]/div/table/thead/tr[1]/th[8]]]></VerifyField>
   <VerifyText><![CDATA[//*[@id='leads']/tbody/tr[2]/td/div[1]/div[9]/h5]]></VerifyText>

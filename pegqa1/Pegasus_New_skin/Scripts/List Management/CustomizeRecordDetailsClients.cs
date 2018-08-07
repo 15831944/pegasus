@@ -60,47 +60,39 @@ namespace PegasusTests.Scripts.ClientsTests
             listManagementHelper.WaitForWorkAround(2000);
 
             executionLog.Log("CustomizeRecordDetailsClients", "Click on Expand Details Icon");
-            listManagementHelper.ClickViaJavaScript("//*[@id='clients']/tbody/tr[1]/td[1]");
+            listManagementHelper.ClickForce("ExpandIconClient");
             listManagementHelper.WaitForWorkAround(2000);
 
             executionLog.Log("CustomizeRecordDetailsClients", "Click on Customize Field Option");
             listManagementHelper.ClickViaJavaScript("//*[@id='clients']/tbody/tr[2]/td/div[2]");
             listManagementHelper.WaitForWorkAround(2000);
 
-            executionLog.Log("CustomizeRecordDetailsClients", "Click on Expand Section Icon");
-            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumnsleft']/div[2]/p/i");
-            listManagementHelper.WaitForWorkAround(2000);
-
-            executionLog.Log("CustomizeRecordDetailsClients", "Click on Expand Sub Section Option");
-            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumnsleft']/div[2]/div/p/i");
-            listManagementHelper.WaitForWorkAround(2000);
+            executionLog.Log("CustomColumnsClients", "Click on Search Box");
+            listManagementHelper.TypeText("SearchDetail", "Account Manager");
+            listManagementHelper.WaitForWorkAround(1000);
 
             executionLog.Log("CustomizeRecordDetailsClients", "Click on Plus Icon");
-            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumnsleft']/div[2]/div/div[1]/div/i");
+            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumnsleft']/div[2]/div/div[5]/div/i");
             listManagementHelper.WaitForWorkAround(2000);
 
             executionLog.Log("CustomizeRecordDetailsClients", "Click on Apply Button");
-            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumns']/div/div/div/div[3]/button[2]");
+            listManagementHelper.ClickForce("ApplyDetails");
             listManagementHelper.WaitForWorkAround(1000);
 
             executionLog.Log("CustomizeRecordDetailsClients", "Click on Expand Details Icon");
-            listManagementHelper.ClickViaJavaScript("//*[@id='clients']/tbody/tr[1]/td[1]");
+            listManagementHelper.ClickForce("ExpandIconClient");
             listManagementHelper.WaitForWorkAround(2000);
 
             executionLog.Log("CustomizeRecordDetailsClients", "Click on Customize Field Option");
             listManagementHelper.ClickViaJavaScript("//*[@id='clients']/tbody/tr[2]/td/div[2]");
             listManagementHelper.WaitForWorkAround(2000);
 
-            executionLog.Log("CustomizeRecordDetailsClients", "Click on Expand Section Icon");
-            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumnsleft']/div[2]/p/i");
-            listManagementHelper.WaitForWorkAround(2000);
-
-            executionLog.Log("CustomizeRecordDetailsClients", "Click on Expand Sub Section Option");
-            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumnsleft']/div[2]/div/p/i");
-            listManagementHelper.WaitForWorkAround(2000);
+            executionLog.Log("CustomColumnsClients", "Click on Search Box");
+            listManagementHelper.TypeText("SearchDetail", "User Group");
+            listManagementHelper.WaitForWorkAround(1000);
 
             executionLog.Log("CustomizeRecordDetailsClients", "Click on Plus Icon");
-            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumnsleft']/div[2]/div/div[3]/div/i");
+            listManagementHelper.ClickViaJavaScript("//*[@id='modalDetailColumnsleft']/div[2]/div/div[6]/div/i");
             listManagementHelper.WaitForWorkAround(2000);
 
             executionLog.Log("CustomizeRecordDetailsClients", "Click on Cancel button");
