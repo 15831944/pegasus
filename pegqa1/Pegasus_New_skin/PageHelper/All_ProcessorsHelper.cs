@@ -53,7 +53,7 @@ namespace PegasusTests.PageHelper
             SelectDropDown(locator, value);
         }
 
-      
+
         //Click Via Enter key
         public void PressEnter(string xmlNode)
         {
@@ -338,28 +338,133 @@ namespace PegasusTests.PageHelper
             Console.WriteLine("value is" + cd);
             Assert.IsTrue(cd.Contains("Chicago"));
             WaitForWorkAround(5000);
-            //ClickViaJavaScript("[//a[text()='Contacts']");
-            /*
-            //Open Contacts tab using javascript method
-            JavascriptExecutor("submitTabForm('contacts', 'addresses_contacts')");
-
-            WaitForWorkAround(3000);
-            var con = GetAtrributeByXpath("//*[@id='ClientContact0ClientContactContactAddress0City']", "value");
-            WaitForWorkAround(3000);
-            Console.WriteLine("value is" + con);
-            Assert.IsTrue(con.Contains("Chicago"));
-            WaitForWorkAround(5000);
-
-            //Open owners tab using javascript method
-            //ClickViaJavaScript("//a[text()='Owners']");
-            JavascriptExecutor( "submitTabForm('owners', 'owners')");
-            WaitForWorkAround(3000);
-            var own = GetAtrributeByXpath("//*[@id='ClientOwner0ClientOwnerContactAddress0City']", "value");
-            WaitForWorkAround(3000);
-            Console.WriteLine("value is" + own);
-            Assert.IsTrue(con.Contains("Chicago"));
-            WaitForWorkAround(5000);
-            */
         }
-    }
+        //ClickViaJavaScript("[//a[text()='Contacts']");
+        /*
+        //Open Contacts tab using javascript method
+        JavascriptExecutor("submitTabForm('contacts', 'addresses_contacts')");
+
+        WaitForWorkAround(3000);
+        var con = GetAtrributeByXpath("//*[@id='ClientContact0ClientContactContactAddress0City']", "value");
+        WaitForWorkAround(3000);
+        Console.WriteLine("value is" + con);
+        Assert.IsTrue(con.Contains("Chicago"));
+        WaitForWorkAround(5000);
+
+        //Open owners tab using javascript method
+        //ClickViaJavaScript("//a[text()='Owners']");
+        JavascriptExecutor( "submitTabForm('owners', 'owners')");
+        WaitForWorkAround(3000);
+        var own = GetAtrributeByXpath("//*[@id='ClientOwner0ClientOwnerContactAddress0City']", "value");
+        WaitForWorkAround(3000);
+        Console.WriteLine("value is" + own);
+        Assert.IsTrue(con.Contains("Chicago"));
+        WaitForWorkAround(5000);
+        */
+
+        public string GetPathToFile()
+        {
+            var currentDirectory = Directory.GetCurrentDirectory();
+            var ab = currentDirectory.Split(new[] { "bin" }, StringSplitOptions.None);
+            var a = ab[0];
+            var fPath = a + "Files\\";
+            Console.Write("file path: " + fPath);
+            return fPath;
+        }
+
+        //Read Data 
+        public void ReadClient_Excel()
+        {
+            Excel.Application xlApp;
+            Excel.Workbook xlWorkBook;
+            Excel.Worksheet xlWorkSheet;
+            Excel.Range xlrange;
+
+            string xlString;
+            string xlString1;
+            double xlDouble;
+            int xlRowCnt = 0;
+            int xlColCnt = 0;
+
+            xlApp = new Excel.Application();
+            //Open Excel file
+            var locFile = GetPathToFile() + "Complete_Export_24.xlsx";
+            //var updated_path = locFile.Replace("Files", "bin");
+            xlWorkBook = xlApp.Workbooks.Open(locFile);
+            xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
+
+            //This gives the used cells in the sheet
+            xlrange = xlWorkSheet.UsedRange;
+            Console.WriteLine("Row count is  " + xlrange.Rows.Count);
+
+            for (xlRowCnt = 2; xlRowCnt <= xlrange.Rows.Count; xlRowCnt++)
+            {
+                //Navigate to Create Processor page
+                //WaitForWorkAround(2000);
+                GetWebDriver().Navigate().GoToUrl("https://www.mypegasuscrm.com/select_merchant_solutions/select_merchant_solutions/leads");
+                WaitForWorkAround(3000);
+
+                //Processor Name
+                xlString = (string)(xlrange.Cells[xlRowCnt, 1] as Excel.Range).Value2;
+                if (xlString == null)
+                {
+                    xlString1 = (string)(xlrange.Cells[(xlRowCnt + 1), 1] as Excel.Range).Value2;
+                    if (xlString1 != null)
+                    {
+                        xlRowCnt++;
+                    }
+                    continue;
+                }
+
+                //Check for already exists
+                SendKeys("//*[@id='gs_company_name']", xlString);
+                WaitForWorkAround(3000);
+                if (IsElementPresent("//table[@id='list1']/tbody/tr/td[14]/a") == false) { 
+                    Console.WriteLine(xlString);
+                    continue;
+            }
+                else
+                {
+                        //Click on Lead
+                        Click("//table[@id='list1']/tbody/tr/td[14]/a");
+                        WaitForWorkAround(3000);
+
+                        //Click on Notes
+                        Click("//*[@id='addnote1']");
+                        WaitForWorkAround(3000);
+
+                        //Enter subject
+                        SwitchToWindow();
+                        SendKeys("//*[@id='NoteName']", "Past Note History");
+
+                        //Enter Descroption from excel file  
+                        xlString = (string)(xlrange.Cells[xlRowCnt, 13] as Excel.Range).Value2;
+                        //xlDouble = (double)(xlrange.Cells[xlRowCnt, 13] as Excel.Range).Value2;
+                        //xlString = "" + xlDouble;
+                        SendKeys("//*[@id='NoteDescription']", xlString);
+
+                        //Click on Save button
+                        Click("//*[contains(@title , 'Save')]");
+                        WaitForWorkAround(3000);
+                        GetWebDriver().SwitchTo().Window(GetWebDriver().WindowHandles.Last());
+                        //if (xlrange.Columns.Count == 3)
+                        //{
+                        //    //Processor Fetch Field
+                        //    xlString = (string)(xlrange.Cells[xlRowCnt, 13] as Excel.Range).Value2;
+                        //    if (xlString != null)
+                        //        SelectDropDownByText("//select[@id='CorporateMasterProcessorFieldFromProcessor']", xlString);
+                        //    else
+                        //    { }
+                    }
+                }
+
+                //Click on Save button
+                //Click("//*[contains(@title , 'Save')]");
+                //WaitForWorkAround(3000);
+
+            }
+        }
 }
+    
+
+

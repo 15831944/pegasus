@@ -39,6 +39,8 @@
   <SAShareClick><![CDATA[//*[@id="sales_agent_share"]]]></SAShareClick>
   <SAShareInput><![CDATA[//*[@id="sales_agent_share"]/form/input]]></SAShareInput>
   <SASaveShare><![CDATA[//*[@id="sales_agent_share"]/form/button[1]]]></SASaveShare>
+  <TeamShare><![CDATA[//*[@id='page-wrapper']/div[4]/div[1]/div/div/div[3]/div/div[1]/div[2]/div/div/div[2]/div/a]]></TeamShare>
+  <MemberShare><![CDATA[//*[@id='ClientTeamRevshareShare6478']]]></MemberShare>
 
   <PASClick><![CDATA[//*[@id="partnerassociation"]/span]]></PASClick>
   <PASEdit><![CDATA[//*[@id="partnerassociation"]]]></PASEdit>

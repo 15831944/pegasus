@@ -359,13 +359,21 @@
     <Compile Include="Scripts\BugTestNew\TaskResultsPerPageIssue.cs" />
     <Compile Include="Scripts\BugTestNew\VerifyDocumentDisplayedColumnIssue.cs" />
     <Compile Include="Scripts\BugTestNew\PartAgentLeadsCreditsIssue.cs" />
+    <Compile Include="Scripts\BugTest\UpdateAgentShare.cs" />
     <Compile Include="Scripts\BugTest\UpdateAgent.cs" />
     <Compile Include="Scripts\BugTest\VerifyOfficeWithAllModules.cs" />
     <Compile Include="Scripts\BugTest\GlobalSearchBar.cs" />
     <Compile Include="Scripts\DeleteData\OfficeCleanPricingPlan.cs" />
     <Compile Include="Scripts\DeleteData\CleanMasterPriceCrop.cs" />
     <Compile Include="Scripts\DeleteData\CropDefaultProcesser.cs" />
-<<<<<<< HEAD
+    <Compile Include="Scripts\List Management\AdvanceFilterDetailedPayout.cs" />
+    <Compile Include="Scripts\List Management\CustomColumnsClients.cs" />
+    <Compile Include="Scripts\List Management\CustomColumnsLead.cs" />
+    <Compile Include="Scripts\List Management\CustomColumnsOpportunities.cs" />
+    <Compile Include="Scripts\List Management\CustomizeRecordDetailsClients.cs" />
+    <Compile Include="Scripts\List Management\CustomizeRecordDetailsLeads.cs" />
+    <Compile Include="Scripts\List Management\CustomizeRecordDetailsOpportunities.cs" />
+    <Compile Include="Scripts\List Management\DeleteEntryFomParentList.cs" />
     <Compile Include="Scripts\List Management\ResidualPegasusFieldDropDown.cs" />
     <Compile Include="Scripts\List Management\LoginIntoMailChimp.cs" />
     <Compile Include="Scripts\List Management\Pagination.cs" />
@@ -379,19 +387,7 @@
     <Compile Include="Scripts\List Management\CreateNewListOnDroppingItems.cs" />
     <Compile Include="Scripts\List Management\SearchListManagementItem.cs" />
     <Compile Include="Scripts\List Management\RenameListManagementItem.cs" />
-=======
-    <Compile Include="Scripts\ListManagement\DeleteEntryFomParentList.cs" />
-    <Compile Include="Scripts\ListManagement\CustomizeRecordDetailsClients.cs" />
-    <Compile Include="Scripts\ListManagement\CustomizeRecordDetailsOpportunities.cs" />
-    <Compile Include="Scripts\ListManagement\CustomizeRecordDetailsLeads.cs" />
-    <Compile Include="Scripts\ListManagement\CustomColumnsClients.cs" />
-    <Compile Include="Scripts\ListManagement\CustomColumnsOpportunities.cs" />
-    <Compile Include="Scripts\ListManagement\CreateNewListOnDroppingItems.cs" />
-    <Compile Include="Scripts\ListManagement\AdvanceFilterDetailedPayout.cs" />
-    <Compile Include="Scripts\ListManagement\CustomColumnsLead.cs" />
-    <Compile Include="Scripts\ListManagement\SearchListManagementItem.cs" />
-    <Compile Include="Scripts\ListManagement\RenameListManagementItem.cs" />
->>>>>>> cd722a07e82007ec8cf9a9bfc05489898a816d82
+    <Compile Include="Scripts\New\ImportNotesFromExcelToLead.cs" />
     <Compile Include="Scripts\New\CreateCorpProcessorFromExcelSheet.cs" />
     <Compile Include="Scripts\New\CreateAgentsFromExcelSheet.cs" />
     <Compile Include="Scripts\PDFMappings\VerifyMappingOfClone_of_CoCardEnhancedBillback2105_ia_Final_co_br.cs" />
